@@ -4,7 +4,7 @@ year: 2016
 Agent: ROSELINE
 baseLibraryVersion: null
 scan:
-  scannedAt: 2025-12-15T16:08:42.2479280+05:30
+  scannedAt: 2025-12-15T17:00:00.8654826+05:30
   toolVersion: null
   environment:
     osBuild: 26200.7462
@@ -113,6 +113,34 @@ controls:
         AutomationId: null
         ClassName: NetUIAnchor
         ControlType: MenuItem
+      - Name: Top/Bottom Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Data Bars
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Color Scales
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Icon Sets
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: New Rule...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Clear Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Manage Rules...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -184,36 +212,36 @@ controls:
     Children:
       - Name: ''
         AutomationId: null
+        ClassName: NUIPane
+        ControlType: Pane
+      - Name: Ribbon
+        AutomationId: null
+        ClassName: NetUInetpane
+        ControlType: Pane
+      - Name: Type to search and use the up and down arrow keys to navigate
+        AutomationId: TellMeControlAnchor
+        ClassName: NetUISearchBoxAnchor
+        ControlType: MenuItem
+      - Name: Microsoft search
+        AutomationId: TellMeTextBoxAutomationId
+        ClassName: NetUISearchBoxTextbox
+        ControlType: Edit
+      - Name: Ribbon Tabs
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Tab
+      - Name: Lower Ribbon
+        AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Pane
-      - Name: ''
+      - Name: Home
         AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIOrderedGroup
         ControlType: Group
-      - Name: Insert Cells...
+      - Name: Styles
         AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIChunk
         ControlType: Group
-      - Name: Insert Sheet Rows
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Insert Sheet Columns
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Insert Sheet
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -282,43 +310,7 @@ controls:
           ClassName: NetUIRibbonButton
           Pattern: Invoke
           Path: Ribbon/Home/More Options
-    Children:
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Pane
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Sum
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Average
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Count Numbers
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Max
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Min
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: More Functions...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
+    Children: []
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -341,43 +333,7 @@ controls:
           ClassName: NetUIAnchor
           Pattern: Invoke
           Path: Ribbon/Home/Sort & Filter
-    Children:
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Pane
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Sort A to Z
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Sort Z to A
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Custom Sort...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Filter
-        AutomationId: null
-        ClassName: NetUITWBtnCheckMenuItem
-        ControlType: MenuItem
-      - Name: Clear
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Reapply
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
+    Children: []
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -400,35 +356,7 @@ controls:
           ClassName: NetUIAnchor
           Pattern: Invoke
           Path: Ribbon/Home/Find & Select
-    Children:
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Pane
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Find...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Replace...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Go To...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Go To Special...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
+    Children: []
     Patterns:
       - Invoke
       - LegacyIAccessible
