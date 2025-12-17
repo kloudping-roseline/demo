@@ -1,0 +1,13 @@
+application: Excel
+appVersion: 16.0.19127.20302
+year: 2016
+Agent: VENKADAKRISHNAN
+baseLibraryVersion: null
+scan:
+  scannedAt: 2025-12-17T11:13:53.5737049+05:30
+  toolVersion: null
+  environment:
+    osBuild: 26100.7462
+    dpi: 96
+    locale: en-IN
+controls: []
