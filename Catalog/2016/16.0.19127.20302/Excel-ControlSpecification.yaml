@@ -1,0 +1,1826 @@
+application: Excel
+appVersion: 16.0.19127.20302
+year: 2016
+Agent: VENKADAKRISHNAN
+baseLibraryVersion: null
+scan:
+  scannedAt: 2025-12-18T11:30:11.2884663+05:30
+  toolVersion: null
+  environment:
+    osBuild: 26100.7462
+    dpi: 96
+    locale: en-IN
+controls:
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.jump.to.date
+    Name: Jump to date
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Jump to date
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Jump to date
+          ClassName: c-button-unstyled c-message_list__day_divider__label__pill
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Jump to date
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 890, y: 66, w: 173, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.delete
+    Name: Delete
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Delete
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Delete
+          ClassName: AppBarButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Delete
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 342, y: 82, w: 40, h: 43 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.sortandgroupbutton
+    Name: Sort
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Sort
+    Selectors:
+      Primary:
+        AutomationId: SortAndGroupButton
+        ControlType: Button
+      Alternates:
+        - Name: Sort
+          ClassName: AppBarButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Sort
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 394, y: 82, w: 83, h: 43 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view
+    Name: View
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:View
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: View
+          ClassName: AppBarButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/View
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 480, y: 82, w: 87, h: 43 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.morebutton
+    Name: More options
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:More options
+    Selectors:
+      Primary:
+        AutomationId: MoreButton
+        ControlType: Button
+      Alternates:
+        - Name: More options
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/More options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 574, y: 82, w: 48, h: 43 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: Projects - Home
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Projects - Home
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: Projects - Home
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Projects - Home
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 454, y: 86, w: 121, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: ChatGPT
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:ChatGPT
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: ChatGPT
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/ChatGPT
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 578, y: 86, w: 81, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: GitHub
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:GitHub
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: GitHub
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/GitHub
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 662, y: 86, w: 73, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: http://carbon-www-dev-339713030208.s3-website-us-east-1.amazonaws.com/
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:http://carbon-www-dev-339713030208.s3-website-us-east-1.amazonaws.com/
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: http://carbon-www-dev-339713030208.s3-website-us-east-1.amazonaws.com/
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/http://carbon-www-dev-339713030208.s3-website-us-east-1.amazonaws.com/
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 738, y: 86, w: 150, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: MyHr - Kloudping
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:MyHr - Kloudping
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: MyHr - Kloudping
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/MyHr - Kloudping
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 892, y: 86, w: 130, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: Accounts | AWS access portal
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Accounts | AWS access portal
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: Accounts | AWS access portal
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Accounts | AWS access portal
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1026, y: 86, w: 150, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.view_1027
+    Name: 'undp/undp-national-carbon-registry: National Carbon Registry. Digital Public Good (DPG) by Digital For Climate (D4C) UNDP'
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - 'Button:undp/undp-national-carbon-registry: National Carbon Registry. Digital Public Good (DPG) by Digital For Climate (D4C) UNDP'
+    Selectors:
+      Primary:
+        AutomationId: view_1027
+        ControlType: Button
+      Alternates:
+        - Name: 'undp/undp-national-carbon-registry: National Carbon Registry. Digital Public Good (DPG) by Digital For Climate (D4C) UNDP'
+          ClassName: BookmarkButton
+          Pattern: Invoke
+          Path: 'Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/undp/undp-national-carbon-registry: National Carbon Registry. Digital Public Good (DPG) by Digital For Climate (D4C) UNDP'
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1180, y: 86, w: 150, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.menu.containing.hidden.bookmarks
+    Name: Menu containing hidden bookmarks
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Menu containing hidden bookmarks
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Menu containing hidden bookmarks
+          ClassName: BookmarkMenuButtonBase
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Menu containing hidden bookmarks
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1368, y: 86, w: 28, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.channel
+    Name: Messages
+    ControlType: TabItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - TabItem:Messages
+    Selectors:
+      Primary:
+        AutomationId: channel
+        ControlType: TabItem
+      Alternates:
+        - Name: Messages
+          ClassName: c-button-unstyled channel_tab__B1pww c-tabs__tab js-tab c-tabs__tab--active
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Messages
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 437, y: 89, w: 93, h: 38 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.channel_canvas
+    Name: Add canvas
+    ControlType: TabItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - TabItem:Add canvas
+    Selectors:
+      Primary:
+        AutomationId: channel_canvas
+        ControlType: TabItem
+      Alternates:
+        - Name: Add canvas
+          ClassName: c-button-unstyled channel_tab_draggable__blPuX channel_tab__B1pww c-tabs__tab js-tab
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Add canvas
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 533, y: 89, w: 103, h: 38 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.files
+    Name: Files
+    ControlType: TabItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - TabItem:Files
+    Selectors:
+      Primary:
+        AutomationId: files
+        ControlType: TabItem
+      Alternates:
+        - Name: Files
+          ClassName: c-button-unstyled channel_tab_draggable__blPuX channel_tab__B1pww c-tabs__tab js-tab
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Files
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 639, y: 89, w: 63, h: 38 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.bookmarks
+    Name: Pins
+    ControlType: TabItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - TabItem:Pins
+    Selectors:
+      Primary:
+        AutomationId: bookmarks
+        ControlType: TabItem
+      Alternates:
+        - Name: Pins
+          ClassName: c-button-unstyled channel_tab_draggable__blPuX channel_tab__B1pww c-tabs__tab js-tab
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Pins
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 706, y: 89, w: 61, h: 38 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.add-channel-tab
+    Name: Add and edit channel tabs
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Add and edit channel tabs
+    Selectors:
+      Primary:
+        AutomationId: add-channel-tab
+        ControlType: Button
+      Alternates:
+        - Name: Add and edit channel tabs
+          ClassName: c-button-unstyled addTab__brBMy c-tabs__tab js-tab
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Add and edit channel tabs
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 770, y: 89, w: 33, h: 38 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.exaction.console
+    Name: Exaction.Console
+    ControlType: TabItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - TabItem:Exaction.Console
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: TabItem
+      Alternates:
+        - Name: Exaction.Console
+          ClassName: TabItem
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Exaction.Console
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1014, y: 95, w: 144, h: 22 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.dropdownmenubutton
+    Name: Window Menu
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Window Menu
+    Selectors:
+      Primary:
+        AutomationId: DropDownMenuButton
+        ControlType: Button
+      Alternates:
+        - Name: Window Menu
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Window Menu
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 429, y: 98, w: 16, h: 16 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.autohidebutton
+    Name: Auto Hide
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Auto Hide
+    Selectors:
+      Primary:
+        AutomationId: AutoHideButton
+        ControlType: Button
+      Alternates:
+        - Name: Auto Hide
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Auto Hide
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 446, y: 98, w: 16, h: 16 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.hidebutton
+    Name: Close
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Close
+    Selectors:
+      Primary:
+        AutomationId: HideButton
+        ControlType: Button
+      Alternates:
+        - Name: Close
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Close
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 462, y: 98, w: 16, h: 16 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.part_promotebutton
+    Name: Keep Tab Open (Ctrl+Alt+Home)
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Keep Tab Open (Ctrl+Alt+Home)
+    Selectors:
+      Primary:
+        AutomationId: PART_PromoteButton
+        ControlType: Button
+      Alternates:
+        - Name: Keep Tab Open (Ctrl+Alt+Home)
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Keep Tab Open (Ctrl+Alt+Home)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1120, y: 98, w: 16, h: 16 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.hidebutton
+    Name: Close (Ctrl+F4)
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Close (Ctrl+F4)
+    Selectors:
+      Primary:
+        AutomationId: HideButton
+        ControlType: Button
+      Alternates:
+        - Name: Close (Ctrl+F4)
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Close (Ctrl+F4)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1139, y: 98, w: 16, h: 16 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.
+    Name: 
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - ListItem:
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: 
+          ClassName: nav-item
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 973, y: 121, w: 230, h: 63 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.
+    Name: 
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - ListItem:
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: 
+          ClassName: nav-item dropdown
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1202, y: 121, w: 53, h: 63 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.8
+    Name: 8
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - ListItem:8
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: 8
+          ClassName: nav-item dropdown
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/8
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1254, y: 121, w: 58, h: 63 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.dropdown
+    Name: Filter drop-down
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Filter drop-down
+    Selectors:
+      Primary:
+        AutomationId: DropDown
+        ControlType: Button
+      Alternates:
+        - Name: Filter drop-down
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Filter drop-down
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 416, y: 129, w: 15, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - SplitButton:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: SplitButton
+      Alternates:
+        - Name: Date modified
+          ClassName: UIColumnHeader
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 129, w: 144, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.dropdown
+    Name: Filter drop-down
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Filter drop-down
+    Selectors:
+      Primary:
+        AutomationId: DropDown
+        ControlType: Button
+      Alternates:
+        - Name: Filter drop-down
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Filter drop-down
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 560, y: 129, w: 15, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - SplitButton:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: SplitButton
+      Alternates:
+        - Name: Type
+          ClassName: UIColumnHeader
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 129, w: 120, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.dropdown
+    Name: Filter drop-down
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Filter drop-down
+    Selectors:
+      Primary:
+        AutomationId: DropDown
+        ControlType: Button
+      Alternates:
+        - Name: Filter drop-down
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Filter drop-down
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 680, y: 129, w: 15, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - SplitButton:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: SplitButton
+      Alternates:
+        - Name: Size
+          ClassName: UIColumnHeader
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 129, w: 80, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.dropdown
+    Name: Filter drop-down
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Filter drop-down
+    Selectors:
+      Primary:
+        AutomationId: DropDown
+        ControlType: Button
+      Alternates:
+        - Name: Filter drop-down
+          ClassName: Button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Filter drop-down
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 760, y: 129, w: 15, h: 26 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.search.here
+    Name: Search here
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Search here
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Search here
+          ClassName: form-control
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Search here
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 973, y: 130, w: 230, h: 41 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.
+    Name: 
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: 
+          ClassName: btn
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1155, y: 130, w: 48, h: 41 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.jump.to.date
+    Name: Jump to date
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Jump to date
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Jump to date
+          ClassName: c-button-unstyled c-message_list__day_divider__label__pill
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Jump to date
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 927, y: 133, w: 98, h: 29 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.manoj.bharadwaj
+    Name: Manoj Bharadwaj
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Manoj Bharadwaj
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Manoj Bharadwaj
+          ClassName: c-link--button c-message__sender_button
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Manoj Bharadwaj
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 485, y: 138, w: 119, h: 22 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.upbutton
+    Name: M0,5 9,5 9,4 8,4 8,3 7,3 7,2 6,2 6,1 5,1 5,0 4,0 4,1 3,1 3,2 2,2 2,3 1,3, 1,4 0,4 Z
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:M0,5 9,5 9,4 8,4 8,3 7,3 7,2 6,2 6,1 5,1 5,0 4,0 4,1 3,1 3,2 2,2 2,3 1,3, 1,4 0,4 Z
+    Selectors:
+      Primary:
+        AutomationId: UpButton
+        ControlType: Button
+      Alternates:
+        - Name: M0,5 9,5 9,4 8,4 8,3 7,3 7,2 6,2 6,1 5,1 5,0 4,0 4,1 3,1 3,2 2,2 2,3 1,3, 1,4 0,4 Z
+          ClassName: RepeatButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/M0,5 9,5 9,4 8,4 8,3 7,3 7,2 6,2 6,1 5,1 5,0 4,0 4,1 3,1 3,2 2,2 2,3 1,3, 1,4 0,4 Z
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1115, y: 140, w: 75, h: 14 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.toggle.file
+    Name: Toggle file
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Toggle file
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Toggle file
+          ClassName: c-button-unstyled c-icon_button c-icon_button--size_medium c-message_kit__file__meta__collapse c-icon_button--default
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Toggle file
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 546, y: 160, w: 21, h: 21 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 164, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 164, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 164, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 194, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 194, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 194, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.share.image.png
+    Name: Share image.png
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Share image.png
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Share image.png
+          ClassName: c-button-unstyled c-icon_button c-icon_button--size_small c-message_actions__button c-icon_button--default
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Share image.png
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 766, y: 199, w: 33, h: 33 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.more.actions
+    Name: More actions
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:More actions
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: More actions
+          ClassName: c-button-unstyled c-icon_button c-icon_button--size_small c-message_actions__button c-icon_button--default
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/More actions
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 798, y: 199, w: 33, h: 33 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.minimise
+    Name: Minimise
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Minimise
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Minimise
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Minimise
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1312, y: 202, w: 48, h: 24 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.maximise
+    Name: Maximise
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Maximise
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Maximise
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Maximise
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1360, y: 202, w: 47, h: 24 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.close
+    Name: Close
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Close
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Close
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Close
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1407, y: 202, w: 48, h: 24 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.more.actions
+    Name: More actions
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:More actions
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: More actions
+          ClassName: c-button-unstyled sectionbutton__CadG9 ellipsis__Lwi05
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/More actions
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 378, y: 205, w: 25, h: 25 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.date
+    Name: Date
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Date
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Date
+          ClassName: mat-sort-header-container mat-focus-indicator ng-tns-c68-0
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 318, y: 210, w: 236, h: 23 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.punch.in
+    Name: Punch In
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Punch In
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Punch In
+          ClassName: mat-sort-header-container mat-focus-indicator ng-tns-c68-1
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Punch In
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 569, y: 210, w: 158, h: 23 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.punchout
+    Name: PunchOut
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:PunchOut
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: PunchOut
+          ClassName: mat-sort-header-container mat-focus-indicator ng-tns-c68-2
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/PunchOut
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 742, y: 210, w: 174, h: 23 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.production
+    Name: Production
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Production
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Production
+          ClassName: mat-sort-header-container mat-focus-indicator ng-tns-c68-3
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Production
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 931, y: 210, w: 187, h: 23 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.break
+    Name: Break
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Break
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Break
+          ClassName: mat-sort-header-container mat-focus-indicator ng-tns-c68-4
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Break
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 1134, y: 210, w: 120, h: 23 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 223, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 223, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 223, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system
+    Name: System
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - MenuItem:System
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: MenuItem
+      Alternates:
+        - Name: System
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/System
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 317, y: 231, w: 22, h: 22 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 253, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 253, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 253, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 282, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 282, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 282, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.more.actions
+    Name: More actions
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:More actions
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: More actions
+          ClassName: c-button-unstyled sectionbutton__CadG9 ellipsis__Lwi05
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/More actions
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 378, y: 286, w: 25, h: 25 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 312, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 312, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 312, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 342, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 342, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 342, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.datemodified
+    Name: Date modified
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Date modified
+    Selectors:
+      Primary:
+        AutomationId: System.DateModified
+        ControlType: Edit
+      Alternates:
+        - Name: Date modified
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Date modified
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 432, y: 371, w: 144, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.itemtypetext
+    Name: Type
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Type
+    Selectors:
+      Primary:
+        AutomationId: System.ItemTypeText
+        ControlType: Edit
+      Alternates:
+        - Name: Type
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Type
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 576, y: 371, w: 120, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.system.size
+    Name: Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Edit:Size
+    Selectors:
+      Primary:
+        AutomationId: System.Size
+        ControlType: Edit
+      Alternates:
+        - Name: Size
+          ClassName: UIProperty
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 696, y: 371, w: 80, h: 19 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.paste.all
+    Name: Paste All
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Paste All
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Paste All
+          ClassName: NetUIButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Paste All
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 329, y: 378, w: 63, h: 24 }
+  - Id: ribbon.e__cos_ai-desktop-testing-framework_exaction.console_bin_debug_net8.0-windows7.0_exaction.console.exe.clear.all
+    Name: Clear All
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe
+      - Button:Clear All
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Clear All
+          ClassName: NetUIButton
+          Pattern: Invoke
+          Path: Ribbon/E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe/Clear All
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in E__cos_ai-desktop-testing-framework_Exaction.Console_bin_Debug_net8.0-windows7.0_Exaction.Console.exe group
+    Bbox: { x: 401, y: 378, w: 63, h: 24 }
