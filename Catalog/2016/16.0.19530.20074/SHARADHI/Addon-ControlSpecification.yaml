@@ -1,0 +1,967 @@
+application: Excel
+appVersion: 16.101.3
+year: 2016
+Agent: SHARADHI
+baseLibraryVersion: 
+scan:
+  scannedAt: 22-12-2025 10:18:29
+  scanDate: 2025-12-22 10:18:29 UTC
+  totalAddons: 2
+  toolVersion: scanner-0.6.2
+  environment:
+    osBuild: 26200.7462
+    dpi: 96
+    locale: en-IN
+addons:
+- addonName: Autopilot
+  elementCount: 44
+- addonName: GPT for Excel Word
+  elementCount: 69
+controls:
+- id: openai.chatgpt.in.microsoft.office
+  name: OpenAI ChatGPT in Microsoft Office
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Chrome_WidgetWin_1
+  className: Chrome_WidgetWin_1
+  isEnabled: true
+  addonName: Autopilot
+- id: control_2
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Intermediate D3D Window
+  className: Intermediate D3D Window
+  isEnabled: false
+  addonName: Autopilot
+- id: openai.chatgpt.in.microsoft.office.-.web.content
+  name: OpenAI ChatGPT in Microsoft Office - Web content
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserRootView
+  className: BrowserRootView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_4
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: NonClientView
+  className: NonClientView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_5
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserTabRootView
+  className: EmbeddedBrowserTabRootView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_6
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserFrameView
+  className: EmbeddedBrowserFrameView
+  isEnabled: true
+  addonName: Autopilot
+- id: view_9
+  name: Untitled
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Text:Untitled
+  selectors:
+    primary:
+      automationId: view_9
+      controlType: Text
+    alternates:
+    - className: Label
+  className: Label
+  isEnabled: true
+  addonName: Autopilot
+- id: control_8
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserCaptionButtonContainer
+  className: BrowserCaptionButtonContainer
+  isEnabled: true
+  addonName: Autopilot
+- id: view_2
+  name: Minimize
+  controlType: Button
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Button:Minimize
+  selectors:
+    primary:
+      automationId: view_2
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Autopilot
+- id: view_3
+  name: Maximize
+  controlType: Button
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Button:Maximize
+  selectors:
+    primary:
+      automationId: view_3
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Autopilot
+- id: view_7
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Button:Close
+  selectors:
+    primary:
+      automationId: view_7
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Autopilot
+- id: control_12
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserView
+  className: BrowserView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_13
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: MainContainerView
+  className: MainContainerView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_14
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerView
+  className: TopContainerView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_15
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_16
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_17
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: Autopilot
+- id: control_18
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: Autopilot
+- id: rootwebarea
+  name: OpenAI ChatGPT in Microsoft Office
+  controlType: Document
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: Autopilot
+- id: header
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  selectors:
+    primary:
+      automationId: header
+      controlType: Group
+    alternates:
+    - className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
+  className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
+  isEnabled: true
+  addonName: Autopilot
+- id: logosmall
+  name: To get missing image descriptions, open the context menu.
+  controlType: Image
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Image:To get missing image descriptions, open the context menu.
+  selectors:
+    primary:
+      automationId: logosmall
+      controlType: Image
+    alternates:
+    - className: autopilot-icon
+  className: autopilot-icon
+  isEnabled: true
+  addonName: Autopilot
+- id: free.edition
+  name: Free edition
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Text:Free edition
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: 
+  name: 
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Text:
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: upgradeflag
+  name: UPGRADE
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:UPGRADE
+  selectors:
+    primary:
+      automationId: upgradeflag
+      controlType: Hyperlink
+    alternates:
+    - className: updatetag
+  className: updatetag
+  isEnabled: true
+  addonName: Autopilot
+- id: favoriteslink
+  name: 
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:
+  selectors:
+    primary:
+      automationId: favoritesLink
+      controlType: Hyperlink
+  isEnabled: true
+  addonName: Autopilot
+- id: settingslink
+  name: 
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:
+  selectors:
+    primary:
+      automationId: settingsLink
+      controlType: Hyperlink
+  isEnabled: true
+  addonName: Autopilot
+- id: mainsection
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  selectors:
+    primary:
+      automationId: mainsection
+      controlType: Group
+    alternates:
+    - className: ms-welcome__main
+  className: ms-welcome__main
+  isEnabled: true
+  addonName: Autopilot
+- id: welcomefree
+  name: chatgpt web add-in
+  controlType: Image
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Image:chatgpt web add-in
+  selectors:
+    primary:
+      automationId: welcomefree
+      controlType: Image
+  isEnabled: true
+  addonName: Autopilot
+- id: welcome.to.autopilot!
+  name: Welcome to Autopilot!
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Text:Welcome to Autopilot!
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
+  name: Here are a few examples of what you can do with Autopilot
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Text:Here are a few examples of what you can do with Autopilot
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: talk.to.it.like.chatgpt
+  name: Talk to it like ChatGPT
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:Talk to it like ChatGPT
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: gw-active-links
+  className: gw-active-links
+  isEnabled: true
+  addonName: Autopilot
+- id: use.content.in.your.document
+  name: Use content in your document
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:Use content in your document
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: gw-active-links
+  className: gw-active-links
+  isEnabled: true
+  addonName: Autopilot
+- id: how.to.use.favorites
+  name: How to use Favorites
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:How to use Favorites
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: gw-active-links
+  className: gw-active-links
+  isEnabled: true
+  addonName: Autopilot
+- id: connect.other.ai.models
+  name: Connect other AI models
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:Connect other AI models
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: gw-active-links
+  className: gw-active-links
+  isEnabled: true
+  addonName: Autopilot
+- id: autopilot.pro.advanced.features
+  name: Autopilot PRO advanced features
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Hyperlink:Autopilot PRO advanced features
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: gw-active-links-pro
+  className: gw-active-links-pro
+  isEnabled: true
+  addonName: Autopilot
+- id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
+  name: 'To get started, type a prompt into the box below and hit the '
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - 'Text:To get started, type a prompt into the box below and hit the '
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: enter
+  name: ENTER
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Text:ENTER
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: .key.
+  name: ' key.'
+  controlType: Text
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - 'Text: key.'
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Autopilot
+- id: divcommandarea
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  selectors:
+    primary:
+      automationId: divcommandarea
+      controlType: Group
+  isEnabled: true
+  addonName: Autopilot
+- id: commandprompt
+  name: Ask anything...
+  controlType: Edit
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Edit:Ask anything...
+  selectors:
+    primary:
+      automationId: commandprompt
+      controlType: Edit
+  isEnabled: true
+  addonName: Autopilot
+- id: run
+  name:  
+  controlType: Button
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Button: 
+  selectors:
+    primary:
+      automationId: run
+      controlType: Button
+    alternates:
+    - className: btn-send
+  className: btn-send
+  isEnabled: true
+  addonName: Autopilot
+- id: finetune
+  name: 
+  controlType: Button
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  - Document:OpenAI ChatGPT in Microsoft Office
+  - Button:
+  selectors:
+    primary:
+      automationId: finetune
+      controlType: Button
+    alternates:
+    - className: btn-finetune
+  className: btn-finetune
+  isEnabled: true
+  addonName: Autopilot
+- id: control_43
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserDownloadView
+  className: EmbeddedBrowserDownloadView
+  isEnabled: true
+  addonName: Autopilot
+- id: control_44
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerOverlayView
+  className: TopContainerOverlayView
+  isEnabled: true
+  addonName: Autopilot
+- id: gpt.for.excel
+  name: GPT for Excel
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Chrome_WidgetWin_1
+  className: Chrome_WidgetWin_1
+  isEnabled: false
+  addonName: GPT for Excel Word
+- id: control_46
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Intermediate D3D Window
+  className: Intermediate D3D Window
+  isEnabled: false
+  addonName: GPT for Excel Word
+- id: gpt.for.excel.-.web.content
+  name: GPT for Excel - Web content
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserRootView
+  className: BrowserRootView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_48
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: NonClientView
+  className: NonClientView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_49
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserTabRootView
+  className: EmbeddedBrowserTabRootView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_50
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserFrameView
+  className: EmbeddedBrowserFrameView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_9
+  name: Untitled
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Text:Untitled
+  selectors:
+    primary:
+      automationId: view_9
+      controlType: Text
+    alternates:
+    - className: Label
+  className: Label
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_52
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserCaptionButtonContainer
+  className: BrowserCaptionButtonContainer
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_2
+  name: Minimize
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Button:Minimize
+  selectors:
+    primary:
+      automationId: view_2
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_3
+  name: Maximize
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Button:Maximize
+  selectors:
+    primary:
+      automationId: view_3
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_7
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Button:Close
+  selectors:
+    primary:
+      automationId: view_7
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_56
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserView
+  className: BrowserView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_57
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: MainContainerView
+  className: MainContainerView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_58
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerView
+  className: TopContainerView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_59
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_60
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_61
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_62
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: rootwebarea
+  name: GPT for Excel
+  controlType: Document
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_64
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Group
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: root
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      automationId: root
+      controlType: Group
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_66
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
