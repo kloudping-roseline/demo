@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 22-12-2025 10:18:29
-  scanDate: 2025-12-22 10:18:29 UTC
+  scannedAt: 22-12-2025 12:51:10
+  scanDate: 2025-12-22 12:51:10 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -16,7 +16,7 @@ addons:
 - addonName: Autopilot
   elementCount: 44
 - addonName: GPT for Excel Word
-  elementCount: 69
+  elementCount: 71
 controls:
 - id: openai.chatgpt.in.microsoft.office
   name: OpenAI ChatGPT in Microsoft Office
@@ -668,7 +668,7 @@ controls:
     alternates:
     - className: Chrome_WidgetWin_1
   className: Chrome_WidgetWin_1
-  isEnabled: false
+  isEnabled: true
   addonName: GPT for Excel Word
 - id: control_46
   name: Pane
@@ -963,5 +963,651 @@ controls:
   selectors:
     primary:
       controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: welcome.to.gpt.for.excel
+  name: Welcome to GPT for Excel
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Welcome to GPT for Excel
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: _msButton_7ldok_72
+  className: _msButton_7ldok_72
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  - Image:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 'typical.use-cases:'
+  name: 'Typical use-cases:'
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - 'Text:Typical use-cases:'
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_71
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: copywriting.for.seo,.e-commerce
+  name: Copywriting for SEO, e-commerce
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Copywriting for SEO, e-commerce
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_73
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: translation
+  name: Translation
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Translation
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_75
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: segmenting.and.cleaning.a.database
+  name: Segmenting and cleaning a database
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Segmenting and cleaning a database
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_77
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: market.research...
+  name: Market research...
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Market research...
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 'main.features:'
+  name: 'Main features:'
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - 'Text:Main features:'
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
+  name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_81
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: _arrow_7ldok_184
+  className: _arrow_7ldok_184
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 1
+  name: 1
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:1
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 2
+  name: 2
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:2
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 3
+  name: 3
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:3
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 4
+  name: 4
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:4
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 5
+  name: 5
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:5
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 6
+  name: 6
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:6
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 7
+  name: 7
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:7
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: a
+  name: A
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:A
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: b
+  name: B
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:B
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: c
+  name: C
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:C
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_92
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_93
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_94
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_95
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_96
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_97
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_98
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: d
+  name: D
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:D
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_100
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_101
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_102
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_103
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_104
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_105
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_106
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: _msButton_7ldok_72
+  className: _msButton_7ldok_72
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  - Image:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: about
+  name: About
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:About
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: help
+  name: Help
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Help
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: terms
+  name: Terms
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Terms
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: privacy.policy
+  name: Privacy Policy
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Privacy Policy
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: made.by.talarian
+  name: Made by Talarian
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Made by Talarian
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2 _talarian_7ldok_164
+  className: _root_86xeo_2 _talarian_7ldok_164
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_114
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserDownloadView
+  className: EmbeddedBrowserDownloadView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_115
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerOverlayView
+  className: TopContainerOverlayView
   isEnabled: true
   addonName: GPT for Excel Word
