@@ -4,8 +4,8 @@ year: 2016
 Agent: ROSELINE
 baseLibraryVersion: 
 scan:
-  scannedAt: 22-12-2025 09:28:40
-  scanDate: 2025-12-22 09:28:40 UTC
+  scannedAt: 22-12-2025 09:35:26
+  scanDate: 2025-12-22 09:35:26 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
