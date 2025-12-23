@@ -4,8 +4,8 @@ year: 2016
 Agent: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 23-12-2025 13:38:18
-  scanDate: 2025-12-23 13:38:18 UTC
+  scannedAt: 23-12-2025 13:45:36
+  scanDate: 2025-12-23 13:45:36 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,14 +13,14 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Spreadsheet AI
-  elementCount: 40
+- addonName: Wikipedia
+  elementCount: 30
 controls:
-- id: 10.studio
-  name: 10 Studio
+- id: wikipedia
+  name: Wikipedia
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
+  - Pane:Wikipedia
   selectors:
     primary:
       controlType: Pane
@@ -28,12 +28,12 @@ controls:
     - className: Chrome_WidgetWin_1
   className: Chrome_WidgetWin_1
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_2
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
+  - Pane:Wikipedia
   selectors:
     primary:
       controlType: Pane
@@ -41,13 +41,13 @@ controls:
     - className: Intermediate D3D Window
   className: Intermediate D3D Window
   isEnabled: false
-  addonName: Spreadsheet AI
-- id: 10.studio.-.web.content
-  name: 10 Studio - Web content
+  addonName: Wikipedia
+- id: wikipedia.-.web.content
+  name: Wikipedia - Web content
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -55,13 +55,13 @@ controls:
     - className: BrowserRootView
   className: BrowserRootView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_4
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -69,13 +69,13 @@ controls:
     - className: NonClientView
   className: NonClientView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_5
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -83,13 +83,13 @@ controls:
     - className: EmbeddedBrowserTabRootView
   className: EmbeddedBrowserTabRootView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_6
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -97,13 +97,13 @@ controls:
     - className: EmbeddedBrowserFrameView
   className: EmbeddedBrowserFrameView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: view_9
   name: Untitled
   controlType: Text
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Text:Untitled
   selectors:
     primary:
@@ -113,13 +113,13 @@ controls:
     - className: Label
   className: Label
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_8
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -127,13 +127,13 @@ controls:
     - className: BrowserCaptionButtonContainer
   className: BrowserCaptionButtonContainer
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: view_2
   name: Minimize
   controlType: Button
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Button:Minimize
   selectors:
     primary:
@@ -143,13 +143,13 @@ controls:
     - className: EdgeWindowsCaptionButton
   className: EdgeWindowsCaptionButton
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: view_3
   name: Maximize
   controlType: Button
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Button:Maximize
   selectors:
     primary:
@@ -159,13 +159,13 @@ controls:
     - className: EdgeWindowsCaptionButton
   className: EdgeWindowsCaptionButton
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: view_7
   name: Close
   controlType: Button
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Button:Close
   selectors:
     primary:
@@ -175,13 +175,13 @@ controls:
     - className: EdgeWindowsCaptionButton
   className: EdgeWindowsCaptionButton
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_12
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -189,13 +189,13 @@ controls:
     - className: BrowserView
   className: BrowserView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_13
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -203,13 +203,13 @@ controls:
     - className: MainContainerView
   className: MainContainerView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_14
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -217,13 +217,13 @@ controls:
     - className: TopContainerView
   className: TopContainerView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_15
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -231,13 +231,13 @@ controls:
     - className: SidebarContentsSplitView
   className: SidebarContentsSplitView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_16
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -245,13 +245,13 @@ controls:
     - className: SidebarContentsSplitView
   className: SidebarContentsSplitView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_17
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -259,13 +259,13 @@ controls:
     - className: View
   className: View
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_18
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -273,309 +273,160 @@ controls:
     - className: View
   className: View
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: rootwebarea
-  name: 10 Studio
+  name: Wikipedia
   controlType: Document
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
   selectors:
     primary:
       automationId: RootWebArea
       controlType: Document
   isEnabled: true
-  addonName: Spreadsheet AI
-- id: control_20
-  name: MenuBar
-  controlType: MenuBar
+  addonName: Wikipedia
+- id: wikipedia.logo
+  name: Wikipedia logo
+  controlType: Hyperlink
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Hyperlink:Wikipedia logo
   selectors:
     primary:
-      controlType: MenuBar
+      controlType: Hyperlink
     alternates:
-    - className: ms-FocusZone css-158 ms-CommandBar root-155
-  className: ms-FocusZone css-158 ms-CommandBar root-155
+    - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+  className: ms_osf_logo ms_osf_clickable ms_osf_visible
   isEnabled: true
-  addonName: Spreadsheet AI
-- id: sign.in
-  name: Sign In
-  controlType: MenuItem
+  addonName: Wikipedia
+- id: i.want.to.know...
+  name: I want to know...
+  controlType: Edit
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - MenuItem:Sign In
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Edit:I want to know...
   selectors:
     primary:
-      controlType: MenuItem
+      controlType: Edit
     alternates:
-    - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
-  className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
+    - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+  className: ms_osf_searchBarInput ms_osf_searchBarInputHint
   isEnabled: true
-  addonName: Spreadsheet AI
-- id: signin
-  name: SignIn
+  addonName: Wikipedia
+- id: search
+  name: Search
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+  className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: to.get.missing.image.descriptions,.open.the.context.menu.
+  name: To get missing image descriptions, open the context menu.
+  controlType: Image
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search
+  - Image:To get missing image descriptions, open the context menu.
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: Wikipedia
+- id: search.options
+  name: Search Options
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search Options
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+  className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_25
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search Options
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_26
+  name: Group
   controlType: Group
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - MenuItem:Sign In
-  - Group:SignIn
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
   selectors:
     primary:
       controlType: Group
     alternates:
-    - className: root-33
-  className: root-33
+    - className: ms_osf_content
+  className: ms_osf_content
   isEnabled: true
-  addonName: Spreadsheet AI
-- id: dear.valued.users,
-  name: Dear Valued Users,
-  controlType: Text
+  addonName: Wikipedia
+- id: control_27
+  name: Group
+  controlType: Group
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Text:Dear Valued Users,
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
   selectors:
     primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: you.need.to.sign.in.to.use.ai-powered.features.of.the.tool.
-  name: You need to Sign In to use AI-powered features of the tool.
-  controlType: Text
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Text:You need to Sign In to use AI-powered features of the tool.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: please.write.to.contact@matrixlead.com.or.chat.at.go.10studio.tech_chat.for.any.enquiries.and.remarks.
-  name: Please write to contact@matrixlead.com or chat at go.10studio.tech/chat for any enquiries and remarks.
-  controlType: Text
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Text:Please write to contact@matrixlead.com or chat at go.10studio.tech/chat for any enquiries and remarks.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: thank.you.
-  name: Thank you.
-  controlType: Text
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Text:Thank you.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: go.to.sign.in
-  name: Go to Sign In
-  controlType: Button
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Go to Sign In
-  selectors:
-    primary:
-      controlType: Button
+      controlType: Group
     alternates:
-    - className: ms-Button ms-Button--primary root-193
-  className: ms-Button ms-Button--primary root-193
+    - className: ms_osf_article
+  className: ms_osf_article
   isEnabled: true
-  addonName: Spreadsheet AI
-- id: close
-  name: Close
-  controlType: Button
+  addonName: Wikipedia
+- id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
+  name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+  controlType: Text
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Close
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Text:The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
   selectors:
     primary:
-      controlType: Button
-    alternates:
-    - className: ms-Button ms-Button--default root-197
-  className: ms-Button ms-Button--default root-197
+      controlType: Text
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
 - id: control_29
-  name: List
-  controlType: List
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  selectors:
-    primary:
-      controlType: List
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: new.chat
-  name: New chat
-  controlType: Button
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:New chat
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: fui-Button rlr4yyk ai-chat-custom-button
-  className: fui-Button rlr4yyk ai-chat-custom-button
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: menu2
-  name: Examples
-  controlType: Button
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Examples
-  selectors:
-    primary:
-      automationId: menu2
-      controlType: Button
-    alternates:
-    - className: fui-Button rlr4yyk fui-MenuButton custom-button
-  className: fui-Button rlr4yyk fui-MenuButton custom-button
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: examples
-  name: Examples
-  controlType: Text
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Examples
-  - Text:Examples
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: menu4
-  name: Import
-  controlType: Button
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Import
-  selectors:
-    primary:
-      automationId: menu4
-      controlType: Button
-    alternates:
-    - className: fui-Button rlr4yyk fui-MenuButton custom-button
-  className: fui-Button rlr4yyk fui-MenuButton custom-button
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: import
-  name: Import
-  controlType: Text
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Import
-  - Text:Import
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: control_35
-  name: ComboBox
-  controlType: ComboBox
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  selectors:
-    primary:
-      controlType: ComboBox
-    alternates:
-    - className: fui-Dropdown__button ___10ah4o2 f122n59 f1c21dwh fre7gi1 f1358rze fqdk4by f1rvrf73 f1ewtqcl f19n0e5 f14mj54c f1k6fduh f13qh94s fk6fouc f12nh0o2 f1869bpl f1o700av fly5x3f ftqa4ok fkhj508 figsok6 f1i3iumi f1sbtcvk f11gcy0p fdghr9 f1e60jzv
-  className: fui-Dropdown__button ___10ah4o2 f122n59 f1c21dwh fre7gi1 f1358rze fqdk4by f1rvrf73 f1ewtqcl f19n0e5 f14mj54c f1k6fduh f13qh94s fk6fouc f12nh0o2 f1869bpl f1o700av fly5x3f ftqa4ok fkhj508 figsok6 f1i3iumi f1sbtcvk f11gcy0p fdghr9 f1e60jzv
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: gpt-4.1
-  name: GPT-4.1
-  controlType: Text
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Text:GPT-4.1
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: textfield4
-  name: '- Ask any questions about Excel and spreadsheets- Let the Chat Copilot analyze your data and formulas- Try out over 20 task examples and make the most of AIClick on the top right of the tool and Sign In to get started!'
-  controlType: Edit
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Edit:- Ask any questions about Excel and spreadsheets- Let the Chat Copilot analyze your data and formulas- Try out over 20 task examples and make the most of AIClick on the top right of the tool and Sign In to get started!
-  selectors:
-    primary:
-      automationId: TextField4
-      controlType: Edit
-    alternates:
-    - className: ms-TextField-field ms-TextField--unresizable field-174
-  className: ms-TextField-field ms-TextField--unresizable field-174
-  isEnabled: true
-  addonName: Spreadsheet AI
-- id: send.the.request
-  name: Send the request
-  controlType: Button
-  hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
-  - Document:10 Studio
-  - Button:Send the request
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: ms-Button ms-Button--icon is-disabled root-183
-  className: ms-Button ms-Button--icon is-disabled root-183
-  isEnabled: false
-  addonName: Spreadsheet AI
-- id: control_39
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -583,13 +434,13 @@ controls:
     - className: EmbeddedBrowserDownloadView
   className: EmbeddedBrowserDownloadView
   isEnabled: true
-  addonName: Spreadsheet AI
-- id: control_40
+  addonName: Wikipedia
+- id: control_30
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:10 Studio
-  - Pane:10 Studio - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -597,4 +448,4 @@ controls:
     - className: TopContainerOverlayView
   className: TopContainerOverlayView
   isEnabled: true
-  addonName: Spreadsheet AI
+  addonName: Wikipedia
