@@ -4,661 +4,20 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 23-12-2025 07:59:03
-  scanDate: 2025-12-23 07:59:03 UTC
-  totalAddons: 3
+  scannedAt: 23-12-2025 13:59:02
+  scanDate: 2025-12-23 13:59:02 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Autopilot
-  elementCount: 44
 - addonName: GPT for Excel Word
   elementCount: 71
-- addonName: Microsoft Visio Data Visualizer
-  elementCount: 49
+- addonName: Wikipedia
+  elementCount: 30
 controls:
-- id: openai.chatgpt.in.microsoft.office
-  name: OpenAI ChatGPT in Microsoft Office
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Chrome_WidgetWin_1
-  className: Chrome_WidgetWin_1
-  isEnabled: true
-  addonName: Autopilot
-- id: control_2
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Intermediate D3D Window
-  className: Intermediate D3D Window
-  isEnabled: false
-  addonName: Autopilot
-- id: openai.chatgpt.in.microsoft.office.-.web.content
-  name: OpenAI ChatGPT in Microsoft Office - Web content
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserRootView
-  className: BrowserRootView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_4
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: NonClientView
-  className: NonClientView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_5
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserTabRootView
-  className: EmbeddedBrowserTabRootView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_6
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserFrameView
-  className: EmbeddedBrowserFrameView
-  isEnabled: true
-  addonName: Autopilot
-- id: view_9
-  name: Untitled
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Text:Untitled
-  selectors:
-    primary:
-      automationId: view_9
-      controlType: Text
-    alternates:
-    - className: Label
-  className: Label
-  isEnabled: true
-  addonName: Autopilot
-- id: control_8
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserCaptionButtonContainer
-  className: BrowserCaptionButtonContainer
-  isEnabled: true
-  addonName: Autopilot
-- id: view_2
-  name: Minimize
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Button:Minimize
-  selectors:
-    primary:
-      automationId: view_2
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Autopilot
-- id: view_3
-  name: Maximize
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Button:Maximize
-  selectors:
-    primary:
-      automationId: view_3
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Autopilot
-- id: view_7
-  name: Close
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Button:Close
-  selectors:
-    primary:
-      automationId: view_7
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Autopilot
-- id: control_12
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserView
-  className: BrowserView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_13
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: MainContainerView
-  className: MainContainerView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_14
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerView
-  className: TopContainerView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_15
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_16
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_17
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: Autopilot
-- id: control_18
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: Autopilot
-- id: rootwebarea
-  name: OpenAI ChatGPT in Microsoft Office
-  controlType: Document
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: RootWebArea
-      controlType: Document
-  isEnabled: true
-  addonName: Autopilot
-- id: header
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: header
-      controlType: Group
-    alternates:
-    - className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
-  className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
-  isEnabled: true
-  addonName: Autopilot
-- id: logosmall
-  name: To get missing image descriptions, open the context menu.
-  controlType: Image
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Image:To get missing image descriptions, open the context menu.
-  selectors:
-    primary:
-      automationId: logosmall
-      controlType: Image
-    alternates:
-    - className: autopilot-icon
-  className: autopilot-icon
-  isEnabled: true
-  addonName: Autopilot
-- id: free.edition
-  name: Free edition
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:Free edition
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: 
-  name: 
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: upgradeflag
-  name: UPGRADE
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:UPGRADE
-  selectors:
-    primary:
-      automationId: upgradeflag
-      controlType: Hyperlink
-    alternates:
-    - className: updatetag
-  className: updatetag
-  isEnabled: true
-  addonName: Autopilot
-- id: favoriteslink
-  name: 
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:
-  selectors:
-    primary:
-      automationId: favoritesLink
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Autopilot
-- id: settingslink
-  name: 
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:
-  selectors:
-    primary:
-      automationId: settingsLink
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Autopilot
-- id: mainsection
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: mainsection
-      controlType: Group
-    alternates:
-    - className: ms-welcome__main
-  className: ms-welcome__main
-  isEnabled: true
-  addonName: Autopilot
-- id: welcomefree
-  name: chatgpt web add-in
-  controlType: Image
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Image:chatgpt web add-in
-  selectors:
-    primary:
-      automationId: welcomefree
-      controlType: Image
-  isEnabled: true
-  addonName: Autopilot
-- id: welcome.to.autopilot!
-  name: Welcome to Autopilot!
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:Welcome to Autopilot!
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
-  name: Here are a few examples of what you can do with Autopilot
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:Here are a few examples of what you can do with Autopilot
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: talk.to.it.like.chatgpt
-  name: Talk to it like ChatGPT
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Talk to it like ChatGPT
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: use.content.in.your.document
-  name: Use content in your document
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Use content in your document
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: how.to.use.favorites
-  name: How to use Favorites
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:How to use Favorites
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: connect.other.ai.models
-  name: Connect other AI models
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Connect other AI models
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: autopilot.pro.advanced.features
-  name: Autopilot PRO advanced features
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Autopilot PRO advanced features
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links-pro
-  className: gw-active-links-pro
-  isEnabled: true
-  addonName: Autopilot
-- id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
-  name: 'To get started, type a prompt into the box below and hit the '
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - 'Text:To get started, type a prompt into the box below and hit the '
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: enter
-  name: ENTER
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:ENTER
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: .key.
-  name: ' key.'
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - 'Text: key.'
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: divcommandarea
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: divcommandarea
-      controlType: Group
-  isEnabled: true
-  addonName: Autopilot
-- id: commandprompt
-  name: Ask anything...
-  controlType: Edit
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Edit:Ask anything...
-  selectors:
-    primary:
-      automationId: commandprompt
-      controlType: Edit
-  isEnabled: true
-  addonName: Autopilot
-- id: run
-  name:  
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Button: 
-  selectors:
-    primary:
-      automationId: run
-      controlType: Button
-    alternates:
-    - className: btn-send
-  className: btn-send
-  isEnabled: true
-  addonName: Autopilot
-- id: finetune
-  name: 
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Button:
-  selectors:
-    primary:
-      automationId: finetune
-      controlType: Button
-    alternates:
-    - className: btn-finetune
-  className: btn-finetune
-  isEnabled: true
-  addonName: Autopilot
-- id: control_43
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserDownloadView
-  className: EmbeddedBrowserDownloadView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_44
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerOverlayView
-  className: TopContainerOverlayView
-  isEnabled: true
-  addonName: Autopilot
 - id: gpt.for.excel
   name: GPT for Excel
   controlType: Pane
@@ -672,7 +31,7 @@ controls:
   className: Chrome_WidgetWin_1
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_46
+- id: control_2
   name: Pane
   controlType: Pane
   hierarchy:
@@ -699,7 +58,7 @@ controls:
   className: BrowserRootView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_48
+- id: control_4
   name: Pane
   controlType: Pane
   hierarchy:
@@ -713,7 +72,7 @@ controls:
   className: NonClientView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_49
+- id: control_5
   name: Pane
   controlType: Pane
   hierarchy:
@@ -727,7 +86,7 @@ controls:
   className: EmbeddedBrowserTabRootView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_50
+- id: control_6
   name: Pane
   controlType: Pane
   hierarchy:
@@ -757,7 +116,7 @@ controls:
   className: Label
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_52
+- id: control_8
   name: Pane
   controlType: Pane
   hierarchy:
@@ -819,7 +178,7 @@ controls:
   className: EdgeWindowsCaptionButton
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_56
+- id: control_12
   name: Pane
   controlType: Pane
   hierarchy:
@@ -833,7 +192,7 @@ controls:
   className: BrowserView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_57
+- id: control_13
   name: Pane
   controlType: Pane
   hierarchy:
@@ -847,7 +206,7 @@ controls:
   className: MainContainerView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_58
+- id: control_14
   name: Pane
   controlType: Pane
   hierarchy:
@@ -861,7 +220,7 @@ controls:
   className: TopContainerView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_59
+- id: control_15
   name: Pane
   controlType: Pane
   hierarchy:
@@ -875,7 +234,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_60
+- id: control_16
   name: Pane
   controlType: Pane
   hierarchy:
@@ -889,7 +248,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_61
+- id: control_17
   name: Pane
   controlType: Pane
   hierarchy:
@@ -903,7 +262,7 @@ controls:
   className: View
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_62
+- id: control_18
   name: Pane
   controlType: Pane
   hierarchy:
@@ -930,7 +289,7 @@ controls:
       controlType: Document
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_64
+- id: control_20
   name: Group
   controlType: Group
   hierarchy:
@@ -955,7 +314,7 @@ controls:
       controlType: Group
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_66
+- id: control_22
   name: Image
   controlType: Image
   hierarchy:
@@ -1023,7 +382,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_71
+- id: control_27
   name: Image
   controlType: Image
   hierarchy:
@@ -1048,7 +407,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_73
+- id: control_29
   name: Image
   controlType: Image
   hierarchy:
@@ -1073,7 +432,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_75
+- id: control_31
   name: Image
   controlType: Image
   hierarchy:
@@ -1098,7 +457,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_77
+- id: control_33
   name: Image
   controlType: Image
   hierarchy:
@@ -1149,7 +508,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_81
+- id: control_37
   name: Image
   controlType: Image
   hierarchy:
@@ -1294,7 +653,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_92
+- id: control_48
   name: Image
   controlType: Image
   hierarchy:
@@ -1306,7 +665,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_93
+- id: control_49
   name: Image
   controlType: Image
   hierarchy:
@@ -1318,7 +677,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_94
+- id: control_50
   name: Image
   controlType: Image
   hierarchy:
@@ -1330,7 +689,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_95
+- id: control_51
   name: Image
   controlType: Image
   hierarchy:
@@ -1342,7 +701,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_96
+- id: control_52
   name: Image
   controlType: Image
   hierarchy:
@@ -1354,7 +713,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_97
+- id: control_53
   name: Image
   controlType: Image
   hierarchy:
@@ -1366,7 +725,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_98
+- id: control_54
   name: Image
   controlType: Image
   hierarchy:
@@ -1391,7 +750,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_100
+- id: control_56
   name: Image
   controlType: Image
   hierarchy:
@@ -1403,7 +762,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_101
+- id: control_57
   name: Image
   controlType: Image
   hierarchy:
@@ -1415,7 +774,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_102
+- id: control_58
   name: Image
   controlType: Image
   hierarchy:
@@ -1427,7 +786,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_103
+- id: control_59
   name: Image
   controlType: Image
   hierarchy:
@@ -1439,7 +798,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_104
+- id: control_60
   name: Image
   controlType: Image
   hierarchy:
@@ -1451,7 +810,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_105
+- id: control_61
   name: Image
   controlType: Image
   hierarchy:
@@ -1463,7 +822,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_106
+- id: control_62
   name: Image
   controlType: Image
   hierarchy:
@@ -1585,7 +944,7 @@ controls:
   className: _root_86xeo_2 _talarian_7ldok_164
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_114
+- id: control_70
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1599,7 +958,7 @@ controls:
   className: EmbeddedBrowserDownloadView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_115
+- id: control_71
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1613,11 +972,11 @@ controls:
   className: TopContainerOverlayView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: microsoft.visio.data.visualizer
-  name: Microsoft Visio Data Visualizer
+- id: wikipedia
+  name: Wikipedia
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Wikipedia
   selectors:
     primary:
       controlType: Pane
@@ -1625,12 +984,12 @@ controls:
     - className: Chrome_WidgetWin_1
   className: Chrome_WidgetWin_1
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_117
+  addonName: Wikipedia
+- id: control_73
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Wikipedia
   selectors:
     primary:
       controlType: Pane
@@ -1638,13 +997,13 @@ controls:
     - className: Intermediate D3D Window
   className: Intermediate D3D Window
   isEnabled: false
-  addonName: Microsoft Visio Data Visualizer
-- id: microsoft.visio.data.visualizer.-.web.content
-  name: Microsoft Visio Data Visualizer - Web content
+  addonName: Wikipedia
+- id: wikipedia.-.web.content
+  name: Wikipedia - Web content
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1652,13 +1011,13 @@ controls:
     - className: BrowserRootView
   className: BrowserRootView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_119
+  addonName: Wikipedia
+- id: control_75
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1666,13 +1025,13 @@ controls:
     - className: NonClientView
   className: NonClientView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_120
+  addonName: Wikipedia
+- id: control_76
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1680,13 +1039,13 @@ controls:
     - className: EmbeddedBrowserTabRootView
   className: EmbeddedBrowserTabRootView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_121
+  addonName: Wikipedia
+- id: control_77
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1694,13 +1053,13 @@ controls:
     - className: EmbeddedBrowserFrameView
   className: EmbeddedBrowserFrameView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
+  addonName: Wikipedia
 - id: view_9
   name: Untitled
   controlType: Text
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Text:Untitled
   selectors:
     primary:
@@ -1710,13 +1069,13 @@ controls:
     - className: Label
   className: Label
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_123
+  addonName: Wikipedia
+- id: control_79
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1724,13 +1083,13 @@ controls:
     - className: BrowserCaptionButtonContainer
   className: BrowserCaptionButtonContainer
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
+  addonName: Wikipedia
 - id: view_2
   name: Minimize
   controlType: Button
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Button:Minimize
   selectors:
     primary:
@@ -1740,13 +1099,13 @@ controls:
     - className: EdgeWindowsCaptionButton
   className: EdgeWindowsCaptionButton
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
+  addonName: Wikipedia
 - id: view_3
   name: Maximize
   controlType: Button
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Button:Maximize
   selectors:
     primary:
@@ -1756,13 +1115,13 @@ controls:
     - className: EdgeWindowsCaptionButton
   className: EdgeWindowsCaptionButton
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
+  addonName: Wikipedia
 - id: view_7
   name: Close
   controlType: Button
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   - Button:Close
   selectors:
     primary:
@@ -1772,13 +1131,13 @@ controls:
     - className: EdgeWindowsCaptionButton
   className: EdgeWindowsCaptionButton
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_127
+  addonName: Wikipedia
+- id: control_83
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1786,13 +1145,13 @@ controls:
     - className: BrowserView
   className: BrowserView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_128
+  addonName: Wikipedia
+- id: control_84
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1800,13 +1159,13 @@ controls:
     - className: MainContainerView
   className: MainContainerView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_129
+  addonName: Wikipedia
+- id: control_85
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1814,13 +1173,13 @@ controls:
     - className: TopContainerView
   className: TopContainerView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_130
+  addonName: Wikipedia
+- id: control_86
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1828,13 +1187,13 @@ controls:
     - className: SidebarContentsSplitView
   className: SidebarContentsSplitView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_131
+  addonName: Wikipedia
+- id: control_87
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1842,13 +1201,13 @@ controls:
     - className: SidebarContentsSplitView
   className: SidebarContentsSplitView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_132
+  addonName: Wikipedia
+- id: control_88
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1856,13 +1215,13 @@ controls:
     - className: View
   className: View
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_133
+  addonName: Wikipedia
+- id: control_89
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -1870,435 +1229,160 @@ controls:
     - className: View
   className: View
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
+  addonName: Wikipedia
 - id: rootwebarea
-  name: Microsoft Visio Data Visualizer
+  name: Wikipedia
   controlType: Document
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
   selectors:
     primary:
       automationId: RootWebArea
       controlType: Document
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: root
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      automationId: root
-      controlType: Group
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_136
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      controlType: Group
-    alternates:
-    - className: ms-Fabric root-98
-  className: ms-Fabric root-98
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_137
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      controlType: Group
-    alternates:
-    - className: headerContainer
-  className: headerContainer
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: data.visualizer
-  name: Data Visualizer
-  controlType: Image
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Image:Data Visualizer
-  selectors:
-    primary:
-      controlType: Image
-    alternates:
-    - className: logo
-  className: logo
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: data.visualizer
-  name: Data Visualizer
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Text:Data Visualizer
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_140
-  name: MenuBar
-  controlType: MenuBar
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      controlType: MenuBar
-    alternates:
-    - className: ms-FocusZone css-103 ms-CommandBar root-100
-  className: ms-FocusZone css-103 ms-CommandBar root-100
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: more.button
-  name: More Button
-  controlType: MenuItem
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - MenuItem:More Button
-  selectors:
-    primary:
-      controlType: MenuItem
-    alternates:
-    - className: ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-107
-  className: ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-107
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_142
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      controlType: Group
-    alternates:
-    - className: ms-MessageBar ms-MessageBar--error ms-MessageBar-multiline root-124
-  className: ms-MessageBar ms-MessageBar--error ms-MessageBar-multiline root-124
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: messagebar6
-  name: Text
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      automationId: MessageBar6
-      controlType: Text
-    alternates:
-    - className: ms-MessageBar-text text-128
-  className: ms-MessageBar-text text-128
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: the.visio.data.visualizer.add-in.for.excel.is.being.deprecated.on.march.2,.2026..to.avoid.data.loss,.we.encourage.you.to.save.your.diagram.as.a.visio.(.vsdx).file.or.image.file.prior.to.the.official.deprecation.date.
-  name: The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
-  selectors:
-    primary:
-      controlType: Group
-    alternates:
-    - className: ms-MessageBar-innerText innerText-129
-  className: ms-MessageBar-innerText innerText-129
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: the.visio.data.visualizer.add-in.for.excel.is.being.deprecated.on.march.2,.2026..to.avoid.data.loss,.we.encourage.you.to.save.your.diagram.as.a.visio.(.vsdx).file.or.image.file.prior.to.the.official.deprecation.date.
-  name: The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
-  - Text:The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: close
-  name: Close
-  controlType: Button
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Button:Close
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-137
-  className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-137
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: learn.more
-  name: Learn More
-  controlType: Button
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Button:Learn More
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: ms-Button ms-Button--default root-141
-  className: ms-Button ms-Button--default root-141
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_148
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  selectors:
-    primary:
-      controlType: Group
-    alternates:
-    - className: signinuiwrapper
-  className: signinuiwrapper
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: data.visualizer
-  name: Data Visualizer
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Text:Data Visualizer
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: create.diagrams.from.data
-  name: Create diagrams from data
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Text:Create diagrams from data
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: data.visualizer.preview.pane
-  name: Data Visualizer preview pane
-  controlType: Image
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Image:Data Visualizer preview pane
-  selectors:
-    primary:
-      controlType: Image
-    alternates:
-    - className: fileLessSignInUIDataVisualizerLogo
-  className: fileLessSignInUIDataVisualizerLogo
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: signing.in.with.a.personal.account.(hotmail.com,.outlook.com.etc.).is.not.supported.
-  name: Signing in with a personal account (hotmail.com, outlook.com etc.) is not supported.
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Text:Signing in with a personal account (hotmail.com, outlook.com etc.) is not supported.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: sign.in.to.excel.with.a.work.or.school.account.to.use.full.capability.of.the.add-in..
-  name: 'Sign in to Excel with a work or school account to use full capability of the add-in. '
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - 'Text:Sign in to Excel with a work or school account to use full capability of the add-in. '
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: learn.more
-  name: Learn more
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Learn more
-  selectors:
-    primary:
-      controlType: Group
-    alternates:
-    - className: fileLessViewLearnMore
-  className: fileLessViewLearnMore
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: learn.more
-  name: Learn more
+  addonName: Wikipedia
+- id: wikipedia.logo
+  name: Wikipedia logo
   controlType: Hyperlink
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Learn more
-  - Hyperlink:Learn more
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Hyperlink:Wikipedia logo
   selectors:
     primary:
       controlType: Hyperlink
+    alternates:
+    - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+  className: ms_osf_logo ms_osf_clickable ms_osf_visible
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_156
+  addonName: Wikipedia
+- id: i.want.to.know...
+  name: I want to know...
+  controlType: Edit
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Edit:I want to know...
+  selectors:
+    primary:
+      controlType: Edit
+    alternates:
+    - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+  className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+  isEnabled: true
+  addonName: Wikipedia
+- id: search
+  name: Search
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+  className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: to.get.missing.image.descriptions,.open.the.context.menu.
+  name: To get missing image descriptions, open the context menu.
+  controlType: Image
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search
+  - Image:To get missing image descriptions, open the context menu.
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: Wikipedia
+- id: search.options
+  name: Search Options
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search Options
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+  className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_96
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search Options
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_97
   name: Group
   controlType: Group
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
   selectors:
     primary:
       controlType: Group
     alternates:
-    - className: fileLessContinueWithoutSigningIn
-  className: fileLessContinueWithoutSigningIn
+    - className: ms_osf_content
+  className: ms_osf_content
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: continue.without.signing.in
-  name: Continue without signing in
+  addonName: Wikipedia
+- id: control_98
+  name: Group
   controlType: Group
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Continue without signing in
-  selectors:
-    primary:
-      controlType: Group
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: continue.without.signing.in
-  name: Continue without signing in
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Continue without signing in
-  - Text:Continue without signing in
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: preview
-  name: Preview
-  controlType: Group
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Preview
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
   selectors:
     primary:
       controlType: Group
     alternates:
-    - className: fileLessContinueWithoutSigningInPreview
-  className: fileLessContinueWithoutSigningInPreview
+    - className: ms_osf_article
+  className: ms_osf_article
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: .(
-  name: ' ('
+  addonName: Wikipedia
+- id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
+  name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
   controlType: Text
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Preview
-  - 'Text: ('
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Text:The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
   selectors:
     primary:
       controlType: Text
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: preview
-  name: Preview
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Preview
-  - Text:Preview
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: )
-  name: )
-  controlType: Text
-  hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
-  - Document:Microsoft Visio Data Visualizer
-  - Group:Preview
-  - Text:)
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_163
+  addonName: Wikipedia
+- id: control_100
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -2306,13 +1390,13 @@ controls:
     - className: EmbeddedBrowserDownloadView
   className: EmbeddedBrowserDownloadView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
-- id: control_164
+  addonName: Wikipedia
+- id: control_101
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:Microsoft Visio Data Visualizer
-  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
   selectors:
     primary:
       controlType: Pane
@@ -2320,4 +1404,4 @@ controls:
     - className: TopContainerOverlayView
   className: TopContainerOverlayView
   isEnabled: true
-  addonName: Microsoft Visio Data Visualizer
+  addonName: Wikipedia
