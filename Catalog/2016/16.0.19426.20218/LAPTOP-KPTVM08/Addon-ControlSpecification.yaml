@@ -1,0 +1,613 @@
+application: Excel
+appVersion: 16.101.3
+year: 2016
+Agent: LAPTOP-KPTVM08
+baseLibraryVersion: 
+scan:
+  scannedAt: 23-12-2025 07:20:17
+  scanDate: 2025-12-23 07:20:17 UTC
+  totalAddons: 1
+  toolVersion: scanner-0.6.2
+  environment:
+    osBuild: 26200.7462
+    dpi: 96
+    locale: en-IN
+addons:
+- addonName: ChatGPT for Excel
+  elementCount: 39
+controls:
+- id: twistlycells.-.chatgpt.for.excel
+  name: TwistlyCells - ChatGPT for Excel
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Chrome_WidgetWin_1
+  className: Chrome_WidgetWin_1
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_2
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Intermediate D3D Window
+  className: Intermediate D3D Window
+  isEnabled: false
+  addonName: ChatGPT for Excel
+- id: twistlycells.-.chatgpt.for.excel.-.web.content
+  name: TwistlyCells - ChatGPT for Excel - Web content
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserRootView
+  className: BrowserRootView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_4
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: NonClientView
+  className: NonClientView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_5
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserTabRootView
+  className: EmbeddedBrowserTabRootView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_6
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserFrameView
+  className: EmbeddedBrowserFrameView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: view_9
+  name: Untitled
+  controlType: Text
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Text:Untitled
+  selectors:
+    primary:
+      automationId: view_9
+      controlType: Text
+    alternates:
+    - className: Label
+  className: Label
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_8
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserCaptionButtonContainer
+  className: BrowserCaptionButtonContainer
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: view_2
+  name: Minimize
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Button:Minimize
+  selectors:
+    primary:
+      automationId: view_2
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: view_3
+  name: Maximize
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Button:Maximize
+  selectors:
+    primary:
+      automationId: view_3
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: view_7
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Button:Close
+  selectors:
+    primary:
+      automationId: view_7
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_12
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserView
+  className: BrowserView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_13
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: MainContainerView
+  className: MainContainerView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_14
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerView
+  className: TopContainerView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_15
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_16
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_17
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_18
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: rootwebarea
+  name: TwistlyCells - ChatGPT for Excel
+  controlType: Document
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_20
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms-font-m ms-Fabric
+  className: ms-font-m ms-Fabric
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_21
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  selectors:
+    primary:
+      controlType: Group
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: let's.get.started
+  name: Let's Get Started
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: MuiDialog-container MuiDialog-scrollPaper css-ekeie0
+  className: MuiDialog-container MuiDialog-scrollPaper css-ekeie0
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: let's.get.started
+  name: Let's Get Started
+  controlType: Window
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  selectors:
+    primary:
+      controlType: Window
+    alternates:
+    - className: MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1rtuqxw
+  className: MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1rtuqxw
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: alert-dialog-title
+  name: Let's Get Started
+  controlType: Text
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Text:Let's Get Started
+  selectors:
+    primary:
+      automationId: alert-dialog-title
+      controlType: Text
+    alternates:
+    - className: MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-f6ef6d
+  className: MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-f6ef6d
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: close
+  name: close
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Button:close
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1vfozcu
+  className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1vfozcu
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: tell.us.more,.so.we.can.personalize.your.experience
+  name: Tell us more, so we can personalize your experience
+  controlType: Text
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Text:Tell us more, so we can personalize your experience
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: responsibility-menu-label
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  selectors:
+    primary:
+      automationId: responsibility-menu-label
+      controlType: Group
+    alternates:
+    - className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+  className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: what.is.your.main.job.responsibility?
+  name: What is your main job responsibility?
+  controlType: Text
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Text:What is your main job responsibility?
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_29
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+  className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: what.is.your.main.job.responsibility?
+  name: What is your main job responsibility?
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Button:What is your main job responsibility?
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+  className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: where-find-menu-label
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  selectors:
+    primary:
+      automationId: where-find-menu-label
+      controlType: Group
+    alternates:
+    - className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+  className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: where.did.you.find.us?
+  name: Where did you find us?
+  controlType: Text
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Text:Where did you find us?
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_33
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+  className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: where.did.you.find.us?
+  name: Where did you find us?
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Button:Where did you find us?
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+  className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: prev
+  name: Prev
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Button:Prev
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+  className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+  isEnabled: false
+  addonName: ChatGPT for Excel
+- id: next
+  name: Next
+  controlType: Button
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  - Group:Let's Get Started
+  - Window:Let's Get Started
+  - Button:Next
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+  className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_37
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  - Document:TwistlyCells - ChatGPT for Excel
+  selectors:
+    primary:
+      controlType: Group
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_38
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserDownloadView
+  className: EmbeddedBrowserDownloadView
+  isEnabled: true
+  addonName: ChatGPT for Excel
+- id: control_39
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:TwistlyCells - ChatGPT for Excel
+  - Pane:TwistlyCells - ChatGPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerOverlayView
+  className: TopContainerOverlayView
+  isEnabled: true
+  addonName: ChatGPT for Excel
