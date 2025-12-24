@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 23-12-2025 13:33:03
-  scanDate: 2025-12-23 13:33:03 UTC
+  scannedAt: 24-12-2025 06:33:34
+  scanDate: 2025-12-24 06:33:34 UTC
   totalAddons: 4
   toolVersion: scanner-0.6.2
   environment:
@@ -2468,8 +2468,8 @@ controls:
     primary:
       controlType: DataItem
     alternates:
-    - className: v42-cal-day v42-cal-today
-  className: v42-cal-day v42-cal-today
+    - className: v42-cal-day
+  className: v42-cal-day
   isEnabled: true
   addonName: Mini Calendar and Date Picker
 - id: 24
@@ -2484,8 +2484,8 @@ controls:
     primary:
       controlType: DataItem
     alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
+    - className: v42-cal-day v42-cal-today
+  className: v42-cal-day v42-cal-today
   isEnabled: true
   addonName: Mini Calendar and Date Picker
 - id: 25
