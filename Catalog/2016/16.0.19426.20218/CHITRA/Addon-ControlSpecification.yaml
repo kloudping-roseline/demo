@@ -4,9 +4,9 @@ year: 2016
 Agent: CHITRA
 baseLibraryVersion: 
 scan:
-  scannedAt: 12/24/2025 7:10:12 AM
-  scanDate: 2025-12-24 07:10:12 UTC
-  totalAddons: 1
+  scannedAt: 12/24/2025 7:12:37 AM
+  scanDate: 2025-12-24 07:12:37 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -15,6 +15,8 @@ scan:
 addons:
 - addonName: Python for Excel
   elementCount: 81
+- addonName: Wikipedia
+  elementCount: 30
 controls:
 - id: about:blank
   name: about:blank
@@ -1222,3 +1224,436 @@ controls:
   className: TopContainerOverlayView
   isEnabled: true
   addonName: Python for Excel
+- id: wikipedia
+  name: Wikipedia
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Chrome_WidgetWin_1
+  className: Chrome_WidgetWin_1
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_83
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Intermediate D3D Window
+  className: Intermediate D3D Window
+  isEnabled: false
+  addonName: Wikipedia
+- id: wikipedia.-.web.content
+  name: Wikipedia - Web content
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserRootView
+  className: BrowserRootView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_85
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: NonClientView
+  className: NonClientView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_86
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserTabRootView
+  className: EmbeddedBrowserTabRootView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_87
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserFrameView
+  className: EmbeddedBrowserFrameView
+  isEnabled: true
+  addonName: Wikipedia
+- id: view_9
+  name: Untitled
+  controlType: Text
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Text:Untitled
+  selectors:
+    primary:
+      automationId: view_9
+      controlType: Text
+    alternates:
+    - className: Label
+  className: Label
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_89
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserCaptionButtonContainer
+  className: BrowserCaptionButtonContainer
+  isEnabled: true
+  addonName: Wikipedia
+- id: view_2
+  name: Minimize
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Button:Minimize
+  selectors:
+    primary:
+      automationId: view_2
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: view_3
+  name: Maximize
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Button:Maximize
+  selectors:
+    primary:
+      automationId: view_3
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: view_7
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Button:Close
+  selectors:
+    primary:
+      automationId: view_7
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_93
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserView
+  className: BrowserView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_94
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: MainContainerView
+  className: MainContainerView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_95
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerView
+  className: TopContainerView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_96
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_97
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_98
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_99
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: Wikipedia
+- id: rootwebarea
+  name: Wikipedia
+  controlType: Document
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: Wikipedia
+- id: wikipedia.logo
+  name: Wikipedia logo
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Hyperlink:Wikipedia logo
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+  className: ms_osf_logo ms_osf_clickable ms_osf_visible
+  isEnabled: true
+  addonName: Wikipedia
+- id: i.want.to.know...
+  name: I want to know...
+  controlType: Edit
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Edit:I want to know...
+  selectors:
+    primary:
+      controlType: Edit
+    alternates:
+    - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+  className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+  isEnabled: true
+  addonName: Wikipedia
+- id: search
+  name: Search
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+  className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: to.get.missing.image.descriptions,.open.the.context.menu.
+  name: To get missing image descriptions, open the context menu.
+  controlType: Image
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search
+  - Image:To get missing image descriptions, open the context menu.
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: Wikipedia
+- id: search.options
+  name: Search Options
+  controlType: Button
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search Options
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+  className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_106
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Button:Search Options
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_107
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms_osf_content
+  className: ms_osf_content
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_108
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms_osf_article
+  className: ms_osf_article
+  isEnabled: true
+  addonName: Wikipedia
+- id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
+  name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+  controlType: Text
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  - Document:Wikipedia
+  - Text:The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_110
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserDownloadView
+  className: EmbeddedBrowserDownloadView
+  isEnabled: true
+  addonName: Wikipedia
+- id: control_111
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Wikipedia
+  - Pane:Wikipedia - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerOverlayView
+  className: TopContainerOverlayView
+  isEnabled: true
+  addonName: Wikipedia
