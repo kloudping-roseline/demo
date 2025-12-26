@@ -4,9 +4,9 @@ year: 2016
 Agent: KISHORE
 baseLibraryVersion: 
 scan:
-  scannedAt: 12/24/2025 1:10:59 PM
-  scanDate: 2025-12-24 13:10:59 UTC
-  totalAddons: 1
+  scannedAt: 12/26/2025 6:20:42 AM
+  scanDate: 2025-12-26 06:20:42 UTC
+  totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26100.7462
@@ -15,6 +15,10 @@ scan:
 addons:
 - addonName: Autopilot
   elementCount: 44
+- addonName: GPT for Excel Word
+  elementCount: 71
+- addonName: Microsoft Visio Data Visualizer
+  elementCount: 69
 controls:
 - id: openai.chatgpt.in.microsoft.office
   name: OpenAI ChatGPT in Microsoft Office
@@ -655,3 +659,2014 @@ controls:
   className: TopContainerOverlayView
   isEnabled: true
   addonName: Autopilot
+- id: gpt.for.excel
+  name: GPT for Excel
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Chrome_WidgetWin_1
+  className: Chrome_WidgetWin_1
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_46
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Intermediate D3D Window
+  className: Intermediate D3D Window
+  isEnabled: false
+  addonName: GPT for Excel Word
+- id: gpt.for.excel.-.web.content
+  name: GPT for Excel - Web content
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserRootView
+  className: BrowserRootView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_48
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: NonClientView
+  className: NonClientView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_49
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserTabRootView
+  className: EmbeddedBrowserTabRootView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_50
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserFrameView
+  className: EmbeddedBrowserFrameView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_9
+  name: Untitled
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Text:Untitled
+  selectors:
+    primary:
+      automationId: view_9
+      controlType: Text
+    alternates:
+    - className: Label
+  className: Label
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_52
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserCaptionButtonContainer
+  className: BrowserCaptionButtonContainer
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_2
+  name: Minimize
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Button:Minimize
+  selectors:
+    primary:
+      automationId: view_2
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_3
+  name: Maximize
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Button:Maximize
+  selectors:
+    primary:
+      automationId: view_3
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: view_7
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Button:Close
+  selectors:
+    primary:
+      automationId: view_7
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_56
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserView
+  className: BrowserView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_57
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: MainContainerView
+  className: MainContainerView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_58
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerView
+  className: TopContainerView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_59
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_60
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_61
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_62
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: rootwebarea
+  name: GPT for Excel
+  controlType: Document
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_64
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Group
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: root
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      automationId: root
+      controlType: Group
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_66
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: welcome.to.gpt.for.excel
+  name: Welcome to GPT for Excel
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Welcome to GPT for Excel
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: _msButton_7ldok_72
+  className: _msButton_7ldok_72
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  - Image:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 'typical.use-cases:'
+  name: 'Typical use-cases:'
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - 'Text:Typical use-cases:'
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_71
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: copywriting.for.seo,.e-commerce
+  name: Copywriting for SEO, e-commerce
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Copywriting for SEO, e-commerce
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_73
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: translation
+  name: Translation
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Translation
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_75
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: segmenting.and.cleaning.a.database
+  name: Segmenting and cleaning a database
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Segmenting and cleaning a database
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_77
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: market.research...
+  name: Market research...
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Market research...
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 'main.features:'
+  name: 'Main features:'
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - 'Text:Main features:'
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
+  name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_81
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: _arrow_7ldok_184
+  className: _arrow_7ldok_184
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 1
+  name: 1
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:1
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 2
+  name: 2
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:2
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 3
+  name: 3
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:3
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 4
+  name: 4
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:4
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 5
+  name: 5
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:5
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 6
+  name: 6
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:6
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: 7
+  name: 7
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:7
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: a
+  name: A
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:A
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: b
+  name: B
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:B
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: c
+  name: C
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:C
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_92
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_93
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_94
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_95
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_96
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_97
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_98
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: d
+  name: D
+  controlType: Text
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Text:D
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_100
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_101
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_102
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_103
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_104
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_105
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_106
+  name: Image
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Button
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: _msButton_7ldok_72
+  className: _msButton_7ldok_72
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: ms-symbollockup
+  name: MS-SymbolLockup
+  controlType: Image
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Button:MS-SymbolLockup
+  - Image:MS-SymbolLockup
+  selectors:
+    primary:
+      controlType: Image
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: about
+  name: About
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:About
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: help
+  name: Help
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Help
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: terms
+  name: Terms
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Terms
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: privacy.policy
+  name: Privacy Policy
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Privacy Policy
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2
+  className: _root_86xeo_2
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: made.by.talarian
+  name: Made by Talarian
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  - Document:GPT for Excel
+  - Hyperlink:Made by Talarian
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: _root_86xeo_2 _talarian_7ldok_164
+  className: _root_86xeo_2 _talarian_7ldok_164
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_114
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserDownloadView
+  className: EmbeddedBrowserDownloadView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: control_115
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:GPT for Excel
+  - Pane:GPT for Excel - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerOverlayView
+  className: TopContainerOverlayView
+  isEnabled: true
+  addonName: GPT for Excel Word
+- id: microsoft.visio.data.visualizer
+  name: Microsoft Visio Data Visualizer
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Chrome_WidgetWin_1
+  className: Chrome_WidgetWin_1
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_117
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: Intermediate D3D Window
+  className: Intermediate D3D Window
+  isEnabled: false
+  addonName: Microsoft Visio Data Visualizer
+- id: microsoft.visio.data.visualizer.-.web.content
+  name: Microsoft Visio Data Visualizer - Web content
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserRootView
+  className: BrowserRootView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_119
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: NonClientView
+  className: NonClientView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_120
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserTabRootView
+  className: EmbeddedBrowserTabRootView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_121
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserFrameView
+  className: EmbeddedBrowserFrameView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: view_9
+  name: Untitled
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Text:Untitled
+  selectors:
+    primary:
+      automationId: view_9
+      controlType: Text
+    alternates:
+    - className: Label
+  className: Label
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_123
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserCaptionButtonContainer
+  className: BrowserCaptionButtonContainer
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: view_2
+  name: Minimize
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Button:Minimize
+  selectors:
+    primary:
+      automationId: view_2
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: view_3
+  name: Maximize
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Button:Maximize
+  selectors:
+    primary:
+      automationId: view_3
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: view_7
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Button:Close
+  selectors:
+    primary:
+      automationId: view_7
+      controlType: Button
+    alternates:
+    - className: EdgeWindowsCaptionButton
+  className: EdgeWindowsCaptionButton
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_127
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: BrowserView
+  className: BrowserView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_128
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: MainContainerView
+  className: MainContainerView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_129
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerView
+  className: TopContainerView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_130
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_131
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: SidebarContentsSplitView
+  className: SidebarContentsSplitView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_132
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_133
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: View
+  className: View
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: rootwebarea
+  name: Microsoft Visio Data Visualizer
+  controlType: Document
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: root
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      automationId: root
+      controlType: Group
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_136
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms-Fabric root-98
+  className: ms-Fabric root-98
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_137
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: headerContainer
+  className: headerContainer
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: data.visualizer
+  name: Data Visualizer
+  controlType: Image
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Image:Data Visualizer
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: logo
+  className: logo
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: data.visualizer
+  name: Data Visualizer
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Text:Data Visualizer
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_140
+  name: MenuBar
+  controlType: MenuBar
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: MenuBar
+    alternates:
+    - className: ms-FocusZone css-103 ms-CommandBar root-100
+  className: ms-FocusZone css-103 ms-CommandBar root-100
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: more.button
+  name: More Button
+  controlType: MenuItem
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - MenuItem:More Button
+  selectors:
+    primary:
+      controlType: MenuItem
+    alternates:
+    - className: ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-107
+  className: ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-107
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_142
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms-MessageBar ms-MessageBar--error ms-MessageBar-multiline root-124
+  className: ms-MessageBar ms-MessageBar--error ms-MessageBar-multiline root-124
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: messagebar6
+  name: Text
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      automationId: MessageBar6
+      controlType: Text
+    alternates:
+    - className: ms-MessageBar-text text-128
+  className: ms-MessageBar-text text-128
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: the.visio.data.visualizer.add-in.for.excel.is.being.deprecated.on.march.2,.2026..to.avoid.data.loss,.we.encourage.you.to.save.your.diagram.as.a.visio.(.vsdx).file.or.image.file.prior.to.the.official.deprecation.date.
+  name: The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms-MessageBar-innerText innerText-129
+  className: ms-MessageBar-innerText innerText-129
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: the.visio.data.visualizer.add-in.for.excel.is.being.deprecated.on.march.2,.2026..to.avoid.data.loss,.we.encourage.you.to.save.your.diagram.as.a.visio.(.vsdx).file.or.image.file.prior.to.the.official.deprecation.date.
+  name: The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
+  - Text:The Visio Data Visualizer add-in for Excel is being deprecated on March 2, 2026. To avoid data loss, we encourage you to save your diagram as a Visio (.vsdx) file or image file prior to the official deprecation date.
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: close
+  name: Close
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Button:Close
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-137
+  className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-137
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: learn.more
+  name: Learn More
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Button:Learn More
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--default root-141
+  className: ms-Button ms-Button--default root-141
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_148
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: dvCatalogViewLeftPane
+  className: dvCatalogViewLeftPane
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_149
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: ms-Nav ms-font-s ms-fontColor-neutralPrimary root-148
+  className: ms-Nav ms-font-s ms-fontColor-neutralPrimary root-148
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_150
+  name: List
+  controlType: List
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      controlType: List
+    alternates:
+    - className: ms-Nav-navItems navItems-155
+  className: ms-Nav-navItems navItems-155
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: basic.flowchart.(4)
+  name: Basic Flowchart (4)
+  controlType: ListItem
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ListItem:Basic Flowchart (4)
+  selectors:
+    primary:
+      controlType: ListItem
+    alternates:
+    - className: ms-Nav-navItem navItem-154
+  className: ms-Nav-navItem navItem-154
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: basic.flowchart
+  name: Basic Flowchart
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ListItem:Basic Flowchart (4)
+  - Button:Basic Flowchart
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--action ms-Button--command ms-Nav-link link-165
+  className: ms-Button ms-Button--action ms-Button--command ms-Nav-link link-165
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: cross-functional.flowchart.(5)
+  name: Cross-Functional Flowchart (5)
+  controlType: ListItem
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ListItem:Cross-Functional Flowchart (5)
+  selectors:
+    primary:
+      controlType: ListItem
+    alternates:
+    - className: ms-Nav-navItem navItem-154
+  className: ms-Nav-navItem navItem-154
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: cross-functional.flowchart
+  name: Cross-Functional Flowchart
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ListItem:Cross-Functional Flowchart (5)
+  - Button:Cross-Functional Flowchart
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--action ms-Button--command ms-Nav-link link-173
+  className: ms-Button ms-Button--action ms-Button--command ms-Nav-link link-173
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: organization.chart.(5)
+  name: Organization Chart (5)
+  controlType: ListItem
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ListItem:Organization Chart (5)
+  selectors:
+    primary:
+      controlType: ListItem
+    alternates:
+    - className: ms-Nav-navItem navItem-154
+  className: ms-Nav-navItem navItem-154
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: organization.chart
+  name: Organization Chart
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ListItem:Organization Chart (5)
+  - Button:Organization Chart
+  selectors:
+    primary:
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--action ms-Button--command ms-Nav-link link-173
+  className: ms-Button ms-Button--action ms-Button--command ms-Nav-link link-173
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: help
+  name: Help
+  controlType: Hyperlink
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Hyperlink:Help
+  selectors:
+    primary:
+      controlType: Hyperlink
+    alternates:
+    - className: ms-Link focusable root-178
+  className: ms-Link focusable root-178
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: press.tab.to.move.across.the.samples.and.press.enter.to.insert.data.into.excel
+  name: Press Tab to move across the samples and press Enter to insert data into Excel
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: dvCatalogViewRightPane
+  className: dvCatalogViewRightPane
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: select.a.cell.in.an.empty.area.of.the.sheet,.then.select.a.diagram.layout.below..we’ll.add.starter.data.for.that.diagram.to.the.sheet.
+  name: Select a cell in an empty area of the sheet, then select a diagram layout below. We’ll add starter data for that diagram to the sheet.
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Text:Select a cell in an empty area of the sheet, then select a diagram layout below. We’ll add starter data for that diagram to the sheet.
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: quick.start.quick.start.create
+  name: Quick Start Quick Start Create
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Group:Quick Start Quick Start Create
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: quick.start
+  name: Quick Start
+  controlType: Image
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Group:Quick Start Quick Start Create
+  - Image:Quick Start
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: dvCatalogItemSampleCardPreview2
+  className: dvCatalogItemSampleCardPreview2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_162
+  name: Separator
+  controlType: Separator
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Group:Quick Start Quick Start Create
+  selectors:
+    primary:
+      controlType: Separator
+    alternates:
+    - className: dvCatalogItemSampleCardSeperator2
+  className: dvCatalogItemSampleCardSeperator2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: quick.start
+  name: Quick Start
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Group:Quick Start Quick Start Create
+  - Text:Quick Start
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: dvcis_1_1
+  name: Create
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Group:Quick Start Quick Start Create
+  - Button:Create
+  selectors:
+    primary:
+      automationId: DVCIS_1_1
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--default root-179
+  className: ms-Button ms-Button--default root-179
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_165
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: horizontal
+  name: Horizontal
+  controlType: Image
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Image:Horizontal
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: dvCatalogItemSampleCardPreview2
+  className: dvCatalogItemSampleCardPreview2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_167
+  name: Separator
+  controlType: Separator
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Separator
+    alternates:
+    - className: dvCatalogItemSampleCardSeperator2
+  className: dvCatalogItemSampleCardSeperator2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: horizontal
+  name: Horizontal
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Text:Horizontal
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: dvcis_1_2
+  name: Create
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Button:Create
+  selectors:
+    primary:
+      automationId: DVCIS_1_2
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--default root-179
+  className: ms-Button ms-Button--default root-179
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_170
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: vertical
+  name: Vertical
+  controlType: Image
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Image:Vertical
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: dvCatalogItemSampleCardPreview2
+  className: dvCatalogItemSampleCardPreview2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_172
+  name: Separator
+  controlType: Separator
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Separator
+    alternates:
+    - className: dvCatalogItemSampleCardSeperator2
+  className: dvCatalogItemSampleCardSeperator2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: vertical
+  name: Vertical
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Text:Vertical
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: dvcis_1_4
+  name: Create
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Button:Create
+  selectors:
+    primary:
+      automationId: DVCIS_1_4
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--default root-179
+  className: ms-Button ms-Button--default root-179
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_175
+  name: Group
+  controlType: Group
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Group
+    alternates:
+    - className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  className: dvCatalogItemSampleCard2 ms-font-s ms-fontColor-neutralPrimary focusable
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: hierarchy
+  name: Hierarchy
+  controlType: Image
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Image:Hierarchy
+  selectors:
+    primary:
+      controlType: Image
+    alternates:
+    - className: dvCatalogItemSampleCardPreview2
+  className: dvCatalogItemSampleCardPreview2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_177
+  name: Separator
+  controlType: Separator
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  selectors:
+    primary:
+      controlType: Separator
+    alternates:
+    - className: dvCatalogItemSampleCardSeperator2
+  className: dvCatalogItemSampleCardSeperator2
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: hierarchy
+  name: Hierarchy
+  controlType: Text
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Text:Hierarchy
+  selectors:
+    primary:
+      controlType: Text
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: dvcis_1_7
+  name: Create
+  controlType: Button
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - Group:Press Tab to move across the samples and press Enter to insert data into Excel
+  - Button:Create
+  selectors:
+    primary:
+      automationId: DVCIS_1_7
+      controlType: Button
+    alternates:
+    - className: ms-Button ms-Button--default root-179
+  className: ms-Button ms-Button--default root-179
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: rootwebarea
+  name: Document
+  controlType: Document
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      automationId: RootWebArea
+      controlType: Document
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: mainapp
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  selectors:
+    primary:
+      automationId: MainApp
+      controlType: Pane
+    alternates:
+    - className: Safari Windows usehover customScrollBar
+  className: Safari Windows usehover customScrollBar
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: load_back
+  name: loadingLabel
+  controlType: ProgressBar
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  - Document:Microsoft Visio Data Visualizer
+  - ProgressBar:loadingLabel
+  selectors:
+    primary:
+      automationId: load_back
+      controlType: ProgressBar
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_183
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: EmbeddedBrowserDownloadView
+  className: EmbeddedBrowserDownloadView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
+- id: control_184
+  name: Pane
+  controlType: Pane
+  hierarchy:
+  - Pane:Microsoft Visio Data Visualizer
+  - Pane:Microsoft Visio Data Visualizer - Web content
+  selectors:
+    primary:
+      controlType: Pane
+    alternates:
+    - className: TopContainerOverlayView
+  className: TopContainerOverlayView
+  isEnabled: true
+  addonName: Microsoft Visio Data Visualizer
