@@ -4,8 +4,8 @@ year: 2016
 Agent: LAVANYA
 baseLibraryVersion: 
 scan:
-  scannedAt: 12/26/2025 1:27:16 PM
-  scanDate: 2025-12-26 13:27:16 UTC
+  scannedAt: 12/26/2025 1:39:44 PM
+  scanDate: 2025-12-26 13:39:44 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-US
 addons:
 - addonName: Autopilot
-  elementCount: 88
+  elementCount: 44
 - addonName: GPT for Excel Word
   elementCount: 71
 - addonName: Microsoft Visio Data Visualizer
@@ -659,687 +659,6 @@ controls:
   className: TopContainerOverlayView
   isEnabled: true
   addonName: Autopilot
-- id: loginpopup
-  name: LoginPopup
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  selectors:
-    primary:
-      automationId: LoginPopup
-      controlType: Pane
-  isEnabled: true
-  addonName: Autopilot
-- id: control_46
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Intermediate D3D Window
-  className: Intermediate D3D Window
-  isEnabled: false
-  addonName: Autopilot
-- id: openai.chatgpt.in.microsoft.office.-.web.content
-  name: OpenAI ChatGPT in Microsoft Office - Web content
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserRootView
-  className: BrowserRootView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_48
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: NonClientView
-  className: NonClientView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_49
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserTabRootView
-  className: EmbeddedBrowserTabRootView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_50
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserFrameView
-  className: EmbeddedBrowserFrameView
-  isEnabled: true
-  addonName: Autopilot
-- id: view_9
-  name: Untitled
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Text:Untitled
-  selectors:
-    primary:
-      automationId: view_9
-      controlType: Text
-    alternates:
-    - className: Label
-  className: Label
-  isEnabled: true
-  addonName: Autopilot
-- id: control_52
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserCaptionButtonContainer
-  className: BrowserCaptionButtonContainer
-  isEnabled: true
-  addonName: Autopilot
-- id: view_2
-  name: Minimize
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Button:Minimize
-  selectors:
-    primary:
-      automationId: view_2
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Autopilot
-- id: view_3
-  name: Maximize
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Button:Maximize
-  selectors:
-    primary:
-      automationId: view_3
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Autopilot
-- id: view_7
-  name: Close
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Button:Close
-  selectors:
-    primary:
-      automationId: view_7
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Autopilot
-- id: control_56
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserView
-  className: BrowserView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_57
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: MainContainerView
-  className: MainContainerView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_58
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerView
-  className: TopContainerView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_59
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_60
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_61
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: Autopilot
-- id: control_62
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: Autopilot
-- id: rootwebarea
-  name: OpenAI ChatGPT in Microsoft Office
-  controlType: Document
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: RootWebArea
-      controlType: Document
-  isEnabled: true
-  addonName: Autopilot
-- id: header
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: header
-      controlType: Group
-    alternates:
-    - className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
-  className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
-  isEnabled: true
-  addonName: Autopilot
-- id: logosmall
-  name: To get missing image descriptions, open the context menu.
-  controlType: Image
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Image:To get missing image descriptions, open the context menu.
-  selectors:
-    primary:
-      automationId: logosmall
-      controlType: Image
-    alternates:
-    - className: autopilot-icon
-  className: autopilot-icon
-  isEnabled: true
-  addonName: Autopilot
-- id: free.edition
-  name: Free edition
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:Free edition
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: 
-  name: 
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: upgradeflag
-  name: UPGRADE
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:UPGRADE
-  selectors:
-    primary:
-      automationId: upgradeflag
-      controlType: Hyperlink
-    alternates:
-    - className: updatetag
-  className: updatetag
-  isEnabled: true
-  addonName: Autopilot
-- id: favoriteslink
-  name: 
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:
-  selectors:
-    primary:
-      automationId: favoritesLink
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Autopilot
-- id: settingslink
-  name: 
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:
-  selectors:
-    primary:
-      automationId: settingsLink
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Autopilot
-- id: mainsection
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: mainsection
-      controlType: Group
-    alternates:
-    - className: ms-welcome__main
-  className: ms-welcome__main
-  isEnabled: true
-  addonName: Autopilot
-- id: welcomefree
-  name: chatgpt web add-in
-  controlType: Image
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Image:chatgpt web add-in
-  selectors:
-    primary:
-      automationId: welcomefree
-      controlType: Image
-  isEnabled: true
-  addonName: Autopilot
-- id: welcome.to.autopilot!
-  name: Welcome to Autopilot!
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:Welcome to Autopilot!
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
-  name: Here are a few examples of what you can do with Autopilot
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:Here are a few examples of what you can do with Autopilot
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: talk.to.it.like.chatgpt
-  name: Talk to it like ChatGPT
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Talk to it like ChatGPT
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: use.content.in.your.document
-  name: Use content in your document
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Use content in your document
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: how.to.use.favorites
-  name: How to use Favorites
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:How to use Favorites
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: connect.other.ai.models
-  name: Connect other AI models
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Connect other AI models
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links
-  className: gw-active-links
-  isEnabled: true
-  addonName: Autopilot
-- id: autopilot.pro.advanced.features
-  name: Autopilot PRO advanced features
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Hyperlink:Autopilot PRO advanced features
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: gw-active-links-pro
-  className: gw-active-links-pro
-  isEnabled: true
-  addonName: Autopilot
-- id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
-  name: 'To get started, type a prompt into the box below and hit the '
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - 'Text:To get started, type a prompt into the box below and hit the '
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: enter
-  name: ENTER
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Text:ENTER
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: .key.
-  name: ' key.'
-  controlType: Text
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - 'Text: key.'
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Autopilot
-- id: divcommandarea
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  selectors:
-    primary:
-      automationId: divcommandarea
-      controlType: Group
-  isEnabled: true
-  addonName: Autopilot
-- id: commandprompt
-  name: Ask anything...
-  controlType: Edit
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Edit:Ask anything...
-  selectors:
-    primary:
-      automationId: commandprompt
-      controlType: Edit
-  isEnabled: true
-  addonName: Autopilot
-- id: run
-  name:  
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Button: 
-  selectors:
-    primary:
-      automationId: run
-      controlType: Button
-    alternates:
-    - className: btn-send
-  className: btn-send
-  isEnabled: true
-  addonName: Autopilot
-- id: finetune
-  name: 
-  controlType: Button
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  - Document:OpenAI ChatGPT in Microsoft Office
-  - Button:
-  selectors:
-    primary:
-      automationId: finetune
-      controlType: Button
-    alternates:
-    - className: btn-finetune
-  className: btn-finetune
-  isEnabled: true
-  addonName: Autopilot
-- id: control_87
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserDownloadView
-  className: EmbeddedBrowserDownloadView
-  isEnabled: true
-  addonName: Autopilot
-- id: control_88
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
-  - Pane:LoginPopup
-  - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerOverlayView
-  className: TopContainerOverlayView
-  isEnabled: true
-  addonName: Autopilot
 - id: gpt.for.excel
   name: GPT for Excel
   controlType: Pane
@@ -1353,7 +672,7 @@ controls:
   className: Chrome_WidgetWin_1
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_90
+- id: control_46
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1380,7 +699,7 @@ controls:
   className: BrowserRootView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_92
+- id: control_48
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1394,7 +713,7 @@ controls:
   className: NonClientView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_93
+- id: control_49
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1408,7 +727,7 @@ controls:
   className: EmbeddedBrowserTabRootView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_94
+- id: control_50
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1438,7 +757,7 @@ controls:
   className: Label
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_96
+- id: control_52
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1500,7 +819,7 @@ controls:
   className: EdgeWindowsCaptionButton
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_100
+- id: control_56
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1514,7 +833,7 @@ controls:
   className: BrowserView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_101
+- id: control_57
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1528,7 +847,7 @@ controls:
   className: MainContainerView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_102
+- id: control_58
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1542,7 +861,7 @@ controls:
   className: TopContainerView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_103
+- id: control_59
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1556,7 +875,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_104
+- id: control_60
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1570,7 +889,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_105
+- id: control_61
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1584,7 +903,7 @@ controls:
   className: View
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_106
+- id: control_62
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1611,7 +930,7 @@ controls:
       controlType: Document
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_108
+- id: control_64
   name: Group
   controlType: Group
   hierarchy:
@@ -1636,7 +955,7 @@ controls:
       controlType: Group
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_110
+- id: control_66
   name: Image
   controlType: Image
   hierarchy:
@@ -1704,7 +1023,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_115
+- id: control_71
   name: Image
   controlType: Image
   hierarchy:
@@ -1729,7 +1048,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_117
+- id: control_73
   name: Image
   controlType: Image
   hierarchy:
@@ -1754,7 +1073,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_119
+- id: control_75
   name: Image
   controlType: Image
   hierarchy:
@@ -1779,7 +1098,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_121
+- id: control_77
   name: Image
   controlType: Image
   hierarchy:
@@ -1830,7 +1149,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_125
+- id: control_81
   name: Image
   controlType: Image
   hierarchy:
@@ -1975,7 +1294,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_136
+- id: control_92
   name: Image
   controlType: Image
   hierarchy:
@@ -1987,7 +1306,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_137
+- id: control_93
   name: Image
   controlType: Image
   hierarchy:
@@ -1999,7 +1318,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_138
+- id: control_94
   name: Image
   controlType: Image
   hierarchy:
@@ -2011,7 +1330,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_139
+- id: control_95
   name: Image
   controlType: Image
   hierarchy:
@@ -2023,7 +1342,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_140
+- id: control_96
   name: Image
   controlType: Image
   hierarchy:
@@ -2035,7 +1354,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_141
+- id: control_97
   name: Image
   controlType: Image
   hierarchy:
@@ -2047,7 +1366,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_142
+- id: control_98
   name: Image
   controlType: Image
   hierarchy:
@@ -2072,7 +1391,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_144
+- id: control_100
   name: Image
   controlType: Image
   hierarchy:
@@ -2084,7 +1403,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_145
+- id: control_101
   name: Image
   controlType: Image
   hierarchy:
@@ -2096,7 +1415,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_146
+- id: control_102
   name: Image
   controlType: Image
   hierarchy:
@@ -2108,7 +1427,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_147
+- id: control_103
   name: Image
   controlType: Image
   hierarchy:
@@ -2120,7 +1439,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_148
+- id: control_104
   name: Image
   controlType: Image
   hierarchy:
@@ -2132,7 +1451,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_149
+- id: control_105
   name: Image
   controlType: Image
   hierarchy:
@@ -2144,7 +1463,7 @@ controls:
       controlType: Image
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_150
+- id: control_106
   name: Image
   controlType: Image
   hierarchy:
@@ -2266,7 +1585,7 @@ controls:
   className: _root_86xeo_2 _talarian_7ldok_164
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_158
+- id: control_114
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2280,7 +1599,7 @@ controls:
   className: EmbeddedBrowserDownloadView
   isEnabled: true
   addonName: GPT for Excel Word
-- id: control_159
+- id: control_115
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2307,7 +1626,7 @@ controls:
   className: Chrome_WidgetWin_1
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_161
+- id: control_117
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2334,7 +1653,7 @@ controls:
   className: BrowserRootView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_163
+- id: control_119
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2348,7 +1667,7 @@ controls:
   className: NonClientView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_164
+- id: control_120
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2362,7 +1681,7 @@ controls:
   className: EmbeddedBrowserTabRootView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_165
+- id: control_121
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2392,7 +1711,7 @@ controls:
   className: Label
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_167
+- id: control_123
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2454,7 +1773,7 @@ controls:
   className: EdgeWindowsCaptionButton
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_171
+- id: control_127
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2468,7 +1787,7 @@ controls:
   className: BrowserView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_172
+- id: control_128
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2482,7 +1801,7 @@ controls:
   className: MainContainerView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_173
+- id: control_129
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2496,7 +1815,7 @@ controls:
   className: TopContainerView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_174
+- id: control_130
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2510,7 +1829,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_175
+- id: control_131
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2524,7 +1843,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_176
+- id: control_132
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2538,7 +1857,7 @@ controls:
   className: View
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_177
+- id: control_133
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2578,7 +1897,7 @@ controls:
       controlType: Group
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_180
+- id: control_136
   name: Group
   controlType: Group
   hierarchy:
@@ -2593,7 +1912,7 @@ controls:
   className: ms-Fabric root-98
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_181
+- id: control_137
   name: Group
   controlType: Group
   hierarchy:
@@ -2637,7 +1956,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_184
+- id: control_140
   name: MenuBar
   controlType: MenuBar
   hierarchy:
@@ -2668,7 +1987,7 @@ controls:
   className: ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-107
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_186
+- id: control_142
   name: Group
   controlType: Group
   hierarchy:
@@ -2761,7 +2080,7 @@ controls:
   className: ms-Button ms-Button--default root-141
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_192
+- id: control_148
   name: Group
   controlType: Group
   hierarchy:
@@ -2776,7 +2095,7 @@ controls:
   className: dvCatalogViewLeftPane
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_193
+- id: control_149
   name: Group
   controlType: Group
   hierarchy:
@@ -2791,7 +2110,7 @@ controls:
   className: ms-Nav ms-font-s ms-fontColor-neutralPrimary root-148
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_194
+- id: control_150
   name: List
   controlType: List
   hierarchy:
@@ -2986,7 +2305,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_206
+- id: control_162
   name: Separator
   controlType: Separator
   hierarchy:
@@ -3037,7 +2356,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_209
+- id: control_165
   name: Group
   controlType: Group
   hierarchy:
@@ -3070,7 +2389,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_211
+- id: control_167
   name: Separator
   controlType: Separator
   hierarchy:
@@ -3118,7 +2437,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_214
+- id: control_170
   name: Group
   controlType: Group
   hierarchy:
@@ -3151,7 +2470,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_216
+- id: control_172
   name: Separator
   controlType: Separator
   hierarchy:
@@ -3199,7 +2518,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_219
+- id: control_175
   name: Group
   controlType: Group
   hierarchy:
@@ -3232,7 +2551,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_221
+- id: control_177
   name: Separator
   controlType: Separator
   hierarchy:
@@ -3323,7 +2642,7 @@ controls:
       controlType: ProgressBar
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_227
+- id: control_183
   name: Pane
   controlType: Pane
   hierarchy:
@@ -3337,7 +2656,7 @@ controls:
   className: EmbeddedBrowserDownloadView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_228
+- id: control_184
   name: Pane
   controlType: Pane
   hierarchy:
