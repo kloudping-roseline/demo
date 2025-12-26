@@ -1,0 +1,5037 @@
+application: Excel
+appVersion: 16.0.19530.20074
+year: 2016
+Agent: LAVANYA
+baseLibraryVersion: null
+scan:
+  scannedAt: 2025-12-26T18:51:31.5921409+05:30
+  toolVersion: null
+  environment:
+    osBuild: 26100.7462
+    dpi: 96
+    locale: en-US
+controls:
+  - Id: ribbon.home.number
+    Name: Number
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Number
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: MenuItem
+      Alternates:
+        - Name: Number
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Number
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 662, y: 450, w: 62, h: 96 }
+  - Id: ribbon.home.cells
+    Name: Cells
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Cells
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: MenuItem
+      Alternates:
+        - Name: Cells
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Cells
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 908, y: 450, w: 55, h: 96 }
+  - Id: ribbon.home.editing
+    Name: Editing
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Editing
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: MenuItem
+      Alternates:
+        - Name: Editing
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Editing
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 963, y: 450, w: 56, h: 96 }
+  - Id: ribbon.home.paste
+    Name: Paste
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Paste
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Paste
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Paste
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 250, y: 451, w: 42, h: 77 }
+  - Id: ribbon.home.paste
+    Name: Paste
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Paste
+    Selectors:
+      Primary:
+        AutomationId: Paste
+        ControlType: Button
+      Alternates:
+        - Name: Paste
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Paste
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 250, y: 451, w: 42, h: 38 }
+  - Id: ribbon.home.cut
+    Name: Cut
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Cut
+    Selectors:
+      Primary:
+        AutomationId: Cut
+        ControlType: Button
+      Alternates:
+        - Name: Cut
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Cut
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 294, y: 451, w: 24, h: 24 }
+  - Id: ribbon.home.font
+    Name: Font
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Font
+    Selectors:
+      Primary:
+        AutomationId: Font
+        ControlType: ComboBox
+      Alternates:
+        - Name: Font
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font
+    Children:
+      - Name: Font
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIScrollBar
+        ControlType: ScrollBar
+      - Name: Line up
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Aptos Display (Headings)
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Page down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Aptos Narrow (Body)
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: All Fonts
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Abadi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Abadi ExtraLight, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ADLaM Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Agency FB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aharoni, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Alasassy Caps, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aldhabi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Algerian
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro Black
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro Medium, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Angsana New, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: AngsanaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aparajita, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Aptos Display
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos ExtraBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Mono, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Narrow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos SemiBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Serif, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Slab, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Slab Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Slab ExtraBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Slab Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Slab SemiBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arabic Typesetting, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Black
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Narrow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Nova, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Nova Cond, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Nova Cond Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Nova Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Rounded MT Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Avenir Next LT Pro
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Avenir Next LT Pro Demi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Avenir Next LT Pro Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Baguet Script, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift Light Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift Light SemiCondensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiBold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiBold Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiBold SemiConden
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiCondensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiLight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiLight Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bahnschrift SemiLight SemiConde
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Baskerville Old Face
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Batang, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: BatangChe, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bauhaus 93
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bell MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Berlin Sans FB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Berlin Sans FB Demi
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bernard MT Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bierstadt, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bierstadt Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Biome, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Biome Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blackadder ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bodoni MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bodoni MT Black
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bodoni MT Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bodoni MT Poster Compressed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Book Antiqua
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bookman Old Style
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bookshelf Symbol 7
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Boucherie Block, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bradley Hand ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Britannic Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Broadway
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Browallia New, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: BrowalliaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Brush Script MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Calibri
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Calibri Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Californian FB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Calisto MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cambria
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cambria Math
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Candara
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Candara Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Code
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Code ExtraLight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Code Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Code SemiBold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Code SemiLight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Mono
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Mono ExtraLight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Mono Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Mono SemiBold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cascadia Mono SemiLight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Castellar
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cavolini, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Centaur
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Centaur Now Caption, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Centaur Now Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Centaur Now Text, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Century
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Century Gothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Century Schoolbook
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Chamberi Super Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Chiller
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cochocib Script Latin Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Colonna MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Comic Sans MS
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Congenial, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Congenial Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Congenial Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Congenial SemiBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Congenial UltraLight, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Consolas
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Constantia
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cooper Black
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Copperplate Gothic Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Copperplate Gothic Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Corbel
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Corbel Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cordia New, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: CordiaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Courier New
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Curlz MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: DaunPenh, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: David, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Daytona, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Daytona Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Daytona Condensed Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Daytona Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: DengXian
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: DengXian Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: DilleniaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: DokChampa, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dotum, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: DotumChe, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dreaming Outloud Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dreaming Outloud Script Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dubai
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dubai Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dubai Medium
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Ebrima
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Edwardian Script ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Elephant
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Elephant Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Engravers MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Eras Bold ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Eras Demi ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Eras Light ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Eras Medium ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: EucrosiaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Euphemia, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Fairwater Script, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Fairwater Script Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: FangSong, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Fave Script Bold Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Felix Titling
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Footlight MT Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Forte
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Forte Forward, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Franklin Gothic Book
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Franklin Gothic Demi
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Franklin Gothic Demi Cond
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Franklin Gothic Heavy
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Franklin Gothic Medium
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Franklin Gothic Medium Cond
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: FrankRuehl, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: FreesiaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Freestyle Script
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: French Script MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gabriola
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gadugi
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Garamond
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gautami, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Cond, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Cond Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Cond Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Cond Semibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia Pro Semibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gigi
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans MT Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans MT Ext Condensed Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova Cond, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova Cond Lt, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova Cond Ultra Bold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova Cond XBd, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Nova Ultra Bold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Ultra Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans Ultra Bold Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gisha, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gloucester MT Extra Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Goudy Old Style
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Goudy Stout
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Goudy Type, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Grandview, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Grandview Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Grotesque, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Grotesque Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gulim, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: GulimChe, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gungsuh, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: GungsuhChe, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Hadassah Friedlaender, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Haettenschweiler
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Harlow Solid Italic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Harrington
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGGothicE, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGMaruGothicMPRO, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGMinchoE, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGPGothicE, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGPMinchoE, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGPSoeiKakugothicUB, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGSGothicE, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGSMinchoE, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGSoeiKakugothicUB, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: HGSSoeiKakugothicUB, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: High Tower Text
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Impact
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Imprint MT Shadow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Informal Roman
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Ink Free
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: IrisUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Iskoola Pota, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: JasmineUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Javanese Text
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Jokerman
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Juice ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Jumble, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: KaiTi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kalinga, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kartika, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Expanded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Extrabold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Extrabold Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Extrabold Expanded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Extralight, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Extralight Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Extralight Expanded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Light Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Light Expanded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Semibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Semibold Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Semibold Expanded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Thin, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Thin Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kermit Thin Expanded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Khmer UI, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kigelia, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kigelia Arabic, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kigelia Arabic Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kigelia Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: KodchiangUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kokila, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kristen ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Kunstler Script
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lao UI, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Latha
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Leelawadee, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Leelawadee UI
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Leelawadee UI Semilight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Levenim MT, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: LilyUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Bright
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Calligraphy
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Console
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Fax
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Handwriting
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Sans
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Sans Typewriter
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Lucida Sans Unicode
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Magneto
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Maiandra GD
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Malgun Gothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Malgun Gothic Semilight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mangal, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mangal Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Marlett
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Matura MT Script Capitals
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Meiryo, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Meiryo UI, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft GothicNeo, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft GothicNeo Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft Himalaya
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft JhengHei
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft JhengHei Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft JhengHei UI
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft JhengHei UI Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft New Tai Lue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft PhagsPa
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft Sans Serif
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft Tai Le
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft Uighur, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft YaHei
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft YaHei Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft YaHei UI
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft YaHei UI Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Microsoft Yi Baiti
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MingLiU, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MingLiU_HKSCS, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MingLiU_HKSCS-ExtB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MingLiU_MSCS, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MingLiU_MSCS-ExtB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MingLiU-ExtB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Miriam, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Miriam Fixed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mistral
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Modern Love, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Modern Love Caps, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Modern Love Grunge, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Modern No. 20
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mongolian Baiti
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Monotype Corsiva
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MoolBoran, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mr Gabe, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS Gothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS Mincho
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS Outlook
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS PGothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS PMincho, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS Reference Sans Serif
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS Reference Specialty
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MS UI Gothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MT Extra
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MV Boli
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Myanmar Text
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mystical Woods Rough Script, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mystical Woods Smooth Script, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Narkisim, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Neue Haas Grotesk Text Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: News Gothic MT, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Niagara Engraved
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Niagara Solid
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Nirmala Text
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Nirmala Text Semilight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Nirmala UI
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Nirmala UI Semilight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Nordique Inline, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: NSimSun
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Nyala, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: OCR A Extended
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: OCRB, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Old English Text MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Onyx
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Palace Script MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Palatino Linotype
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Papyrus
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Parchment
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Perpetua
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Perpetua Titling MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plantagenet Cherokee, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Playbill
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: PMingLiU, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: PMingLiU-ExtB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Poor Richard
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Posterama, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pristina
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Quire Sans, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Quire Sans Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Raavi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rage Italic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rastanty Cortez, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Ravie
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Extra Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Nova, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Nova Cond, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Nova Cond Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Nova Extra Bold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rockwell Nova Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Rod, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sabon Next LT, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sagona, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sagona Book, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sagona ExtraLight, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sakkal Majalla, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sans Serif Collection
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sanskrit Text, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Script MT Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Seaford, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Seaford Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe Fluent Icons
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe MDL2 Assets
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe Print
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe Script
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Black
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Emoji
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Historic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Semilight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Symbol
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Display
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Display Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Display Semib
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Display Semil
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Small
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Small Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Small Semibol
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Small Semilig
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Text
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Text Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Text Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Segoe UI Variable Text Semiligh
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Selawik, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Selawik Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Selawik Semibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Shonar Bangla, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Showcard Gothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Shruti, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: SimHei, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Simplified Arabic, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Simplified Arabic Fixed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: SimSun
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: SimSun-ExtB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: SimSun-ExtG
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Banner
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Banner Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Display
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Display Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Heading
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Heading Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Small
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Small Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Subheading
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Subheading Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Text
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sitka Text Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Skeena, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Skeena Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Snap ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Source Sans Pro
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Source Sans Pro Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Source Sans Pro ExtraLight, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Source Sans Pro Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Source Sans Pro SemiBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Speak Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Speak Pro Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STCaiyun, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Stencil
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STFangsong, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STHupo, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STKaiti, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STXihei, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STXingkai, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STXinwei, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: STZhongsong, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Sylfaen
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Symbol
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tahoma
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tempus Sans ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tenorite, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tenorite Display, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: TH SarabunPSK, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Hand
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Hand Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Hand Extrablack, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Hand Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Serif Hand
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Serif Hand Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Serif Hand Extrablack, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: The Serif Hand Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Times New Roman
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tisa Offc Serif Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tisa Offc Serif Pro Thin, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Inline, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Next, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Next Cond
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Next Heavy, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Next HvyCd, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Next Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trade Gothic Next Rounded, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Traditional Arabic, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Trebuchet MS
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tunga, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tw Cen MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tw Cen MT Condensed
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tw Cen MT Condensed Extra Bold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: UD Digi Kyokasho N-B, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: UD Digi Kyokasho NK-B, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: UD Digi Kyokasho NK-R, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: UD Digi Kyokasho NP-B, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: UD Digi Kyokasho NP-R, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: UD Digi Kyokasho N-R, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Univers, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Univers Condensed, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Univers Condensed Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Univers Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Urdu Typesetting, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Utsaah, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Vani, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Cond, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Cond Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Cond Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Cond Semibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Verdana Pro Semibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Vijaya
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Viner Hand ITC
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Vivaldi
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Vladimir Script
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Vrinda, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Walbaum Display
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Walbaum Display Heavy, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Walbaum Display Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Walbaum Display SemiBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Walbaum Heading, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Walbaum Text, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wandohope, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Webdings
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wide Latin
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wingdings
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wingdings 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wingdings 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic Medium
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic UI
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic UI Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic UI Semibold
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Gothic UI Semilight
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Mincho, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Mincho Demibold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yu Mincho Light, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 358, y: 451, w: 92, h: 24 }
+  - Id: ribbon.home.fontsize
+    Name: Font Size
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSize
+        ControlType: ComboBox
+      Alternates:
+        - Name: Font Size
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Size
+    Children:
+      - Name: 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 9
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 11
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 12
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 14
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 16
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 18
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 20
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 22
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 24
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 26
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 28
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 36
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 48
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 72
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 451, y: 451, w: 50, h: 24 }
+  - Id: ribbon.home.aligntopexcel
+    Name: Top Align
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Top Align
+    Selectors:
+      Primary:
+        AutomationId: AlignTopExcel
+        ControlType: Button
+      Alternates:
+        - Name: Top Align
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Top Align
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 518, y: 451, w: 24, h: 24 }
+  - Id: ribbon.home.alignmiddleexcel
+    Name: Middle Align
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Middle Align
+    Selectors:
+      Primary:
+        AutomationId: AlignMiddleExcel
+        ControlType: Button
+      Alternates:
+        - Name: Middle Align
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Middle Align
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 543, y: 451, w: 24, h: 24 }
+  - Id: ribbon.home.alignbottomexcel
+    Name: Bottom Align
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bottom Align
+    Selectors:
+      Primary:
+        AutomationId: AlignBottomExcel
+        ControlType: Button
+      Alternates:
+        - Name: Bottom Align
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bottom Align
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 569, y: 451, w: 24, h: 24 }
+  - Id: ribbon.home.wraptext
+    Name: Wrap Text
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Wrap Text
+    Selectors:
+      Primary:
+        AutomationId: WrapText
+        ControlType: Button
+      Alternates:
+        - Name: Wrap Text
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Wrap Text
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 594, y: 451, w: 24, h: 24 }
+  - Id: ribbon.home.conditionalformattingmenu
+    Name: Conditional Formatting
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Conditional Formatting
+    Selectors:
+      Primary:
+        AutomationId: ConditionalFormattingMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Conditional Formatting
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Conditional Formatting
+    Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUITWMenuContainer
+        ControlType: Menu
+      - Name: Highlight Cells Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Top/Bottom Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Data Bars
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Color Scales
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Icon Sets
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: New Rule...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Clear Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Manage Rules...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 732, y: 451, w: 168, h: 24 }
+  - Id: ribbon.home.officeextensionsshowaddinflyout
+    Name: Add‑ins
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Add‑ins
+    Selectors:
+      Primary:
+        AutomationId: OfficeExtensionsShowAddinFlyout
+        ControlType: Button
+      Alternates:
+        - Name: Add‑ins
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Add‑ins
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1027, y: 451, w: 46, h: 77 }
+  - Id: ribbon.home.copilot
+    Name: Copilot
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Copilot
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Copilot
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Copilot
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1090, y: 451, w: 44, h: 77 }
+  - Id: ribbon.home.autopilot
+    Name: Autopilot
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Autopilot
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Autopilot
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Autopilot
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1150, y: 451, w: 55, h: 77 }
+  - Id: ribbon.home.gpt.for.excel.word
+    Name: GPT for Excel Word
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:GPT for Excel Word
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: GPT for Excel Word
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/GPT for Excel Word
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1222, y: 451, w: 64, h: 77 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 436, y: 452, w: 13, h: 22 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 488, y: 452, w: 13, h: 22 }
+  - Id: ribbon.home.font
+    Name: Font
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Font
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Font
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Font
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 358, y: 454, w: 78, h: 19 }
+  - Id: ribbon.home.font.size
+    Name: Font Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Font Size
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Font Size
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 452, y: 454, w: 36, h: 19 }
+  - Id: ribbon.home.copy
+    Name: Copy
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Copy
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Copy
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Copy
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 294, y: 477, w: 48, h: 24 }
+  - Id: ribbon.home.copy
+    Name: Copy
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Copy
+    Selectors:
+      Primary:
+        AutomationId: Copy
+        ControlType: Button
+      Alternates:
+        - Name: Copy
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Copy
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 294, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.copysplitbutton_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: CopySplitButton_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Copy
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Copy as Picture...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 318, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.bold
+    Name: Bold
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bold
+    Selectors:
+      Primary:
+        AutomationId: Bold
+        ControlType: Button
+      Alternates:
+        - Name: Bold
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bold
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 358, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.italic
+    Name: Italic
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Italic
+    Selectors:
+      Primary:
+        AutomationId: Italic
+        ControlType: Button
+      Alternates:
+        - Name: Italic
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Italic
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 383, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.underline
+    Name: Underline
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Underline
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Underline
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Underline
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 409, y: 477, w: 39, h: 24 }
+  - Id: ribbon.home.underline
+    Name: Underline
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Underline
+    Selectors:
+      Primary:
+        AutomationId: Underline
+        ControlType: Button
+      Alternates:
+        - Name: Underline
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Underline
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 409, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.underlinegallery_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: UnderlineGallery_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: ‪Book1‬  -  Excel
+        AutomationId: null
+        ClassName: NetUISimpleButton
+        ControlType: Button
+      - Name: Customize Quick Access Toolbar
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: AutoSave
+        AutomationId: AutoSaveSwitch
+        ClassName: NetUISwitch
+        ControlType: Button
+      - Name: Save
+        AutomationId: FileSave
+        ClassName: NetUIRibbonButton
+        ControlType: Button
+      - Name: Undo
+        AutomationId: null
+        ClassName: NetUIRibbonButton
+        ControlType: Button
+      - Name: More Options
+        AutomationId: Undo_Dropdown
+        ClassName: NetUIRibbonButton
+        ControlType: MenuItem
+      - Name: Redo
+        AutomationId: null
+        ClassName: NetUIRibbonButton
+        ControlType: Button
+      - Name: More Options
+        AutomationId: Redo_Dropdown
+        ClassName: NetUIRibbonButton
+        ControlType: MenuItem
+      - Name: File Tab
+        AutomationId: FileTabButton
+        ClassName: NetUIRibbonTab
+        ControlType: Button
+      - Name: Open
+        AutomationId: null
+        ClassName: NetUIStickyButton
+        ControlType: Button
+      - Name: Open
+        AutomationId: null
+        ClassName: NetUIStickyButton
+        ControlType: Button
+      - Name: Font
+        AutomationId: null
+        ClassName: NetUITextbox
+        ControlType: Edit
+      - Name: Font Size
+        AutomationId: null
+        ClassName: NetUITextbox
+        ControlType: Edit
+      - Name: Fill Color RGB(255, 255, 0)
+        AutomationId: null
+        ClassName: NetUIRibbonButton
+        ControlType: Button
+      - Name: Font Color RGB(255, 0, 0)
+        AutomationId: null
+        ClassName: NetUIRibbonButton
+        ControlType: Button
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 433, y: 477, w: 15, h: 24 }
+  - Id: ribbon.home.fontsizeincrease
+    Name: Increase Font Size
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Increase Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSizeIncrease
+        ControlType: Button
+      Alternates:
+        - Name: Increase Font Size
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Increase Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 452, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.fontsizedecrease
+    Name: Decrease Font Size
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Decrease Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSizeDecrease
+        ControlType: Button
+      Alternates:
+        - Name: Decrease Font Size
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Decrease Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 478, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.alignleft
+    Name: Align Left
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Align Left
+    Selectors:
+      Primary:
+        AutomationId: AlignLeft
+        ControlType: Button
+      Alternates:
+        - Name: Align Left
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Align Left
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 518, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.aligncenter
+    Name: Center
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Center
+    Selectors:
+      Primary:
+        AutomationId: AlignCenter
+        ControlType: Button
+      Alternates:
+        - Name: Center
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Center
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 543, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.alignright
+    Name: Align Right
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Align Right
+    Selectors:
+      Primary:
+        AutomationId: AlignRight
+        ControlType: Button
+      Alternates:
+        - Name: Align Right
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Align Right
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 569, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.merge.&.center
+    Name: Merge & Center
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Merge & Center
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Merge & Center
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Merge & Center
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 594, y: 477, w: 48, h: 24 }
+  - Id: ribbon.home.mergecenter
+    Name: Merge & Center
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Merge & Center
+    Selectors:
+      Primary:
+        AutomationId: MergeCenter
+        ControlType: Button
+      Alternates:
+        - Name: Merge & Center
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Merge & Center
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 594, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.mergecentermenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: MergeCenterMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Merge & Center
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Merge Across
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Merge Cells
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Unmerge Cells
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 618, y: 477, w: 24, h: 24 }
+  - Id: ribbon.home.formatastablegallery
+    Name: Format as Table
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Format as Table
+    Selectors:
+      Primary:
+        AutomationId: FormatAsTableGallery
+        ControlType: MenuItem
+      Alternates:
+        - Name: Format as Table
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Format as Table
+    Children:
+      - Name: Format as Table
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: Line up
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: White, Table Style Light 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Orange, Table Style Light 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pink, Table Style Light 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 7
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Table Style Light 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Light 9
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Light 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Light 11
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Light 12
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Table Style Light 13
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Table Style Light 14
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Table Style Light 15
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 16
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Orange, Table Style Light 17
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 18
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 19
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pink, Table Style Light 20
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 21
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Medium
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: White, Table Style Medium 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Medium 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Medium 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Medium 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Medium 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Table Style Medium 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Table Style Medium 7
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Table Style Medium 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Medium 9
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Medium 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Medium 11
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Medium 12
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Table Style Medium 13
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Table Style Medium 14
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Table Style Medium 15
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Medium 16
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Medium 17
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Medium 18
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Medium 19
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Table Style Medium 20
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Table Style Medium 21
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Table Style Medium 22
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Medium 23
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Orange, Table Style Medium 24
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Medium 25
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Medium 26
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pink, Table Style Medium 27
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Medium 28
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Gray, Table Style Dark 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Dark 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Brown, Table Style Dark 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Dark 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Dark 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Table Style Dark 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Dark 7
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Table Style Dark 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Dark 9
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Dark 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Table Style Dark 11
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Page down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Line down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: New Table Style...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: New PivotTable Style...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 732, y: 477, w: 128, h: 24 }
+  - Id: ribbon.home.pastemenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: PasteMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Paste
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Paste Special...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 250, y: 490, w: 42, h: 38 }
+  - Id: ribbon.home.formatpainter
+    Name: Format Painter
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Painter
+    Selectors:
+      Primary:
+        AutomationId: FormatPainter
+        ControlType: Button
+      Alternates:
+        - Name: Format Painter
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Painter
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 294, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.borders
+    Name: Borders
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Borders
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Borders
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Borders
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 358, y: 502, w: 39, h: 24 }
+  - Id: ribbon.home.borderbottomnotoggle
+    Name: Bottom Border
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bottom Border
+    Selectors:
+      Primary:
+        AutomationId: BorderBottomNoToggle
+        ControlType: Button
+      Alternates:
+        - Name: Bottom Border
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bottom Border
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 358, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.bordersgallery_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: BordersGallery_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUITWMenuContainer
+        ControlType: Menu
+      - Name: Bottom Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Top Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Left Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Right Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: No Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: All Borders
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Outside Borders
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Thick Outside Borders
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Bottom Double Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Thick Bottom Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Top and Bottom Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Top and Thick Bottom Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Top and Double Bottom Border
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Draw Borders
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Draw Border
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Draw Border Grid
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Erase Border
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Line Color
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Line Style
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: More Borders...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 382, y: 502, w: 15, h: 24 }
+  - Id: ribbon.home.cellfillcolorpicker
+    Name: Fill Color
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Fill Color
+    Selectors:
+      Primary:
+        AutomationId: CellFillColorPicker
+        ControlType: SplitButton
+      Alternates:
+        - Name: Fill Color
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Fill Color
+    Children:
+      - Name: Fill Color
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: High-contrast only
+        AutomationId: null
+        ClassName: NetUISwitch
+        ControlType: Button
+      - Name: White, Background 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 5%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 10%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 90%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 15%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 35%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 75%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 35%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 15%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 75%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 5%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 90%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 10%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Standard Colors
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Dark Red
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Red
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yellow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Purple
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: No Fill
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: More Colors...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 401, y: 502, w: 39, h: 24 }
+  - Id: ribbon.home.fill.color.rgb(255,.255,.0)
+    Name: Fill Color RGB(255, 255, 0)
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Fill Color RGB(255, 255, 0)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Fill Color RGB(255, 255, 0)
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Fill Color RGB(255, 255, 0)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 401, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.cellfillcolorpicker_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: CellFillColorPicker_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Fill Color
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: High-contrast only
+        AutomationId: null
+        ClassName: NetUISwitch
+        ControlType: Button
+      - Name: White, Background 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 5%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 10%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 90%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 15%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 35%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 75%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 35%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 15%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 75%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 5%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 90%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 10%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Standard Colors
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Dark Red
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Red
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yellow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Purple
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: No Fill
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: More Colors...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 425, y: 502, w: 15, h: 24 }
+  - Id: ribbon.home.fontcolorpicker
+    Name: Font Color
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Font Color
+    Selectors:
+      Primary:
+        AutomationId: FontColorPicker
+        ControlType: SplitButton
+      Alternates:
+        - Name: Font Color
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Color
+    Children:
+      - Name: Font Color
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: High-contrast only
+        AutomationId: null
+        ClassName: NetUISwitch
+        ControlType: Button
+      - Name: Automatic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 442, y: 502, w: 39, h: 24 }
+  - Id: ribbon.home.font.color.rgb(255,.0,.0)
+    Name: Font Color RGB(255, 0, 0)
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Font Color RGB(255, 0, 0)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Font Color RGB(255, 0, 0)
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Color RGB(255, 0, 0)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 442, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.fontcolorpicker_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: FontColorPicker_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: High-contrast only
+        AutomationId: null
+        ClassName: NetUISwitch
+        ControlType: Button
+      - Name: Automatic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 5%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 10%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 90%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 80%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 15%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 35%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 75%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Accent 6, Lighter 60%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Background 1, Darker 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Black, Text 1, Lighter 25%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Gray, Background 2, Darker 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Blue, Text 2, Lighter 50%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Accent 1, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Accent 2, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Accent 3, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Accent 4, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Accent 5, Lighter 40%
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 466, y: 502, w: 15, h: 24 }
+  - Id: ribbon.home.indentdecreaseexcel
+    Name: Decrease Indent
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Decrease Indent
+    Selectors:
+      Primary:
+        AutomationId: IndentDecreaseExcel
+        ControlType: Button
+      Alternates:
+        - Name: Decrease Indent
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Decrease Indent
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 518, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.indentincreaseexcel
+    Name: Increase Indent
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Increase Indent
+    Selectors:
+      Primary:
+        AutomationId: IndentIncreaseExcel
+        ControlType: Button
+      Alternates:
+        - Name: Increase Indent
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Increase Indent
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 543, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.orientationmenu
+    Name: Orientation
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Orientation
+    Selectors:
+      Primary:
+        AutomationId: OrientationMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Orientation
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Orientation
+    Children:
+      - Name: Angle Counterclockwise
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Angle Clockwise
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Vertical Text
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Rotate Text Up
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Rotate Text Down
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Format Cell Alignment
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 571, y: 502, w: 40, h: 24 }
+  - Id: ribbon.home.left-to-right
+    Name: Left-to-Right
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Left-to-Right
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Left-to-Right
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Left-to-Right
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 615, y: 502, w: 39, h: 24 }
+  - Id: ribbon.home.textdirectionlefttoright
+    Name: Left-to-Right
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Left-to-Right
+    Selectors:
+      Primary:
+        AutomationId: TextDirectionLeftToRight
+        ControlType: Button
+      Alternates:
+        - Name: Left-to-Right
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Left-to-Right
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 615, y: 502, w: 24, h: 24 }
+  - Id: ribbon.home.alignlefttorightmenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: AlignLeftToRightMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Left-to-Right
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Right-to-Left
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Context
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 639, y: 502, w: 15, h: 24 }
+  - Id: ribbon.home.cellstylesgallery
+    Name: Cell Styles
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Cell Styles
+    Selectors:
+      Primary:
+        AutomationId: CellStylesGallery
+        ControlType: MenuItem
+      Alternates:
+        - Name: Cell Styles
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Cell Styles
+    Children:
+      - Name: New Cell Style...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Merge Styles...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 732, y: 502, w: 98, h: 24 }
+  - Id: ribbon.home.ribbon.display.options
+    Name: Ribbon Display Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Ribbon Display Options
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: MenuItem
+      Alternates:
+        - Name: Ribbon Display Options
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Ribbon Display Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1336, y: 523, w: 20, h: 20 }
+  - Id: ribbon.home.showclipboard
+    Name: Office Clipboard...
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Office Clipboard...
+    Selectors:
+      Primary:
+        AutomationId: ShowClipboard
+        ControlType: Button
+      Alternates:
+        - Name: Office Clipboard...
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Office Clipboard...
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 334, y: 530, w: 16, h: 16 }
+  - Id: ribbon.home.formatcellsfontdialog
+    Name: Format Cell Font
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Cell Font
+    Selectors:
+      Primary:
+        AutomationId: FormatCellsFontDialog
+        ControlType: Button
+      Alternates:
+        - Name: Format Cell Font
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Cell Font
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 494, y: 530, w: 16, h: 16 }
+  - Id: ribbon.home.cellalignmentoptions
+    Name: Format Cell Alignment
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Cell Alignment
+    Selectors:
+      Primary:
+        AutomationId: CellAlignmentOptions
+        ControlType: Button
+      Alternates:
+        - Name: Format Cell Alignment
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Cell Alignment
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 646, y: 530, w: 16, h: 16 }
