@@ -4,9 +4,9 @@ year: 2016
 Agent: LAVANYA
 baseLibraryVersion: 
 scan:
-  scannedAt: 12/29/2025 12:17:43 PM
-  scanDate: 2025-12-29 12:17:43 UTC
-  totalAddons: 3
+  scannedAt: 12/29/2025 2:40:29 PM
+  scanDate: 2025-12-29 14:40:29 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26100.7462
@@ -15,16 +15,14 @@ scan:
 addons:
 - addonName: Autopilot
   elementCount: 44
-- addonName: GPT for Excel Word
-  elementCount: 71
 - addonName: Microsoft Visio Data Visualizer
   elementCount: 66
 controls:
-- id: openai.chatgpt.in.microsoft.office
-  name: OpenAI ChatGPT in Microsoft Office
+- id: about:blank
+  name: about:blank
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   selectors:
     primary:
       controlType: Pane
@@ -37,7 +35,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   selectors:
     primary:
       controlType: Pane
@@ -50,7 +48,7 @@ controls:
   name: OpenAI ChatGPT in Microsoft Office - Web content
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -64,7 +62,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -78,7 +76,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -92,7 +90,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -106,7 +104,7 @@ controls:
   name: Untitled
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Text:Untitled
   selectors:
@@ -122,7 +120,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -136,7 +134,7 @@ controls:
   name: Minimize
   controlType: Button
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Button:Minimize
   selectors:
@@ -152,7 +150,7 @@ controls:
   name: Maximize
   controlType: Button
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Button:Maximize
   selectors:
@@ -168,7 +166,7 @@ controls:
   name: Close
   controlType: Button
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Button:Close
   selectors:
@@ -184,7 +182,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -198,7 +196,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -212,7 +210,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -226,7 +224,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -240,7 +238,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -254,7 +252,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -268,7 +266,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -282,7 +280,7 @@ controls:
   name: OpenAI ChatGPT in Microsoft Office
   controlType: Document
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   selectors:
@@ -295,7 +293,7 @@ controls:
   name: Group
   controlType: Group
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   selectors:
@@ -311,7 +309,7 @@ controls:
   name: To get missing image descriptions, open the context menu.
   controlType: Image
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Image:To get missing image descriptions, open the context menu.
@@ -328,7 +326,7 @@ controls:
   name: Free edition
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Text:Free edition
@@ -341,7 +339,7 @@ controls:
   name: 
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Text:
@@ -354,7 +352,7 @@ controls:
   name: UPGRADE
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:UPGRADE
@@ -371,7 +369,7 @@ controls:
   name: 
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:
@@ -385,7 +383,7 @@ controls:
   name: 
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:
@@ -399,7 +397,7 @@ controls:
   name: Group
   controlType: Group
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   selectors:
@@ -415,7 +413,7 @@ controls:
   name: chatgpt web add-in
   controlType: Image
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Image:chatgpt web add-in
@@ -429,7 +427,7 @@ controls:
   name: Welcome to Autopilot!
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Text:Welcome to Autopilot!
@@ -442,7 +440,7 @@ controls:
   name: Here are a few examples of what you can do with Autopilot
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Text:Here are a few examples of what you can do with Autopilot
@@ -455,7 +453,7 @@ controls:
   name: Talk to it like ChatGPT
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:Talk to it like ChatGPT
@@ -471,7 +469,7 @@ controls:
   name: Use content in your document
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:Use content in your document
@@ -487,7 +485,7 @@ controls:
   name: How to use Favorites
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:How to use Favorites
@@ -503,7 +501,7 @@ controls:
   name: Connect other AI models
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:Connect other AI models
@@ -519,7 +517,7 @@ controls:
   name: Autopilot PRO advanced features
   controlType: Hyperlink
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Hyperlink:Autopilot PRO advanced features
@@ -535,7 +533,7 @@ controls:
   name: 'To get started, type a prompt into the box below and hit the '
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - 'Text:To get started, type a prompt into the box below and hit the '
@@ -548,7 +546,7 @@ controls:
   name: ENTER
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Text:ENTER
@@ -561,7 +559,7 @@ controls:
   name: ' key.'
   controlType: Text
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - 'Text: key.'
@@ -574,7 +572,7 @@ controls:
   name: Group
   controlType: Group
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   selectors:
@@ -587,7 +585,7 @@ controls:
   name: Ask anything...
   controlType: Edit
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Edit:Ask anything...
@@ -601,7 +599,7 @@ controls:
   name:  
   controlType: Button
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Button: 
@@ -618,7 +616,7 @@ controls:
   name: 
   controlType: Button
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   - Document:OpenAI ChatGPT in Microsoft Office
   - Button:
@@ -635,7 +633,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -649,7 +647,7 @@ controls:
   name: Pane
   controlType: Pane
   hierarchy:
-  - Pane:OpenAI ChatGPT in Microsoft Office
+  - Pane:about:blank
   - Pane:OpenAI ChatGPT in Microsoft Office - Web content
   selectors:
     primary:
@@ -659,960 +657,6 @@ controls:
   className: TopContainerOverlayView
   isEnabled: true
   addonName: Autopilot
-- id: gpt.for.excel
-  name: GPT for Excel
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Chrome_WidgetWin_1
-  className: Chrome_WidgetWin_1
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_46
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Intermediate D3D Window
-  className: Intermediate D3D Window
-  isEnabled: false
-  addonName: GPT for Excel Word
-- id: gpt.for.excel.-.web.content
-  name: GPT for Excel - Web content
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserRootView
-  className: BrowserRootView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_48
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: NonClientView
-  className: NonClientView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_49
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserTabRootView
-  className: EmbeddedBrowserTabRootView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_50
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserFrameView
-  className: EmbeddedBrowserFrameView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_9
-  name: Untitled
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Text:Untitled
-  selectors:
-    primary:
-      automationId: view_9
-      controlType: Text
-    alternates:
-    - className: Label
-  className: Label
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_52
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserCaptionButtonContainer
-  className: BrowserCaptionButtonContainer
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_2
-  name: Minimize
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Button:Minimize
-  selectors:
-    primary:
-      automationId: view_2
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_3
-  name: Maximize
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Button:Maximize
-  selectors:
-    primary:
-      automationId: view_3
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_7
-  name: Close
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Button:Close
-  selectors:
-    primary:
-      automationId: view_7
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_56
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserView
-  className: BrowserView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_57
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: MainContainerView
-  className: MainContainerView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_58
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerView
-  className: TopContainerView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_59
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_60
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_61
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_62
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: rootwebarea
-  name: GPT for Excel
-  controlType: Document
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      automationId: RootWebArea
-      controlType: Document
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_64
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Group
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: root
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      automationId: root
-      controlType: Group
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_66
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: welcome.to.gpt.for.excel
-  name: Welcome to GPT for Excel
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Welcome to GPT for Excel
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: _msButton_7ldok_72
-  className: _msButton_7ldok_72
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  - Image:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 'typical.use-cases:'
-  name: 'Typical use-cases:'
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - 'Text:Typical use-cases:'
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_71
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: copywriting.for.seo,.e-commerce
-  name: Copywriting for SEO, e-commerce
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Copywriting for SEO, e-commerce
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_73
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: translation
-  name: Translation
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Translation
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_75
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: segmenting.and.cleaning.a.database
-  name: Segmenting and cleaning a database
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Segmenting and cleaning a database
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_77
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: market.research...
-  name: Market research...
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Market research...
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 'main.features:'
-  name: 'Main features:'
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - 'Text:Main features:'
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
-  name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_81
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-    alternates:
-    - className: _arrow_7ldok_184
-  className: _arrow_7ldok_184
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 1
-  name: 1
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:1
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 2
-  name: 2
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:2
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 3
-  name: 3
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:3
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 4
-  name: 4
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:4
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 5
-  name: 5
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:5
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 6
-  name: 6
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:6
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 7
-  name: 7
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:7
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: a
-  name: A
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:A
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: b
-  name: B
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:B
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: c
-  name: C
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:C
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_92
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_93
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_94
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_95
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_96
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_97
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_98
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: d
-  name: D
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:D
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_100
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_101
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_102
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_103
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_104
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_105
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_106
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: _msButton_7ldok_72
-  className: _msButton_7ldok_72
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  - Image:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: about
-  name: About
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:About
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: help
-  name: Help
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Help
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: terms
-  name: Terms
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Terms
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: privacy.policy
-  name: Privacy Policy
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Privacy Policy
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: made.by.talarian
-  name: Made by Talarian
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Made by Talarian
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2 _talarian_7ldok_164
-  className: _root_86xeo_2 _talarian_7ldok_164
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_114
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserDownloadView
-  className: EmbeddedBrowserDownloadView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_115
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerOverlayView
-  className: TopContainerOverlayView
-  isEnabled: true
-  addonName: GPT for Excel Word
 - id: microsoft.visio.data.visualizer
   name: Microsoft Visio Data Visualizer
   controlType: Pane
@@ -1626,7 +670,7 @@ controls:
   className: Chrome_WidgetWin_1
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_117
+- id: control_46
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1653,7 +697,7 @@ controls:
   className: BrowserRootView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_119
+- id: control_48
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1667,7 +711,7 @@ controls:
   className: NonClientView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_120
+- id: control_49
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1681,7 +725,7 @@ controls:
   className: EmbeddedBrowserTabRootView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_121
+- id: control_50
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1711,7 +755,7 @@ controls:
   className: Label
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_123
+- id: control_52
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1773,7 +817,7 @@ controls:
   className: EdgeWindowsCaptionButton
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_127
+- id: control_56
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1787,7 +831,7 @@ controls:
   className: BrowserView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_128
+- id: control_57
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1801,7 +845,7 @@ controls:
   className: MainContainerView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_129
+- id: control_58
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1815,7 +859,7 @@ controls:
   className: TopContainerView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_130
+- id: control_59
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1829,7 +873,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_131
+- id: control_60
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1843,7 +887,7 @@ controls:
   className: SidebarContentsSplitView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_132
+- id: control_61
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1857,7 +901,7 @@ controls:
   className: View
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_133
+- id: control_62
   name: Pane
   controlType: Pane
   hierarchy:
@@ -1897,7 +941,7 @@ controls:
       controlType: Group
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_136
+- id: control_65
   name: Group
   controlType: Group
   hierarchy:
@@ -1912,7 +956,7 @@ controls:
   className: ms-Fabric root-98
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_137
+- id: control_66
   name: Group
   controlType: Group
   hierarchy:
@@ -1956,7 +1000,7 @@ controls:
       controlType: Text
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_140
+- id: control_69
   name: MenuBar
   controlType: MenuBar
   hierarchy:
@@ -1987,7 +1031,7 @@ controls:
   className: ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-107
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_142
+- id: control_71
   name: Group
   controlType: Group
   hierarchy:
@@ -2080,7 +1124,7 @@ controls:
   className: ms-Button ms-Button--default root-141
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_148
+- id: control_77
   name: Group
   controlType: Group
   hierarchy:
@@ -2095,7 +1139,7 @@ controls:
   className: dvCatalogViewLeftPane
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_149
+- id: control_78
   name: Group
   controlType: Group
   hierarchy:
@@ -2110,7 +1154,7 @@ controls:
   className: ms-Nav ms-font-s ms-fontColor-neutralPrimary root-148
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_150
+- id: control_79
   name: List
   controlType: List
   hierarchy:
@@ -2305,7 +1349,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_162
+- id: control_91
   name: Separator
   controlType: Separator
   hierarchy:
@@ -2356,7 +1400,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_165
+- id: control_94
   name: Group
   controlType: Group
   hierarchy:
@@ -2389,7 +1433,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_167
+- id: control_96
   name: Separator
   controlType: Separator
   hierarchy:
@@ -2437,7 +1481,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_170
+- id: control_99
   name: Group
   controlType: Group
   hierarchy:
@@ -2470,7 +1514,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_172
+- id: control_101
   name: Separator
   controlType: Separator
   hierarchy:
@@ -2518,7 +1562,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_175
+- id: control_104
   name: Group
   controlType: Group
   hierarchy:
@@ -2551,7 +1595,7 @@ controls:
   className: dvCatalogItemSampleCardPreview2
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_177
+- id: control_106
   name: Separator
   controlType: Separator
   hierarchy:
@@ -2599,7 +1643,7 @@ controls:
   className: ms-Button ms-Button--default root-179
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_180
+- id: control_109
   name: Pane
   controlType: Pane
   hierarchy:
@@ -2613,7 +1657,7 @@ controls:
   className: EmbeddedBrowserDownloadView
   isEnabled: true
   addonName: Microsoft Visio Data Visualizer
-- id: control_181
+- id: control_110
   name: Pane
   controlType: Pane
   hierarchy:
