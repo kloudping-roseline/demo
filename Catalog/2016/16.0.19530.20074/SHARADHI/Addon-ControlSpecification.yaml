@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 29-12-2025 07:49:00
-  scanDate: 2025-12-29 07:49:00 UTC
+  scannedAt: 29-12-2025 11:59:28
+  scanDate: 2025-12-29 11:59:28 UTC
   totalAddons: 4
   toolVersion: scanner-0.6.2
   environment:
@@ -1981,14 +1981,14 @@ addons:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
     isEnabled: true
-- addonName: Spreadsheet AI
-  elementCount: 40
+- addonName: Zebra BI Charts for Office
+  elementCount: 81
   controls:
-  - id: 10.studio
-    name: 10 Studio
+  - id: zebra.bi.charts.for.office
+    name: Zebra BI Charts for Office
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
+    - Pane:Zebra BI Charts for Office
     selectors:
       primary:
         controlType: Pane
@@ -2000,7 +2000,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
+    - Pane:Zebra BI Charts for Office
     selectors:
       primary:
         controlType: Pane
@@ -2008,12 +2008,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: 10.studio.-.web.content
-    name: 10 Studio - Web content
+  - id: zebra.bi.charts.for.office.-.web.content
+    name: Zebra BI Charts for Office - Web content
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2025,8 +2025,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2038,8 +2038,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2051,8 +2051,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2064,8 +2064,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -2079,8 +2079,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2092,8 +2092,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -2107,8 +2107,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -2122,8 +2122,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     - Button:Close
     selectors:
       primary:
@@ -2137,8 +2137,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2150,8 +2150,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2163,8 +2163,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2176,8 +2176,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2189,8 +2189,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2202,8 +2202,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2215,8 +2215,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2225,287 +2225,872 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: 10 Studio
+    name: Zebra BI Charts for Office
     controlType: Document
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_167
-    name: MenuBar
-    controlType: MenuBar
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    selectors:
-      primary:
-        controlType: MenuBar
-      alternates:
-      - className: ms-FocusZone css-158 ms-CommandBar root-155
-    className: ms-FocusZone css-158 ms-CommandBar root-155
-    isEnabled: true
-  - id: sign.in
-    name: Sign In
-    controlType: MenuItem
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - MenuItem:Sign In
-    selectors:
-      primary:
-        controlType: MenuItem
-      alternates:
-      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
-    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
-    isEnabled: true
-  - id: signin
-    name: SignIn
+  - id: sandbox-host
+    name: Group
     controlType: Group
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - MenuItem:Sign In
-    - Group:SignIn
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        automationId: sandbox-host
+        controlType: Group
+      alternates:
+      - className: visual
+    className: visual
+    isEnabled: true
+  - id: chart-chooser-react
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        automationId: chart-chooser-react
+        controlType: Group
+    isEnabled: true
+  - id: control_169
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
     selectors:
       primary:
         controlType: Group
       alternates:
-      - className: root-33
-    className: root-33
+      - className: flex flex-col items-center border-r-gray relative
+    className: flex flex-col items-center border-r-gray relative
     isEnabled: true
-  - id: dear.valued.users,
-    name: Dear Valued Users,
+  - id: zebrabi
+    name: zebrabi
+    controlType: Image
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Image:zebrabi
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: logo-img
+    className: logo-img
+    isEnabled: true
+  - id: zebra.bi.charts
+    name: Zebra BI Charts
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:Dear Valued Users,
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Zebra BI Charts
     selectors:
       primary:
         controlType: Text
+      alternates:
+      - className: logo-text
+    className: logo-text
     isEnabled: true
-  - id: you.need.to.sign.in.to.use.ai-powered.features.of.the.tool.
-    name: You need to Sign In to use AI-powered features of the tool.
+  - id: control_172
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: dimension-item cursor-pointer rounded-sm mx-3.5 relative active-card
+    className: dimension-item cursor-pointer rounded-sm mx-3.5 relative active-card
+    isEnabled: true
+  - id: time
+    name: Time
+    controlType: Image
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Image:Time
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: h-5 p
+    className: h-5 p
+    isEnabled: true
+  - id: time
+    name: Time
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:You need to Sign In to use AI-powered features of the tool.
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Time
     selectors:
       primary:
         controlType: Text
+      alternates:
+      - className: text-xs whitespace-nowrap
+    className: text-xs whitespace-nowrap
     isEnabled: true
-  - id: please.write.to.contact@matrixlead.com.or.chat.at.go.10studio.tech_chat.for.any.enquiries.and.remarks.
-    name: Please write to contact@matrixlead.com or chat at go.10studio.tech/chat for any enquiries and remarks.
+  - id: control_175
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    isEnabled: true
+  - id: structure
+    name: Structure
+    controlType: Image
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Image:Structure
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: h-5 p
+    className: h-5 p
+    isEnabled: true
+  - id: structure
+    name: Structure
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:Please write to contact@matrixlead.com or chat at go.10studio.tech/chat for any enquiries and remarks.
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Structure
     selectors:
       primary:
         controlType: Text
+      alternates:
+      - className: text-xs whitespace-nowrap
+    className: text-xs whitespace-nowrap
     isEnabled: true
-  - id: thank.you.
-    name: Thank you.
+  - id: control_178
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    isEnabled: true
+  - id: variance
+    name: Variance
+    controlType: Image
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Image:Variance
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: h-5 p
+    className: h-5 p
+    isEnabled: true
+  - id: variance
+    name: Variance
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:Thank you.
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Variance
     selectors:
       primary:
         controlType: Text
+      alternates:
+      - className: text-xs whitespace-nowrap
+    className: text-xs whitespace-nowrap
     isEnabled: true
-  - id: go.to.sign.in
-    name: Go to Sign In
+  - id: control_181
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    isEnabled: true
+  - id: contribution
+    name: Contribution
+    controlType: Image
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Image:Contribution
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: h-5 p
+    className: h-5 p
+    isEnabled: true
+  - id: contribution
+    name: Contribution
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Contribution
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-xs whitespace-nowrap
+    className: text-xs whitespace-nowrap
+    isEnabled: true
+  - id: control_184
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    className: 'dimension-item cursor-pointer rounded-sm mx-3.5 relative '
+    isEnabled: true
+  - id: part-whole
+    name: Part-Whole
+    controlType: Image
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Image:Part-Whole
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: h-5 p
+    className: h-5 p
+    isEnabled: true
+  - id: part-whole
+    name: Part-Whole
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Part-Whole
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-xs whitespace-nowrap
+    className: text-xs whitespace-nowrap
+    isEnabled: true
+  - id: help
+    name: Help
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Go to Sign In
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Button:Help
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Button ms-Button--primary root-193
-    className: ms-Button ms-Button--primary root-193
+      - className: help-link
+    className: help-link
     isEnabled: true
-  - id: close
-    name: Close
-    controlType: Button
+  - id: control_188
+    name: Group
+    controlType: Group
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Close
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
     selectors:
       primary:
-        controlType: Button
+        controlType: Group
       alternates:
-      - className: ms-Button ms-Button--default root-197
-    className: ms-Button ms-Button--default root-197
+      - className: chart-chooser-main p-6 w-full
+    className: chart-chooser-main p-6 w-full
     isEnabled: true
-  - id: control_176
-    name: List
-    controlType: List
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    selectors:
-      primary:
-        controlType: List
-    isEnabled: true
-  - id: new.chat
-    name: New chat
-    controlType: Button
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:New chat
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: fui-Button rlr4yyk ai-chat-custom-button
-    className: fui-Button rlr4yyk ai-chat-custom-button
-    isEnabled: true
-  - id: menu2
-    name: Examples
-    controlType: Button
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Examples
-    selectors:
-      primary:
-        automationId: menu2
-        controlType: Button
-      alternates:
-      - className: fui-Button rlr4yyk fui-MenuButton custom-button
-    className: fui-Button rlr4yyk fui-MenuButton custom-button
-    isEnabled: true
-  - id: examples
-    name: Examples
+  - id: zebra.bi.charts.for.office.enables.you.to.visualize.your.data.with.many.different.chart.types..select.the.desired.chart.type.from.the.list.of.icons..your.chart.will.be.auto-generated.and.you.will.be.able.to.change.the.data.
+    name: Zebra BI Charts for Office enables you to visualize your data with many different chart types. Select the desired chart type from the list of icons. Your chart will be auto-generated and you will be able to change the data.
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Examples
-    - Text:Examples
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Zebra BI Charts for Office enables you to visualize your data with many different chart types. Select the desired chart type from the list of icons. Your chart will be auto-generated and you will be able to change the data.
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: menu4
-    name: Import
-    controlType: Button
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Import
-    selectors:
-      primary:
-        automationId: menu4
-        controlType: Button
-      alternates:
-      - className: fui-Button rlr4yyk fui-MenuButton custom-button
-    className: fui-Button rlr4yyk fui-MenuButton custom-button
-    isEnabled: true
-  - id: import
-    name: Import
+  - id: single.series
+    name: Single Series
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Import
-    - Text:Import
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Single Series
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-xs font-semibold mb-2.5
+    className: text-xs font-semibold mb-2.5
+    isEnabled: true
+  - id: control_191
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: column.chart
+    name: Column chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Column chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: control_193
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: line.chart
+    name: Line chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Line chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: control_195
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: area.chart
+    name: Area chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Area chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: control_197
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: horizontal.pin.chart
+    name: Horizontal pin chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Horizontal pin chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: multiple.series
+    name: Multiple Series
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Multiple Series
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-xs font-semibold mb-2.5
+    className: text-xs font-semibold mb-2.5
+    isEnabled: true
+  - id: control_200
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: comparison.column.chart
+    name: Comparison column chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Comparison column chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: control_202
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: comparison.line.chart
+    name: Comparison line chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Comparison line chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: small.multiples
+    name: Small multiples
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Small multiples
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-xs font-semibold mb-2.5
+    className: text-xs font-semibold mb-2.5
+    isEnabled: true
+  - id: control_205
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    className: 'chart-option-card flex flex-col rounded-sm w-28 border p-2 mr-4 mt-4 cursor-pointer '
+    isEnabled: true
+  - id: small.multiples.column.chart
+    name: Small multiples column chart
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Small multiples column chart
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: font-semibold
+    className: font-semibold
+    isEnabled: true
+  - id: welcome-header
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        automationId: welcome-header
+        controlType: Group
+      alternates:
+      - className: ms-welcome__header ms-bgColor-neutralLighter error-message
+    className: ms-welcome__header ms-bgColor-neutralLighter error-message
+    isEnabled: true
+  - id: loading.data….your.chart.will.be.displayed.in.a.few.seconds.
+    name: Loading data… Your chart will be displayed in a few seconds.
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:Loading data… Your chart will be displayed in a few seconds.
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_182
-    name: ComboBox
-    controlType: ComboBox
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    selectors:
-      primary:
-        controlType: ComboBox
-      alternates:
-      - className: fui-Dropdown__button ___10ah4o2 f122n59 f1c21dwh fre7gi1 f1358rze fqdk4by f1rvrf73 f1ewtqcl f19n0e5 f14mj54c f1k6fduh f13qh94s fk6fouc f12nh0o2 f1869bpl f1o700av fly5x3f ftqa4ok fkhj508 figsok6 f1i3iumi f1sbtcvk f11gcy0p fdghr9 f1e60jzv
-    className: fui-Dropdown__button ___10ah4o2 f122n59 f1c21dwh fre7gi1 f1358rze fqdk4by f1rvrf73 f1ewtqcl f19n0e5 f14mj54c f1k6fduh f13qh94s fk6fouc f12nh0o2 f1869bpl f1o700av fly5x3f ftqa4ok fkhj508 figsok6 f1i3iumi f1sbtcvk f11gcy0p fdghr9 f1e60jzv
-    isEnabled: true
-  - id: gpt-4.1
-    name: GPT-4.1
+  - id: >2
+
+    name: >2
+
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:GPT-4.1
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - >
+      Text:
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: textfield4
-    name: '- Ask any questions about Excel and spreadsheets- Let the Chat Copilot analyze your data and formulas- Try out over 20 task examples and make the most of AIClick on the top right of the tool and Sign In to get started!'
-    controlType: Edit
+  - id: if.it.does.not,.please.try.to.
+    name: 'If it does not, please try to '
+    controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Edit:- Ask any questions about Excel and spreadsheets- Let the Chat Copilot analyze your data and formulas- Try out over 20 task examples and make the most of AIClick on the top right of the tool and Sign In to get started!
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - 'Text:If it does not, please try to '
     selectors:
       primary:
-        automationId: TextField4
-        controlType: Edit
-      alternates:
-      - className: ms-TextField-field ms-TextField--unresizable field-174
-    className: ms-TextField-field ms-TextField--unresizable field-174
+        controlType: Text
     isEnabled: true
-  - id: send.the.request
-    name: Send the request
-    controlType: Button
+  - id: reload.your.add-in.
+    name: reload your add-in.
+    controlType: Hyperlink
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Send the request
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Hyperlink:reload your add-in.
     selectors:
       primary:
-        controlType: Button
+        controlType: Hyperlink
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: for.more.help.on.data.preparation.visit.our.
+    name: 'For more help on data preparation visit our '
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - 'Text:For more help on data preparation visit our '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: error-msg-kb-url
+    name: knowledge base
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Hyperlink:knowledge base
+    selectors:
+      primary:
+        automationId: error-msg-kb-url
+        controlType: Hyperlink
+    isEnabled: true
+  - id: .or.download.a.
+    name: ' or download a '
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - 'Text: or download a '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: error-msg-template-url
+    name: template file
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Hyperlink:template file
+    selectors:
+      primary:
+        automationId: error-msg-template-url
+        controlType: Hyperlink
+    isEnabled: true
+  - id: .
+    name: .
+    controlType: Text
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    - Text:.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_218
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
       alternates:
-      - className: ms-Button ms-Button--icon is-disabled root-183
-    className: ms-Button ms-Button--icon is-disabled root-183
-    isEnabled: false
-  - id: control_186
+      - className: global-toolbar hidden
+    className: global-toolbar hidden
+    isEnabled: true
+  - id: control_219
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: activator
+    className: activator
+    isEnabled: true
+  - id: control_220
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: icon chevron-icon-base64
+    className: icon chevron-icon-base64
+    isEnabled: true
+  - id: control_221
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: logo zebra-logo-icon-base64
+    className: logo zebra-logo-icon-base64
+    isEnabled: true
+  - id: control_222
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: group-icon group-toolbar-button
+    className: group-icon group-toolbar-button
+    isEnabled: true
+  - id: control_223
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: group-icon group-toolbar-button
+    className: group-icon group-toolbar-button
+    isEnabled: true
+  - id: control_224
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: group-icon group-toolbar-button
+    className: group-icon group-toolbar-button
+    isEnabled: true
+  - id: control_225
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: group-icon group-toolbar-button
+    className: group-icon group-toolbar-button
+    isEnabled: true
+  - id: control_226
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
+    - Document:Zebra BI Charts for Office
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: group-icon group-toolbar-button
+    className: group-icon group-toolbar-button
+    isEnabled: true
+  - id: control_227
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -2513,12 +3098,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_187
+  - id: control_228
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Zebra BI Charts for Office
+    - Pane:Zebra BI Charts for Office - Web content
     selectors:
       primary:
         controlType: Pane
