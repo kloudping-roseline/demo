@@ -4,8 +4,8 @@ year: 2016
 Agent: VENKADAKRISHNAN
 baseLibraryVersion: 
 scan:
-  scannedAt: 29-12-2025 03:40:09 PM
-  scanDate: 2025-12-29 15:40:09 UTC
+  scannedAt: 30-12-2025 02:03:56 AM
+  scanDate: 2025-12-30 02:03:56 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -29,7 +29,7 @@ controls:
     alternates:
     - className: Chrome_WidgetWin_1
   className: Chrome_WidgetWin_1
-  isEnabled: false
+  isEnabled: true
   addonName: GPT for Excel Word
 - id: control_2
   name: Pane
@@ -1933,8 +1933,8 @@ controls:
     primary:
       controlType: DataItem
     alternates:
-    - className: v42-cal-day v42-cal-today
-  className: v42-cal-day v42-cal-today
+    - className: v42-cal-day
+  className: v42-cal-day
   isEnabled: true
   addonName: Mini Calendar and Date Picker
 - id: 30
@@ -1949,8 +1949,8 @@ controls:
     primary:
       controlType: DataItem
     alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
+    - className: v42-cal-day v42-cal-today
+  className: v42-cal-day v42-cal-today
   isEnabled: true
   addonName: Mini Calendar and Date Picker
 - id: 31
