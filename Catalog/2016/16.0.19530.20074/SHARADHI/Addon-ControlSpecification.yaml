@@ -4,9 +4,9 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 30-12-2025 10:14:41
-  scanDate: 2025-12-30 10:14:41 UTC
-  totalAddons: 1
+  scannedAt: 30-12-2025 10:18:00
+  scanDate: 2025-12-30 10:18:00 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -133,3 +133,41 @@ addons:
       primary:
         controlType: Hyperlink
     isEnabled: true
+- addonName: Spreadsheet AI
+  elementCount: 3
+  controls:
+  - id: 10.studio
+    name: 10 Studio
+    controlType: Pane
+    hierarchy:
+    - Pane:10 Studio
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: sign.in
+    name: Sign In
+    controlType: MenuItem
+    hierarchy:
+    - Pane:10 Studio
+    - MenuItem:Sign In
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
+    isEnabled: true
+  - id: unnamed
+    name: Unnamed
+    controlType: Unknown
+    hierarchy:
+    - Pane:10 Studio
+    - Unknown:Unnamed
+    selectors:
+      primary:
+        controlType: Unknown
+    isEnabled: false
