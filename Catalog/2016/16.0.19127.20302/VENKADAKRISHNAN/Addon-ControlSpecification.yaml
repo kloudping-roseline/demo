@@ -4,8 +4,8 @@ year: 2016
 Agent: VENKADAKRISHNAN
 baseLibraryVersion: 
 scan:
-  scannedAt: 30-12-2025 03:32:47 AM
-  scanDate: 2025-12-30 03:32:47 UTC
+  scannedAt: 30-12-2025 06:14:01 AM
+  scanDate: 2025-12-30 06:14:01 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -15,2250 +15,2093 @@ scan:
 addons:
 - addonName: GPT for Excel Word
   elementCount: 71
+  controls:
+  - id: gpt.for.excel
+    name: GPT for Excel
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: false
+  - id: control_2
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: gpt.for.excel.-.web.content
+    name: GPT for Excel - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_4
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_5
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_6
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_8
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_12
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_13
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_14
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_15
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_16
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_17
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_18
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: GPT for Excel
+    controlType: Document
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_20
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: root
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        automationId: root
+        controlType: Group
+    isEnabled: true
+  - id: control_22
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: welcome.to.gpt.for.excel
+    name: Welcome to GPT for Excel
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Welcome to GPT for Excel
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: _msButton_7ldok_72
+    className: _msButton_7ldok_72
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    - Image:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: 'typical.use-cases:'
+    name: 'Typical use-cases:'
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - 'Text:Typical use-cases:'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_27
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: copywriting.for.seo,.e-commerce
+    name: Copywriting for SEO, e-commerce
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Copywriting for SEO, e-commerce
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_29
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: translation
+    name: Translation
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Translation
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_31
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: segmenting.and.cleaning.a.database
+    name: Segmenting and cleaning a database
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Segmenting and cleaning a database
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_33
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: market.research...
+    name: Market research...
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Market research...
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 'main.features:'
+    name: 'Main features:'
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - 'Text:Main features:'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
+    name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_37
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: _arrow_7ldok_184
+    className: _arrow_7ldok_184
+    isEnabled: true
+  - id: 1
+    name: 1
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:1
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 2
+    name: 2
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:2
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 3
+    name: 3
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:3
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 4
+    name: 4
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:4
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 5
+    name: 5
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:5
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 6
+    name: 6
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:6
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 7
+    name: 7
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:7
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: a
+    name: A
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:A
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: b
+    name: B
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:B
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: c
+    name: C
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:C
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_48
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_49
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_50
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_51
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_52
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_53
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_54
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: d
+    name: D
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:D
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_56
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_57
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_58
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_59
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_60
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_61
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_62
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: _msButton_7ldok_72
+    className: _msButton_7ldok_72
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    - Image:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: about
+    name: About
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:About
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Help
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: terms
+    name: Terms
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Terms
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: privacy.policy
+    name: Privacy Policy
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Privacy Policy
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: made.by.talarian
+    name: Made by Talarian
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Made by Talarian
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2 _talarian_7ldok_164
+    className: _root_86xeo_2 _talarian_7ldok_164
+    isEnabled: true
+  - id: control_70
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_71
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
 - addonName: Mini Calendar and Date Picker
   elementCount: 87
-controls:
-- id: gpt.for.excel
-  name: GPT for Excel
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Chrome_WidgetWin_1
-  className: Chrome_WidgetWin_1
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_2
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Intermediate D3D Window
-  className: Intermediate D3D Window
-  isEnabled: false
-  addonName: GPT for Excel Word
-- id: gpt.for.excel.-.web.content
-  name: GPT for Excel - Web content
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserRootView
-  className: BrowserRootView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_4
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: NonClientView
-  className: NonClientView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_5
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserTabRootView
-  className: EmbeddedBrowserTabRootView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_6
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserFrameView
-  className: EmbeddedBrowserFrameView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_9
-  name: Untitled
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Text:Untitled
-  selectors:
-    primary:
-      automationId: view_9
-      controlType: Text
-    alternates:
-    - className: Label
-  className: Label
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_8
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserCaptionButtonContainer
-  className: BrowserCaptionButtonContainer
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_2
-  name: Minimize
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Button:Minimize
-  selectors:
-    primary:
-      automationId: view_2
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_3
-  name: Maximize
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Button:Maximize
-  selectors:
-    primary:
-      automationId: view_3
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: view_7
-  name: Close
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Button:Close
-  selectors:
-    primary:
-      automationId: view_7
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_12
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserView
-  className: BrowserView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_13
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: MainContainerView
-  className: MainContainerView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_14
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerView
-  className: TopContainerView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_15
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_16
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_17
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_18
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: rootwebarea
-  name: GPT for Excel
-  controlType: Document
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      automationId: RootWebArea
-      controlType: Document
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_20
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Group
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: root
-  name: Group
-  controlType: Group
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      automationId: root
-      controlType: Group
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_22
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: welcome.to.gpt.for.excel
-  name: Welcome to GPT for Excel
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Welcome to GPT for Excel
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: _msButton_7ldok_72
-  className: _msButton_7ldok_72
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  - Image:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 'typical.use-cases:'
-  name: 'Typical use-cases:'
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - 'Text:Typical use-cases:'
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_27
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: copywriting.for.seo,.e-commerce
-  name: Copywriting for SEO, e-commerce
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Copywriting for SEO, e-commerce
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_29
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: translation
-  name: Translation
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Translation
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_31
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: segmenting.and.cleaning.a.database
-  name: Segmenting and cleaning a database
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Segmenting and cleaning a database
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_33
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: market.research...
-  name: Market research...
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Market research...
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 'main.features:'
-  name: 'Main features:'
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - 'Text:Main features:'
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
-  name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_37
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-    alternates:
-    - className: _arrow_7ldok_184
-  className: _arrow_7ldok_184
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 1
-  name: 1
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:1
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 2
-  name: 2
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:2
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 3
-  name: 3
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:3
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 4
-  name: 4
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:4
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 5
-  name: 5
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:5
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 6
-  name: 6
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:6
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: 7
-  name: 7
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:7
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: a
-  name: A
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:A
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: b
-  name: B
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:B
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: c
-  name: C
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:C
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_48
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_49
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_50
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_51
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_52
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_53
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_54
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: d
-  name: D
-  controlType: Text
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Text:D
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_56
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_57
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_58
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_59
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_60
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_61
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_62
-  name: Image
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Button
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Button
-    alternates:
-    - className: _msButton_7ldok_72
-  className: _msButton_7ldok_72
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: ms-symbollockup
-  name: MS-SymbolLockup
-  controlType: Image
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Button:MS-SymbolLockup
-  - Image:MS-SymbolLockup
-  selectors:
-    primary:
-      controlType: Image
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: about
-  name: About
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:About
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: help
-  name: Help
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Help
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: terms
-  name: Terms
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Terms
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: privacy.policy
-  name: Privacy Policy
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Privacy Policy
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2
-  className: _root_86xeo_2
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: made.by.talarian
-  name: Made by Talarian
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  - Document:GPT for Excel
-  - Hyperlink:Made by Talarian
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: _root_86xeo_2 _talarian_7ldok_164
-  className: _root_86xeo_2 _talarian_7ldok_164
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_70
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserDownloadView
-  className: EmbeddedBrowserDownloadView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: control_71
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:GPT for Excel
-  - Pane:GPT for Excel - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerOverlayView
-  className: TopContainerOverlayView
-  isEnabled: true
-  addonName: GPT for Excel Word
-- id: mini.calendar.date.picker
-  name: Mini Calendar Date Picker
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Chrome_WidgetWin_1
-  className: Chrome_WidgetWin_1
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_73
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: Intermediate D3D Window
-  className: Intermediate D3D Window
-  isEnabled: false
-  addonName: Mini Calendar and Date Picker
-- id: mini.calendar.date.picker.-.web.content
-  name: Mini Calendar Date Picker - Web content
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserRootView
-  className: BrowserRootView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_75
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: NonClientView
-  className: NonClientView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_76
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserTabRootView
-  className: EmbeddedBrowserTabRootView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_77
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserFrameView
-  className: EmbeddedBrowserFrameView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: view_9
-  name: Untitled
-  controlType: Text
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Text:Untitled
-  selectors:
-    primary:
-      automationId: view_9
-      controlType: Text
-    alternates:
-    - className: Label
-  className: Label
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_79
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserCaptionButtonContainer
-  className: BrowserCaptionButtonContainer
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: view_2
-  name: Minimize
-  controlType: Button
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Button:Minimize
-  selectors:
-    primary:
-      automationId: view_2
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: view_3
-  name: Maximize
-  controlType: Button
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Button:Maximize
-  selectors:
-    primary:
-      automationId: view_3
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: view_7
-  name: Close
-  controlType: Button
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Button:Close
-  selectors:
-    primary:
-      automationId: view_7
-      controlType: Button
-    alternates:
-    - className: EdgeWindowsCaptionButton
-  className: EdgeWindowsCaptionButton
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_83
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: BrowserView
-  className: BrowserView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_84
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: MainContainerView
-  className: MainContainerView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_85
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerView
-  className: TopContainerView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_86
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_87
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: SidebarContentsSplitView
-  className: SidebarContentsSplitView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_88
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_89
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: View
-  className: View
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: rootwebarea
-  name: Mini Calendar Date Picker
-  controlType: Document
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      automationId: RootWebArea
-      controlType: Document
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: <
-  name: <
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:<
-  selectors:
-    primary:
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: december.2025
-  name: December 2025
-  controlType: Text
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Text:December 2025
-  selectors:
-    primary:
-      controlType: Text
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: '>'
-  name: '>'
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:>
-  selectors:
-    primary:
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_94
-  name: Table
-  controlType: Table
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: Table
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_95
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: su
-  name: Su
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Su
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: mo
-  name: Mo
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Mo
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: tu
-  name: Tu
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Tu
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: we
-  name: We
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:We
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: th
-  name: Th
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Th
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: fr
-  name: Fr
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Fr
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: sa
-  name: Sa
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Sa
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_103
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 30
-  name: 30
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:30
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend v42-cal-other-month
-  className: v42-cal-day v42-cal-wkend v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 1
-  name: 1
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:1
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 2
-  name: 2
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:2
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 3
-  name: 3
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:3
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 4
-  name: 4
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:4
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 5
-  name: 5
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:5
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 6
-  name: 6
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:6
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_111
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 7
-  name: 7
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:7
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 8
-  name: 8
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:8
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 9
-  name: 9
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:9
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 10
-  name: 10
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:10
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 11
-  name: 11
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:11
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 12
-  name: 12
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:12
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 13
-  name: 13
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:13
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_119
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 14
-  name: 14
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:14
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 15
-  name: 15
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:15
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 16
-  name: 16
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:16
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 17
-  name: 17
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:17
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 18
-  name: 18
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:18
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 19
-  name: 19
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:19
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 20
-  name: 20
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:20
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_127
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 21
-  name: 21
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:21
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 22
-  name: 22
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:22
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 23
-  name: 23
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:23
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 24
-  name: 24
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:24
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 25
-  name: 25
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:25
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 26
-  name: 26
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:26
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 27
-  name: 27
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:27
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_135
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 28
-  name: 28
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:28
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend
-  className: v42-cal-day v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 29
-  name: 29
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:29
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 30
-  name: 30
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:30
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-today
-  className: v42-cal-day v42-cal-today
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 31
-  name: 31
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:31
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day
-  className: v42-cal-day
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 1
-  name: 1
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:1
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-other-month
-  className: v42-cal-day v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 2
-  name: 2
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:2
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-other-month
-  className: v42-cal-day v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 3
-  name: 3
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:3
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend v42-cal-other-month
-  className: v42-cal-day v42-cal-wkend v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_143
-  name: DataItem
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  selectors:
-    primary:
-      controlType: DataItem
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 4
-  name: 4
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:4
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-wkend v42-cal-other-month
-  className: v42-cal-day v42-cal-wkend v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 5
-  name: 5
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:5
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-other-month
-  className: v42-cal-day v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 6
-  name: 6
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:6
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-other-month
-  className: v42-cal-day v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: 7
-  name: 7
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:7
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-day v42-cal-other-month
-  className: v42-cal-day v42-cal-other-month
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: insert.current.time
-  name: Insert Current Time
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Insert Current Time
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-time
-  className: v42-cal-time
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: show_hide.settings
-  name: Show/Hide Settings
-  controlType: DataItem
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - DataItem:Show/Hide Settings
-  selectors:
-    primary:
-      controlType: DataItem
-    alternates:
-    - className: v42-cal-edit v42-cal-wkend
-  className: v42-cal-edit v42-cal-wkend
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: toggle.calendar.size
-  name: Toggle Calendar Size
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Toggle Calendar Size
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: button icon size
-  className: button icon size
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: change.calendar.theme
-  name: Change Calendar Theme
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Change Calendar Theme
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: button icon theme
-  className: button icon theme
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: change.calendar.system
-  name: Change Calendar System
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Change Calendar System
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: button icon calsys
-  className: button icon calsys
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: toggle.week.numbers
-  name: Toggle Week Numbers
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Toggle Week Numbers
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: button icon weeknum
-  className: button icon weeknum
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: highlight.range.of.dates
-  name: Highlight Range of Dates
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Highlight Range of Dates
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: button icon event
-  className: button icon event
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: hide.settings
-  name: Hide Settings
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Hide Settings
-  selectors:
-    primary:
-      controlType: Hyperlink
-    alternates:
-    - className: button icon cancel
-  className: button icon cancel
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: status.of.built-in.date.picker
-  name: Status of Built-In Date Picker
-  controlType: Hyperlink
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  - Document:Mini Calendar Date Picker
-  - Hyperlink:Status of Built-In Date Picker
-  selectors:
-    primary:
-      controlType: Hyperlink
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_157
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: EmbeddedBrowserDownloadView
-  className: EmbeddedBrowserDownloadView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
-- id: control_158
-  name: Pane
-  controlType: Pane
-  hierarchy:
-  - Pane:Mini Calendar Date Picker
-  - Pane:Mini Calendar Date Picker - Web content
-  selectors:
-    primary:
-      controlType: Pane
-    alternates:
-    - className: TopContainerOverlayView
-  className: TopContainerOverlayView
-  isEnabled: true
-  addonName: Mini Calendar and Date Picker
+  controls:
+  - id: mini.calendar.date.picker
+    name: Mini Calendar Date Picker
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_73
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: mini.calendar.date.picker.-.web.content
+    name: Mini Calendar Date Picker - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_75
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_76
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_77
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_79
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_83
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_84
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_85
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_86
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_87
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_88
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_89
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Mini Calendar Date Picker
+    controlType: Document
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: <
+    name: <
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:<
+    selectors:
+      primary:
+        controlType: Hyperlink
+    isEnabled: true
+  - id: december.2025
+    name: December 2025
+    controlType: Text
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Text:December 2025
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: '>'
+    name: '>'
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:>
+    selectors:
+      primary:
+        controlType: Hyperlink
+    isEnabled: true
+  - id: control_94
+    name: Table
+    controlType: Table
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: Table
+    isEnabled: true
+  - id: control_95
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: su
+    name: Su
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Su
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: mo
+    name: Mo
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Mo
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: tu
+    name: Tu
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Tu
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: we
+    name: We
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:We
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: th
+    name: Th
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Th
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: fr
+    name: Fr
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Fr
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: sa
+    name: Sa
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Sa
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: control_103
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: 30
+    name: 30
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:30
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend v42-cal-other-month
+    className: v42-cal-day v42-cal-wkend v42-cal-other-month
+    isEnabled: true
+  - id: 1
+    name: 1
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:1
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 2
+    name: 2
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:2
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 3
+    name: 3
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:3
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 4
+    name: 4
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:4
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 5
+    name: 5
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:5
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 6
+    name: 6
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:6
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: control_111
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: 7
+    name: 7
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:7
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: 8
+    name: 8
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:8
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 9
+    name: 9
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:9
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 10
+    name: 10
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:10
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 11
+    name: 11
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:11
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 12
+    name: 12
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:12
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 13
+    name: 13
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:13
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: control_119
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: 14
+    name: 14
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:14
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: 15
+    name: 15
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:15
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 16
+    name: 16
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:16
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 17
+    name: 17
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:17
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 18
+    name: 18
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:18
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 19
+    name: 19
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:19
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 20
+    name: 20
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:20
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: control_127
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: 21
+    name: 21
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:21
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: 22
+    name: 22
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:22
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 23
+    name: 23
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:23
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 24
+    name: 24
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:24
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 25
+    name: 25
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:25
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 26
+    name: 26
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:26
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 27
+    name: 27
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:27
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: control_135
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: 28
+    name: 28
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:28
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend
+    className: v42-cal-day v42-cal-wkend
+    isEnabled: true
+  - id: 29
+    name: 29
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:29
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 30
+    name: 30
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:30
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-today
+    className: v42-cal-day v42-cal-today
+    isEnabled: true
+  - id: 31
+    name: 31
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:31
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day
+    className: v42-cal-day
+    isEnabled: true
+  - id: 1
+    name: 1
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:1
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-other-month
+    className: v42-cal-day v42-cal-other-month
+    isEnabled: true
+  - id: 2
+    name: 2
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:2
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-other-month
+    className: v42-cal-day v42-cal-other-month
+    isEnabled: true
+  - id: 3
+    name: 3
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:3
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend v42-cal-other-month
+    className: v42-cal-day v42-cal-wkend v42-cal-other-month
+    isEnabled: true
+  - id: control_143
+    name: DataItem
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    selectors:
+      primary:
+        controlType: DataItem
+    isEnabled: true
+  - id: 4
+    name: 4
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:4
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-wkend v42-cal-other-month
+    className: v42-cal-day v42-cal-wkend v42-cal-other-month
+    isEnabled: true
+  - id: 5
+    name: 5
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:5
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-other-month
+    className: v42-cal-day v42-cal-other-month
+    isEnabled: true
+  - id: 6
+    name: 6
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:6
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-other-month
+    className: v42-cal-day v42-cal-other-month
+    isEnabled: true
+  - id: 7
+    name: 7
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:7
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-day v42-cal-other-month
+    className: v42-cal-day v42-cal-other-month
+    isEnabled: true
+  - id: insert.current.time
+    name: Insert Current Time
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Insert Current Time
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-time
+    className: v42-cal-time
+    isEnabled: true
+  - id: show_hide.settings
+    name: Show/Hide Settings
+    controlType: DataItem
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - DataItem:Show/Hide Settings
+    selectors:
+      primary:
+        controlType: DataItem
+      alternates:
+      - className: v42-cal-edit v42-cal-wkend
+    className: v42-cal-edit v42-cal-wkend
+    isEnabled: true
+  - id: toggle.calendar.size
+    name: Toggle Calendar Size
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Toggle Calendar Size
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon size
+    className: button icon size
+    isEnabled: true
+  - id: change.calendar.theme
+    name: Change Calendar Theme
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Change Calendar Theme
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon theme
+    className: button icon theme
+    isEnabled: true
+  - id: change.calendar.system
+    name: Change Calendar System
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Change Calendar System
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon calsys
+    className: button icon calsys
+    isEnabled: true
+  - id: toggle.week.numbers
+    name: Toggle Week Numbers
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Toggle Week Numbers
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon weeknum
+    className: button icon weeknum
+    isEnabled: true
+  - id: highlight.range.of.dates
+    name: Highlight Range of Dates
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Highlight Range of Dates
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon event
+    className: button icon event
+    isEnabled: true
+  - id: hide.settings
+    name: Hide Settings
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Hide Settings
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon cancel
+    className: button icon cancel
+    isEnabled: true
+  - id: status.of.built-in.date.picker
+    name: Status of Built-In Date Picker
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    - Document:Mini Calendar Date Picker
+    - Hyperlink:Status of Built-In Date Picker
+    selectors:
+      primary:
+        controlType: Hyperlink
+    isEnabled: true
+  - id: control_157
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_158
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Pane:Mini Calendar Date Picker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
