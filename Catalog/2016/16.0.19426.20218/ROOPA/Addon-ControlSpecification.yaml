@@ -4,23 +4,23 @@ year: 2016
 Agent: ROOPA
 baseLibraryVersion: 
 scan:
-  scannedAt: 30-12-2025 11:19:13
-  scanDate: 2025-12-30 11:19:13 UTC
-  totalAddons: 3
+  scannedAt: 30-12-2025 12:31:08
+  scanDate: 2025-12-30 12:31:08 UTC
+  totalAddons: 4
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-IN
 addons:
-- addonName: ChatGPT for Excel
-  elementCount: 62
+- addonName: Attendance Tracker
+  elementCount: 46
   controls:
-  - id: twistlycells.-.chatgpt.for.excel
-    name: TwistlyCells - ChatGPT for Excel
+  - id: ms.attendance.tracker
+    name: MS Attendance Tracker
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
     selectors:
       primary:
         controlType: Pane
@@ -40,12 +40,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: twistlycells.-.chatgpt.for.excel.-.web.content
-    name: TwistlyCells - ChatGPT for Excel - Web content
+  - id: ms.attendance.tracker.-.web.content
+    name: MS Attendance Tracker - Web content
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -57,8 +57,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -70,8 +70,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -83,8 +83,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -96,8 +96,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -111,8 +111,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -124,8 +124,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -139,8 +139,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -154,8 +154,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     - Button:Close
     selectors:
       primary:
@@ -169,8 +169,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -182,8 +182,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -195,8 +195,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -208,8 +208,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -221,8 +221,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -234,8 +234,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -247,8 +247,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -257,564 +257,330 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: TwistlyCells - ChatGPT for Excel
+    name: MS Attendance Tracker
     controlType: Document
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_20
+  - id: gotohomelabel
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
     selectors:
       primary:
+        automationId: goToHomeLabel
         controlType: Group
       alternates:
-      - className: ms-font-m ms-Fabric
-    className: ms-font-m ms-Fabric
+      - className: pointerCursor
+    className: pointerCursor
     isEnabled: true
-  - id: container
-    name: Group
-    controlType: Group
+  - id: skip
+    name: Skip
+    controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Text:Skip
     selectors:
       primary:
-        automationId: container
-        controlType: Group
+        controlType: Text
     isEnabled: true
-  - id: control_22
-    name: Group
-    controlType: Group
+  - id: welcomeheadline
+    name: ATTENDANCE TRACKER
+    controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Text:ATTENDANCE TRACKER
     selectors:
       primary:
-        controlType: Group
+        automationId: welcomeHeadline
+        controlType: Text
       alternates:
-      - className: MuiGrid-root css-rfnosa
-    className: MuiGrid-root css-rfnosa
+      - className: ms-font-xl ms-fontWeight-semibold ms-fontColor-gray100
+    className: ms-font-xl ms-fontWeight-semibold ms-fontColor-gray100
     isEnabled: true
-  - id: hometab
-    name: HomeTab
-    controlType: Group
+  - id: simple..fast..accurate.
+    name: SIMPLE. FAST. ACCURATE.
+    controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:HomeTab
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Text:SIMPLE. FAST. ACCURATE.
     selectors:
       primary:
-        controlType: Group
+        controlType: Text
       alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
+      - className: ms-font-xs ms-fontWeight-light ms-fontColor-gray100
+    className: ms-font-xs ms-fontWeight-light ms-fontColor-gray100
     isEnabled: true
   - id: control_24
-    name: Image
-    controlType: Image
+    name: Separator
+    controlType: Separator
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:HomeTab
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
     selectors:
       primary:
-        controlType: Image
+        controlType: Separator
     isEnabled: true
-  - id: plans
-    name: Plans
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Plans
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
-    isEnabled: true
-  - id: control_26
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Plans
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: ai.newbie
-    name: AI Newbie
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:AI Newbie
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
-    isEnabled: true
-  - id: control_28
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:AI Newbie
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: more
-    name: More
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:More
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root css-yu6giy
-    className: MuiGrid-root css-yu6giy
-    isEnabled: true
-  - id: layer_1
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:More
-    selectors:
-      primary:
-        automationId: Layer_1
-        controlType: Image
-    isEnabled: true
-  - id: control_31
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root css-d7gr33
-    className: MuiGrid-root css-d7gr33
-    isEnabled: true
-  - id: let.ai.magic.begin!
-    name: Let AI Magic Begin!
+  - id: easy.tool.to.get.calender.month.dates.from.the.start.of.month.to.the.end.
+    name: 'easy tool to get calender month dates from the start of month to the end '
     controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Let AI Magic Begin!
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'Text:easy tool to get calender month dates from the start of month to the end '
     selectors:
       primary:
         controlType: Text
-      alternates:
-      - className: MuiTypography-root MuiTypography-h5 css-yd1gs9
-    className: MuiTypography-root MuiTypography-h5 css-yd1gs9
     isEnabled: true
-  - id: how.to.use
-    name: How to use
-    controlType: Button
+  - id: on.a.click..
+    name: 'on a click. '
+    controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:How to use
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'Text:on a click. '
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
+        controlType: Text
     isEnabled: true
-  - id: settings
-    name: Settings
-    controlType: Button
+  - id: .
+    name: ' '
+    controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:Settings
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'Text: '
     selectors:
       primary:
-        controlType: Button
+        controlType: Text
+    isEnabled: true
+  - id: fill.thosands.of.users.attendance.using.
+    name: 'fill thosands of users attendance using '
+    controlType: Text
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'Text:fill thosands of users attendance using '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: automatic.setup..
+    name: 'automatic setup. '
+    controlType: Text
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'Text:automatic setup. '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: selection.based.minor.amendments.for.
+    name: 'selection based minor amendments for '
+    controlType: Text
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'Text:selection based minor amendments for '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: precise.marking..
+    name: precise marking .
+    controlType: Text
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Text:precise marking .
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_32
+    name: List
+    controlType: List
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    selectors:
+      primary:
+        controlType: List
       alternates:
-      - className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
+      - className: carousel-indicators
+    className: carousel-indicators
+    isEnabled: true
+  - id: control_33
+    name: ListItem
+    controlType: ListItem
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    selectors:
+      primary:
+        controlType: ListItem
+    isEnabled: true
+  - id: control_34
+    name: ListItem
+    controlType: ListItem
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: active
+    className: active
     isEnabled: true
   - id: control_35
-    name: Image
-    controlType: Image
+    name: ListItem
+    controlType: ListItem
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:Settings
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
     selectors:
       primary:
-        controlType: Image
+        controlType: ListItem
     isEnabled: true
-  - id: ai.function.status
-    name: AI function status
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:AI function status
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_37
-    name: Button
+  - id: previous
+    name: Previous
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Button:Previous
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1oefeqc
-    className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1oefeqc
+      - className: carousel-control-prev
+    className: carousel-control-prev
     isEnabled: true
-  - id: 0
-    name: 0
-    controlType: Text
+  - id: next
+    name: Next
+    controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Button:Next
     selectors:
       primary:
-        controlType: Text
+        controlType: Button
+      alternates:
+      - className: carousel-control-next
+    className: carousel-control-next
     isEnabled: true
-  - id: completed
-    name: Completed
-    controlType: Text
+  - id: control_38
+    name: List
+    controlType: List
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Completed
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
     selectors:
       primary:
-        controlType: Text
+        controlType: List
     isEnabled: true
-  - id: 0
-    name: 0
-    controlType: Text
+  - id: fill.header:.fill.selected.month.dates.in.header.
+    name: 'FILL HEADER: fill selected month dates in header.'
+    controlType: ListItem
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'ListItem:FILL HEADER: fill selected month dates in header.'
     selectors:
       primary:
-        controlType: Text
+        controlType: ListItem
     isEnabled: true
-  - id: running
-    name: Running
-    controlType: Text
+  - id: auto-fill:.autofill.entire.month.data.for.users.entered.
+    name: 'AUTO-FILL: autofill entire month data for users entered.'
+    controlType: ListItem
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Running
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'ListItem:AUTO-FILL: autofill entire month data for users entered.'
     selectors:
       primary:
-        controlType: Text
+        controlType: ListItem
     isEnabled: true
-  - id: 0
-    name: 0
-    controlType: Text
+  - id: precise.marking:.select.a.range.and.choose.p_pl_ab_late.etc.
+    name: 'PRECISE MARKING: select a range and choose P/PL/AB/LATE etc.'
+    controlType: ListItem
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - 'ListItem:PRECISE MARKING: select a range and choose P/PL/AB/LATE etc.'
     selectors:
       primary:
-        controlType: Text
+        controlType: ListItem
     isEnabled: true
-  - id: errors
-    name: Errors
-    controlType: Text
+  - id: control_42
+    name: Separator
+    controlType: Separator
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Errors
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
     selectors:
       primary:
-        controlType: Text
+        controlType: Separator
+    isEnabled: true
+  - id: btngetstarted
+    name: Get Started!
+    controlType: Button
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    - Document:MS Attendance Tracker
+    - Button:Get Started!
+    selectors:
+      primary:
+        automationId: btnGetStarted
+        controlType: Button
+      alternates:
+      - className: Button Button--primary
+    className: Button Button--primary
     isEnabled: true
   - id: control_44
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiBox-root css-1nhxrgq
-    className: MuiBox-root css-1nhxrgq
-    isEnabled: true
-  - id: control_45
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: select.range.to.replace.all.ai.formulas.with.it's.value.in.selected.range
-    name: Select range to replace all AI formulas with it's value in selected range
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Select range to replace all AI formulas with it's value in selected range
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    isEnabled: true
-  - id: replace
-    name: Replace
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Select range to replace all AI formulas with it's value in selected range
-    - Text:Replace
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_48
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiBox-root css-1nhxrgq
-    className: MuiBox-root css-1nhxrgq
-    isEnabled: true
-  - id: activate.to.temporarily.suspend.ai.functions.and.resume.at.your.convenience.
-    name: Activate to temporarily suspend AI functions and resume at your convenience.
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Activate to temporarily suspend AI functions and resume at your convenience.
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    isEnabled: true
-  - id: pause
-    name: Pause
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Activate to temporarily suspend AI functions and resume at your convenience.
-    - Text:Pause
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_51
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiBox-root css-1nhxrgq
-    className: MuiBox-root css-1nhxrgq
-    isEnabled: true
-  - id: control_52
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: re-run.all.ai.error.fields
-    name: Re-run all AI error fields
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Re-run all AI error fields
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    isEnabled: true
-  - id: retry
-    name: Retry
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Re-run all AI error fields
-    - Text:Retry
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: tips
-    name: Tips
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Tips
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: ai.ask
-    name: AI.ASK
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:AI.ASK
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: the.ai.ask.function.lets.you.use.ai.directly.in.your.spreadsheet..simply.type.a.question.or.prompt,.and.ai.ask.will.provide.a.helpful.response..use.it.to.write.text,.summarize,.analyze.data,.and.more—like.having.a.smart.helper.in.excel!
-    name: The AI.ASK function lets you use AI directly in your spreadsheet. Simply type a question or prompt, and AI.ASK will provide a helpful response. Use it to write text, summarize, analyze data, and more—like having a smart helper in Excel!
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:The AI.ASK function lets you use AI directly in your spreadsheet. Simply type a question or prompt, and AI.ASK will provide a helpful response. Use it to write text, summarize, analyze data, and more—like having a smart helper in Excel!
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: free.trial
-    name: Free Trial
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Free Trial
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 300.ai.calls
-    name: 300 AI Calls
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:300 AI Calls
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: see.plans
-    name: SEE PLANS
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:SEE PLANS
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth css-89ua91
-    className: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth css-89ua91
-    isEnabled: true
-  - id: control_61
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
     selectors:
       primary:
         controlType: Pane
@@ -822,12 +588,1078 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+  - id: control_45
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:MS Attendance Tracker
+    - Pane:MS Attendance Tracker - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Autopilot
+  elementCount: 44
+  controls:
+  - id: openai.chatgpt.in.microsoft.office
+    name: OpenAI ChatGPT in Microsoft Office
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_47
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: openai.chatgpt.in.microsoft.office.-.web.content
+    name: OpenAI ChatGPT in Microsoft Office - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_49
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_50
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_51
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_53
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_57
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_58
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_59
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_60
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_61
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
   - id: control_62
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_63
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: OpenAI ChatGPT in Microsoft Office
+    controlType: Document
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: header
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: header
+        controlType: Group
+      alternates:
+      - className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
+    className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
+    isEnabled: true
+  - id: logosmall
+    name: To get missing image descriptions, open the context menu.
+    controlType: Image
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Image:To get missing image descriptions, open the context menu.
+    selectors:
+      primary:
+        automationId: logosmall
+        controlType: Image
+      alternates:
+      - className: autopilot-icon
+    className: autopilot-icon
+    isEnabled: true
+  - id: free.edition
+    name: Free edition
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Free edition
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 
+    name: 
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: upgradeflag
+    name: UPGRADE
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:UPGRADE
+    selectors:
+      primary:
+        automationId: upgradeflag
+        controlType: Hyperlink
+      alternates:
+      - className: updatetag
+    className: updatetag
+    isEnabled: true
+  - id: favoriteslink
+    name: 
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:
+    selectors:
+      primary:
+        automationId: favoritesLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: settingslink
+    name: 
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:
+    selectors:
+      primary:
+        automationId: settingsLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: mainsection
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: mainsection
+        controlType: Group
+      alternates:
+      - className: ms-welcome__main
+    className: ms-welcome__main
+    isEnabled: true
+  - id: welcomefree
+    name: chatgpt web add-in
+    controlType: Image
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Image:chatgpt web add-in
+    selectors:
+      primary:
+        automationId: welcomefree
+        controlType: Image
+    isEnabled: true
+  - id: welcome.to.autopilot!
+    name: Welcome to Autopilot!
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Welcome to Autopilot!
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
+    name: Here are a few examples of what you can do with Autopilot
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Here are a few examples of what you can do with Autopilot
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: talk.to.it.like.chatgpt
+    name: Talk to it like ChatGPT
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Talk to it like ChatGPT
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: use.content.in.your.document
+    name: Use content in your document
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Use content in your document
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: how.to.use.favorites
+    name: How to use Favorites
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:How to use Favorites
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: connect.other.ai.models
+    name: Connect other AI models
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Connect other AI models
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: autopilot.pro.advanced.features
+    name: Autopilot PRO advanced features
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Autopilot PRO advanced features
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links-pro
+    className: gw-active-links-pro
+    isEnabled: true
+  - id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
+    name: 'To get started, type a prompt into the box below and hit the '
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text:To get started, type a prompt into the box below and hit the '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: enter
+    name: ENTER
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:ENTER
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .key.
+    name: ' key.'
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text: key.'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: divcommandarea
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: divcommandarea
+        controlType: Group
+    isEnabled: true
+  - id: commandprompt
+    name: Ask anything...
+    controlType: Edit
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Edit:Ask anything...
+    selectors:
+      primary:
+        automationId: commandprompt
+        controlType: Edit
+    isEnabled: true
+  - id: run
+    name:  
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button: 
+    selectors:
+      primary:
+        automationId: run
+        controlType: Button
+      alternates:
+      - className: btn-send
+    className: btn-send
+    isEnabled: true
+  - id: finetune
+    name: 
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button:
+    selectors:
+      primary:
+        automationId: finetune
+        controlType: Button
+      alternates:
+      - className: btn-finetune
+    className: btn-finetune
+    isEnabled: true
+  - id: control_88
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_89
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Budget Creator for Financial Edge NXT
+  elementCount: 35
+  controls:
+  - id: blackbaud
+    name: Blackbaud
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_91
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: blackbaud.-.web.content
+    name: Blackbaud - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_93
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_94
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_95
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_97
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_101
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_102
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_103
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_104
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_105
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_106
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_107
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Blackbaud
+    controlType: Document
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_109
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: blackbaud
+    name: Blackbaud
+    controlType: Image
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Image:Blackbaud
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: fin-banner-logo
+    className: fin-banner-logo
+    isEnabled: true
+  - id: sign.out
+    name: Sign out
+    controlType: Button
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Button:Sign out
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: sky-btn sky-btn-link-inline
+    className: sky-btn sky-btn-link-inline
+    isEnabled: true
+  - id: open.help
+    name: Open Help
+    controlType: Button
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Button:Open Help
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: sky-btn sky-btn-icon-borderless
+    className: sky-btn sky-btn-icon-borderless
+    isEnabled: true
+  - id: welcome!
+    name: Welcome!
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Text:Welcome!
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: sky-font-heading-1
+    className: sky-font-heading-1
+    isEnabled: true
+  - id: use.this.add-in.to.create.and.submit.new.budgets.for.financial.edge.nxt.
+    name: Use this add-in to create and submit new budgets for Financial Edge NXT.
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Text:Use this add-in to create and submit new budgets for Financial Edge NXT.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 'note:'
+    name: 'Note:'
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - 'Text:Note:'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id:  you.must.sign.in.(and.sign.out).of.the.add-in.with.your.blackbaud.id.credentials.
+    name:  You must sign in (and sign out) of the add-in with your Blackbaud ID credentials.
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Text: You must sign in (and sign out) of the add-in with your Blackbaud ID credentials.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: sign.in
+    name: Sign In
+    controlType: Button
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Button:Sign In
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: sky-btn sky-btn-primary sky-margin-stacked-xl
+    className: sky-btn sky-btn-primary sky-margin-stacked-xl
+    isEnabled: true
+  - id: control_118
+    name: Separator
+    controlType: Separator
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    selectors:
+      primary:
+        controlType: Separator
+      alternates:
+      - className: sky-border-light
+    className: sky-border-light
+    isEnabled: true
+  - id: don't.have.financial.edge?.learn.more.about.blackbaud's.premier.financial.accounting.solution.for.nonprofits.by.visiting.
+    name: "Don't have Financial Edge? Learn more about Blackbaud's premier financial accounting solution for nonprofits by visiting "
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - "Text:Don't have Financial Edge? Learn more about Blackbaud's premier financial accounting solution for nonprofits by visiting "
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: https:__www.blackbaud.com_nonprofit-accounting-software_financial-edge-nxt
+    name: https://www.blackbaud.com/nonprofit-accounting-software/financial-edge-nxt
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Hyperlink:https://www.blackbaud.com/nonprofit-accounting-software/financial-edge-nxt
+    selectors:
+      primary:
+        controlType: Hyperlink
+    isEnabled: true
+  - id: .
+    name: .
+    controlType: Text
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    - Text:.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: sky-id-gen__1767097796988__1
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    - Document:Blackbaud
+    selectors:
+      primary:
+        automationId: sky-id-gen__1767097796988__1
+        controlType: Group
+      alternates:
+      - className: sky-live-announcer-element sky-screen-reader-only
+    className: sky-live-announcer-element sky-screen-reader-only
+    isEnabled: true
+  - id: control_123
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_124
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Blackbaud
+    - Pane:Blackbaud - Web content
     selectors:
       primary:
         controlType: Pane
@@ -850,7 +1682,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_64
+  - id: control_126
     name: Pane
     controlType: Pane
     hierarchy:
@@ -875,7 +1707,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_66
+  - id: control_128
     name: Pane
     controlType: Pane
     hierarchy:
@@ -888,7 +1720,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_67
+  - id: control_129
     name: Pane
     controlType: Pane
     hierarchy:
@@ -901,7 +1733,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_68
+  - id: control_130
     name: Pane
     controlType: Pane
     hierarchy:
@@ -929,7 +1761,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_70
+  - id: control_132
     name: Pane
     controlType: Pane
     hierarchy:
@@ -987,7 +1819,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_74
+  - id: control_136
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1000,7 +1832,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_75
+  - id: control_137
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1013,7 +1845,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_76
+  - id: control_138
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1026,7 +1858,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_77
+  - id: control_139
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1039,7 +1871,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_78
+  - id: control_140
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1052,7 +1884,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_79
+  - id: control_141
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1065,7 +1897,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_80
+  - id: control_142
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1090,7 +1922,7 @@ addons:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_82
+  - id: control_144
     name: Group
     controlType: Group
     hierarchy:
@@ -1101,7 +1933,7 @@ addons:
       primary:
         controlType: Group
     isEnabled: true
-  - id: control_83
+  - id: control_145
     name: Group
     controlType: Group
     hierarchy:
@@ -1346,7 +2178,7 @@ addons:
       - className: text-decoration-none fw-bolder text-black
     className: text-decoration-none fw-bolder text-black
     isEnabled: true
-  - id: control_101
+  - id: control_163
     name: Group
     controlType: Group
     hierarchy:
@@ -1357,7 +2189,7 @@ addons:
       primary:
         controlType: Group
     isEnabled: true
-  - id: control_102
+  - id: control_164
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1370,1218 +2202,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_103
+  - id: control_165
     name: Pane
     controlType: Pane
     hierarchy:
     - Pane:Formula Bot
     - Pane:Formula Bot - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
-    isEnabled: true
-- addonName: Mini Calendar and Date Picker
-  elementCount: 87
-  controls:
-  - id: mini.calendar.date.picker
-    name: Mini Calendar Date Picker
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Chrome_WidgetWin_1
-    className: Chrome_WidgetWin_1
-    isEnabled: true
-  - id: control_105
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Intermediate D3D Window
-    className: Intermediate D3D Window
-    isEnabled: false
-  - id: mini.calendar.date.picker.-.web.content
-    name: Mini Calendar Date Picker - Web content
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_107
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_108
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
-  - id: control_109
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserFrameView
-    className: EmbeddedBrowserFrameView
-    isEnabled: true
-  - id: view_9
-    name: Untitled
-    controlType: Text
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Text:Untitled
-    selectors:
-      primary:
-        automationId: view_9
-        controlType: Text
-      alternates:
-      - className: Label
-    className: Label
-    isEnabled: true
-  - id: control_111
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserCaptionButtonContainer
-    className: BrowserCaptionButtonContainer
-    isEnabled: true
-  - id: view_2
-    name: Minimize
-    controlType: Button
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Button:Minimize
-    selectors:
-      primary:
-        automationId: view_2
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_3
-    name: Maximize
-    controlType: Button
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Button:Maximize
-    selectors:
-      primary:
-        automationId: view_3
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_7
-    name: Close
-    controlType: Button
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Button:Close
-    selectors:
-      primary:
-        automationId: view_7
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: control_115
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserView
-    className: BrowserView
-    isEnabled: true
-  - id: control_116
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: MainContainerView
-    className: MainContainerView
-    isEnabled: true
-  - id: control_117
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerView
-    className: TopContainerView
-    isEnabled: true
-  - id: control_118
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_119
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_120
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: control_121
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: rootwebarea
-    name: Mini Calendar Date Picker
-    controlType: Document
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: <
-    name: <
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:<
-    selectors:
-      primary:
-        controlType: Hyperlink
-    isEnabled: true
-  - id: december.2025
-    name: December 2025
-    controlType: Text
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Text:December 2025
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: '>'
-    name: '>'
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:>
-    selectors:
-      primary:
-        controlType: Hyperlink
-    isEnabled: true
-  - id: control_126
-    name: Table
-    controlType: Table
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: Table
-    isEnabled: true
-  - id: control_127
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: su
-    name: Su
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Su
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: mo
-    name: Mo
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Mo
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: tu
-    name: Tu
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Tu
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: we
-    name: We
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:We
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: th
-    name: Th
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Th
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: fr
-    name: Fr
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Fr
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: sa
-    name: Sa
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Sa
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: control_135
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: 30
-    name: 30
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:30
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend v42-cal-other-month
-    className: v42-cal-day v42-cal-wkend v42-cal-other-month
-    isEnabled: true
-  - id: 1
-    name: 1
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:1
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 2
-    name: 2
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:2
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 3
-    name: 3
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:3
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 4
-    name: 4
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:4
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 5
-    name: 5
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:5
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 6
-    name: 6
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:6
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: control_143
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: 7
-    name: 7
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:7
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: 8
-    name: 8
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:8
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 9
-    name: 9
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:9
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 10
-    name: 10
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:10
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 11
-    name: 11
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:11
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 12
-    name: 12
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:12
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 13
-    name: 13
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:13
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: control_151
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: 14
-    name: 14
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:14
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: 15
-    name: 15
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:15
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 16
-    name: 16
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:16
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 17
-    name: 17
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:17
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 18
-    name: 18
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:18
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 19
-    name: 19
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:19
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 20
-    name: 20
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:20
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: control_159
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: 21
-    name: 21
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:21
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: 22
-    name: 22
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:22
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 23
-    name: 23
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:23
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 24
-    name: 24
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:24
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 25
-    name: 25
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:25
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 26
-    name: 26
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:26
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 27
-    name: 27
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:27
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: control_167
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: 28
-    name: 28
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:28
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend
-    className: v42-cal-day v42-cal-wkend
-    isEnabled: true
-  - id: 29
-    name: 29
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:29
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 30
-    name: 30
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:30
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-today
-    className: v42-cal-day v42-cal-today
-    isEnabled: true
-  - id: 31
-    name: 31
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:31
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day
-    className: v42-cal-day
-    isEnabled: true
-  - id: 1
-    name: 1
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:1
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-other-month
-    className: v42-cal-day v42-cal-other-month
-    isEnabled: true
-  - id: 2
-    name: 2
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:2
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-other-month
-    className: v42-cal-day v42-cal-other-month
-    isEnabled: true
-  - id: 3
-    name: 3
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:3
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend v42-cal-other-month
-    className: v42-cal-day v42-cal-wkend v42-cal-other-month
-    isEnabled: true
-  - id: control_175
-    name: DataItem
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    selectors:
-      primary:
-        controlType: DataItem
-    isEnabled: true
-  - id: 4
-    name: 4
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:4
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-wkend v42-cal-other-month
-    className: v42-cal-day v42-cal-wkend v42-cal-other-month
-    isEnabled: true
-  - id: 5
-    name: 5
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:5
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-other-month
-    className: v42-cal-day v42-cal-other-month
-    isEnabled: true
-  - id: 6
-    name: 6
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:6
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-other-month
-    className: v42-cal-day v42-cal-other-month
-    isEnabled: true
-  - id: 7
-    name: 7
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:7
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-day v42-cal-other-month
-    className: v42-cal-day v42-cal-other-month
-    isEnabled: true
-  - id: insert.current.time
-    name: Insert Current Time
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Insert Current Time
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-time
-    className: v42-cal-time
-    isEnabled: true
-  - id: show_hide.settings
-    name: Show/Hide Settings
-    controlType: DataItem
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - DataItem:Show/Hide Settings
-    selectors:
-      primary:
-        controlType: DataItem
-      alternates:
-      - className: v42-cal-edit v42-cal-wkend
-    className: v42-cal-edit v42-cal-wkend
-    isEnabled: true
-  - id: toggle.calendar.size
-    name: Toggle Calendar Size
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Toggle Calendar Size
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: button icon size
-    className: button icon size
-    isEnabled: true
-  - id: change.calendar.theme
-    name: Change Calendar Theme
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Change Calendar Theme
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: button icon theme
-    className: button icon theme
-    isEnabled: true
-  - id: change.calendar.system
-    name: Change Calendar System
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Change Calendar System
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: button icon calsys
-    className: button icon calsys
-    isEnabled: true
-  - id: toggle.week.numbers
-    name: Toggle Week Numbers
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Toggle Week Numbers
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: button icon weeknum
-    className: button icon weeknum
-    isEnabled: true
-  - id: highlight.range.of.dates
-    name: Highlight Range of Dates
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Highlight Range of Dates
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: button icon event
-    className: button icon event
-    isEnabled: true
-  - id: hide.settings
-    name: Hide Settings
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Hide Settings
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: button icon cancel
-    className: button icon cancel
-    isEnabled: true
-  - id: status.of.built-in.date.picker
-    name: Status of Built-In Date Picker
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    - Document:Mini Calendar Date Picker
-    - Hyperlink:Status of Built-In Date Picker
-    selectors:
-      primary:
-        controlType: Hyperlink
-    isEnabled: true
-  - id: control_189
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
-    isEnabled: true
-  - id: control_190
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:Mini Calendar Date Picker
-    - Pane:Mini Calendar Date Picker - Web content
     selectors:
       primary:
         controlType: Pane
