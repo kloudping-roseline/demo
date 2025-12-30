@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 30-12-2025 10:11:10
-  scanDate: 2025-12-30 10:11:10 UTC
+  scannedAt: 30-12-2025 10:14:41
+  scanDate: 2025-12-30 10:14:41 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,14 +13,14 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Formula Bot | AI in Spreadsheets
-  elementCount: 5
+- addonName: Mini Calendar and Date Picker
+  elementCount: 10
   controls:
-  - id: formula.bot
-    name: Formula Bot
+  - id: mini.calendar.date.picker
+    name: Mini Calendar Date Picker
     controlType: Pane
     hierarchy:
-    - Pane:Formula Bot
+    - Pane:Mini Calendar Date Picker
     selectors:
       primary:
         controlType: Pane
@@ -28,56 +28,108 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: login
-    name: Login
-    controlType: Button
-    hierarchy:
-    - Pane:Formula Bot
-    - Button:Login
-    selectors:
-      primary:
-        automationId: login
-        controlType: Button
-      alternates:
-      - className: btn btn-submit btn-lg rounded-pill w-100
-    className: btn btn-submit btn-lg rounded-pill w-100
-    isEnabled: true
-  - id: sign.up.for.free!
-    name: Sign up for free!
+  - id: <
+    name: <
     controlType: Hyperlink
     hierarchy:
-    - Pane:Formula Bot
-    - Hyperlink:Sign up for free!
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:<
+    selectors:
+      primary:
+        controlType: Hyperlink
+    isEnabled: false
+  - id: unnamed
+    name: Unnamed
+    controlType: Unknown
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Unknown:Unnamed
+    selectors:
+      primary:
+        controlType: Unknown
+    isEnabled: false
+  - id: toggle.calendar.size
+    name: Toggle Calendar Size
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Toggle Calendar Size
     selectors:
       primary:
         controlType: Hyperlink
       alternates:
-      - className: text-decoration-none fw-bolder text-purple
-    className: text-decoration-none fw-bolder text-purple
+      - className: button icon size
+    className: button icon size
     isEnabled: true
-  - id: set.password.here.
-    name: Set password here.
+  - id: change.calendar.theme
+    name: Change Calendar Theme
     controlType: Hyperlink
     hierarchy:
-    - Pane:Formula Bot
-    - Hyperlink:Set password here.
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Change Calendar Theme
     selectors:
       primary:
         controlType: Hyperlink
       alternates:
-      - className: text-decoration-none fw-bolder text-purple
-    className: text-decoration-none fw-bolder text-purple
+      - className: button icon theme
+    className: button icon theme
     isEnabled: true
-  - id: hello@formulabot.com
-    name: hello@formulabot.com
+  - id: change.calendar.system
+    name: Change Calendar System
     controlType: Hyperlink
     hierarchy:
-    - Pane:Formula Bot
-    - Hyperlink:hello@formulabot.com
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Change Calendar System
     selectors:
       primary:
         controlType: Hyperlink
       alternates:
-      - className: text-decoration-none fw-bolder text-black
-    className: text-decoration-none fw-bolder text-black
+      - className: button icon calsys
+    className: button icon calsys
+    isEnabled: true
+  - id: toggle.week.numbers
+    name: Toggle Week Numbers
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Toggle Week Numbers
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon weeknum
+    className: button icon weeknum
+    isEnabled: true
+  - id: highlight.range.of.dates
+    name: Highlight Range of Dates
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Highlight Range of Dates
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: button icon event
+    className: button icon event
+    isEnabled: true
+  - id: hide.settings
+    name: Hide Settings
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Hide Settings
+    selectors:
+      primary:
+        controlType: Hyperlink
+    isEnabled: false
+  - id: status.of.built-in.date.picker
+    name: Status of Built-In Date Picker
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Mini Calendar Date Picker
+    - Hyperlink:Status of Built-In Date Picker
+    selectors:
+      primary:
+        controlType: Hyperlink
     isEnabled: true
