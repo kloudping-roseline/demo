@@ -1,0 +1,2034 @@
+application: Excel
+appVersion: 16.0.19426.20218
+year: 2016
+Agent: LAPTOP-KPTVM09
+baseLibraryVersion: null
+scan:
+  scannedAt: 2026-01-01T22:55:06.3365053+05:30
+  toolVersion: null
+  environment:
+    osBuild: 26200.7462
+    dpi: 96
+    locale: en-IN
+controls:
+  - Id: ribbon.home.paste
+    Name: Paste
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Paste
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Paste
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Paste
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 20, y: 82, w: 42, h: 77 }
+  - Id: ribbon.home.paste
+    Name: Paste
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Paste
+    Selectors:
+      Primary:
+        AutomationId: Paste
+        ControlType: Button
+      Alternates:
+        - Name: Paste
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Paste
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 20, y: 82, w: 42, h: 38 }
+  - Id: ribbon.home.cut
+    Name: Cut
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Cut
+    Selectors:
+      Primary:
+        AutomationId: Cut
+        ControlType: Button
+      Alternates:
+        - Name: Cut
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Cut
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 63, y: 82, w: 24, h: 24 }
+  - Id: ribbon.home.conditionalformattingmenu
+    Name: Conditional Formatting
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Conditional Formatting
+    Selectors:
+      Primary:
+        AutomationId: ConditionalFormattingMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Conditional Formatting
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Conditional Formatting
+    Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUITWMenuContainer
+        ControlType: Menu
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Highlight Cells Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Top/Bottom Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Data Bars
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Color Scales
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Icon Sets
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: New Rule...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Clear Rules
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Manage Rules...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 723, y: 82, w: 74, h: 77 }
+  - Id: ribbon.home.formatastablegallery
+    Name: Format as Table
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Format as Table
+    Selectors:
+      Primary:
+        AutomationId: FormatAsTableGallery
+        ControlType: MenuItem
+      Alternates:
+        - Name: Format as Table
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Format as Table
+    Children:
+      - Name: Format as Table
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: Light
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: White, Table Style Light 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Orange, Table Style Light 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pink, Table Style Light 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 7
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Table Style Light 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Light 9
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Light 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Green, Table Style Light 11
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Turquoise, Table Style Light 12
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Plum, Table Style Light 13
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green, Table Style Light 14
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Table Style Light 15
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 16
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Orange, Table Style Light 17
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 18
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Turquoise, Table Style Light 19
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pink, Table Style Light 20
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Light Green, Table Style Light 21
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: White, Table Style Medium 1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Dark Teal, Table Style Medium 2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange, Table Style Medium 3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 799, y: 82, w: 57, h: 77 }
+  - Id: ribbon.home.cellstylesgallery
+    Name: Cell Styles
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Cell Styles
+    Selectors:
+      Primary:
+        AutomationId: CellStylesGallery
+        ControlType: MenuItem
+      Alternates:
+        - Name: Cell Styles
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Cell Styles
+    Children:
+      - Name: Cell Styles
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: Good, Bad and Neutral
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Normal
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bad
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Good
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Data and Model
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 858, y: 82, w: 46, h: 69 }
+  - Id: ribbon.home.insert
+    Name: Insert
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Insert
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Insert
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Insert
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 920, y: 82, w: 86, h: 24 }
+  - Id: ribbon.home.cellsinsertsmart
+    Name: Insert Cells
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Insert Cells
+    Selectors:
+      Primary:
+        AutomationId: CellsInsertSmart
+        ControlType: Button
+      Alternates:
+        - Name: Insert Cells
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Insert Cells
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 920, y: 82, w: 62, h: 24 }
+  - Id: ribbon.home.insertcellstmenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: InsertCellstMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NUIPane
+        ControlType: Pane
+      - Name: Ribbon
+        AutomationId: null
+        ClassName: NetUInetpane
+        ControlType: Pane
+      - Name: Type to search and use the up and down arrow keys to navigate
+        AutomationId: TellMeControlAnchor
+        ClassName: NetUISearchBoxAnchor
+        ControlType: MenuItem
+      - Name: Microsoft search
+        AutomationId: TellMeTextBoxAutomationId
+        ClassName: NetUISearchBoxTextbox
+        ControlType: Edit
+      - Name: Ribbon Tabs
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Tab
+      - Name: Lower Ribbon
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: Home
+        AutomationId: null
+        ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Styles
+        AutomationId: null
+        ClassName: NetUIChunk
+        ControlType: Group
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 982, y: 82, w: 24, h: 24 }
+  - Id: ribbon.home.autosum
+    Name: AutoSum
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:AutoSum
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: AutoSum
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/AutoSum
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1029, y: 82, w: 48, h: 24 }
+  - Id: ribbon.home.autosum
+    Name: Sum
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Sum
+    Selectors:
+      Primary:
+        AutomationId: AutoSum
+        ControlType: Button
+      Alternates:
+        - Name: Sum
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Sum
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1029, y: 82, w: 24, h: 24 }
+  - Id: ribbon.home.autosummenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: AutoSumMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1053, y: 82, w: 24, h: 24 }
+  - Id: ribbon.home.sortfiltermenu
+    Name: Sort & Filter
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Sort & Filter
+    Selectors:
+      Primary:
+        AutomationId: SortFilterMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Sort & Filter
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Sort & Filter
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1078, y: 82, w: 42, h: 77 }
+  - Id: ribbon.home.selectmenuexcel
+    Name: Find & Select
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Find & Select
+    Selectors:
+      Primary:
+        AutomationId: SelectMenuExcel
+        ControlType: MenuItem
+      Alternates:
+        - Name: Find & Select
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Find & Select
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1122, y: 82, w: 48, h: 77 }
+  - Id: ribbon.home.officeextensionsshowaddinflyout
+    Name: Add‑ins
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Add‑ins
+    Selectors:
+      Primary:
+        AutomationId: OfficeExtensionsShowAddinFlyout
+        ControlType: Button
+      Alternates:
+        - Name: Add‑ins
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Add‑ins
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1186, y: 82, w: 46, h: 77 }
+  - Id: ribbon.home.chatgpt.for.excel
+    Name: ChatGPT for Excel
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:ChatGPT for Excel
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: ChatGPT for Excel
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/ChatGPT for Excel
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1249, y: 82, w: 50, h: 77 }
+  - Id: ribbon.home.autopilot
+    Name: Autopilot
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Autopilot
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Autopilot
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Autopilot
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1315, y: 82, w: 55, h: 77 }
+  - Id: ribbon.home.gpt.for.excel.word
+    Name: GPT for Excel Word
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:GPT for Excel Word
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: GPT for Excel Word
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/GPT for Excel Word
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1387, y: 82, w: 64, h: 77 }
+  - Id: ribbon.home.font
+    Name: Font
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Font
+    Selectors:
+      Primary:
+        AutomationId: Font
+        ControlType: ComboBox
+      Alternates:
+        - Name: Font
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 127, y: 90, w: 114, h: 24 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 228, y: 90, w: 13, h: 22 }
+  - Id: ribbon.home.fontsize
+    Name: Font Size
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSize
+        ControlType: ComboBox
+      Alternates:
+        - Name: Font Size
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 243, y: 90, w: 50, h: 24 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 280, y: 90, w: 13, h: 22 }
+  - Id: ribbon.home.fontsizeincrease
+    Name: Increase Font Size
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Increase Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSizeIncrease
+        ControlType: Button
+      Alternates:
+        - Name: Increase Font Size
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Increase Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 295, y: 90, w: 24, h: 24 }
+  - Id: ribbon.home.fontsizedecrease
+    Name: Decrease Font Size
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Decrease Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSizeDecrease
+        ControlType: Button
+      Alternates:
+        - Name: Decrease Font Size
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Decrease Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 321, y: 90, w: 24, h: 24 }
+  - Id: ribbon.home.aligntopexcel
+    Name: Top Align
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Top Align
+    Selectors:
+      Primary:
+        AutomationId: AlignTopExcel
+        ControlType: Button
+      Alternates:
+        - Name: Top Align
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Top Align
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 361, y: 90, w: 24, h: 24 }
+  - Id: ribbon.home.alignmiddleexcel
+    Name: Middle Align
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Middle Align
+    Selectors:
+      Primary:
+        AutomationId: AlignMiddleExcel
+        ControlType: Button
+      Alternates:
+        - Name: Middle Align
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Middle Align
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 386, y: 90, w: 24, h: 24 }
+  - Id: ribbon.home.alignbottomexcel
+    Name: Bottom Align
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bottom Align
+    Selectors:
+      Primary:
+        AutomationId: AlignBottomExcel
+        ControlType: Button
+      Alternates:
+        - Name: Bottom Align
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bottom Align
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 412, y: 90, w: 24, h: 24 }
+  - Id: ribbon.home.orientationmenu
+    Name: Orientation
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Orientation
+    Selectors:
+      Primary:
+        AutomationId: OrientationMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Orientation
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Orientation
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 438, y: 90, w: 40, h: 24 }
+  - Id: ribbon.home.wraptext
+    Name: Wrap Text
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Wrap Text
+    Selectors:
+      Primary:
+        AutomationId: WrapText
+        ControlType: Button
+      Alternates:
+        - Name: Wrap Text
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Wrap Text
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 499, y: 90, w: 24, h: 24 }
+  - Id: ribbon.home.numberformatgallery
+    Name: Number Format
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Number Format
+    Selectors:
+      Primary:
+        AutomationId: NumberFormatGallery
+        ControlType: ComboBox
+      Alternates:
+        - Name: Number Format
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Number Format
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 563, y: 90, w: 144, h: 24 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 694, y: 90, w: 13, h: 22 }
+  - Id: ribbon.home.font
+    Name: Font
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Font
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Font
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Font
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 128, y: 92, w: 100, h: 19 }
+  - Id: ribbon.home.font.size
+    Name: Font Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Font Size
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Font Size
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 244, y: 92, w: 36, h: 19 }
+  - Id: ribbon.home.number.format
+    Name: Number Format
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Number Format
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Number Format
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Number Format
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 564, y: 92, w: 130, h: 19 }
+  - Id: ribbon.home.copy
+    Name: Copy
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Copy
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Copy
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Copy
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 63, y: 107, w: 48, h: 24 }
+  - Id: ribbon.home.copy
+    Name: Copy
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Copy
+    Selectors:
+      Primary:
+        AutomationId: Copy
+        ControlType: Button
+      Alternates:
+        - Name: Copy
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Copy
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 63, y: 107, w: 24, h: 24 }
+  - Id: ribbon.home.copysplitbutton_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: CopySplitButton_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 87, y: 107, w: 24, h: 24 }
+  - Id: ribbon.home.delete
+    Name: Delete
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Delete
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Delete
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Delete
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 920, y: 107, w: 93, h: 24 }
+  - Id: ribbon.home.cellsdeletesmart
+    Name: Delete Cells...
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Delete Cells...
+    Selectors:
+      Primary:
+        AutomationId: CellsDeleteSmart
+        ControlType: Button
+      Alternates:
+        - Name: Delete Cells...
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Delete Cells...
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 920, y: 107, w: 69, h: 24 }
+  - Id: ribbon.home.tabledeleterowsandcolumnsmenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: TableDeleteRowsAndColumnsMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 989, y: 107, w: 24, h: 24 }
+  - Id: ribbon.home.fillmenu
+    Name: Fill
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Fill
+    Selectors:
+      Primary:
+        AutomationId: FillMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Fill
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Fill
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1029, y: 107, w: 40, h: 24 }
+  - Id: ribbon.home.pastemenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: PasteMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 20, y: 120, w: 42, h: 38 }
+  - Id: ribbon.home.bold
+    Name: Bold
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bold
+    Selectors:
+      Primary:
+        AutomationId: Bold
+        ControlType: Button
+      Alternates:
+        - Name: Bold
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bold
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 127, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.italic
+    Name: Italic
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Italic
+    Selectors:
+      Primary:
+        AutomationId: Italic
+        ControlType: Button
+      Alternates:
+        - Name: Italic
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Italic
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 153, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.underline
+    Name: Underline
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Underline
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Underline
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Underline
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 178, y: 122, w: 39, h: 24 }
+  - Id: ribbon.home.underline
+    Name: Underline
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Underline
+    Selectors:
+      Primary:
+        AutomationId: Underline
+        ControlType: Button
+      Alternates:
+        - Name: Underline
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Underline
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 178, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.underlinegallery_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: UnderlineGallery_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 202, y: 122, w: 15, h: 24 }
+  - Id: ribbon.home.borders
+    Name: Borders
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Borders
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Borders
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Borders
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 222, y: 122, w: 39, h: 24 }
+  - Id: ribbon.home.borderbottomnotoggle
+    Name: Bottom Border
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bottom Border
+    Selectors:
+      Primary:
+        AutomationId: BorderBottomNoToggle
+        ControlType: Button
+      Alternates:
+        - Name: Bottom Border
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bottom Border
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 222, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.bordersgallery_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: BordersGallery_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 246, y: 122, w: 15, h: 24 }
+  - Id: ribbon.home.cellfillcolorpicker
+    Name: Fill Color
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Fill Color
+    Selectors:
+      Primary:
+        AutomationId: CellFillColorPicker
+        ControlType: SplitButton
+      Alternates:
+        - Name: Fill Color
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Fill Color
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 265, y: 122, w: 39, h: 24 }
+  - Id: ribbon.home.fill.color.rgb(255,.255,.0)
+    Name: Fill Color RGB(255, 255, 0)
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Fill Color RGB(255, 255, 0)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Fill Color RGB(255, 255, 0)
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Fill Color RGB(255, 255, 0)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 265, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.cellfillcolorpicker_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: CellFillColorPicker_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 289, y: 122, w: 15, h: 24 }
+  - Id: ribbon.home.fontcolorpicker
+    Name: Font Color
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Font Color
+    Selectors:
+      Primary:
+        AutomationId: FontColorPicker
+        ControlType: SplitButton
+      Alternates:
+        - Name: Font Color
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Color
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 306, y: 122, w: 39, h: 24 }
+  - Id: ribbon.home.font.color.rgb(255,.0,.0)
+    Name: Font Color RGB(255, 0, 0)
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Font Color RGB(255, 0, 0)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Font Color RGB(255, 0, 0)
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Color RGB(255, 0, 0)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 306, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.fontcolorpicker_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: FontColorPicker_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 330, y: 122, w: 15, h: 24 }
+  - Id: ribbon.home.alignleft
+    Name: Align Left
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Align Left
+    Selectors:
+      Primary:
+        AutomationId: AlignLeft
+        ControlType: Button
+      Alternates:
+        - Name: Align Left
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Align Left
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 361, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.aligncenter
+    Name: Center
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Center
+    Selectors:
+      Primary:
+        AutomationId: AlignCenter
+        ControlType: Button
+      Alternates:
+        - Name: Center
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Center
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 386, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.alignright
+    Name: Align Right
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Align Right
+    Selectors:
+      Primary:
+        AutomationId: AlignRight
+        ControlType: Button
+      Alternates:
+        - Name: Align Right
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Align Right
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 412, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.indentdecreaseexcel
+    Name: Decrease Indent
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Decrease Indent
+    Selectors:
+      Primary:
+        AutomationId: IndentDecreaseExcel
+        ControlType: Button
+      Alternates:
+        - Name: Decrease Indent
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Decrease Indent
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 438, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.indentincreaseexcel
+    Name: Increase Indent
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Increase Indent
+    Selectors:
+      Primary:
+        AutomationId: IndentIncreaseExcel
+        ControlType: Button
+      Alternates:
+        - Name: Increase Indent
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Increase Indent
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 463, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.merge.&.center
+    Name: Merge & Center
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Merge & Center
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Merge & Center
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Merge & Center
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 499, y: 122, w: 48, h: 24 }
+  - Id: ribbon.home.mergecenter
+    Name: Merge & Center
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Merge & Center
+    Selectors:
+      Primary:
+        AutomationId: MergeCenter
+        ControlType: Button
+      Alternates:
+        - Name: Merge & Center
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Merge & Center
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 499, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.mergecentermenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: MergeCenterMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 523, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.accounting.number.format
+    Name: Accounting Number Format
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Accounting Number Format
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Accounting Number Format
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Accounting Number Format
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 563, y: 122, w: 39, h: 24 }
+  - Id: ribbon.home.internationalcurrency
+    Name: Accounting Number Format
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Accounting Number Format
+    Selectors:
+      Primary:
+        AutomationId: InternationalCurrency
+        ControlType: Button
+      Alternates:
+        - Name: Accounting Number Format
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Accounting Number Format
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 563, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.accountingformatmenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: AccountingFormatMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 587, y: 122, w: 15, h: 24 }
+  - Id: ribbon.home.percentstyle
+    Name: Percent Style
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Percent Style
+    Selectors:
+      Primary:
+        AutomationId: PercentStyle
+        ControlType: Button
+      Alternates:
+        - Name: Percent Style
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Percent Style
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 604, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.commastyle
+    Name: Comma Style
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Comma Style
+    Selectors:
+      Primary:
+        AutomationId: CommaStyle
+        ControlType: Button
+      Alternates:
+        - Name: Comma Style
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Comma Style
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 630, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.decimalsincrease
+    Name: Increase Decimal
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Increase Decimal
+    Selectors:
+      Primary:
+        AutomationId: DecimalsIncrease
+        ControlType: Button
+      Alternates:
+        - Name: Increase Decimal
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Increase Decimal
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 658, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.decimalsdecrease
+    Name: Decrease Decimal
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Decrease Decimal
+    Selectors:
+      Primary:
+        AutomationId: DecimalsDecrease
+        ControlType: Button
+      Alternates:
+        - Name: Decrease Decimal
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Decrease Decimal
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 683, y: 122, w: 24, h: 24 }
+  - Id: ribbon.home.formatpainter
+    Name: Format Painter
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Painter
+    Selectors:
+      Primary:
+        AutomationId: FormatPainter
+        ControlType: Button
+      Alternates:
+        - Name: Format Painter
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Painter
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 63, y: 133, w: 24, h: 24 }
+  - Id: ribbon.home.formatcellsmenu
+    Name: Format
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Format
+    Selectors:
+      Primary:
+        AutomationId: FormatCellsMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Format
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Format
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 920, y: 133, w: 82, h: 24 }
+  - Id: ribbon.home.clearmenu
+    Name: Clear
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Clear
+    Selectors:
+      Primary:
+        AutomationId: ClearMenu
+        ControlType: MenuItem
+      Alternates:
+        - Name: Clear
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Clear
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1029, y: 133, w: 40, h: 24 }
+  - Id: ribbon.home.ribbon.display.options
+    Name: Ribbon Display Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:Ribbon Display Options
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: MenuItem
+      Alternates:
+        - Name: Ribbon Display Options
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Ribbon Display Options
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1504, y: 154, w: 20, h: 20 }
+  - Id: ribbon.home.showclipboard
+    Name: Office Clipboard...
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Office Clipboard...
+    Selectors:
+      Primary:
+        AutomationId: ShowClipboard
+        ControlType: Button
+      Alternates:
+        - Name: Office Clipboard...
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Office Clipboard...
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 103, y: 160, w: 16, h: 16 }
+  - Id: ribbon.home.formatcellsfontdialog
+    Name: Format Cell Font
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Cell Font
+    Selectors:
+      Primary:
+        AutomationId: FormatCellsFontDialog
+        ControlType: Button
+      Alternates:
+        - Name: Format Cell Font
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Cell Font
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 337, y: 160, w: 16, h: 16 }
+  - Id: ribbon.home.cellalignmentoptions
+    Name: Format Cell Alignment
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Cell Alignment
+    Selectors:
+      Primary:
+        AutomationId: CellAlignmentOptions
+        ControlType: Button
+      Alternates:
+        - Name: Format Cell Alignment
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Cell Alignment
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 539, y: 160, w: 16, h: 16 }
+  - Id: ribbon.home.formatcellsnumberdialog
+    Name: Format Cell Number
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Cell Number
+    Selectors:
+      Primary:
+        AutomationId: FormatCellsNumberDialog
+        ControlType: Button
+      Alternates:
+        - Name: Format Cell Number
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Cell Number
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 699, y: 160, w: 16, h: 16 }
