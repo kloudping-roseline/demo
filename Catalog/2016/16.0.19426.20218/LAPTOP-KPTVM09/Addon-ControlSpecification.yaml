@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 02-01-2026 05:47:01
-  scanDate: 2026-01-02 05:47:01 UTC
+  scannedAt: 02-01-2026 06:38:34
+  scanDate: 2026-01-02 06:38:34 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 41
+  elementCount: 44
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -491,4 +491,123 @@ addons:
       alternates:
       - className: gw-active-links-pro
     className: gw-active-links-pro
+    isEnabled: true
+  - id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
+    name: 'To get started, type a prompt into the box below and hit the '
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text:To get started, type a prompt into the box below and hit the '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: enter
+    name: ENTER
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:ENTER
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .key.
+    name: ' key.'
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text: key.'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: divcommandarea
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: divcommandarea
+        controlType: Group
+    isEnabled: true
+  - id: commandprompt
+    name: Ask anything...
+    controlType: Edit
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Edit:Ask anything...
+    selectors:
+      primary:
+        automationId: commandprompt
+        controlType: Edit
+    isEnabled: true
+  - id: run
+    name:  
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button: 
+    selectors:
+      primary:
+        automationId: run
+        controlType: Button
+      alternates:
+      - className: btn-send
+    className: btn-send
+    isEnabled: true
+  - id: finetune
+    name: 
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button:
+    selectors:
+      primary:
+        automationId: finetune
+        controlType: Button
+      alternates:
+      - className: btn-finetune
+    className: btn-finetune
+    isEnabled: true
+  - id: control_43
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_44
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
     isEnabled: true
