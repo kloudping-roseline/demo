@@ -4,8 +4,8 @@ year: 2016
 Agent: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 30-12-2025 05:46:22
-  scanDate: 2025-12-30 05:46:22 UTC
+  scannedAt: 02-01-2026 07:09:27
+  scanDate: 2026-01-02 07:09:27 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
