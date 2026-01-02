@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 02-01-2026 07:46:42
-  scanDate: 2026-01-02 07:46:42 UTC
+  scannedAt: 02-01-2026 07:57:32
+  scanDate: 2026-01-02 07:57:32 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 44
+  elementCount: 45
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -610,4 +610,15 @@ addons:
       alternates:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
+    isEnabled: true
+  - id: loginpopup
+    name: LoginPopup
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:LoginPopup
+    selectors:
+      primary:
+        automationId: LoginPopup
+        controlType: Pane
     isEnabled: true
