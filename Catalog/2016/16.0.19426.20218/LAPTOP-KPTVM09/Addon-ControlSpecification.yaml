@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 02-01-2026 05:46:30
-  scanDate: 2026-01-02 05:46:30 UTC
+  scannedAt: 02-01-2026 05:47:01
+  scanDate: 2026-01-02 05:47:01 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 30
+  elementCount: 41
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -310,4 +310,185 @@ addons:
     selectors:
       primary:
         controlType: Text
+    isEnabled: true
+  - id: 
+    name: 
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: upgradeflag
+    name: UPGRADE
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:UPGRADE
+    selectors:
+      primary:
+        automationId: upgradeflag
+        controlType: Hyperlink
+      alternates:
+      - className: updatetag
+    className: updatetag
+    isEnabled: true
+  - id: favoriteslink
+    name: 
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:
+    selectors:
+      primary:
+        automationId: favoritesLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: settingslink
+    name: 
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:
+    selectors:
+      primary:
+        automationId: settingsLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: mainsection
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: mainsection
+        controlType: Group
+      alternates:
+      - className: ms-welcome__main
+    className: ms-welcome__main
+    isEnabled: true
+  - id: welcomefree
+    name: chatgpt web add-in
+    controlType: Image
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Image:chatgpt web add-in
+    selectors:
+      primary:
+        automationId: welcomefree
+        controlType: Image
+    isEnabled: true
+  - id: welcome.to.autopilot!
+    name: Welcome to Autopilot!
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Welcome to Autopilot!
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
+    name: Here are a few examples of what you can do with Autopilot
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Here are a few examples of what you can do with Autopilot
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: talk.to.it.like.chatgpt
+    name: Talk to it like ChatGPT
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Talk to it like ChatGPT
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: use.content.in.your.document
+    name: Use content in your document
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Use content in your document
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: how.to.use.favorites
+    name: How to use Favorites
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:How to use Favorites
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: connect.other.ai.models
+    name: Connect other AI models
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Connect other AI models
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: autopilot.pro.advanced.features
+    name: Autopilot PRO advanced features
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Autopilot PRO advanced features
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links-pro
+    className: gw-active-links-pro
     isEnabled: true
