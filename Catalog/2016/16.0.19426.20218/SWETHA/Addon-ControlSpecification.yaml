@@ -4,8 +4,8 @@ year: 2016
 Agent: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 03-01-2026 05:23:00
-  scanDate: 2026-01-03 05:23:00 UTC
+  scannedAt: 03-01-2026 05:29:21
+  scanDate: 2026-01-03 05:29:21 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,14 +13,14 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: ChatGPT for Excel
-  elementCount: 54
+- addonName: Spreadsheet Sync
+  elementCount: 41
   controls:
-  - id: twistlycells.-.chatgpt.for.excel
-    name: TwistlyCells - ChatGPT for Excel
+  - id: intuit.app
+    name: Intuit App
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
     selectors:
       primary:
         controlType: Pane
@@ -40,12 +40,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: twistlycells.-.chatgpt.for.excel.-.web.content
-    name: TwistlyCells - ChatGPT for Excel - Web content
+  - id: intuit.app.-.web.content
+    name: Intuit App - Web content
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -57,8 +57,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -70,8 +70,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -83,8 +83,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -96,8 +96,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -111,8 +111,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -124,8 +124,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -139,8 +139,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -154,8 +154,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Button:Close
     selectors:
       primary:
@@ -169,8 +169,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -182,8 +182,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -195,8 +195,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -208,8 +208,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -221,8 +221,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -234,8 +234,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -247,8 +247,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -257,12 +257,12 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: TwistlyCells - ChatGPT for Excel
+    name: Intuit App
     controlType: Document
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
         automationId: RootWebArea
@@ -272,257 +272,306 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
         controlType: Group
-      alternates:
-      - className: ms-font-m ms-Fabric
-    className: ms-font-m ms-Fabric
     isEnabled: true
-  - id: container
+  - id: ___appshell
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
-        automationId: container
+        automationId: ___appshell
         controlType: Group
     isEnabled: true
   - id: control_22
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
         controlType: Group
       alternates:
-      - className: MuiGrid-root css-rfnosa
-    className: MuiGrid-root css-rfnosa
+      - className: body
+    className: body
     isEnabled: true
-  - id: hometab
-    name: HomeTab
-    controlType: Group
+  - id: welcome.to.spreadsheet.sync
+    name: Welcome to Spreadsheet Sync
+    controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:HomeTab
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Text:Welcome to Spreadsheet Sync
     selectors:
       primary:
-        controlType: Group
+        controlType: Text
       alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
+      - className: message
+    className: message
     isEnabled: true
-  - id: control_24
-    name: Image
+  - id: create.reports,.edit.transactions.and.budgets.in.excel,.and.sync.with.quickbooks.
+    name: Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Text:Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: previous.slider.control
+    name: previous slider control
     controlType: Image
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:HomeTab
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Image:previous slider control
     selectors:
       primary:
         controlType: Image
-    isEnabled: true
-  - id: plans
-    name: Plans
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Plans
-    selectors:
-      primary:
-        controlType: Group
       alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
+      - className: prev-slider-btn
+    className: prev-slider-btn
     isEnabled: true
   - id: control_26
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Plans
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: ai.newbie
-    name: AI Newbie
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:AI Newbie
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
-    isEnabled: true
-  - id: control_28
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:AI Newbie
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: more
-    name: More
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:More
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root css-yu6giy
-    className: MuiGrid-root css-yu6giy
-    isEnabled: true
-  - id: layer_1
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:More
-    selectors:
-      primary:
-        automationId: Layer_1
-        controlType: Image
-    isEnabled: true
-  - id: control_31
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
         controlType: Group
       alternates:
-      - className: MuiGrid-root css-d7gr33
-    className: MuiGrid-root css-d7gr33
+      - className: Carousel-carousel-6a797a3 glide--swipeable glide--ltr glide--slider
+    className: Carousel-carousel-6a797a3 glide--swipeable glide--ltr glide--slider
     isEnabled: true
-  - id: let.ai.magic.begin!
-    name: Let AI Magic Begin!
-    controlType: Text
+  - id: landing.page.carousel
+    name: landing page carousel
+    controlType: List
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Let AI Magic Begin!
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - List:landing page carousel
     selectors:
       primary:
-        controlType: Text
+        controlType: List
       alternates:
-      - className: MuiTypography-root MuiTypography-h5 css-yd1gs9
-    className: MuiTypography-root MuiTypography-h5 css-yd1gs9
+      - className: Carousel-cards-ca432eb
+    className: Carousel-cards-ca432eb
     isEnabled: true
-  - id: how.to.use
-    name: How to use
-    controlType: Button
+  - id: control_28
+    name: ListItem
+    controlType: ListItem
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:How to use
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - List:landing page carousel
     selectors:
       primary:
-        controlType: Button
+        controlType: ListItem
       alternates:
-      - className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
+      - className: Carousel-card-0513f6d glide__slide--active
+    className: Carousel-card-0513f6d glide__slide--active
     isEnabled: true
-  - id: settings
-    name: Settings
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:Settings
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    isEnabled: true
-  - id: control_35
-    name: Image
+  - id: spreadsheet.sync.welcome.video
+    name: Spreadsheet Sync Welcome Video
     controlType: Image
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:Settings
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - List:landing page carousel
+    - Image:Spreadsheet Sync Welcome Video
     selectors:
       primary:
         controlType: Image
+      alternates:
+      - className: landing-main-vdo
+    className: landing-main-vdo
     isEnabled: true
-  - id: ai.function.status
-    name: AI function status
-    controlType: Text
+  - id: control_30
+    name: Group
+    controlType: Group
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:AI function status
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
-        controlType: Text
+        controlType: Group
+      alternates:
+      - className: Control-group-780b8c6 Carousel-controls-8bb1412
+    className: Control-group-780b8c6 Carousel-controls-8bb1412
     isEnabled: true
-  - id: control_37
-    name: Button
+  - id: move.to.item.1.of.5.in.landing.page.carousel
+    name: Move to item 1 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 1 of 5 in landing page carousel
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1oefeqc
-    className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1oefeqc
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
     isEnabled: true
-  - id: 0
-    name: 0
+  - id: move.to.item.2.of.5.in.landing.page.carousel
+    name: Move to item 2 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 2 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: move.to.item.3.of.5.in.landing.page.carousel
+    name: Move to item 3 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 3 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: move.to.item.4.of.5.in.landing.page.carousel
+    name: Move to item 4 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 4 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: move.to.item.5.of.5.in.landing.page.carousel
+    name: Move to item 5 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 5 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: next.slider.control
+    name: next slider control
+    controlType: Image
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Image:next slider control
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: next-slider-btn
+    className: next-slider-btn
+    isEnabled: true
+  - id: sign.in.to.your.intuit.account.to.work.with.your.company.data.and.sync.changes.
+    name: Sign in to your Intuit Account to work with your company data and sync changes.
     controlType: Text
     hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Text:Sign in to your Intuit Account to work with your company data and sync changes.
     selectors:
       primary:
         controlType: Text
+    isEnabled: true
+  - id: get.started
+    name: Get started
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Get started
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2
+    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2
+    isEnabled: true
+  - id: control_39
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: control_40
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_41
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
     isEnabled: true
