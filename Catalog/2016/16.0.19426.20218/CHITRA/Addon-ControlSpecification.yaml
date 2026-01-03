@@ -4,295 +4,15 @@ year: 2016
 Agent: CHITRA
 baseLibraryVersion: 
 scan:
-  scannedAt: 1/3/2026 1:28:25 AM
-  scanDate: 2026-01-03 01:28:25 UTC
-  totalAddons: 2
+  scannedAt: 1/3/2026 4:00:47 AM
+  scanDate: 2026-01-03 04:00:47 UTC
+  totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-US
 addons:
-- addonName: Python for Excel
-  elementCount: 21
-  controls:
-  - id: about:blank
-    name: about:blank
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Chrome_WidgetWin_1
-    className: Chrome_WidgetWin_1
-    isEnabled: true
-  - id: control_2
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Intermediate D3D Window
-    className: Intermediate D3D Window
-    isEnabled: false
-  - id: about:blank.-.web.content
-    name: about:blank - Web content
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_4
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_5
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
-  - id: control_6
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserFrameView
-    className: EmbeddedBrowserFrameView
-    isEnabled: true
-  - id: view_9
-    name: Untitled
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Text:Untitled
-    selectors:
-      primary:
-        automationId: view_9
-        controlType: Text
-      alternates:
-      - className: Label
-    className: Label
-    isEnabled: true
-  - id: control_8
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserCaptionButtonContainer
-    className: BrowserCaptionButtonContainer
-    isEnabled: true
-  - id: view_2
-    name: Minimize
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Minimize
-    selectors:
-      primary:
-        automationId: view_2
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_3
-    name: Maximize
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Maximize
-    selectors:
-      primary:
-        automationId: view_3
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_7
-    name: Close
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Close
-    selectors:
-      primary:
-        automationId: view_7
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: control_12
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserView
-    className: BrowserView
-    isEnabled: true
-  - id: control_13
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: MainContainerView
-    className: MainContainerView
-    isEnabled: true
-  - id: control_14
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerView
-    className: TopContainerView
-    isEnabled: true
-  - id: control_15
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_16
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_17
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: control_18
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: rootwebarea
-    name: Document
-    controlType: Document
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: control_20
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
-    isEnabled: true
-  - id: control_21
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
-    isEnabled: true
 - addonName: Wikipedia
   elementCount: 30
   controls:
@@ -308,7 +28,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_23
+  - id: control_2
     name: Pane
     controlType: Pane
     hierarchy:
@@ -333,7 +53,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_25
+  - id: control_4
     name: Pane
     controlType: Pane
     hierarchy:
@@ -346,7 +66,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_26
+  - id: control_5
     name: Pane
     controlType: Pane
     hierarchy:
@@ -359,7 +79,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_27
+  - id: control_6
     name: Pane
     controlType: Pane
     hierarchy:
@@ -387,7 +107,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_29
+  - id: control_8
     name: Pane
     controlType: Pane
     hierarchy:
@@ -445,7 +165,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_33
+  - id: control_12
     name: Pane
     controlType: Pane
     hierarchy:
@@ -458,7 +178,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_34
+  - id: control_13
     name: Pane
     controlType: Pane
     hierarchy:
@@ -471,7 +191,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_35
+  - id: control_14
     name: Pane
     controlType: Pane
     hierarchy:
@@ -484,7 +204,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_36
+  - id: control_15
     name: Pane
     controlType: Pane
     hierarchy:
@@ -497,7 +217,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_37
+  - id: control_16
     name: Pane
     controlType: Pane
     hierarchy:
@@ -510,7 +230,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_38
+  - id: control_17
     name: Pane
     controlType: Pane
     hierarchy:
@@ -523,7 +243,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_39
+  - id: control_18
     name: Pane
     controlType: Pane
     hierarchy:
@@ -621,7 +341,7 @@ addons:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_46
+  - id: control_25
     name: Image
     controlType: Image
     hierarchy:
@@ -633,7 +353,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_47
+  - id: control_26
     name: Group
     controlType: Group
     hierarchy:
@@ -647,7 +367,7 @@ addons:
       - className: ms_osf_content
     className: ms_osf_content
     isEnabled: true
-  - id: control_48
+  - id: control_27
     name: Group
     controlType: Group
     hierarchy:
@@ -673,7 +393,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_50
+  - id: control_29
     name: Pane
     controlType: Pane
     hierarchy:
@@ -686,7 +406,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_51
+  - id: control_30
     name: Pane
     controlType: Pane
     hierarchy:
