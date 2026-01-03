@@ -4,8 +4,8 @@ year: 2016
 Agent: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 03-01-2026 05:32:41
-  scanDate: 2026-01-03 05:32:41 UTC
+  scannedAt: 03-01-2026 07:31:34
+  scanDate: 2026-01-03 07:31:34 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,14 +13,14 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Spreadsheet Sync
-  elementCount: 104
+- addonName: Autopilot
+  elementCount: 44
   controls:
-  - id: about:blank
-    name: about:blank
+  - id: openai.chatgpt.in.microsoft.office
+    name: OpenAI ChatGPT in Microsoft Office
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
         controlType: Pane
@@ -40,12 +40,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: intuit.app.-.web.content
-    name: Intuit App - Web content
+  - id: openai.chatgpt.in.microsoft.office.-.web.content
+    name: OpenAI ChatGPT in Microsoft Office - Web content
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -57,8 +57,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -70,8 +70,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -83,8 +83,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -96,8 +96,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -111,8 +111,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -124,8 +124,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -139,8 +139,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -154,8 +154,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     - Button:Close
     selectors:
       primary:
@@ -169,8 +169,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -182,8 +182,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -195,8 +195,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -208,8 +208,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -221,8 +221,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -234,8 +234,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -247,8 +247,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -257,1233 +257,340 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: Intuit App
+    name: OpenAI ChatGPT in Microsoft Office
     controlType: Document
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_20
+  - id: header
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
-        controlType: Group
-    isEnabled: true
-  - id: ___appshell
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    selectors:
-      primary:
-        automationId: ___appshell
-        controlType: Group
-    isEnabled: true
-  - id: control_22
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    selectors:
-      primary:
+        automationId: header
         controlType: Group
       alternates:
-      - className: body
-    className: body
+      - className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
+    className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
     isEnabled: true
-  - id: welcome.to.spreadsheet.sync
-    name: Welcome to Spreadsheet Sync
-    controlType: Text
+  - id: logosmall
+    name: To get missing image descriptions, open the context menu.
+    controlType: Image
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Text:Welcome to Spreadsheet Sync
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Image:To get missing image descriptions, open the context menu.
     selectors:
       primary:
-        controlType: Text
+        automationId: logosmall
+        controlType: Image
       alternates:
-      - className: message
-    className: message
+      - className: autopilot-icon
+    className: autopilot-icon
     isEnabled: true
-  - id: create.reports,.edit.transactions.and.budgets.in.excel,.and.sync.with.quickbooks.
-    name: Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
+  - id: free.edition
+    name: Free edition
     controlType: Text
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Text:Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Free edition
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: previous.slider.control
-    name: previous slider control
-    controlType: Image
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Image:previous slider control
-    selectors:
-      primary:
-        controlType: Image
-      alternates:
-      - className: prev-slider-btn
-    className: prev-slider-btn
-    isEnabled: true
-  - id: control_26
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: Carousel-carousel-6a797a3 glide--swipeable glide--ltr glide--slider
-    className: Carousel-carousel-6a797a3 glide--swipeable glide--ltr glide--slider
-    isEnabled: true
-  - id: landing.page.carousel
-    name: landing page carousel
-    controlType: List
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - List:landing page carousel
-    selectors:
-      primary:
-        controlType: List
-      alternates:
-      - className: Carousel-cards-ca432eb
-    className: Carousel-cards-ca432eb
-    isEnabled: true
-  - id: control_28
-    name: ListItem
-    controlType: ListItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - List:landing page carousel
-    selectors:
-      primary:
-        controlType: ListItem
-      alternates:
-      - className: Carousel-card-0513f6d glide__slide--active
-    className: Carousel-card-0513f6d glide__slide--active
-    isEnabled: true
-  - id: spreadsheet.sync.welcome.video
-    name: Spreadsheet Sync Welcome Video
-    controlType: Image
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - List:landing page carousel
-    - Image:Spreadsheet Sync Welcome Video
-    selectors:
-      primary:
-        controlType: Image
-      alternates:
-      - className: landing-main-vdo
-    className: landing-main-vdo
-    isEnabled: true
-  - id: control_30
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: Control-group-780b8c6 Carousel-controls-8bb1412
-    className: Control-group-780b8c6 Carousel-controls-8bb1412
-    isEnabled: true
-  - id: move.to.item.1.of.5.in.landing.page.carousel
-    name: Move to item 1 of 5 in landing page carousel
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Button:Move to item 1 of 5 in landing page carousel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    isEnabled: true
-  - id: move.to.item.2.of.5.in.landing.page.carousel
-    name: Move to item 2 of 5 in landing page carousel
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Button:Move to item 2 of 5 in landing page carousel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    isEnabled: true
-  - id: move.to.item.3.of.5.in.landing.page.carousel
-    name: Move to item 3 of 5 in landing page carousel
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Button:Move to item 3 of 5 in landing page carousel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    isEnabled: true
-  - id: move.to.item.4.of.5.in.landing.page.carousel
-    name: Move to item 4 of 5 in landing page carousel
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Button:Move to item 4 of 5 in landing page carousel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    isEnabled: true
-  - id: move.to.item.5.of.5.in.landing.page.carousel
-    name: Move to item 5 of 5 in landing page carousel
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Button:Move to item 5 of 5 in landing page carousel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
-    isEnabled: true
-  - id: next.slider.control
-    name: next slider control
-    controlType: Image
-    hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Image:next slider control
-    selectors:
-      primary:
-        controlType: Image
-      alternates:
-      - className: next-slider-btn
-    className: next-slider-btn
-    isEnabled: true
-  - id: sign.in.to.your.intuit.account.to.work.with.your.company.data.and.sync.changes.
-    name: Sign in to your Intuit Account to work with your company data and sync changes.
+  - id: 
+    name: 
     controlType: Text
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Text:Sign in to your Intuit Account to work with your company data and sync changes.
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: get.started
-    name: Get started
-    controlType: Button
+  - id: upgradeflag
+    name: UPGRADE
+    controlType: Hyperlink
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
-    - Button:Get started
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:UPGRADE
     selectors:
       primary:
-        controlType: Button
+        automationId: upgradeflag
+        controlType: Hyperlink
       alternates:
-      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2
-    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2
+      - className: updatetag
+    className: updatetag
     isEnabled: true
-  - id: control_39
+  - id: favoriteslink
+    name: 
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:
+    selectors:
+      primary:
+        automationId: favoritesLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: settingslink
+    name: 
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:
+    selectors:
+      primary:
+        automationId: settingsLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: mainsection
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
-    - Document:Intuit App
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
+        automationId: mainsection
+        controlType: Group
+      alternates:
+      - className: ms-welcome__main
+    className: ms-welcome__main
+    isEnabled: true
+  - id: welcomefree
+    name: chatgpt web add-in
+    controlType: Image
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Image:chatgpt web add-in
+    selectors:
+      primary:
+        automationId: welcomefree
+        controlType: Image
+    isEnabled: true
+  - id: welcome.to.autopilot!
+    name: Welcome to Autopilot!
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Welcome to Autopilot!
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
+    name: Here are a few examples of what you can do with Autopilot
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:Here are a few examples of what you can do with Autopilot
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: talk.to.it.like.chatgpt
+    name: Talk to it like ChatGPT
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Talk to it like ChatGPT
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: use.content.in.your.document
+    name: Use content in your document
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Use content in your document
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: how.to.use.favorites
+    name: How to use Favorites
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:How to use Favorites
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: connect.other.ai.models
+    name: Connect other AI models
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Connect other AI models
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: autopilot.pro.advanced.features
+    name: Autopilot PRO advanced features
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Autopilot PRO advanced features
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links-pro
+    className: gw-active-links-pro
+    isEnabled: true
+  - id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
+    name: 'To get started, type a prompt into the box below and hit the '
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text:To get started, type a prompt into the box below and hit the '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: enter
+    name: ENTER
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:ENTER
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .key.
+    name: ' key.'
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text: key.'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: divcommandarea
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: divcommandarea
         controlType: Group
     isEnabled: true
-  - id: control_40
-    name: Pane
-    controlType: Pane
+  - id: commandprompt
+    name: Ask anything...
+    controlType: Edit
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Edit:Ask anything...
     selectors:
       primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
+        automationId: commandprompt
+        controlType: Edit
     isEnabled: true
-  - id: control_41
-    name: Pane
-    controlType: Pane
+  - id: run
+    name:  
+    controlType: Button
     hierarchy:
-    - Pane:about:blank
-    - Pane:Intuit App - Web content
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button: 
     selectors:
       primary:
-        controlType: Pane
+        automationId: run
+        controlType: Button
       alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
+      - className: btn-send
+    className: btn-send
     isEnabled: true
-  - id: loginpopup
-    name: LoginPopup
-    controlType: Pane
+  - id: finetune
+    name: 
+    controlType: Button
     hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button:
     selectors:
       primary:
-        automationId: LoginPopup
-        controlType: Pane
+        automationId: finetune
+        controlType: Button
+      alternates:
+      - className: btn-finetune
+    className: btn-finetune
     isEnabled: true
   - id: control_43
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Intermediate D3D Window
-    className: Intermediate D3D Window
-    isEnabled: false
-  - id: quickbooks.online.login:.sign.in.to.access.your.quickbooks.account.-.web.content
-    name: 'QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_45
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_46
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
-  - id: control_47
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserFrameView
-    className: EmbeddedBrowserFrameView
-    isEnabled: true
-  - id: view_9
-    name: Untitled
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - Text:Untitled
-    selectors:
-      primary:
-        automationId: view_9
-        controlType: Text
-      alternates:
-      - className: Label
-    className: Label
-    isEnabled: true
-  - id: control_49
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserCaptionButtonContainer
-    className: BrowserCaptionButtonContainer
-    isEnabled: true
-  - id: view_2
-    name: Minimize
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - Button:Minimize
-    selectors:
-      primary:
-        automationId: view_2
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_3
-    name: Maximize
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - Button:Maximize
-    selectors:
-      primary:
-        automationId: view_3
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_7
-    name: Close
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - Button:Close
-    selectors:
-      primary:
-        automationId: view_7
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: control_53
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserView
-    className: BrowserView
-    isEnabled: true
-  - id: control_54
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: MainContainerView
-    className: MainContainerView
-    isEnabled: true
-  - id: control_55
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerView
-    className: TopContainerView
-    isEnabled: true
-  - id: control_56
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_57
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_58
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: control_59
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: rootwebarea
-    name: 'QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    controlType: Document
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: control_61
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: ___appshell
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        automationId: ___appshell
-        controlType: Group
-    isEnabled: true
-  - id: control_63
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: body
-    className: body
-    isEnabled: true
-  - id: control_64
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: identifierfirstheader
-    name: Let's get you in to QuickBooks
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Text:Let's get you in to QuickBooks
-    selectors:
-      primary:
-        automationId: IdentifierFirstHeader
-        controlType: Text
-      alternates:
-      - className: IuxH2AndDescription__ProdModTitleText-j40avf-4 iQcJay Typography-headline-1-e793b1d Typography-demi-e793b1d
-    className: IuxH2AndDescription__ProdModTitleText-j40avf-4 iQcJay Typography-headline-1-e793b1d Typography-demi-e793b1d
-    isEnabled: true
-  - id: control_66
-    name: Tab
-    controlType: Tab
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: Tab
-      alternates:
-      - className: Tabs-tabsList-5909ddd
-    className: Tabs-tabsList-5909ddd
-    isEnabled: true
-  - id: idstab-email_user_id
-    name: Email or user ID
-    controlType: TabItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - TabItem:Email or user ID
-    selectors:
-      primary:
-        automationId: idsTab-EMAIL_USER_ID
-        controlType: TabItem
-      alternates:
-      - className: idsF Tabs-tabButton-5909ddd Tabs-activeTab-5909ddd
-    className: idsF Tabs-tabButton-5909ddd Tabs-activeTab-5909ddd
-    isEnabled: true
-  - id: idstab-phone
-    name: Phone
-    controlType: TabItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - TabItem:Phone
-    selectors:
-      primary:
-        automationId: idsTab-PHONE
-        controlType: TabItem
-      alternates:
-      - className: idsF Tabs-tabButton-5909ddd
-    className: idsF Tabs-tabButton-5909ddd
-    isEnabled: true
-  - id: idstab-email_user_id-tabpanel
-    name: Email or user ID
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Pane:Email or user ID
-    selectors:
-      primary:
-        automationId: idsTab-EMAIL_USER_ID-tabPanel
-        controlType: Pane
-      alternates:
-      - className: Tabs-tabPanel-5909ddd
-    className: Tabs-tabPanel-5909ddd
-    isEnabled: true
-  - id: iux-identifier-first-international-email-user-id-input
-    name: Edit
-    controlType: Edit
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Pane:Email or user ID
-    selectors:
-      primary:
-        automationId: iux-identifier-first-international-email-user-id-input
-        controlType: Edit
-      alternates:
-      - className: idsF TextField-TFInput-47097bd TextField-TFNoErrorText-47097bd TextField-TFNotDisabled-47097bd TextField-size-medium-47097bd
-    className: idsF TextField-TFInput-47097bd TextField-TFNoErrorText-47097bd TextField-TFNotDisabled-47097bd TextField-size-medium-47097bd
-    isEnabled: true
-  - id: remember.me
-    name: Remember me
-    controlType: CheckBox
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - CheckBox:Remember me
-    selectors:
-      primary:
-        controlType: CheckBox
-      alternates:
-      - className: idsF RcCheckbox-inputCheckboxWrapper-72dcf97 RcCheckbox-inputCheckboxChecked-72dcf97
-    className: idsF RcCheckbox-inputCheckboxWrapper-72dcf97 RcCheckbox-inputCheckboxChecked-72dcf97
-    isEnabled: true
-  - id: remember.me
-    name: Remember me
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Text:Remember me
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: sign.in
-    name: Sign in
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Button:Sign in
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2 IuxButton__StyledButton-ktqsri-0 dDQzHx Button-full-6a785d2
-    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2 IuxButton__StyledButton-ktqsri-0 dDQzHx Button-full-6a785d2
-    isEnabled: true
-  - id: by.selecting.sign.in,.you.agree.to.intuit.
-    name: 'By selecting Sign in, you agree to Intuit '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text:By selecting Sign in, you agree to Intuit '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: terms
-    name: Terms
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Hyperlink:Terms
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    isEnabled: true
-  - id: .and.mailchimp.
-    name: ' and Mailchimp '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text: and Mailchimp '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: terms
-    name: Terms
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Hyperlink:Terms
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    isEnabled: true
-  - id: ..our.
-    name: '. Our '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text:. Our '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: privacy.policy
-    name: Privacy Policy
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Hyperlink:Privacy Policy
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    isEnabled: true
-  - id: .applies.to.your.personal.data.
-    name: ' applies to your personal data.'
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text: applies to your personal data.'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: new.to.intuit?.
-    name: 'New to Intuit? '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text:New to Intuit? '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: create.an.account
-    name: Create an account
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Button:Create an account
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-tertiary-6a785d2 IuxLinkButton__StyledLinkButton-im8qmv-0 IuxLinkButton__StyledLinkButtonWithMarginTop-im8qmv-1 kdLEAC hAkLBa SignUpLink__StyledSignUpButton-mle9of-1 iEFJae
-    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-tertiary-6a785d2 IuxLinkButton__StyledLinkButton-im8qmv-0 IuxLinkButton__StyledLinkButtonWithMarginTop-im8qmv-1 kdLEAC hAkLBa SignUpLink__StyledSignUpButton-mle9of-1 iEFJae
-    isEnabled: true
-  - id: invisible.recaptcha.by.google.
-    name: 'Invisible reCAPTCHA by Google '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text:Invisible reCAPTCHA by Google '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: privacy.policy.for.google
-    name: Privacy Policy for Google
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Hyperlink:Privacy Policy for Google
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    isEnabled: true
-  - id: .and.
-    name: ' and '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - 'Text: and '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: terms.of.use.for.google
-    name: Terms of Use for Google
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Hyperlink:Terms of Use for Google
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
-    isEnabled: true
-  - id: .
-    name: .
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Text:.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_88
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: BookendsFooter__StyledFooter-m32qkh-0 gPKBya
-    className: BookendsFooter__StyledFooter-m32qkh-0 gPKBya
-    isEnabled: true
-  - id: control_89
-    name: List
-    controlType: List
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: List
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
-    className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
-    isEnabled: true
-  - id: legal
-    name: Legal
-    controlType: ListItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Legal
-    selectors:
-      primary:
-        controlType: ListItem
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    isEnabled: true
-  - id: legal
-    name: Legal
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Legal
-    - Hyperlink:Legal
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943
-    className: idsTSLink Link-link-1abd943
-    isEnabled: true
-  - id: privacy
-    name: Privacy
-    controlType: ListItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Privacy
-    selectors:
-      primary:
-        controlType: ListItem
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    isEnabled: true
-  - id: privacy
-    name: Privacy
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Privacy
-    - Hyperlink:Privacy
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943
-    className: idsTSLink Link-link-1abd943
-    isEnabled: true
-  - id: security
-    name: Security
-    controlType: ListItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Security
-    selectors:
-      primary:
-        controlType: ListItem
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    isEnabled: true
-  - id: security
-    name: Security
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Security
-    - Hyperlink:Security
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943
-    className: idsTSLink Link-link-1abd943
-    isEnabled: true
-  - id: control_96
-    name: List
-    controlType: List
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    selectors:
-      primary:
-        controlType: List
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
-    className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
-    isEnabled: true
-  - id: support
-    name: Support
-    controlType: ListItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Support
-    selectors:
-      primary:
-        controlType: ListItem
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    isEnabled: true
-  - id: support
-    name: Support
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Support
-    - Hyperlink:Support
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943
-    className: idsTSLink Link-link-1abd943
-    isEnabled: true
-  - id: software.license.agreement
-    name: Software License Agreement
-    controlType: ListItem
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Software License Agreement
-    selectors:
-      primary:
-        controlType: ListItem
-      alternates:
-      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
-    isEnabled: true
-  - id: software.license.agreement
-    name: Software License Agreement
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - ListItem:Software License Agreement
-    - Hyperlink:Software License Agreement
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: idsTSLink Link-link-1abd943
-    className: idsTSLink Link-link-1abd943
-    isEnabled: true
-  - id: intuit,.quickbooks,.qb,.turbotax,.proconnect,.credit.karma,.and.mailchimp.are.registered.trademarks.of.intuit.inc..terms.and.conditions,.features,.support,.pricing,.and.service.options.subject.to.change.without.notice.
-    name: Intuit, QuickBooks, QB, TurboTax, ProConnect, Credit Karma, and Mailchimp are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Text:Intuit, QuickBooks, QB, TurboTax, ProConnect, Credit Karma, and Mailchimp are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: ©.2026.intuit,.inc..all.rights.reserved.
-    name: © 2026 Intuit, Inc. All rights reserved.
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
-    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
-    - Text:© 2026 Intuit, Inc. All rights reserved.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_103
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1491,13 +598,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_104
+  - id: control_44
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
     selectors:
       primary:
         controlType: Pane
