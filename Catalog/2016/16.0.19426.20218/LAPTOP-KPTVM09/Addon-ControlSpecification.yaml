@@ -4,9 +4,9 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 03-01-2026 04:55:09
-  scanDate: 2026-01-03 04:55:09 UTC
-  totalAddons: 2
+  scannedAt: 03-01-2026 04:55:54
+  scanDate: 2026-01-03 04:55:54 UTC
+  totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: GPT for Excel Word
-  elementCount: 25
+  elementCount: 68
   controls:
   - id: gpt.for.excel
     name: GPT for Excel
@@ -292,331 +292,256 @@ addons:
         controlType: Group
     isEnabled: true
   - id: control_22
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: _app_e8r2t_2 office_host_Excel office_platform_PC
+    className: _app_e8r2t_2 office_host_Excel office_platform_PC
+    isEnabled: true
+  - id: agent
+    name: Agent
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Agent
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_zfhkw_2 _active_zfhkw_35
+    className: _root_zfhkw_2 _active_zfhkw_35
+    isEnabled: true
+  - id: control_24
     name: Image
     controlType: Image
     hierarchy:
     - Pane:GPT for Excel
     - Pane:GPT for Excel - Web content
     - Document:GPT for Excel
+    - Hyperlink:Agent
     selectors:
       primary:
         controlType: Image
-      alternates:
-      - className: _logo_13v0q_12
-    className: _logo_13v0q_12
     isEnabled: true
-  - id: loading.gpt.for.excel
-    name: Loading GPT for Excel
-    controlType: Text
+  - id: bulk.ai.tools
+    name: Bulk AI tools
+    controlType: Hyperlink
     hierarchy:
     - Pane:GPT for Excel
     - Pane:GPT for Excel - Web content
     - Document:GPT for Excel
-    - Text:Loading GPT for Excel
+    - Hyperlink:Bulk AI tools
     selectors:
       primary:
-        controlType: Text
+        controlType: Hyperlink
+      alternates:
+      - className: _root_zfhkw_2
+    className: _root_zfhkw_2
     isEnabled: true
-  - id: control_24
-    name: Pane
-    controlType: Pane
+  - id: control_26
+    name: Image
+    controlType: Image
     hierarchy:
     - Pane:GPT for Excel
     - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Bulk AI tools
     selectors:
       primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
+        controlType: Image
     isEnabled: true
-  - id: control_25
-    name: Pane
-    controlType: Pane
+  - id: gpt.functions
+    name: GPT functions
+    controlType: Hyperlink
     hierarchy:
     - Pane:GPT for Excel
     - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:GPT functions
     selectors:
       primary:
-        controlType: Pane
+        controlType: Hyperlink
       alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
+      - className: _root_zfhkw_2
+    className: _root_zfhkw_2
     isEnabled: true
-- addonName: Jet Reports
-  elementCount: 19
-  controls:
-  - id: lower.ribbon
-    name: Lower Ribbon
-    controlType: Pane
+  - id: control_28
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:GPT functions
     selectors:
       primary:
-        controlType: Pane
-      alternates:
-      - className: NetUIPanViewer
-    className: NetUIPanViewer
+        controlType: Image
     isEnabled: true
-  - id: jet.online
-    name: Jet Online
-    controlType: Group
+  - id: admin.dashboard
+    name: Admin dashboard
+    controlType: Hyperlink
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Admin dashboard
     selectors:
       primary:
-        controlType: Group
+        controlType: Hyperlink
       alternates:
-      - className: NetUIOrderedGroup
-    className: NetUIOrderedGroup
+      - className: _root_zfhkw_2 _billingIcon_1l6me_22 _overrideColor_1l6me_22
+    className: _root_zfhkw_2 _billingIcon_1l6me_22 _overrideColor_1l6me_22
     isEnabled: true
-  - id: user.profile
-    name: User Profile
-    controlType: Group
+  - id: control_30
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:User Profile
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Admin dashboard
     selectors:
       primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
+        controlType: Image
     isEnabled: true
-  - id: user.profile
-    name: User Profile
-    controlType: Button
+  - id: control_31
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:User Profile
-    - Button:User Profile
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Admin dashboard
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+        controlType: Image
     isEnabled: true
-  - id: design
-    name: Design
-    controlType: Group
+  - id: billing
+    name: Billing
+    controlType: Hyperlink
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Design
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Billing
     selectors:
       primary:
-        controlType: Group
+        controlType: Hyperlink
       alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
+      - className: _root_zfhkw_2 _billingIcon_1l6me_22
+    className: _root_zfhkw_2 _billingIcon_1l6me_22
     isEnabled: true
-  - id: design
-    name: Design
-    controlType: Button
+  - id: control_33
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Design
-    - Button:Design
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Billing
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+        controlType: Image
     isEnabled: true
-  - id: report
-    name: Report
-    controlType: Group
+  - id: manage.team
+    name: Manage team
+    controlType: Hyperlink
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Manage team
     selectors:
       primary:
-        controlType: Group
+        controlType: Hyperlink
       alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
+      - className: _root_zfhkw_2 _billingIcon_1l6me_22
+    className: _root_zfhkw_2 _billingIcon_1l6me_22
     isEnabled: true
-  - id: run
-    name: Run
-    controlType: Button
+  - id: control_35
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Run
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Manage team
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+        controlType: Image
     isEnabled: true
-  - id: drilldown
-    name: Drilldown
-    controlType: Button
+  - id: control_36
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Drilldown
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Manage team
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+        controlType: Image
     isEnabled: true
-  - id: report.status
-    name: Report Status
-    controlType: Button
+  - id: api.keys
+    name: API keys
+    controlType: Hyperlink
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Report Status
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:API keys
     selectors:
       primary:
-        controlType: Button
+        controlType: Hyperlink
       alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+      - className: _root_zfhkw_2 _billingIcon_1l6me_22
+    className: _root_zfhkw_2 _billingIcon_1l6me_22
     isEnabled: true
-  - id: report.options
-    name: Report Options
-    controlType: Button
+  - id: control_38
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Report Options
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:API keys
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+        controlType: Image
     isEnabled: true
-  - id: reports.center
-    name: Reports Center
-    controlType: Group
+  - id: api.endpoints
+    name: API endpoints
+    controlType: Hyperlink
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:API endpoints
     selectors:
       primary:
-        controlType: Group
+        controlType: Hyperlink
       alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
+      - className: _root_zfhkw_2 _billingIcon_1l6me_22
+    className: _root_zfhkw_2 _billingIcon_1l6me_22
     isEnabled: true
-  - id: access.reports.center
-    name: Access Reports Center
-    controlType: Button
+  - id: control_40
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    - Button:Access Reports Center
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:API endpoints
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: upload.to.reports.center
-    name: Upload to Reports Center
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    - Button:Upload to Reports Center
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: tools
-    name: Tools
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: function.wizard
-    name: Function Wizard
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    - Button:Function Wizard
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: settings
-    name: Settings
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    - Button:Settings
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: assistance
-    name: Assistance
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Assistance
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: help
-    name: Help
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Assistance
-    - Button:Help
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+        controlType: Image
     isEnabled: true
