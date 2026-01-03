@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 03-01-2026 10:06:43
-  scanDate: 2026-01-03 10:06:43 UTC
+  scannedAt: 03-01-2026 11:29:28
+  scanDate: 2026-01-03 11:29:28 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
