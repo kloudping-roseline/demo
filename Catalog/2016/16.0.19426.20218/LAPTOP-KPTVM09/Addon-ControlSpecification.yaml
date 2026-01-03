@@ -4,23 +4,300 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 03-01-2026 05:58:18
-  scanDate: 2026-01-03 05:58:18 UTC
-  totalAddons: 1
+  scannedAt: 03-01-2026 09:55:38
+  scanDate: 2026-01-03 09:55:38 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-IN
 addons:
-- addonName: GPT for Excel Word
-  elementCount: 86
+- addonName: Jet Reports
+  elementCount: 19
   controls:
-  - id: gpt.for.excel
-    name: GPT for Excel
+  - id: lower.ribbon
+    name: Lower Ribbon
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
+    - Pane:Lower Ribbon
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NetUIPanViewer
+    className: NetUIPanViewer
+    isEnabled: true
+  - id: jet.online
+    name: Jet Online
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIOrderedGroup
+    className: NetUIOrderedGroup
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    - Button:User Profile
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    - Button:Design
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report
+    name: Report
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: run
+    name: Run
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Run
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: drilldown
+    name: Drilldown
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Drilldown
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.status
+    name: Report Status
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Status
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.options
+    name: Report Options
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Options
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: reports.center
+    name: Reports Center
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: access.reports.center
+    name: Access Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Access Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: upload.to.reports.center
+    name: Upload to Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Upload to Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: tools
+    name: Tools
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: function.wizard
+    name: Function Wizard
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Function Wizard
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: settings
+    name: Settings
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Settings
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: assistance
+    name: Assistance
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    - Button:Help
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+- addonName: Wikipedia
+  elementCount: 30
+  controls:
+  - id: wikipedia
+    name: Wikipedia
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
     selectors:
       primary:
         controlType: Pane
@@ -28,11 +305,11 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_2
+  - id: control_21
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
+    - Pane:Wikipedia
     selectors:
       primary:
         controlType: Pane
@@ -40,12 +317,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: gpt.for.excel.-.web.content
-    name: GPT for Excel - Web content
+  - id: wikipedia.-.web.content
+    name: Wikipedia - Web content
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -53,12 +330,12 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_4
+  - id: control_23
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -66,12 +343,12 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_5
+  - id: control_24
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -79,12 +356,12 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_6
+  - id: control_25
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -96,8 +373,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -107,12 +384,12 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_8
+  - id: control_27
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -124,8 +401,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -139,8 +416,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -154,8 +431,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     - Button:Close
     selectors:
       primary:
@@ -165,12 +442,12 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_12
+  - id: control_31
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -178,12 +455,12 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_13
+  - id: control_32
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -191,12 +468,12 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_14
+  - id: control_33
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -204,12 +481,12 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_15
+  - id: control_34
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -217,12 +494,12 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_16
+  - id: control_35
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -230,12 +507,12 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_17
+  - id: control_36
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -243,12 +520,12 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_18
+  - id: control_37
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -257,882 +534,148 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: GPT for Excel
+    name: Wikipedia
     controlType: Document
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_20
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: root
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        automationId: root
-        controlType: Group
-    isEnabled: true
-  - id: control_22
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: _app_e8r2t_2 office_host_Excel office_platform_PC
-    className: _app_e8r2t_2 office_host_Excel office_platform_PC
-    isEnabled: true
-  - id: agent
-    name: Agent
+  - id: wikipedia.logo
+    name: Wikipedia logo
     controlType: Hyperlink
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Agent
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Hyperlink:Wikipedia logo
     selectors:
       primary:
         controlType: Hyperlink
       alternates:
-      - className: _root_zfhkw_2 _active_zfhkw_35
-    className: _root_zfhkw_2 _active_zfhkw_35
+      - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+    className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
-  - id: control_24
-    name: Image
-    controlType: Image
+  - id: i.want.to.know...
+    name: I want to know...
+    controlType: Edit
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Agent
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Edit:I want to know...
     selectors:
       primary:
-        controlType: Image
-    isEnabled: true
-  - id: bulk.ai.tools
-    name: Bulk AI tools
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Bulk AI tools
-    selectors:
-      primary:
-        controlType: Hyperlink
+        controlType: Edit
       alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
+      - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+    className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
-  - id: control_26
-    name: Image
-    controlType: Image
+  - id: search
+    name: Search
+    controlType: Button
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Bulk AI tools
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search
     selectors:
       primary:
-        controlType: Image
-    isEnabled: true
-  - id: gpt.functions
-    name: GPT functions
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:GPT functions
-    selectors:
-      primary:
-        controlType: Hyperlink
+        controlType: Button
       alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
+      - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+    className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_28
-    name: Image
+  - id: to.get.missing.image.descriptions,.open.the.context.menu.
+    name: To get missing image descriptions, open the context menu.
     controlType: Image
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:GPT functions
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search
+    - Image:To get missing image descriptions, open the context menu.
     selectors:
       primary:
         controlType: Image
     isEnabled: true
-  - id: admin.dashboard
-    name: Admin dashboard
-    controlType: Hyperlink
+  - id: search.options
+    name: Search Options
+    controlType: Button
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Admin dashboard
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search Options
     selectors:
       primary:
-        controlType: Hyperlink
+        controlType: Button
       alternates:
-      - className: _root_zfhkw_2 _billingIcon_1l6me_22 _overrideColor_1l6me_22
-    className: _root_zfhkw_2 _billingIcon_1l6me_22 _overrideColor_1l6me_22
-    isEnabled: true
-  - id: control_30
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Admin dashboard
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_31
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Admin dashboard
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: billing
-    name: Billing
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Billing
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2 _billingIcon_1l6me_22
-    className: _root_zfhkw_2 _billingIcon_1l6me_22
-    isEnabled: true
-  - id: control_33
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Billing
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: manage.team
-    name: Manage team
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Manage team
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2 _billingIcon_1l6me_22
-    className: _root_zfhkw_2 _billingIcon_1l6me_22
-    isEnabled: true
-  - id: control_35
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Manage team
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_36
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Manage team
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: api.keys
-    name: API keys
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:API keys
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2 _billingIcon_1l6me_22
-    className: _root_zfhkw_2 _billingIcon_1l6me_22
-    isEnabled: true
-  - id: control_38
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:API keys
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: api.endpoints
-    name: API endpoints
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:API endpoints
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2 _billingIcon_1l6me_22
-    className: _root_zfhkw_2 _billingIcon_1l6me_22
-    isEnabled: true
-  - id: control_40
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:API endpoints
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: what's.new?
-    name: What's new?
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:What's new?
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2 _notification_1l6me_152
-    className: _root_zfhkw_2 _notification_1l6me_152
-    isEnabled: true
-  - id: control_42
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:What's new?
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: sign.up.for.updates
-    name: Sign up for updates
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Sign up for updates
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
+      - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+    className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_44
     name: Image
     controlType: Image
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Sign up for updates
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search Options
     selectors:
       primary:
         controlType: Image
     isEnabled: true
-  - id: video.tutorials
-    name: Video tutorials
-    controlType: Hyperlink
+  - id: control_45
+    name: Group
+    controlType: Group
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Video tutorials
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
     selectors:
       primary:
-        controlType: Hyperlink
+        controlType: Group
       alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
+      - className: ms_osf_content
+    className: ms_osf_content
     isEnabled: true
   - id: control_46
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Video tutorials
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_47
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Video tutorials
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: documentation
-    name: Documentation
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Documentation
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
-    isEnabled: true
-  - id: control_49
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Documentation
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_50
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Documentation
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: contact.support
-    name: Contact support
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Contact support
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
-    isEnabled: true
-  - id: control_52
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Contact support
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_53
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Contact support
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: formula.assistant
-    name: Formula assistant
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Formula assistant
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: _root_zfhkw_2
-    className: _root_zfhkw_2
-    isEnabled: true
-  - id: control_55
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Formula assistant
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_56
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: roselineprincyv2003@gmail.com
-    name: roselineprincyv2003@gmail.com
-    controlType: Text
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Text:roselineprincyv2003@gmail.com
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_58
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: log.out
-    name: Log out
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Log out
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _logoutButton_1l6me_112
-    className: _logoutButton_1l6me_112
-    isEnabled: true
-  - id: version.
-    name: 'version '
-    controlType: Text
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - 'Text:version '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 7.23.5
-    name: 7.23.5
-    controlType: Text
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Text:7.23.5
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_62
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
     selectors:
       primary:
         controlType: Group
       alternates:
-      - className: _menuOverlay_1ruy8_14
-    className: _menuOverlay_1ruy8_14
+      - className: ms_osf_article
+    className: ms_osf_article
     isEnabled: true
-  - id: control_63
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: _navbarRoot_dqvi9_2 _navbar_44i67_2
-    className: _navbarRoot_dqvi9_2 _navbar_44i67_2
-    isEnabled: true
-  - id: control_64
-    name: Button
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _navbarButtonRoot_hwkb0_2 _notification_44i67_51
-    className: _navbarButtonRoot_hwkb0_2 _notification_44i67_51
-    isEnabled: true
-  - id: control_65
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: agent
-    name: Agent
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Agent
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _button_dqvi9_35 _active_dqvi9_47
-    className: _button_dqvi9_35 _active_dqvi9_47
-    isEnabled: true
-  - id: bulk.tools
-    name: Bulk tools
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Bulk tools
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _button_dqvi9_35
-    className: _button_dqvi9_35
-    isEnabled: true
-  - id: gpt.functions
-    name: GPT functions
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:GPT functions
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _button_dqvi9_35
-    className: _button_dqvi9_35
-    isEnabled: true
-  - id: history
-    name: History
+  - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
+    name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Text:History
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Text:The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_70
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: _icon_1zeqd_2
-    className: _icon_1zeqd_2
-    isEnabled: true
-  - id: control_71
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_72
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: _menuOverlay_1ruy8_14
-    className: _menuOverlay_1ruy8_14
-    isEnabled: true
-  - id: control_73
-    name: Edit
-    controlType: Edit
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Edit
-      alternates:
-      - className: _textArea_6zqou_16
-    className: _textArea_6zqou_16
-    isEnabled: true
-  - id: send
-    name: Send
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Send
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _root_1d9up_10 _primary_1d9up_71
-    className: _root_1d9up_10 _primary_1d9up_71
-    isEnabled: false
-  - id: control_75
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Send
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: control_76
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: beta
-    name: BETA
-    controlType: Text
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Text:BETA
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: examples
-    name: Examples
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Examples
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _rootButton_1ignj_8 _button_16lgg_28
-    className: _rootButton_1ignj_8 _button_16lgg_28
-    isEnabled: true
-  - id: faq
-    name: FAQ
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:FAQ
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _rootButton_1ignj_8 _button_16lgg_28
-    className: _rootButton_1ignj_8 _button_16lgg_28
-    isEnabled: true
-  - id: video.demo
-    name: Video demo
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Image:Video demo
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: demo
-    name: Demo
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Demo
-    selectors:
-      primary:
-        controlType: Hyperlink
-    isEnabled: true
-  - id: demo
-    name: Demo
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Demo
-    - Button:Demo
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _root_1d9up_10 _primary_1d9up_71 _button_57ltz_108
-    className: _root_1d9up_10 _primary_1d9up_71 _button_57ltz_108
-    isEnabled: true
-  - id: control_83
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Demo
-    - Button:Demo
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: hide
-    name: Hide
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Hide
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: _hide_57ltz_114
-    className: _hide_57ltz_114
-    isEnabled: true
-  - id: control_85
+  - id: control_48
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1140,12 +683,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_86
+  - id: control_49
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
