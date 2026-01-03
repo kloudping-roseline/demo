@@ -4,8 +4,8 @@ year: 2016
 Agent: CHITRA
 baseLibraryVersion: 
 scan:
-  scannedAt: 1/2/2026 11:46:56 PM
-  scanDate: 2026-01-02 23:46:56 UTC
+  scannedAt: 1/3/2026 1:28:25 AM
+  scanDate: 2026-01-03 01:28:25 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-US
 addons:
 - addonName: Python for Excel
-  elementCount: 58
+  elementCount: 21
   controls:
   - id: about:blank
     name: about:blank
@@ -256,18 +256,16 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_19
-    name: Pane
-    controlType: Pane
+  - id: rootwebarea
+    name: Document
+    controlType: Document
     hierarchy:
     - Pane:about:blank
     - Pane:about:blank - Web content
     selectors:
       primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
+        automationId: RootWebArea
+        controlType: Document
     isEnabled: true
   - id: control_20
     name: Pane
@@ -279,564 +277,15 @@ addons:
       primary:
         controlType: Pane
       alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
-    isEnabled: true
-  - id: loginpopup
-    name: LoginPopup
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    selectors:
-      primary:
-        automationId: LoginPopup
-        controlType: Pane
-    isEnabled: true
-  - id: control_22
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Intermediate D3D Window
-    className: Intermediate D3D Window
-    isEnabled: false
-  - id: sign.in.to.your.account.-.web.content
-    name: Sign in to your account - Web content
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_24
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_25
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
-  - id: control_26
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserFrameView
-    className: EmbeddedBrowserFrameView
-    isEnabled: true
-  - id: view_9
-    name: Untitled
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Text:Untitled
-    selectors:
-      primary:
-        automationId: view_9
-        controlType: Text
-      alternates:
-      - className: Label
-    className: Label
-    isEnabled: true
-  - id: control_28
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserCaptionButtonContainer
-    className: BrowserCaptionButtonContainer
-    isEnabled: true
-  - id: view_2
-    name: Minimize
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Button:Minimize
-    selectors:
-      primary:
-        automationId: view_2
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_3
-    name: Maximize
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Button:Maximize
-    selectors:
-      primary:
-        automationId: view_3
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_7
-    name: Close
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Button:Close
-    selectors:
-      primary:
-        automationId: view_7
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: control_32
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserView
-    className: BrowserView
-    isEnabled: true
-  - id: control_33
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: MainContainerView
-    className: MainContainerView
-    isEnabled: true
-  - id: control_34
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerView
-    className: TopContainerView
-    isEnabled: true
-  - id: control_35
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_36
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_37
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: control_38
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: rootwebarea
-    name: Sign in to your account
-    controlType: Document
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: microsoft.sign-in.options.undefined
-    name: Microsoft Sign-in options undefined
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: middle ext-middle
-    className: middle ext-middle
-    isEnabled: true
-  - id: microsoft
-    name: Microsoft
-    controlType: Image
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Image:Microsoft
-    selectors:
-      primary:
-        controlType: Image
-      alternates:
-      - className: logo
-    className: logo
-    isEnabled: true
-  - id: control_42
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: sign.in
-    name: Sign in
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Text:Sign in
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_44
-    name: Text
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: i0116
-    name: Enter your email, phone, or Skype.
-    controlType: Edit
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Edit:Enter your email, phone, or Skype.
-    selectors:
-      primary:
-        automationId: i0116
-        controlType: Edit
-      alternates:
-      - className: form-control ltr_override input ext-input text-box ext-text-box
-    className: form-control ltr_override input ext-input text-box ext-text-box
-    isEnabled: true
-  - id: ..
-    name: '  '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - 'Text:  '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: no.account?.
-    name: 'No account? '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - 'Text:No account? '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: signup
-    name: Create a Microsoft account
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Hyperlink:Create a Microsoft account
-    selectors:
-      primary:
-        automationId: signup
-        controlType: Hyperlink
-    isEnabled: true
-  - id: cantaccessaccount
-    name: Can’t access your account?
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Hyperlink:Can’t access your account?
-    selectors:
-      primary:
-        automationId: cantAccessAccount
-        controlType: Hyperlink
-    isEnabled: true
-  - id: ..
-    name: '  '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - 'Text:  '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: idsibutton9
-    name: Next
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Button:Next
-    selectors:
-      primary:
-        automationId: idSIButton9
-        controlType: Button
-      alternates:
-      - className: win-button button_primary high-contrast-overrides button ext-button primary ext-primary
-    className: win-button button_primary high-contrast-overrides button ext-button primary ext-primary
-    isEnabled: true
-  - id: sign-in.options.undefined
-    name: Sign-in options undefined
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Button:Sign-in options undefined
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: table
-    className: table
-    isEnabled: true
-  - id: footer
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    selectors:
-      primary:
-        automationId: footer
-        controlType: Group
-      alternates:
-      - className: footer ext-footer
-    className: footer ext-footer
-    isEnabled: true
-  - id: ftrterms
-    name: Terms of use
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Hyperlink:Terms of use
-    selectors:
-      primary:
-        automationId: ftrTerms
-        controlType: Hyperlink
-      alternates:
-      - className: footer-content ext-footer-content footer-item ext-footer-item
-    className: footer-content ext-footer-content footer-item ext-footer-item
-    isEnabled: true
-  - id: ftrprivacy
-    name: Privacy & cookies
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Hyperlink:Privacy & cookies
-    selectors:
-      primary:
-        automationId: ftrPrivacy
-        controlType: Hyperlink
-      alternates:
-      - className: footer-content ext-footer-content footer-item ext-footer-item
-    className: footer-content ext-footer-content footer-item ext-footer-item
-    isEnabled: true
-  - id: moreoptions
-    name: Click here for troubleshooting information
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Button:Click here for troubleshooting information
-    selectors:
-      primary:
-        automationId: moreOptions
-        controlType: Button
-      alternates:
-      - className: footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item
-    className: footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item
-    isEnabled: true
-  - id: control_57
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_58
+  - id: control_21
     name: Pane
     controlType: Pane
     hierarchy:
     - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -859,7 +308,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_60
+  - id: control_23
     name: Pane
     controlType: Pane
     hierarchy:
@@ -884,7 +333,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_62
+  - id: control_25
     name: Pane
     controlType: Pane
     hierarchy:
@@ -897,7 +346,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_63
+  - id: control_26
     name: Pane
     controlType: Pane
     hierarchy:
@@ -910,7 +359,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_64
+  - id: control_27
     name: Pane
     controlType: Pane
     hierarchy:
@@ -938,7 +387,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_66
+  - id: control_29
     name: Pane
     controlType: Pane
     hierarchy:
@@ -996,7 +445,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_70
+  - id: control_33
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1009,7 +458,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_71
+  - id: control_34
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1022,7 +471,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_72
+  - id: control_35
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1035,7 +484,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_73
+  - id: control_36
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1048,7 +497,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_74
+  - id: control_37
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1061,7 +510,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_75
+  - id: control_38
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1074,7 +523,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_76
+  - id: control_39
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1172,7 +621,7 @@ addons:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_83
+  - id: control_46
     name: Image
     controlType: Image
     hierarchy:
@@ -1184,7 +633,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_84
+  - id: control_47
     name: Group
     controlType: Group
     hierarchy:
@@ -1198,7 +647,7 @@ addons:
       - className: ms_osf_content
     className: ms_osf_content
     isEnabled: true
-  - id: control_85
+  - id: control_48
     name: Group
     controlType: Group
     hierarchy:
@@ -1224,7 +673,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_87
+  - id: control_50
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1237,7 +686,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_88
+  - id: control_51
     name: Pane
     controlType: Pane
     hierarchy:
