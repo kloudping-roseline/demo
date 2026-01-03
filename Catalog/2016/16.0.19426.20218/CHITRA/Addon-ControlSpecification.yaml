@@ -4,8 +4,8 @@ year: 2016
 Agent: CHITRA
 baseLibraryVersion: 
 scan:
-  scannedAt: 1/2/2026 8:25:50 PM
-  scanDate: 2026-01-02 20:25:50 UTC
+  scannedAt: 1/2/2026 11:46:56 PM
+  scanDate: 2026-01-02 23:46:56 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-US
 addons:
 - addonName: Python for Excel
-  elementCount: 81
+  elementCount: 58
   controls:
   - id: about:blank
     name: about:blank
@@ -256,304 +256,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: rootwebarea
-    name: Document
-    controlType: Document
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: container
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        automationId: container
-        controlType: Group
-    isEnabled: true
-  - id: control_21
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: flex-1 flex flex-col overflow-hidden min-h-0 text-sm bg-white
-    className: flex-1 flex flex-col overflow-hidden min-h-0 text-sm bg-white
-    isEnabled: true
-  - id: home
-    name: Home
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Home
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: flex-grow px-2 py-2 border-b-2 border-blue-500
-    className: flex-grow px-2 py-2 border-b-2 border-blue-500
-    isEnabled: true
-  - id: editor
-    name: Editor
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Editor
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: 'flex-grow px-2 py-2 '
-    className: 'flex-grow px-2 py-2 '
-    isEnabled: true
-  - id: functions
-    name: Functions
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Functions
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: 'flex-grow px-2 py-2 '
-    className: 'flex-grow px-2 py-2 '
-    isEnabled: true
-  - id: ℹ️
-    name: ℹ️
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:ℹ️
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: flex-grow px-2 py-2  text-base
-    className: flex-grow px-2 py-2  text-base
-    isEnabled: true
-  - id: "excel.custom.functions.using.python!\U0001F680.create.a.python.function.in.the"
-    name: "Excel custom functions using Python!\U0001F680 Create a Python function in the"
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - "Text:Excel custom functions using Python!\U0001F680 Create a Python function in the"
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_27
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: ml-1 text-blue-500 underline cursor-pointer
-    className: ml-1 text-blue-500 underline cursor-pointer
-    isEnabled: true
-  - id: editor
-    name: editor
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Text:editor
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: ',.then.use.it.as.a.custom.function.in.excel..see.the.'
-    name: ', then use it as a custom function in Excel. See the '
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - 'Text:, then use it as a custom function in Excel. See the '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: documentation
-    name: documentation
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Hyperlink:documentation
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: text-blue-500 underline
-    className: text-blue-500 underline
-    isEnabled: true
-  - id: .and.explore.the.examples.below..login.to.use.ai.functions.or.save.your.functions.to.onedrive.
-    name: ' and explore the examples below. Login to use AI functions or save your functions to OneDrive.'
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - 'Text: and explore the examples below. Login to use AI functions or save your functions to OneDrive.'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: login
-    name: Login
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Login
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: px-2 py-0 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors font-normal relative group text-sm
-    className: px-2 py-0 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors font-normal relative group text-sm
-    isEnabled: true
-  - id: email.support.support
-    name: Email Support Support
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Hyperlink:Email Support Support
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: text-blue-600 hover:text-blue-800 flex items-center gap-1
-    className: text-blue-600 hover:text-blue-800 flex items-center gap-1
-    isEnabled: true
-  - id: email.support
-    name: Email Support
-    controlType: Image
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Hyperlink:Email Support Support
-    - Image:Email Support
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: example.functions
-    name: Example Functions
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Text:Example Functions
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: data.>
-    name: Data >
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Data >
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    isEnabled: true
-  - id: engineering.>
-    name: Engineering >
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Engineering >
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    isEnabled: true
-  - id: financial.>
-    name: Financial >
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Financial >
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    isEnabled: true
-  - id: math.>
-    name: Math >
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Math >
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    isEnabled: true
-  - id: statistical.>
-    name: Statistical >
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Statistical >
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    isEnabled: true
-  - id: text.>
-    name: Text >
-    controlType: Button
-    hierarchy:
-    - Pane:about:blank
-    - Pane:about:blank - Web content
-    - Button:Text >
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    className: w-full text-left px-4 py-1 bg-blue-100 hover:bg-blue-200 font-semibold flex items-center justify-between focus:outline-none
-    isEnabled: true
-  - id: control_42
+  - id: control_19
     name: Pane
     controlType: Pane
     hierarchy:
@@ -566,7 +269,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_43
+  - id: control_20
     name: Pane
     controlType: Pane
     hierarchy:
@@ -590,7 +293,7 @@ addons:
         automationId: LoginPopup
         controlType: Pane
     isEnabled: true
-  - id: control_45
+  - id: control_22
     name: Pane
     controlType: Pane
     hierarchy:
@@ -617,7 +320,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_47
+  - id: control_24
     name: Pane
     controlType: Pane
     hierarchy:
@@ -631,7 +334,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_48
+  - id: control_25
     name: Pane
     controlType: Pane
     hierarchy:
@@ -645,7 +348,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_49
+  - id: control_26
     name: Pane
     controlType: Pane
     hierarchy:
@@ -675,7 +378,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_51
+  - id: control_28
     name: Pane
     controlType: Pane
     hierarchy:
@@ -737,7 +440,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_55
+  - id: control_32
     name: Pane
     controlType: Pane
     hierarchy:
@@ -751,7 +454,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_56
+  - id: control_33
     name: Pane
     controlType: Pane
     hierarchy:
@@ -765,7 +468,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_57
+  - id: control_34
     name: Pane
     controlType: Pane
     hierarchy:
@@ -779,7 +482,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_58
+  - id: control_35
     name: Pane
     controlType: Pane
     hierarchy:
@@ -793,7 +496,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_59
+  - id: control_36
     name: Pane
     controlType: Pane
     hierarchy:
@@ -807,7 +510,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_60
+  - id: control_37
     name: Pane
     controlType: Pane
     hierarchy:
@@ -821,7 +524,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_61
+  - id: control_38
     name: Pane
     controlType: Pane
     hierarchy:
@@ -881,7 +584,7 @@ addons:
       - className: logo
     className: logo
     isEnabled: true
-  - id: control_65
+  - id: control_42
     name: Group
     controlType: Group
     hierarchy:
@@ -908,7 +611,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_67
+  - id: control_44
     name: Text
     controlType: Text
     hierarchy:
@@ -1113,7 +816,7 @@ addons:
       - className: footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item
     className: footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item
     isEnabled: true
-  - id: control_80
+  - id: control_57
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1127,7 +830,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_81
+  - id: control_58
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1156,7 +859,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_83
+  - id: control_60
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1181,7 +884,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_85
+  - id: control_62
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1194,7 +897,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_86
+  - id: control_63
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1207,7 +910,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_87
+  - id: control_64
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1235,7 +938,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_89
+  - id: control_66
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1293,7 +996,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_93
+  - id: control_70
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1306,7 +1009,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_94
+  - id: control_71
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1319,7 +1022,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_95
+  - id: control_72
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1332,7 +1035,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_96
+  - id: control_73
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1345,7 +1048,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_97
+  - id: control_74
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1358,7 +1061,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_98
+  - id: control_75
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1371,7 +1074,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_99
+  - id: control_76
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1469,7 +1172,7 @@ addons:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_106
+  - id: control_83
     name: Image
     controlType: Image
     hierarchy:
@@ -1481,7 +1184,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_107
+  - id: control_84
     name: Group
     controlType: Group
     hierarchy:
@@ -1495,7 +1198,7 @@ addons:
       - className: ms_osf_content
     className: ms_osf_content
     isEnabled: true
-  - id: control_108
+  - id: control_85
     name: Group
     controlType: Group
     hierarchy:
@@ -1521,7 +1224,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_110
+  - id: control_87
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1534,7 +1237,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_111
+  - id: control_88
     name: Pane
     controlType: Pane
     hierarchy:
