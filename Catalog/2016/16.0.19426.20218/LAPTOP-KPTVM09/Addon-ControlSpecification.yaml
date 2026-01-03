@@ -4,9 +4,9 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 03-01-2026 05:49:24
-  scanDate: 2026-01-03 05:49:24 UTC
-  totalAddons: 2
+  scannedAt: 03-01-2026 05:58:18
+  scanDate: 2026-01-03 05:58:18 UTC
+  totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -1153,6 +1153,3 @@ addons:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
     isEnabled: true
-- addonName: Jet Reports
-  elementCount: 1
-  controls: []
