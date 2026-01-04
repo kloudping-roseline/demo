@@ -4,292 +4,15 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 04-01-2026 15:16:10
-  scanDate: 2026-01-04 15:16:10 UTC
-  totalAddons: 2
+  scannedAt: 04-01-2026 15:21:14
+  scanDate: 2026-01-04 15:21:14 UTC
+  totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Jet Reports
-  elementCount: 19
-  controls:
-  - id: lower.ribbon
-    name: Lower Ribbon
-    controlType: Pane
-    hierarchy:
-    - Pane:Lower Ribbon
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NetUIPanViewer
-    className: NetUIPanViewer
-    isEnabled: true
-  - id: jet.online
-    name: Jet Online
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIOrderedGroup
-    className: NetUIOrderedGroup
-    isEnabled: true
-  - id: user.profile
-    name: User Profile
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:User Profile
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: user.profile
-    name: User Profile
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:User Profile
-    - Button:User Profile
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: design
-    name: Design
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Design
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: design
-    name: Design
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Design
-    - Button:Design
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: report
-    name: Report
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: run
-    name: Run
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Run
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: drilldown
-    name: Drilldown
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Drilldown
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: report.status
-    name: Report Status
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Report Status
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: report.options
-    name: Report Options
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Report Options
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: reports.center
-    name: Reports Center
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: access.reports.center
-    name: Access Reports Center
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    - Button:Access Reports Center
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: upload.to.reports.center
-    name: Upload to Reports Center
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    - Button:Upload to Reports Center
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: tools
-    name: Tools
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: function.wizard
-    name: Function Wizard
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    - Button:Function Wizard
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: settings
-    name: Settings
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    - Button:Settings
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: assistance
-    name: Assistance
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Assistance
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: help
-    name: Help
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Assistance
-    - Button:Help
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
 - addonName: Wikipedia
   elementCount: 30
   controls:
@@ -305,7 +28,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_21
+  - id: control_2
     name: Pane
     controlType: Pane
     hierarchy:
@@ -330,7 +53,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_23
+  - id: control_4
     name: Pane
     controlType: Pane
     hierarchy:
@@ -343,7 +66,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_24
+  - id: control_5
     name: Pane
     controlType: Pane
     hierarchy:
@@ -356,7 +79,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_25
+  - id: control_6
     name: Pane
     controlType: Pane
     hierarchy:
@@ -384,7 +107,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_27
+  - id: control_8
     name: Pane
     controlType: Pane
     hierarchy:
@@ -442,7 +165,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_31
+  - id: control_12
     name: Pane
     controlType: Pane
     hierarchy:
@@ -455,7 +178,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_32
+  - id: control_13
     name: Pane
     controlType: Pane
     hierarchy:
@@ -468,7 +191,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_33
+  - id: control_14
     name: Pane
     controlType: Pane
     hierarchy:
@@ -481,7 +204,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_34
+  - id: control_15
     name: Pane
     controlType: Pane
     hierarchy:
@@ -494,7 +217,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_35
+  - id: control_16
     name: Pane
     controlType: Pane
     hierarchy:
@@ -507,7 +230,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_36
+  - id: control_17
     name: Pane
     controlType: Pane
     hierarchy:
@@ -520,7 +243,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_37
+  - id: control_18
     name: Pane
     controlType: Pane
     hierarchy:
@@ -618,7 +341,7 @@ addons:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_44
+  - id: control_25
     name: Image
     controlType: Image
     hierarchy:
@@ -630,7 +353,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_45
+  - id: control_26
     name: Group
     controlType: Group
     hierarchy:
@@ -644,7 +367,7 @@ addons:
       - className: ms_osf_content
     className: ms_osf_content
     isEnabled: true
-  - id: control_46
+  - id: control_27
     name: Group
     controlType: Group
     hierarchy:
@@ -670,7 +393,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_48
+  - id: control_29
     name: Pane
     controlType: Pane
     hierarchy:
@@ -683,7 +406,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_49
+  - id: control_30
     name: Pane
     controlType: Pane
     hierarchy:
