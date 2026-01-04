@@ -4,9 +4,9 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 04-01-2026 14:23:42
-  scanDate: 2026-01-04 14:23:42 UTC
-  totalAddons: 1
+  scannedAt: 04-01-2026 14:28:08
+  scanDate: 2026-01-04 14:28:08 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -289,4 +289,273 @@ addons:
       alternates:
       - className: NetUIRibbonButton
     className: NetUIRibbonButton
+    isEnabled: true
+- addonName: Wikipedia
+  elementCount: 20
+  controls:
+  - id: wikipedia
+    name: Wikipedia
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_21
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: wikipedia.-.web.content
+    name: Wikipedia - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_23
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_24
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_25
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_27
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_31
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_32
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_33
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_34
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_35
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_36
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_37
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_38
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_39
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
     isEnabled: true
