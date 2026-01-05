@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 05-01-2026 07:21:45
-  scanDate: 2026-01-05 07:21:45 UTC
+  scannedAt: 05-01-2026 07:26:46
+  scanDate: 2026-01-05 07:26:46 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -327,7 +327,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: react-aria4357097850-1
+  - id: react-aria3906263479-1
     name: PDF FILENAME ​
     controlType: Edit
     hierarchy:
@@ -337,7 +337,7 @@ addons:
     - Edit:PDF FILENAME ​
     selectors:
       primary:
-        automationId: react-aria4357097850-1
+        automationId: react-aria3906263479-1
         controlType: Edit
       alternates:
       - className: zo2IKa_spectrum-Textfield-input zo2IKa_i18nFontFamily
@@ -370,7 +370,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: react-aria4357097850-7
+  - id: react-aria3906263479-7
     name: Convert
     controlType: Button
     hierarchy:
@@ -380,7 +380,7 @@ addons:
     - Button:Convert
     selectors:
       primary:
-        automationId: react-aria4357097850-7
+        automationId: react-aria3906263479-7
         controlType: Button
       alternates:
       - className: o7Xu8a_spectrum-Button o7Xu8a_spectrum-BaseButton o7Xu8a_i18nFontFamily o7Xu8a_spectrum-FocusRing o7Xu8a_spectrum-FocusRing-ring
@@ -398,7 +398,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: react-aria4357097850-13
+  - id: react-aria3906263479-13
     name: Settings
     controlType: Button
     hierarchy:
@@ -408,7 +408,7 @@ addons:
     - Button:Settings
     selectors:
       primary:
-        automationId: react-aria4357097850-13
+        automationId: react-aria3906263479-13
         controlType: Button
       alternates:
       - className: o7Xu8a_spectrum-ActionButton o7Xu8a_spectrum-BaseButton o7Xu8a_i18nFontFamily o7Xu8a_spectrum-FocusRing o7Xu8a_spectrum-FocusRing-ring o7Xu8a_spectrum-ActionButton--quiet
