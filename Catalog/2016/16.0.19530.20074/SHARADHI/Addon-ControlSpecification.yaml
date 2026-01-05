@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 05-01-2026 12:33:30
-  scanDate: 2026-01-05 12:33:30 UTC
+  scannedAt: 05-01-2026 12:38:02
+  scanDate: 2026-01-05 12:38:02 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,12 +14,12 @@ scan:
     locale: en-IN
 addons:
 - addonName: ChatGPT for Excel
-  elementCount: 1
+  elementCount: 6
   controls: []
   interactionData:
     addonName: ChatGPT for Excel
-    totalInteractions: 3
-    explorationTimestamp: 05-01-2026 12:33:28
+    totalInteractions: 21
+    explorationTimestamp: 05-01-2026 12:37:40
     interactions:
     - depth: 0
       hierarchy:
@@ -32,7 +32,7 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 05-01-2026 12:32:31
+      timestamp: 05-01-2026 12:34:25
     - depth: 1
       hierarchy:
       - Button:Minimize
@@ -45,7 +45,7 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 05-01-2026 12:32:35
+      timestamp: 05-01-2026 12:34:29
     - depth: 2
       hierarchy:
       - Button:Minimize
@@ -55,8 +55,331 @@ addons:
         name: HomeTab
         controlType: Group
         automationId: ''
+        className: MuiGrid-root MuiGrid-item css-1s05flz
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:34:33
+    - depth: 3
+      hierarchy:
+      - Button:Minimize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      clickedElement:
+        name: Plans
+        controlType: Group
+        automationId: ''
+        className: MuiGrid-root MuiGrid-item css-1s05flz
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:34:38
+    - depth: 4
+      hierarchy:
+      - Button:Minimize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      clickedElement:
+        name: AI Newbie
+        controlType: Group
+        automationId: ''
+        className: MuiGrid-root MuiGrid-item css-1s05flz
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:34:43
+    - depth: 5
+      hierarchy:
+      - Button:Minimize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      clickedElement:
+        name: More
+        controlType: Group
+        automationId: ''
+        className: MuiGrid-root css-yu6giy
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:34:48
+    - depth: 0
+      hierarchy:
+      - Button:Maximize
+      clickedElement:
+        name: Maximize
+        controlType: Button
+        automationId: view_3
+        className: EdgeWindowsCaptionButton
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:24
+    - depth: 1
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      clickedElement:
+        name: ''
+        controlType: Group
+        automationId: container
+        className: ''
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:28
+    - depth: 2
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      clickedElement:
+        name: HomeTab
+        controlType: Group
+        automationId: ''
+        className: MuiGrid-root MuiGrid-item css-1s05flz
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:32
+    - depth: 3
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      clickedElement:
+        name: Plans
+        controlType: Group
+        automationId: ''
+        className: MuiGrid-root MuiGrid-item css-1s05flz
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:37
+    - depth: 4
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      clickedElement:
+        name: AI Newbie
+        controlType: Group
+        automationId: ''
+        className: MuiGrid-root MuiGrid-item css-1s05flz
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:43
+    - depth: 5
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      clickedElement:
+        name: More
+        controlType: Group
+        automationId: ''
         className: ''
         isEnabled: false
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 05-01-2026 12:32:59
+      timestamp: 05-01-2026 12:35:46
+    - depth: 6
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      clickedElement:
+        name: ''
+        controlType: ListItem
+        automationId: ''
+        className: MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1hiuc1j
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:50
+    - depth: 7
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      clickedElement:
+        name: Home
+        controlType: ListItem
+        automationId: ''
+        className: ''
+        isEnabled: false
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:54
+    - depth: 8
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      clickedElement:
+        name: Let AI Magic Begin!
+        controlType: Text
+        automationId: ''
+        className: MuiTypography-root MuiTypography-h5 css-yd1gs9
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:35:59
+    - depth: 9
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      - Button:How to use
+      clickedElement:
+        name: How to use
+        controlType: Button
+        automationId: ''
+        className: MuiButtonBase-root Mui-focusVisible Mui-focusVisible MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-pg4z6o
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:36:03
+    - depth: 10
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      - Button:How to use
+      - Text:The AI.ASK function lets you use AI directly in your spreadsheet. Simply type a question or prompt, and AI.ASK will provide a helpful response. Use it to write text, summarize, analyze data, and more—like having a smart helper in Excel!
+      clickedElement:
+        name: The AI.ASK function lets you use AI directly in your spreadsheet. Simply type a question or prompt, and AI.ASK will provide a helpful response. Use it to write text, summarize, analyze data, and more—like having a smart helper in Excel!
+        controlType: Text
+        automationId: ''
+        className: ''
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:36:08
+    - depth: 10
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      - Button:How to use
+      - Hyperlink:Learn more
+      clickedElement:
+        name: Learn more
+        controlType: Hyperlink
+        automationId: ''
+        className: ''
+        isEnabled: false
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:36:12
+    - depth: 10
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      - Button:How to use
+      - Text:Free Trial
+      clickedElement:
+        name: Free Trial
+        controlType: Text
+        automationId: ''
+        className: ''
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:36:16
+    - depth: 10
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      - Button:How to use
+      - Text:300 AI Calls
+      clickedElement:
+        name: 300 AI Calls
+        controlType: Text
+        automationId: ''
+        className: ''
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:36:20
+    - depth: 10
+      hierarchy:
+      - Button:Maximize
+      - 'Group:'
+      - Group:HomeTab
+      - Group:Plans
+      - Group:AI Newbie
+      - Group:More
+      - 'ListItem:'
+      - ListItem:Home
+      - Text:Let AI Magic Begin!
+      - Button:How to use
+      - Button:SEE PLANS
+      clickedElement:
+        name: SEE PLANS
+        controlType: Button
+        automationId: ''
+        className: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth Mui-focusVisible MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth css-89ua91
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:36:24
