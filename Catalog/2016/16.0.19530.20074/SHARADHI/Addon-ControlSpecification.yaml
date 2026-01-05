@@ -4,9 +4,9 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 05-01-2026 10:20:02
-  scanDate: 2026-01-05 10:20:02 UTC
-  totalAddons: 1
+  scannedAt: 05-01-2026 10:27:57
+  scanDate: 2026-01-05 10:27:57 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -14,5 +14,8 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
+  elementCount: 0
+  controls: []
+- addonName: Mini Calendar and Date Picker
   elementCount: 0
   controls: []
