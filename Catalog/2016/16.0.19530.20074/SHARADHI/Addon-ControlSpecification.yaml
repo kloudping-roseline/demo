@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 05-01-2026 12:29:51
-  scanDate: 2026-01-05 12:29:51 UTC
+  scannedAt: 05-01-2026 12:33:30
+  scanDate: 2026-01-05 12:33:30 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,13 +13,13 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Autopilot
-  elementCount: 0
+- addonName: ChatGPT for Excel
+  elementCount: 1
   controls: []
   interactionData:
-    addonName: Autopilot
-    totalInteractions: 1
-    explorationTimestamp: 05-01-2026 12:29:50
+    addonName: ChatGPT for Excel
+    totalInteractions: 3
+    explorationTimestamp: 05-01-2026 12:33:28
     interactions:
     - depth: 0
       hierarchy:
@@ -32,4 +32,31 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 05-01-2026 12:29:31
+      timestamp: 05-01-2026 12:32:31
+    - depth: 1
+      hierarchy:
+      - Button:Minimize
+      - 'Group:'
+      clickedElement:
+        name: ''
+        controlType: Group
+        automationId: container
+        className: ''
+        isEnabled: true
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:32:35
+    - depth: 2
+      hierarchy:
+      - Button:Minimize
+      - 'Group:'
+      - Group:HomeTab
+      clickedElement:
+        name: HomeTab
+        controlType: Group
+        automationId: ''
+        className: ''
+        isEnabled: false
+      openedExternalLink: false
+      descendantsAfterClick: []
+      timestamp: 05-01-2026 12:32:59
