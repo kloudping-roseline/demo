@@ -4,15 +4,345 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 05-01-2026 05:13:46
-  scanDate: 2026-01-05 05:13:46 UTC
-  totalAddons: 1
+  scannedAt: 05-01-2026 07:01:59
+  scanDate: 2026-01-05 07:01:59 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-IN
 addons:
+- addonName: GPT for Excel Word
+  elementCount: 25
+  controls:
+  - id: gpt.for.excel
+    name: GPT for Excel
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_2
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: gpt.for.excel.-.web.content
+    name: GPT for Excel - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_4
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_5
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_6
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_8
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_12
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_13
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_14
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_15
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_16
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_17
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_18
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: GPT for Excel
+    controlType: Document
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_20
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: root
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        automationId: root
+        controlType: Group
+    isEnabled: true
+  - id: control_22
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: _logo_13v0q_12
+    className: _logo_13v0q_12
+    isEnabled: true
+  - id: loading.gpt.for.excel
+    name: Loading GPT for Excel
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Loading GPT for Excel
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_24
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_25
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
 - addonName: Wikipedia
   elementCount: 30
   controls:
@@ -28,7 +358,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_2
+  - id: control_27
     name: Pane
     controlType: Pane
     hierarchy:
@@ -53,7 +383,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_4
+  - id: control_29
     name: Pane
     controlType: Pane
     hierarchy:
@@ -66,7 +396,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_5
+  - id: control_30
     name: Pane
     controlType: Pane
     hierarchy:
@@ -79,7 +409,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_6
+  - id: control_31
     name: Pane
     controlType: Pane
     hierarchy:
@@ -107,7 +437,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_8
+  - id: control_33
     name: Pane
     controlType: Pane
     hierarchy:
@@ -165,7 +495,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_12
+  - id: control_37
     name: Pane
     controlType: Pane
     hierarchy:
@@ -178,7 +508,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_13
+  - id: control_38
     name: Pane
     controlType: Pane
     hierarchy:
@@ -191,7 +521,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_14
+  - id: control_39
     name: Pane
     controlType: Pane
     hierarchy:
@@ -204,7 +534,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_15
+  - id: control_40
     name: Pane
     controlType: Pane
     hierarchy:
@@ -217,7 +547,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_16
+  - id: control_41
     name: Pane
     controlType: Pane
     hierarchy:
@@ -230,7 +560,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_17
+  - id: control_42
     name: Pane
     controlType: Pane
     hierarchy:
@@ -243,7 +573,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_18
+  - id: control_43
     name: Pane
     controlType: Pane
     hierarchy:
@@ -341,7 +671,7 @@ addons:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_25
+  - id: control_50
     name: Image
     controlType: Image
     hierarchy:
@@ -353,7 +683,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_26
+  - id: control_51
     name: Group
     controlType: Group
     hierarchy:
@@ -367,7 +697,7 @@ addons:
       - className: ms_osf_content
     className: ms_osf_content
     isEnabled: true
-  - id: control_27
+  - id: control_52
     name: Group
     controlType: Group
     hierarchy:
@@ -393,7 +723,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_29
+  - id: control_54
     name: Pane
     controlType: Pane
     hierarchy:
@@ -406,7 +736,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_30
+  - id: control_55
     name: Pane
     controlType: Pane
     hierarchy:
