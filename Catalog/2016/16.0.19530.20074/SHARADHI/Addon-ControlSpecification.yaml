@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 06-01-2026 05:00:48
-  scanDate: 2026-01-06 05:00:48 UTC
+  scannedAt: 06-01-2026 05:11:37
+  scanDate: 2026-01-06 05:11:37 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,12 +14,12 @@ scan:
     locale: en-IN
 addons:
 - addonName: ChatGPT for Excel
-  elementCount: 261
+  elementCount: 263
   controls: []
   interactionData:
     addonName: ChatGPT for Excel
     totalInteractions: 9
-    explorationTimestamp: 06-01-2026 05:00:46
+    explorationTimestamp: 06-01-2026 05:11:36
     interactions:
     - depth: 0
       hierarchy:
@@ -878,7 +878,7 @@ addons:
                 - className: TopContainerOverlayView
               className: TopContainerOverlayView
               isEnabled: true
-      timestamp: 06-01-2026 05:00:22
+      timestamp: 06-01-2026 05:11:10
     - depth: 1
       hierarchy:
       - GridSection_0_0
@@ -1793,7 +1793,7 @@ addons:
                 - className: TopContainerOverlayView
               className: TopContainerOverlayView
               isEnabled: true
-      timestamp: 06-01-2026 05:00:25
+      timestamp: 06-01-2026 05:11:14
     - depth: 1
       hierarchy:
       - GridSection_0_1
@@ -2651,7 +2651,7 @@ addons:
                 - className: TopContainerOverlayView
               className: TopContainerOverlayView
               isEnabled: true
-      timestamp: 06-01-2026 05:00:28
+      timestamp: 06-01-2026 05:11:17
     - depth: 1
       hierarchy:
       - GridSection_0_2
@@ -2674,7 +2674,7 @@ addons:
           alternates:
           - className: Chrome_WidgetWin_1
         className: Chrome_WidgetWin_1
-        isEnabled: false
+        isEnabled: true
         children:
         - id: control_192
           name: Pane
@@ -3566,7 +3566,7 @@ addons:
                 - className: TopContainerOverlayView
               className: TopContainerOverlayView
               isEnabled: true
-      timestamp: 06-01-2026 05:00:31
+      timestamp: 06-01-2026 05:11:20
     - depth: 1
       hierarchy:
       - GridSection_1_0
@@ -3577,8 +3577,30 @@ addons:
         className: ''
         isEnabled: true
       openedExternalLink: false
-      descendantsAfterClick: []
-      timestamp: 06-01-2026 05:00:36
+      descendantsAfterClick:
+      - id: twistlycells.-.chatgpt.for.excel
+        name: TwistlyCells - ChatGPT for Excel
+        controlType: Pane
+        hierarchy:
+        - Pane:TwistlyCells - ChatGPT for Excel
+        selectors:
+          primary:
+            controlType: Pane
+          alternates:
+          - className: Chrome_WidgetWin_1
+        className: Chrome_WidgetWin_1
+        isEnabled: false
+        children:
+        - id: control_258
+          name: Pane
+          controlType: Pane
+          hierarchy:
+          - Pane:TwistlyCells - ChatGPT for Excel
+          selectors:
+            primary:
+              controlType: Pane
+          isEnabled: false
+      timestamp: 06-01-2026 05:11:23
     - depth: 1
       hierarchy:
       - GridSection_1_2
@@ -3590,7 +3612,7 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 06-01-2026 05:00:39
+      timestamp: 06-01-2026 05:11:28
     - depth: 1
       hierarchy:
       - GridSection_2_0
@@ -3602,7 +3624,7 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 06-01-2026 05:00:41
+      timestamp: 06-01-2026 05:11:31
     - depth: 1
       hierarchy:
       - GridSection_2_1
@@ -3614,7 +3636,7 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 06-01-2026 05:00:44
+      timestamp: 06-01-2026 05:11:33
     - depth: 1
       hierarchy:
       - GridSection_2_2
@@ -3626,4 +3648,4 @@ addons:
         isEnabled: true
       openedExternalLink: false
       descendantsAfterClick: []
-      timestamp: 06-01-2026 05:00:46
+      timestamp: 06-01-2026 05:11:35
