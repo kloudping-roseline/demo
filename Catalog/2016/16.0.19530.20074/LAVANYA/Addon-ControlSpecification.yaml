@@ -4,8 +4,8 @@ year: 2016
 Agent: LAVANYA
 baseLibraryVersion: 
 scan:
-  scannedAt: 1/6/2026 11:51:47 AM
-  scanDate: 2026-01-06 11:51:47 UTC
+  scannedAt: 1/7/2026 6:20:27 AM
+  scanDate: 2026-01-07 06:20:27 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-US
 addons:
 - addonName: Autopilot
-  elementCount: 41
+  elementCount: 44
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -461,4 +461,153 @@ addons:
       alternates:
       - className: gw-active-links
     className: gw-active-links
+    isEnabled: true
+  - id: connect.other.ai.models
+    name: Connect other AI models
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Connect other AI models
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links
+    className: gw-active-links
+    isEnabled: true
+  - id: autopilot.pro.advanced.features
+    name: Autopilot PRO advanced features
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Hyperlink:Autopilot PRO advanced features
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: gw-active-links-pro
+    className: gw-active-links-pro
+    isEnabled: true
+  - id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
+    name: 'To get started, type a prompt into the box below and hit the '
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text:To get started, type a prompt into the box below and hit the '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: enter
+    name: ENTER
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Text:ENTER
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .key.
+    name: ' key.'
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - 'Text: key.'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: divcommandarea
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    selectors:
+      primary:
+        automationId: divcommandarea
+        controlType: Group
+    isEnabled: true
+  - id: commandprompt
+    name: Ask anything...
+    controlType: Edit
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Edit:Ask anything...
+    selectors:
+      primary:
+        automationId: commandprompt
+        controlType: Edit
+    isEnabled: true
+  - id: run
+    name:  
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button: 
+    selectors:
+      primary:
+        automationId: run
+        controlType: Button
+      alternates:
+      - className: btn-send
+    className: btn-send
+    isEnabled: true
+  - id: finetune
+    name: 
+    controlType: Button
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Document:OpenAI ChatGPT in Microsoft Office
+    - Button:
+    selectors:
+      primary:
+        automationId: finetune
+        controlType: Button
+      alternates:
+      - className: btn-finetune
+    className: btn-finetune
+    isEnabled: true
+  - id: control_43
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_44
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
     isEnabled: true
