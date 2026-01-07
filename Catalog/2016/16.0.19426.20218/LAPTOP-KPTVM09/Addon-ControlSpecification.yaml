@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 07-01-2026 11:08:09
-  scanDate: 2026-01-07 11:08:09 UTC
+  scannedAt: 07-01-2026 11:28:27
+  scanDate: 2026-01-07 11:28:27 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 45
+  elementCount: 49
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -621,4 +621,15 @@ addons:
       primary:
         automationId: LoginPopup
         controlType: Pane
+    isEnabled: true
+  - id: delete.chatgpt.for.excel.from.this.channel?
+    name: Delete ChatGPT for Excel from this channel?
+    controlType: Text
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:LoginPopup
+    - Text:Delete ChatGPT for Excel from this channel?
+    selectors:
+      primary:
+        controlType: Text
     isEnabled: true
