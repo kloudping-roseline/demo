@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 07-01-2026 11:06:05
-  scanDate: 2026-01-07 11:06:05 UTC
+  scannedAt: 07-01-2026 11:08:09
+  scanDate: 2026-01-07 11:08:09 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 44
+  elementCount: 45
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -610,4 +610,15 @@ addons:
       alternates:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
+    isEnabled: true
+  - id: loginpopup
+    name: LoginPopup
+    controlType: Pane
+    hierarchy:
+    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:LoginPopup
+    selectors:
+      primary:
+        automationId: LoginPopup
+        controlType: Pane
     isEnabled: true
