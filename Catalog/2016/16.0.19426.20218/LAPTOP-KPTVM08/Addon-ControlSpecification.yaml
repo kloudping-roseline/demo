@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM08
 baseLibraryVersion: 
 scan:
-  scannedAt: 08-01-2026 05:19:54
-  scanDate: 2026-01-08 05:19:54 UTC
+  scannedAt: 08-01-2026 05:39:53
+  scanDate: 2026-01-08 05:39:53 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -24,6 +24,8 @@ addons:
     selectors:
       primary:
         controlType: AddonRoot
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: wikipedia
     name: Wikipedia
@@ -36,6 +38,7 @@ addons:
         controlType: Pane
       alternates:
       - className: Chrome_WidgetWin_1
+    automationId: ''
     className: Chrome_WidgetWin_1
     isEnabled: true
   - id: window-based.elements
@@ -48,6 +51,8 @@ addons:
     selectors:
       primary:
         controlType: Container
+    automationId: ''
+    className: ''
     source: UIA
     extractionType: WindowBased
   - id: control_4
@@ -62,6 +67,26 @@ addons:
         controlType: Pane
       alternates:
       - className: Intermediate D3D Window
+      XPath:
+      - []
+      - []
+      - &o2 []
+      CSS:
+      - []
+      - []
+      - &o0 []
+      Properties:
+        ClassName: []
+        ControlType: *o0
+      SelectorType:
+        Primary: &o1 []
+        AvailableTypes:
+        - &o4 []
+        - &o5 []
+        - &o6 []
+        - *o1
+        - &o3 []
+    automationId: ''
     className: Intermediate D3D Window
     isEnabled: false
   - id: wikipedia.-.web.content
@@ -77,6 +102,31 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserRootView
+      XPath:
+      - &o33 []
+      - &o34 []
+      - &o35 []
+      - &o36 []
+      - *o2
+      CSS:
+      - &o37 []
+      - &o38 []
+      - *o0
+      - &o39 []
+      - &o40 []
+      Properties:
+        ClassName: &o41 []
+        Name: &o42 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserRootView
     isEnabled: true
   - id: control_6
@@ -92,6 +142,26 @@ addons:
         controlType: Pane
       alternates:
       - className: NonClientView
+      XPath:
+      - &o43 []
+      - &o44 []
+      - *o2
+      CSS:
+      - &o45 []
+      - &o46 []
+      - *o0
+      Properties:
+        ClassName: &o47 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: NonClientView
     isEnabled: true
   - id: control_7
@@ -107,6 +177,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserTabRootView
+      XPath:
+      - &o48 []
+      - &o49 []
+      - *o2
+      CSS:
+      - &o50 []
+      - &o51 []
+      - *o0
+      Properties:
+        ClassName: &o52 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
   - id: control_8
@@ -122,6 +212,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserFrameView
+      XPath:
+      - &o53 []
+      - &o54 []
+      - *o2
+      CSS:
+      - &o55 []
+      - &o56 []
+      - *o0
+      Properties:
+        ClassName: &o57 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
   - id: view_9
@@ -139,6 +249,38 @@ addons:
         controlType: Text
       alternates:
       - className: Label
+      XPath:
+      - &o58 []
+      - &o59 []
+      - &o60 []
+      - &o61 []
+      - &o62 []
+      - &o63 []
+      - &o32 []
+      - &o64 []
+      - &o65 []
+      CSS:
+      - &o66 []
+      - &o67 []
+      - &o68 []
+      - &o69 []
+      - &o7 []
+      - &o70 []
+      - &o71 []
+      Properties:
+        AutomationId: &o72 []
+        ClassName: &o73 []
+        Name: &o74 []
+        ControlType: *o7
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_9
     className: Label
     isEnabled: true
   - id: control_10
@@ -154,6 +296,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - &o75 []
+      - &o76 []
+      - *o2
+      CSS:
+      - &o77 []
+      - &o78 []
+      - *o0
+      Properties:
+        ClassName: &o79 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -171,6 +333,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - &o80 []
+      - &o81 []
+      - &o82 []
+      - &o83 []
+      - &o9 []
+      - &o10 []
+      - &o11 []
+      - &o84 []
+      - &o85 []
+      CSS:
+      - &o86 []
+      - &o87 []
+      - &o12 []
+      - &o13 []
+      - &o8 []
+      - &o88 []
+      - &o89 []
+      Properties:
+        AutomationId: &o90 []
+        ClassName: &o14 []
+        Name: &o91 []
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -188,6 +382,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - &o92 []
+      - &o93 []
+      - &o94 []
+      - &o95 []
+      - *o9
+      - *o10
+      - *o11
+      - &o96 []
+      - &o97 []
+      CSS:
+      - &o98 []
+      - &o99 []
+      - *o12
+      - *o13
+      - *o8
+      - &o100 []
+      - &o101 []
+      Properties:
+        AutomationId: &o102 []
+        ClassName: *o14
+        Name: &o103 []
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -205,6 +431,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - &o104 []
+      - &o105 []
+      - &o106 []
+      - &o107 []
+      - *o9
+      - *o10
+      - *o11
+      - &o108 []
+      - &o109 []
+      CSS:
+      - &o110 []
+      - &o111 []
+      - *o12
+      - *o13
+      - *o8
+      - &o112 []
+      - &o113 []
+      Properties:
+        AutomationId: &o114 []
+        ClassName: *o14
+        Name: &o115 []
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_14
@@ -220,6 +478,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - &o116 []
+      - &o117 []
+      - *o2
+      CSS:
+      - &o118 []
+      - &o119 []
+      - *o0
+      Properties:
+        ClassName: &o120 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_15
@@ -235,6 +513,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - &o121 []
+      - &o122 []
+      - *o2
+      CSS:
+      - &o123 []
+      - &o124 []
+      - *o0
+      Properties:
+        ClassName: &o125 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_16
@@ -250,6 +548,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - &o126 []
+      - &o127 []
+      - *o2
+      CSS:
+      - &o128 []
+      - &o129 []
+      - *o0
+      Properties:
+        ClassName: &o130 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_17
@@ -265,6 +583,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - &o15 []
+      - &o16 []
+      - *o2
+      CSS:
+      - &o17 []
+      - &o18 []
+      - *o0
+      Properties:
+        ClassName: &o19 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_18
@@ -280,6 +618,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_19
@@ -295,6 +653,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - &o20 []
+      - &o21 []
+      - *o2
+      CSS:
+      - &o22 []
+      - &o23 []
+      - *o0
+      Properties:
+        ClassName: &o24 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_20
@@ -310,6 +688,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -325,6 +723,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - &o131 []
+      - &o132 []
+      - &o133 []
+      - &o134 []
+      - &o135 []
+      - &o136 []
+      CSS:
+      - &o137 []
+      - &o138 []
+      - &o25 []
+      - &o139 []
+      - &o140 []
+      Properties:
+        AutomationId: &o141 []
+        Name: &o142 []
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -341,6 +766,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - &o143 []
+      - &o144 []
+      - &o145 []
+      - &o146 []
+      - &o147 []
+      CSS:
+      - &o148 []
+      - &o149 []
+      - &o26 []
+      - &o150 []
+      - &o151 []
+      Properties:
+        ClassName: &o152 []
+        Name: &o153 []
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -358,6 +808,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - &o154 []
+      - &o155 []
+      - &o156 []
+      - &o157 []
+      - &o158 []
+      CSS:
+      - &o159 []
+      - &o160 []
+      - &o27 []
+      - &o161 []
+      - &o162 []
+      Properties:
+        ClassName: &o163 []
+        Name: &o164 []
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -375,6 +850,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - &o165 []
+      - &o166 []
+      - &o167 []
+      - &o168 []
+      - *o11
+      CSS:
+      - &o169 []
+      - &o170 []
+      - *o8
+      - &o171 []
+      - &o172 []
+      Properties:
+        ClassName: &o173 []
+        Name: &o174 []
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -391,6 +891,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - &o175 []
+      - &o176 []
+      - &o29 []
+      CSS:
+      - &o28 []
+      - &o177 []
+      - &o178 []
+      Properties:
+        Name: &o179 []
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -407,6 +928,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - &o180 []
+      - &o181 []
+      - &o182 []
+      - &o183 []
+      - *o11
+      CSS:
+      - &o184 []
+      - &o185 []
+      - *o8
+      - &o186 []
+      - &o187 []
+      Properties:
+        ClassName: &o188 []
+        Name: &o189 []
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_27
@@ -422,6 +968,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: &o190 []
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_28
     name: Group
@@ -437,6 +999,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - &o191 []
+      - &o192 []
+      - &o31 []
+      CSS:
+      - &o193 []
+      - &o194 []
+      - &o30 []
+      Properties:
+        ClassName: &o195 []
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_29
@@ -453,6 +1035,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - &o196 []
+      - &o197 []
+      - *o31
+      CSS:
+      - &o198 []
+      - &o199 []
+      - *o30
+      Properties:
+        ClassName: &o200 []
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -468,6 +1070,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - &o201 []
+      - &o202 []
+      - *o32
+      CSS:
+      - *o7
+      - &o203 []
+      - &o204 []
+      Properties:
+        Name: &o205 []
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_31
     name: Pane
@@ -482,6 +1105,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - &o206 []
+      - &o207 []
+      - *o2
+      CSS:
+      - &o208 []
+      - &o209 []
+      - *o0
+      Properties:
+        ClassName: &o210 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
   - id: control_32
@@ -497,6 +1140,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerOverlayView
+      XPath:
+      - &o211 []
+      - &o212 []
+      - *o2
+      CSS:
+      - &o213 []
+      - &o214 []
+      - *o0
+      Properties:
+        ClassName: &o215 []
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
   - id: wikipedia.-.web.content
@@ -512,6 +1175,31 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserRootView
+      XPath:
+      - *o33
+      - *o34
+      - *o35
+      - *o36
+      - *o2
+      CSS:
+      - *o37
+      - *o38
+      - *o0
+      - *o39
+      - *o40
+      Properties:
+        ClassName: *o41
+        Name: *o42
+        ControlType: *o0
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserRootView
     isEnabled: true
   - id: control_34
@@ -527,6 +1215,26 @@ addons:
         controlType: Pane
       alternates:
       - className: NonClientView
+      XPath:
+      - *o43
+      - *o44
+      - *o2
+      CSS:
+      - *o45
+      - *o46
+      - *o0
+      Properties:
+        ClassName: *o47
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: NonClientView
     isEnabled: true
   - id: control_35
@@ -542,6 +1250,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserTabRootView
+      XPath:
+      - *o48
+      - *o49
+      - *o2
+      CSS:
+      - *o50
+      - *o51
+      - *o0
+      Properties:
+        ClassName: *o52
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
   - id: control_36
@@ -557,6 +1285,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserFrameView
+      XPath:
+      - *o53
+      - *o54
+      - *o2
+      CSS:
+      - *o55
+      - *o56
+      - *o0
+      Properties:
+        ClassName: *o57
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
   - id: view_9
@@ -574,6 +1322,38 @@ addons:
         controlType: Text
       alternates:
       - className: Label
+      XPath:
+      - *o58
+      - *o59
+      - *o60
+      - *o61
+      - *o62
+      - *o63
+      - *o32
+      - *o64
+      - *o65
+      CSS:
+      - *o66
+      - *o67
+      - *o68
+      - *o69
+      - *o7
+      - *o70
+      - *o71
+      Properties:
+        AutomationId: *o72
+        ClassName: *o73
+        Name: *o74
+        ControlType: *o7
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_9
     className: Label
     isEnabled: true
   - id: control_38
@@ -589,6 +1369,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - *o75
+      - *o76
+      - *o2
+      CSS:
+      - *o77
+      - *o78
+      - *o0
+      Properties:
+        ClassName: *o79
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -606,6 +1406,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o80
+      - *o81
+      - *o82
+      - *o83
+      - *o9
+      - *o10
+      - *o11
+      - *o84
+      - *o85
+      CSS:
+      - *o86
+      - *o87
+      - *o12
+      - *o13
+      - *o8
+      - *o88
+      - *o89
+      Properties:
+        AutomationId: *o90
+        ClassName: *o14
+        Name: *o91
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -623,6 +1455,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o92
+      - *o93
+      - *o94
+      - *o95
+      - *o9
+      - *o10
+      - *o11
+      - *o96
+      - *o97
+      CSS:
+      - *o98
+      - *o99
+      - *o12
+      - *o13
+      - *o8
+      - *o100
+      - *o101
+      Properties:
+        AutomationId: *o102
+        ClassName: *o14
+        Name: *o103
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -640,6 +1504,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o104
+      - *o105
+      - *o106
+      - *o107
+      - *o9
+      - *o10
+      - *o11
+      - *o108
+      - *o109
+      CSS:
+      - *o110
+      - *o111
+      - *o12
+      - *o13
+      - *o8
+      - *o112
+      - *o113
+      Properties:
+        AutomationId: *o114
+        ClassName: *o14
+        Name: *o115
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_42
@@ -655,6 +1551,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - *o116
+      - *o117
+      - *o2
+      CSS:
+      - *o118
+      - *o119
+      - *o0
+      Properties:
+        ClassName: *o120
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_43
@@ -670,6 +1586,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - *o121
+      - *o122
+      - *o2
+      CSS:
+      - *o123
+      - *o124
+      - *o0
+      Properties:
+        ClassName: *o125
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_44
@@ -685,6 +1621,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - *o126
+      - *o127
+      - *o2
+      CSS:
+      - *o128
+      - *o129
+      - *o0
+      Properties:
+        ClassName: *o130
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_45
@@ -700,6 +1656,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_46
@@ -715,6 +1691,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_47
@@ -730,6 +1726,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_48
@@ -745,6 +1761,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -760,6 +1796,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - *o131
+      - *o132
+      - *o133
+      - *o134
+      - *o135
+      - *o136
+      CSS:
+      - *o137
+      - *o138
+      - *o25
+      - *o139
+      - *o140
+      Properties:
+        AutomationId: *o141
+        Name: *o142
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -776,6 +1839,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - *o143
+      - *o144
+      - *o145
+      - *o146
+      - *o147
+      CSS:
+      - *o148
+      - *o149
+      - *o26
+      - *o150
+      - *o151
+      Properties:
+        ClassName: *o152
+        Name: *o153
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -793,6 +1881,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - *o154
+      - *o155
+      - *o156
+      - *o157
+      - *o158
+      CSS:
+      - *o159
+      - *o160
+      - *o27
+      - *o161
+      - *o162
+      Properties:
+        ClassName: *o163
+        Name: *o164
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -810,6 +1923,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o165
+      - *o166
+      - *o167
+      - *o168
+      - *o11
+      CSS:
+      - *o169
+      - *o170
+      - *o8
+      - *o171
+      - *o172
+      Properties:
+        ClassName: *o173
+        Name: *o174
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -826,6 +1964,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o175
+      - *o176
+      - *o29
+      CSS:
+      - *o28
+      - *o177
+      - *o178
+      Properties:
+        Name: *o179
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -842,6 +2001,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o180
+      - *o181
+      - *o182
+      - *o183
+      - *o11
+      CSS:
+      - *o184
+      - *o185
+      - *o8
+      - *o186
+      - *o187
+      Properties:
+        ClassName: *o188
+        Name: *o189
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_55
@@ -857,6 +2041,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: *o190
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_56
     name: Group
@@ -872,6 +2072,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - *o191
+      - *o192
+      - *o31
+      CSS:
+      - *o193
+      - *o194
+      - *o30
+      Properties:
+        ClassName: *o195
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_57
@@ -888,6 +2108,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - *o196
+      - *o197
+      - *o31
+      CSS:
+      - *o198
+      - *o199
+      - *o30
+      Properties:
+        ClassName: *o200
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -903,6 +2143,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - *o201
+      - *o202
+      - *o32
+      CSS:
+      - *o7
+      - *o203
+      - *o204
+      Properties:
+        Name: *o205
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_59
     name: Pane
@@ -917,6 +2178,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - *o206
+      - *o207
+      - *o2
+      CSS:
+      - *o208
+      - *o209
+      - *o0
+      Properties:
+        ClassName: *o210
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
   - id: control_60
@@ -932,6 +2213,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerOverlayView
+      XPath:
+      - *o211
+      - *o212
+      - *o2
+      CSS:
+      - *o213
+      - *o214
+      - *o0
+      Properties:
+        ClassName: *o215
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
   - id: control_61
@@ -946,6 +2247,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserFrameView
+      XPath:
+      - *o53
+      - *o54
+      - *o2
+      CSS:
+      - *o55
+      - *o56
+      - *o0
+      Properties:
+        ClassName: *o57
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
   - id: view_9
@@ -962,6 +2283,38 @@ addons:
         controlType: Text
       alternates:
       - className: Label
+      XPath:
+      - *o58
+      - *o59
+      - *o60
+      - *o61
+      - *o62
+      - *o63
+      - *o32
+      - *o64
+      - *o65
+      CSS:
+      - *o66
+      - *o67
+      - *o68
+      - *o69
+      - *o7
+      - *o70
+      - *o71
+      Properties:
+        AutomationId: *o72
+        ClassName: *o73
+        Name: *o74
+        ControlType: *o7
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_9
     className: Label
     isEnabled: true
   - id: control_63
@@ -976,6 +2329,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - *o75
+      - *o76
+      - *o2
+      CSS:
+      - *o77
+      - *o78
+      - *o0
+      Properties:
+        ClassName: *o79
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -992,6 +2365,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o80
+      - *o81
+      - *o82
+      - *o83
+      - *o9
+      - *o10
+      - *o11
+      - *o84
+      - *o85
+      CSS:
+      - *o86
+      - *o87
+      - *o12
+      - *o13
+      - *o8
+      - *o88
+      - *o89
+      Properties:
+        AutomationId: *o90
+        ClassName: *o14
+        Name: *o91
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -1008,6 +2413,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o92
+      - *o93
+      - *o94
+      - *o95
+      - *o9
+      - *o10
+      - *o11
+      - *o96
+      - *o97
+      CSS:
+      - *o98
+      - *o99
+      - *o12
+      - *o13
+      - *o8
+      - *o100
+      - *o101
+      Properties:
+        AutomationId: *o102
+        ClassName: *o14
+        Name: *o103
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -1024,6 +2461,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o104
+      - *o105
+      - *o106
+      - *o107
+      - *o9
+      - *o10
+      - *o11
+      - *o108
+      - *o109
+      CSS:
+      - *o110
+      - *o111
+      - *o12
+      - *o13
+      - *o8
+      - *o112
+      - *o113
+      Properties:
+        AutomationId: *o114
+        ClassName: *o14
+        Name: *o115
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_67
@@ -1038,6 +2507,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - *o116
+      - *o117
+      - *o2
+      CSS:
+      - *o118
+      - *o119
+      - *o0
+      Properties:
+        ClassName: *o120
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_68
@@ -1052,6 +2541,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - *o121
+      - *o122
+      - *o2
+      CSS:
+      - *o123
+      - *o124
+      - *o0
+      Properties:
+        ClassName: *o125
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_69
@@ -1066,6 +2575,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - *o126
+      - *o127
+      - *o2
+      CSS:
+      - *o128
+      - *o129
+      - *o0
+      Properties:
+        ClassName: *o130
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_70
@@ -1080,6 +2609,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_71
@@ -1094,6 +2643,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_72
@@ -1108,6 +2677,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_73
@@ -1122,6 +2711,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -1136,6 +2745,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - *o131
+      - *o132
+      - *o133
+      - *o134
+      - *o135
+      - *o136
+      CSS:
+      - *o137
+      - *o138
+      - *o25
+      - *o139
+      - *o140
+      Properties:
+        AutomationId: *o141
+        Name: *o142
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -1151,6 +2787,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - *o143
+      - *o144
+      - *o145
+      - *o146
+      - *o147
+      CSS:
+      - *o148
+      - *o149
+      - *o26
+      - *o150
+      - *o151
+      Properties:
+        ClassName: *o152
+        Name: *o153
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -1167,6 +2828,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - *o154
+      - *o155
+      - *o156
+      - *o157
+      - *o158
+      CSS:
+      - *o159
+      - *o160
+      - *o27
+      - *o161
+      - *o162
+      Properties:
+        ClassName: *o163
+        Name: *o164
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -1183,6 +2869,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o165
+      - *o166
+      - *o167
+      - *o168
+      - *o11
+      CSS:
+      - *o169
+      - *o170
+      - *o8
+      - *o171
+      - *o172
+      Properties:
+        ClassName: *o173
+        Name: *o174
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -1198,6 +2909,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o175
+      - *o176
+      - *o29
+      CSS:
+      - *o28
+      - *o177
+      - *o178
+      Properties:
+        Name: *o179
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -1213,6 +2945,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o180
+      - *o181
+      - *o182
+      - *o183
+      - *o11
+      CSS:
+      - *o184
+      - *o185
+      - *o8
+      - *o186
+      - *o187
+      Properties:
+        ClassName: *o188
+        Name: *o189
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_80
@@ -1227,6 +2984,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: *o190
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_81
     name: Group
@@ -1241,6 +3014,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - *o191
+      - *o192
+      - *o31
+      CSS:
+      - *o193
+      - *o194
+      - *o30
+      Properties:
+        ClassName: *o195
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_82
@@ -1256,6 +3049,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - *o196
+      - *o197
+      - *o31
+      CSS:
+      - *o198
+      - *o199
+      - *o30
+      Properties:
+        ClassName: *o200
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -1270,6 +3083,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - *o201
+      - *o202
+      - *o32
+      CSS:
+      - *o7
+      - *o203
+      - *o204
+      Properties:
+        Name: *o205
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_84
     name: Pane
@@ -1283,6 +3117,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - *o206
+      - *o207
+      - *o2
+      CSS:
+      - *o208
+      - *o209
+      - *o0
+      Properties:
+        ClassName: *o210
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
   - id: control_85
@@ -1297,6 +3151,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - *o75
+      - *o76
+      - *o2
+      CSS:
+      - *o77
+      - *o78
+      - *o0
+      Properties:
+        ClassName: *o79
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -1313,6 +3187,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o80
+      - *o81
+      - *o82
+      - *o83
+      - *o9
+      - *o10
+      - *o11
+      - *o84
+      - *o85
+      CSS:
+      - *o86
+      - *o87
+      - *o12
+      - *o13
+      - *o8
+      - *o88
+      - *o89
+      Properties:
+        AutomationId: *o90
+        ClassName: *o14
+        Name: *o91
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -1329,6 +3235,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o92
+      - *o93
+      - *o94
+      - *o95
+      - *o9
+      - *o10
+      - *o11
+      - *o96
+      - *o97
+      CSS:
+      - *o98
+      - *o99
+      - *o12
+      - *o13
+      - *o8
+      - *o100
+      - *o101
+      Properties:
+        AutomationId: *o102
+        ClassName: *o14
+        Name: *o103
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -1345,6 +3283,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o104
+      - *o105
+      - *o106
+      - *o107
+      - *o9
+      - *o10
+      - *o11
+      - *o108
+      - *o109
+      CSS:
+      - *o110
+      - *o111
+      - *o12
+      - *o13
+      - *o8
+      - *o112
+      - *o113
+      Properties:
+        AutomationId: *o114
+        ClassName: *o14
+        Name: *o115
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_89
@@ -1359,6 +3329,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - *o116
+      - *o117
+      - *o2
+      CSS:
+      - *o118
+      - *o119
+      - *o0
+      Properties:
+        ClassName: *o120
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_90
@@ -1373,6 +3363,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - *o121
+      - *o122
+      - *o2
+      CSS:
+      - *o123
+      - *o124
+      - *o0
+      Properties:
+        ClassName: *o125
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_91
@@ -1387,6 +3397,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - *o126
+      - *o127
+      - *o2
+      CSS:
+      - *o128
+      - *o129
+      - *o0
+      Properties:
+        ClassName: *o130
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_92
@@ -1401,6 +3431,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_93
@@ -1415,6 +3465,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_94
@@ -1429,6 +3499,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_95
@@ -1443,6 +3533,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -1457,6 +3567,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - *o131
+      - *o132
+      - *o133
+      - *o134
+      - *o135
+      - *o136
+      CSS:
+      - *o137
+      - *o138
+      - *o25
+      - *o139
+      - *o140
+      Properties:
+        AutomationId: *o141
+        Name: *o142
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -1472,6 +3609,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - *o143
+      - *o144
+      - *o145
+      - *o146
+      - *o147
+      CSS:
+      - *o148
+      - *o149
+      - *o26
+      - *o150
+      - *o151
+      Properties:
+        ClassName: *o152
+        Name: *o153
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -1488,6 +3650,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - *o154
+      - *o155
+      - *o156
+      - *o157
+      - *o158
+      CSS:
+      - *o159
+      - *o160
+      - *o27
+      - *o161
+      - *o162
+      Properties:
+        ClassName: *o163
+        Name: *o164
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -1504,6 +3691,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o165
+      - *o166
+      - *o167
+      - *o168
+      - *o11
+      CSS:
+      - *o169
+      - *o170
+      - *o8
+      - *o171
+      - *o172
+      Properties:
+        ClassName: *o173
+        Name: *o174
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -1519,6 +3731,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o175
+      - *o176
+      - *o29
+      CSS:
+      - *o28
+      - *o177
+      - *o178
+      Properties:
+        Name: *o179
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -1534,6 +3767,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o180
+      - *o181
+      - *o182
+      - *o183
+      - *o11
+      CSS:
+      - *o184
+      - *o185
+      - *o8
+      - *o186
+      - *o187
+      Properties:
+        ClassName: *o188
+        Name: *o189
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_102
@@ -1548,6 +3806,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: *o190
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_103
     name: Group
@@ -1562,6 +3836,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - *o191
+      - *o192
+      - *o31
+      CSS:
+      - *o193
+      - *o194
+      - *o30
+      Properties:
+        ClassName: *o195
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_104
@@ -1577,6 +3871,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - *o196
+      - *o197
+      - *o31
+      CSS:
+      - *o198
+      - *o199
+      - *o30
+      Properties:
+        ClassName: *o200
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -1591,6 +3905,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - *o201
+      - *o202
+      - *o32
+      CSS:
+      - *o7
+      - *o203
+      - *o204
+      Properties:
+        Name: *o205
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_106
     name: Pane
@@ -1604,6 +3939,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - *o206
+      - *o207
+      - *o2
+      CSS:
+      - *o208
+      - *o209
+      - *o0
+      Properties:
+        ClassName: *o210
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
   - id: wikipedia.-.web.content
@@ -1617,6 +3972,7 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserRootView
+    automationId: ''
     className: BrowserRootView
     isEnabled: true
   - id: window-based.elements
@@ -1629,6 +3985,8 @@ addons:
     selectors:
       primary:
         controlType: Container
+    automationId: ''
+    className: ''
     source: UIA
     extractionType: WindowBased
   - id: control_109
@@ -1643,6 +4001,26 @@ addons:
         controlType: Pane
       alternates:
       - className: NonClientView
+      XPath:
+      - *o43
+      - *o44
+      - *o2
+      CSS:
+      - *o45
+      - *o46
+      - *o0
+      Properties:
+        ClassName: *o47
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: NonClientView
     isEnabled: true
   - id: control_110
@@ -1657,6 +4035,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserTabRootView
+      XPath:
+      - *o48
+      - *o49
+      - *o2
+      CSS:
+      - *o50
+      - *o51
+      - *o0
+      Properties:
+        ClassName: *o52
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
   - id: control_111
@@ -1671,6 +4069,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserFrameView
+      XPath:
+      - *o53
+      - *o54
+      - *o2
+      CSS:
+      - *o55
+      - *o56
+      - *o0
+      Properties:
+        ClassName: *o57
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
   - id: view_9
@@ -1687,6 +4105,38 @@ addons:
         controlType: Text
       alternates:
       - className: Label
+      XPath:
+      - *o58
+      - *o59
+      - *o60
+      - *o61
+      - *o62
+      - *o63
+      - *o32
+      - *o64
+      - *o65
+      CSS:
+      - *o66
+      - *o67
+      - *o68
+      - *o69
+      - *o7
+      - *o70
+      - *o71
+      Properties:
+        AutomationId: *o72
+        ClassName: *o73
+        Name: *o74
+        ControlType: *o7
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_9
     className: Label
     isEnabled: true
   - id: control_113
@@ -1701,6 +4151,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - *o75
+      - *o76
+      - *o2
+      CSS:
+      - *o77
+      - *o78
+      - *o0
+      Properties:
+        ClassName: *o79
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -1717,6 +4187,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o80
+      - *o81
+      - *o82
+      - *o83
+      - *o9
+      - *o10
+      - *o11
+      - *o84
+      - *o85
+      CSS:
+      - *o86
+      - *o87
+      - *o12
+      - *o13
+      - *o8
+      - *o88
+      - *o89
+      Properties:
+        AutomationId: *o90
+        ClassName: *o14
+        Name: *o91
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -1733,6 +4235,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o92
+      - *o93
+      - *o94
+      - *o95
+      - *o9
+      - *o10
+      - *o11
+      - *o96
+      - *o97
+      CSS:
+      - *o98
+      - *o99
+      - *o12
+      - *o13
+      - *o8
+      - *o100
+      - *o101
+      Properties:
+        AutomationId: *o102
+        ClassName: *o14
+        Name: *o103
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -1749,6 +4283,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o104
+      - *o105
+      - *o106
+      - *o107
+      - *o9
+      - *o10
+      - *o11
+      - *o108
+      - *o109
+      CSS:
+      - *o110
+      - *o111
+      - *o12
+      - *o13
+      - *o8
+      - *o112
+      - *o113
+      Properties:
+        AutomationId: *o114
+        ClassName: *o14
+        Name: *o115
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_117
@@ -1763,6 +4329,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - *o116
+      - *o117
+      - *o2
+      CSS:
+      - *o118
+      - *o119
+      - *o0
+      Properties:
+        ClassName: *o120
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_118
@@ -1777,6 +4363,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - *o121
+      - *o122
+      - *o2
+      CSS:
+      - *o123
+      - *o124
+      - *o0
+      Properties:
+        ClassName: *o125
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_119
@@ -1791,6 +4397,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - *o126
+      - *o127
+      - *o2
+      CSS:
+      - *o128
+      - *o129
+      - *o0
+      Properties:
+        ClassName: *o130
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_120
@@ -1805,6 +4431,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_121
@@ -1819,6 +4465,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_122
@@ -1833,6 +4499,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_123
@@ -1847,6 +4533,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -1861,6 +4567,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - *o131
+      - *o132
+      - *o133
+      - *o134
+      - *o135
+      - *o136
+      CSS:
+      - *o137
+      - *o138
+      - *o25
+      - *o139
+      - *o140
+      Properties:
+        AutomationId: *o141
+        Name: *o142
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -1876,6 +4609,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - *o143
+      - *o144
+      - *o145
+      - *o146
+      - *o147
+      CSS:
+      - *o148
+      - *o149
+      - *o26
+      - *o150
+      - *o151
+      Properties:
+        ClassName: *o152
+        Name: *o153
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -1892,6 +4650,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - *o154
+      - *o155
+      - *o156
+      - *o157
+      - *o158
+      CSS:
+      - *o159
+      - *o160
+      - *o27
+      - *o161
+      - *o162
+      Properties:
+        ClassName: *o163
+        Name: *o164
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -1908,6 +4691,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o165
+      - *o166
+      - *o167
+      - *o168
+      - *o11
+      CSS:
+      - *o169
+      - *o170
+      - *o8
+      - *o171
+      - *o172
+      Properties:
+        ClassName: *o173
+        Name: *o174
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -1923,6 +4731,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o175
+      - *o176
+      - *o29
+      CSS:
+      - *o28
+      - *o177
+      - *o178
+      Properties:
+        Name: *o179
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -1938,6 +4767,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o180
+      - *o181
+      - *o182
+      - *o183
+      - *o11
+      CSS:
+      - *o184
+      - *o185
+      - *o8
+      - *o186
+      - *o187
+      Properties:
+        ClassName: *o188
+        Name: *o189
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_130
@@ -1952,6 +4806,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: *o190
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_131
     name: Group
@@ -1966,6 +4836,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - *o191
+      - *o192
+      - *o31
+      CSS:
+      - *o193
+      - *o194
+      - *o30
+      Properties:
+        ClassName: *o195
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_132
@@ -1981,6 +4871,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - *o196
+      - *o197
+      - *o31
+      CSS:
+      - *o198
+      - *o199
+      - *o30
+      Properties:
+        ClassName: *o200
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -1995,6 +4905,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - *o201
+      - *o202
+      - *o32
+      CSS:
+      - *o7
+      - *o203
+      - *o204
+      Properties:
+        Name: *o205
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_134
     name: Pane
@@ -2008,6 +4939,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - *o206
+      - *o207
+      - *o2
+      CSS:
+      - *o208
+      - *o209
+      - *o0
+      Properties:
+        ClassName: *o210
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
   - id: control_135
@@ -2022,6 +4973,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerOverlayView
+      XPath:
+      - *o211
+      - *o212
+      - *o2
+      CSS:
+      - *o213
+      - *o214
+      - *o0
+      Properties:
+        ClassName: *o215
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
   - id: control_136
@@ -2036,6 +5007,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserFrameView
+      XPath:
+      - *o53
+      - *o54
+      - *o2
+      CSS:
+      - *o55
+      - *o56
+      - *o0
+      Properties:
+        ClassName: *o57
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
   - id: view_9
@@ -2052,6 +5043,38 @@ addons:
         controlType: Text
       alternates:
       - className: Label
+      XPath:
+      - *o58
+      - *o59
+      - *o60
+      - *o61
+      - *o62
+      - *o63
+      - *o32
+      - *o64
+      - *o65
+      CSS:
+      - *o66
+      - *o67
+      - *o68
+      - *o69
+      - *o7
+      - *o70
+      - *o71
+      Properties:
+        AutomationId: *o72
+        ClassName: *o73
+        Name: *o74
+        ControlType: *o7
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_9
     className: Label
     isEnabled: true
   - id: control_138
@@ -2066,6 +5089,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - *o75
+      - *o76
+      - *o2
+      CSS:
+      - *o77
+      - *o78
+      - *o0
+      Properties:
+        ClassName: *o79
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -2082,6 +5125,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o80
+      - *o81
+      - *o82
+      - *o83
+      - *o9
+      - *o10
+      - *o11
+      - *o84
+      - *o85
+      CSS:
+      - *o86
+      - *o87
+      - *o12
+      - *o13
+      - *o8
+      - *o88
+      - *o89
+      Properties:
+        AutomationId: *o90
+        ClassName: *o14
+        Name: *o91
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -2098,6 +5173,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o92
+      - *o93
+      - *o94
+      - *o95
+      - *o9
+      - *o10
+      - *o11
+      - *o96
+      - *o97
+      CSS:
+      - *o98
+      - *o99
+      - *o12
+      - *o13
+      - *o8
+      - *o100
+      - *o101
+      Properties:
+        AutomationId: *o102
+        ClassName: *o14
+        Name: *o103
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -2114,6 +5221,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o104
+      - *o105
+      - *o106
+      - *o107
+      - *o9
+      - *o10
+      - *o11
+      - *o108
+      - *o109
+      CSS:
+      - *o110
+      - *o111
+      - *o12
+      - *o13
+      - *o8
+      - *o112
+      - *o113
+      Properties:
+        AutomationId: *o114
+        ClassName: *o14
+        Name: *o115
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_142
@@ -2128,6 +5267,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - *o116
+      - *o117
+      - *o2
+      CSS:
+      - *o118
+      - *o119
+      - *o0
+      Properties:
+        ClassName: *o120
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_143
@@ -2142,6 +5301,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - *o121
+      - *o122
+      - *o2
+      CSS:
+      - *o123
+      - *o124
+      - *o0
+      Properties:
+        ClassName: *o125
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_144
@@ -2156,6 +5335,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - *o126
+      - *o127
+      - *o2
+      CSS:
+      - *o128
+      - *o129
+      - *o0
+      Properties:
+        ClassName: *o130
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_145
@@ -2170,6 +5369,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_146
@@ -2184,6 +5403,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_147
@@ -2198,6 +5437,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_148
@@ -2212,6 +5471,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -2226,6 +5505,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - *o131
+      - *o132
+      - *o133
+      - *o134
+      - *o135
+      - *o136
+      CSS:
+      - *o137
+      - *o138
+      - *o25
+      - *o139
+      - *o140
+      Properties:
+        AutomationId: *o141
+        Name: *o142
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -2241,6 +5547,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - *o143
+      - *o144
+      - *o145
+      - *o146
+      - *o147
+      CSS:
+      - *o148
+      - *o149
+      - *o26
+      - *o150
+      - *o151
+      Properties:
+        ClassName: *o152
+        Name: *o153
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -2257,6 +5588,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - *o154
+      - *o155
+      - *o156
+      - *o157
+      - *o158
+      CSS:
+      - *o159
+      - *o160
+      - *o27
+      - *o161
+      - *o162
+      Properties:
+        ClassName: *o163
+        Name: *o164
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -2273,6 +5629,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o165
+      - *o166
+      - *o167
+      - *o168
+      - *o11
+      CSS:
+      - *o169
+      - *o170
+      - *o8
+      - *o171
+      - *o172
+      Properties:
+        ClassName: *o173
+        Name: *o174
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -2288,6 +5669,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o175
+      - *o176
+      - *o29
+      CSS:
+      - *o28
+      - *o177
+      - *o178
+      Properties:
+        Name: *o179
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -2303,6 +5705,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o180
+      - *o181
+      - *o182
+      - *o183
+      - *o11
+      CSS:
+      - *o184
+      - *o185
+      - *o8
+      - *o186
+      - *o187
+      Properties:
+        ClassName: *o188
+        Name: *o189
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_155
@@ -2317,6 +5744,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: *o190
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_156
     name: Group
@@ -2331,6 +5774,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - *o191
+      - *o192
+      - *o31
+      CSS:
+      - *o193
+      - *o194
+      - *o30
+      Properties:
+        ClassName: *o195
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_157
@@ -2346,6 +5809,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - *o196
+      - *o197
+      - *o31
+      CSS:
+      - *o198
+      - *o199
+      - *o30
+      Properties:
+        ClassName: *o200
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -2360,6 +5843,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - *o201
+      - *o202
+      - *o32
+      CSS:
+      - *o7
+      - *o203
+      - *o204
+      Properties:
+        Name: *o205
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_159
     name: Pane
@@ -2373,6 +5877,26 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - *o206
+      - *o207
+      - *o2
+      CSS:
+      - *o208
+      - *o209
+      - *o0
+      Properties:
+        ClassName: *o210
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
   - id: control_160
@@ -2387,6 +5911,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserCaptionButtonContainer
+      XPath:
+      - *o75
+      - *o76
+      - *o2
+      CSS:
+      - *o77
+      - *o78
+      - *o0
+      Properties:
+        ClassName: *o79
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
   - id: view_2
@@ -2403,6 +5947,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o80
+      - *o81
+      - *o82
+      - *o83
+      - *o9
+      - *o10
+      - *o11
+      - *o84
+      - *o85
+      CSS:
+      - *o86
+      - *o87
+      - *o12
+      - *o13
+      - *o8
+      - *o88
+      - *o89
+      Properties:
+        AutomationId: *o90
+        ClassName: *o14
+        Name: *o91
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_3
@@ -2419,6 +5995,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o92
+      - *o93
+      - *o94
+      - *o95
+      - *o9
+      - *o10
+      - *o11
+      - *o96
+      - *o97
+      CSS:
+      - *o98
+      - *o99
+      - *o12
+      - *o13
+      - *o8
+      - *o100
+      - *o101
+      Properties:
+        AutomationId: *o102
+        ClassName: *o14
+        Name: *o103
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: view_7
@@ -2435,6 +6043,38 @@ addons:
         controlType: Button
       alternates:
       - className: EdgeWindowsCaptionButton
+      XPath:
+      - *o104
+      - *o105
+      - *o106
+      - *o107
+      - *o9
+      - *o10
+      - *o11
+      - *o108
+      - *o109
+      CSS:
+      - *o110
+      - *o111
+      - *o12
+      - *o13
+      - *o8
+      - *o112
+      - *o113
+      Properties:
+        AutomationId: *o114
+        ClassName: *o14
+        Name: *o115
+        ControlType: *o8
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
   - id: control_164
@@ -2449,6 +6089,26 @@ addons:
         controlType: Pane
       alternates:
       - className: BrowserView
+      XPath:
+      - *o116
+      - *o117
+      - *o2
+      CSS:
+      - *o118
+      - *o119
+      - *o0
+      Properties:
+        ClassName: *o120
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: BrowserView
     isEnabled: true
   - id: control_165
@@ -2463,6 +6123,26 @@ addons:
         controlType: Pane
       alternates:
       - className: MainContainerView
+      XPath:
+      - *o121
+      - *o122
+      - *o2
+      CSS:
+      - *o123
+      - *o124
+      - *o0
+      Properties:
+        ClassName: *o125
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: MainContainerView
     isEnabled: true
   - id: control_166
@@ -2477,6 +6157,26 @@ addons:
         controlType: Pane
       alternates:
       - className: TopContainerView
+      XPath:
+      - *o126
+      - *o127
+      - *o2
+      CSS:
+      - *o128
+      - *o129
+      - *o0
+      Properties:
+        ClassName: *o130
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: TopContainerView
     isEnabled: true
   - id: control_167
@@ -2491,6 +6191,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_168
@@ -2505,6 +6225,26 @@ addons:
         controlType: Pane
       alternates:
       - className: SidebarContentsSplitView
+      XPath:
+      - *o15
+      - *o16
+      - *o2
+      CSS:
+      - *o17
+      - *o18
+      - *o0
+      Properties:
+        ClassName: *o19
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
   - id: control_169
@@ -2519,6 +6259,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: control_170
@@ -2533,6 +6293,26 @@ addons:
         controlType: Pane
       alternates:
       - className: View
+      XPath:
+      - *o20
+      - *o21
+      - *o2
+      CSS:
+      - *o22
+      - *o23
+      - *o0
+      Properties:
+        ClassName: *o24
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: View
     isEnabled: true
   - id: rootwebarea
@@ -2547,6 +6327,33 @@ addons:
       primary:
         automationId: RootWebArea
         controlType: Document
+      XPath:
+      - *o131
+      - *o132
+      - *o133
+      - *o134
+      - *o135
+      - *o136
+      CSS:
+      - *o137
+      - *o138
+      - *o25
+      - *o139
+      - *o140
+      Properties:
+        AutomationId: *o141
+        Name: *o142
+        ControlType: *o25
+      SelectorType:
+        Primary: *o6
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: RootWebArea
+    className: ''
     isEnabled: true
   - id: wikipedia.logo
     name: Wikipedia logo
@@ -2562,6 +6369,31 @@ addons:
         controlType: Hyperlink
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+      XPath:
+      - *o143
+      - *o144
+      - *o145
+      - *o146
+      - *o147
+      CSS:
+      - *o148
+      - *o149
+      - *o26
+      - *o150
+      - *o151
+      Properties:
+        ClassName: *o152
+        Name: *o153
+        ControlType: *o26
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
   - id: i.want.to.know...
@@ -2578,6 +6410,31 @@ addons:
         controlType: Edit
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+      XPath:
+      - *o154
+      - *o155
+      - *o156
+      - *o157
+      - *o158
+      CSS:
+      - *o159
+      - *o160
+      - *o27
+      - *o161
+      - *o162
+      Properties:
+        ClassName: *o163
+        Name: *o164
+        ControlType: *o27
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
   - id: search
@@ -2594,6 +6451,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o165
+      - *o166
+      - *o167
+      - *o168
+      - *o11
+      CSS:
+      - *o169
+      - *o170
+      - *o8
+      - *o171
+      - *o172
+      Properties:
+        ClassName: *o173
+        Name: *o174
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
@@ -2609,6 +6491,27 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o175
+      - *o176
+      - *o29
+      CSS:
+      - *o28
+      - *o177
+      - *o178
+      Properties:
+        Name: *o179
+        ControlType: *o28
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: search.options
     name: Search Options
@@ -2624,6 +6527,31 @@ addons:
         controlType: Button
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+      XPath:
+      - *o180
+      - *o181
+      - *o182
+      - *o183
+      - *o11
+      CSS:
+      - *o184
+      - *o185
+      - *o8
+      - *o186
+      - *o187
+      Properties:
+        ClassName: *o188
+        Name: *o189
+        ControlType: *o8
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
   - id: control_177
@@ -2638,6 +6566,22 @@ addons:
     selectors:
       primary:
         controlType: Image
+      XPath:
+      - *o29
+      CSS:
+      - *o28
+      Properties:
+        ControlType: *o28
+      SelectorType:
+        Primary: *o190
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_178
     name: Group
@@ -2652,6 +6596,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_content
+      XPath:
+      - *o191
+      - *o192
+      - *o31
+      CSS:
+      - *o193
+      - *o194
+      - *o30
+      Properties:
+        ClassName: *o195
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_content
     isEnabled: true
   - id: control_179
@@ -2667,6 +6631,26 @@ addons:
         controlType: Group
       alternates:
       - className: ms_osf_article
+      XPath:
+      - *o196
+      - *o197
+      - *o31
+      CSS:
+      - *o198
+      - *o199
+      - *o30
+      Properties:
+        ClassName: *o200
+        ControlType: *o30
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: ms_osf_article
     isEnabled: true
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
@@ -2681,6 +6665,27 @@ addons:
     selectors:
       primary:
         controlType: Text
+      XPath:
+      - *o201
+      - *o202
+      - *o32
+      CSS:
+      - *o7
+      - *o203
+      - *o204
+      Properties:
+        Name: *o205
+        ControlType: *o7
+      SelectorType:
+        Primary: *o3
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
+    className: ''
     isEnabled: true
   - id: control_181
     name: Pane
@@ -2694,5 +6699,25 @@ addons:
         controlType: Pane
       alternates:
       - className: EmbeddedBrowserDownloadView
+      XPath:
+      - *o206
+      - *o207
+      - *o2
+      CSS:
+      - *o208
+      - *o209
+      - *o0
+      Properties:
+        ClassName: *o210
+        ControlType: *o0
+      SelectorType:
+        Primary: *o1
+        AvailableTypes:
+        - *o4
+        - *o5
+        - *o6
+        - *o1
+        - *o3
+    automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
