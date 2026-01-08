@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM08
 baseLibraryVersion: 
 scan:
-  scannedAt: 08-01-2026 06:09:39
-  scanDate: 2026-01-08 06:09:39 UTC
+  scannedAt: 08-01-2026 06:41:48
+  scanDate: 2026-01-08 06:41:48 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -27,6 +27,9 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility: []
+    recommendedFramework: FlaUI
+    elementCategory: WindowBased
   - id: wikipedia
     name: Wikipedia
     controlType: Pane
@@ -41,6 +44,9 @@ addons:
     automationId: ''
     className: Chrome_WidgetWin_1
     isEnabled: true
+    frameworkCompatibility: []
+    recommendedFramework: FlaUI
+    elementCategory: WindowBased
   - id: window-based.elements
     name: Window-Based Elements
     controlType: Container
@@ -55,6 +61,14 @@ addons:
     className: ''
     source: UIA
     extractionType: WindowBased
+    frameworkCompatibility:
+    - FlaUI
+    recommendedFramework: FlaUI
+    elementCategory: WindowBased
+    selectorStrategy:
+      FlaUI: Use AutomationId, Name + ControlType, or ClassName selectors
+      Selenium: Not supported - window-based element requires FlaUI
+      Playwright: Not supported - window-based element requires FlaUI
   - id: control_4
     name: Pane
     controlType: Pane
@@ -89,6 +103,14 @@ addons:
     automationId: ''
     className: Intermediate D3D Window
     isEnabled: false
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: wikipedia.-.web.content
     name: Wikipedia - Web content
     controlType: Pane
@@ -129,6 +151,14 @@ addons:
     automationId: ''
     className: BrowserRootView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_6
     name: Pane
     controlType: Pane
@@ -164,6 +194,14 @@ addons:
     automationId: ''
     className: NonClientView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_7
     name: Pane
     controlType: Pane
@@ -199,6 +237,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_8
     name: Pane
     controlType: Pane
@@ -234,6 +280,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_9
     name: Untitled
     controlType: Text
@@ -283,6 +337,16 @@ addons:
     automationId: view_9
     className: Label
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_10
     name: Pane
     controlType: Pane
@@ -318,6 +382,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -367,6 +439,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -416,6 +498,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -465,6 +557,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_14
     name: Pane
     controlType: Pane
@@ -500,6 +602,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_15
     name: Pane
     controlType: Pane
@@ -535,6 +645,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_16
     name: Pane
     controlType: Pane
@@ -570,6 +688,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_17
     name: Pane
     controlType: Pane
@@ -605,6 +731,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_18
     name: Pane
     controlType: Pane
@@ -640,6 +774,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_19
     name: Pane
     controlType: Pane
@@ -675,6 +817,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_20
     name: Pane
     controlType: Pane
@@ -710,6 +860,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -751,6 +909,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -793,6 +961,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -835,6 +1011,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -877,6 +1061,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -913,6 +1105,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -955,6 +1155,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_27
     name: Image
     controlType: Image
@@ -985,6 +1193,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_28
     name: Group
     controlType: Group
@@ -1021,6 +1237,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_29
     name: Group
     controlType: Group
@@ -1057,6 +1281,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -1092,6 +1324,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_31
     name: Pane
     controlType: Pane
@@ -1127,6 +1367,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_32
     name: Pane
     controlType: Pane
@@ -1162,6 +1410,14 @@ addons:
     automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: wikipedia.-.web.content
     name: Wikipedia - Web content
     controlType: Pane
@@ -1202,6 +1458,14 @@ addons:
     automationId: ''
     className: BrowserRootView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_34
     name: Pane
     controlType: Pane
@@ -1237,6 +1501,14 @@ addons:
     automationId: ''
     className: NonClientView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_35
     name: Pane
     controlType: Pane
@@ -1272,6 +1544,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_36
     name: Pane
     controlType: Pane
@@ -1307,6 +1587,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_9
     name: Untitled
     controlType: Text
@@ -1356,6 +1644,16 @@ addons:
     automationId: view_9
     className: Label
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_38
     name: Pane
     controlType: Pane
@@ -1391,6 +1689,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -1440,6 +1746,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -1489,6 +1805,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -1538,6 +1864,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_42
     name: Pane
     controlType: Pane
@@ -1573,6 +1909,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_43
     name: Pane
     controlType: Pane
@@ -1608,6 +1952,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_44
     name: Pane
     controlType: Pane
@@ -1643,6 +1995,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_45
     name: Pane
     controlType: Pane
@@ -1678,6 +2038,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_46
     name: Pane
     controlType: Pane
@@ -1713,6 +2081,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_47
     name: Pane
     controlType: Pane
@@ -1748,6 +2124,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_48
     name: Pane
     controlType: Pane
@@ -1783,6 +2167,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -1824,6 +2216,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -1866,6 +2268,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -1908,6 +2318,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -1950,6 +2368,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -1986,6 +2412,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -2028,6 +2462,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_55
     name: Image
     controlType: Image
@@ -2058,6 +2500,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_56
     name: Group
     controlType: Group
@@ -2094,6 +2544,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_57
     name: Group
     controlType: Group
@@ -2130,6 +2588,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -2165,6 +2631,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_59
     name: Pane
     controlType: Pane
@@ -2200,6 +2674,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_60
     name: Pane
     controlType: Pane
@@ -2235,6 +2717,14 @@ addons:
     automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_61
     name: Pane
     controlType: Pane
@@ -2269,6 +2759,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_9
     name: Untitled
     controlType: Text
@@ -2317,6 +2815,16 @@ addons:
     automationId: view_9
     className: Label
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_63
     name: Pane
     controlType: Pane
@@ -2351,6 +2859,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -2399,6 +2915,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -2447,6 +2973,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -2495,6 +3031,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_67
     name: Pane
     controlType: Pane
@@ -2529,6 +3075,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_68
     name: Pane
     controlType: Pane
@@ -2563,6 +3117,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_69
     name: Pane
     controlType: Pane
@@ -2597,6 +3159,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_70
     name: Pane
     controlType: Pane
@@ -2631,6 +3201,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_71
     name: Pane
     controlType: Pane
@@ -2665,6 +3243,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_72
     name: Pane
     controlType: Pane
@@ -2699,6 +3285,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_73
     name: Pane
     controlType: Pane
@@ -2733,6 +3327,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -2773,6 +3375,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -2814,6 +3426,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -2855,6 +3475,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -2896,6 +3524,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -2931,6 +3567,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -2972,6 +3616,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_80
     name: Image
     controlType: Image
@@ -3001,6 +3653,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_81
     name: Group
     controlType: Group
@@ -3036,6 +3696,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_82
     name: Group
     controlType: Group
@@ -3071,6 +3739,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -3105,6 +3781,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_84
     name: Pane
     controlType: Pane
@@ -3139,6 +3823,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_85
     name: Pane
     controlType: Pane
@@ -3173,6 +3865,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -3221,6 +3921,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -3269,6 +3979,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -3317,6 +4037,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_89
     name: Pane
     controlType: Pane
@@ -3351,6 +4081,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_90
     name: Pane
     controlType: Pane
@@ -3385,6 +4123,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_91
     name: Pane
     controlType: Pane
@@ -3419,6 +4165,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_92
     name: Pane
     controlType: Pane
@@ -3453,6 +4207,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_93
     name: Pane
     controlType: Pane
@@ -3487,6 +4249,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_94
     name: Pane
     controlType: Pane
@@ -3521,6 +4291,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_95
     name: Pane
     controlType: Pane
@@ -3555,6 +4333,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -3595,6 +4381,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -3636,6 +4432,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -3677,6 +4481,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -3718,6 +4530,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -3753,6 +4573,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -3794,6 +4622,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_102
     name: Image
     controlType: Image
@@ -3823,6 +4659,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_103
     name: Group
     controlType: Group
@@ -3858,6 +4702,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_104
     name: Group
     controlType: Group
@@ -3893,6 +4745,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -3927,6 +4787,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_106
     name: Pane
     controlType: Pane
@@ -3961,6 +4829,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: wikipedia.-.web.content
     name: Wikipedia - Web content
     controlType: Pane
@@ -3975,6 +4851,9 @@ addons:
     automationId: ''
     className: BrowserRootView
     isEnabled: true
+    frameworkCompatibility: []
+    recommendedFramework: FlaUI
+    elementCategory: WindowBased
   - id: window-based.elements
     name: Window-Based Elements
     controlType: Container
@@ -3989,6 +4868,14 @@ addons:
     className: ''
     source: UIA
     extractionType: WindowBased
+    frameworkCompatibility:
+    - FlaUI
+    recommendedFramework: FlaUI
+    elementCategory: WindowBased
+    selectorStrategy:
+      FlaUI: Use AutomationId, Name + ControlType, or ClassName selectors
+      Selenium: Not supported - window-based element requires FlaUI
+      Playwright: Not supported - window-based element requires FlaUI
   - id: control_109
     name: Pane
     controlType: Pane
@@ -4023,6 +4910,14 @@ addons:
     automationId: ''
     className: NonClientView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_110
     name: Pane
     controlType: Pane
@@ -4057,6 +4952,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_111
     name: Pane
     controlType: Pane
@@ -4091,6 +4994,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_9
     name: Untitled
     controlType: Text
@@ -4139,6 +5050,16 @@ addons:
     automationId: view_9
     className: Label
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_113
     name: Pane
     controlType: Pane
@@ -4173,6 +5094,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -4221,6 +5150,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -4269,6 +5208,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -4317,6 +5266,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_117
     name: Pane
     controlType: Pane
@@ -4351,6 +5310,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_118
     name: Pane
     controlType: Pane
@@ -4385,6 +5352,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_119
     name: Pane
     controlType: Pane
@@ -4419,6 +5394,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_120
     name: Pane
     controlType: Pane
@@ -4453,6 +5436,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_121
     name: Pane
     controlType: Pane
@@ -4487,6 +5478,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_122
     name: Pane
     controlType: Pane
@@ -4521,6 +5520,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_123
     name: Pane
     controlType: Pane
@@ -4555,6 +5562,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -4595,6 +5610,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -4636,6 +5661,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -4677,6 +5710,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -4718,6 +5759,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -4753,6 +5802,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -4794,6 +5851,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_130
     name: Image
     controlType: Image
@@ -4823,6 +5888,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_131
     name: Group
     controlType: Group
@@ -4858,6 +5931,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_132
     name: Group
     controlType: Group
@@ -4893,6 +5974,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -4927,6 +6016,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_134
     name: Pane
     controlType: Pane
@@ -4961,6 +6058,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_135
     name: Pane
     controlType: Pane
@@ -4995,6 +6100,14 @@ addons:
     automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_136
     name: Pane
     controlType: Pane
@@ -5029,6 +6142,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_9
     name: Untitled
     controlType: Text
@@ -5077,6 +6198,16 @@ addons:
     automationId: view_9
     className: Label
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_138
     name: Pane
     controlType: Pane
@@ -5111,6 +6242,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -5159,6 +6298,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -5207,6 +6356,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -5255,6 +6414,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_142
     name: Pane
     controlType: Pane
@@ -5289,6 +6458,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_143
     name: Pane
     controlType: Pane
@@ -5323,6 +6500,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_144
     name: Pane
     controlType: Pane
@@ -5357,6 +6542,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_145
     name: Pane
     controlType: Pane
@@ -5391,6 +6584,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_146
     name: Pane
     controlType: Pane
@@ -5425,6 +6626,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_147
     name: Pane
     controlType: Pane
@@ -5459,6 +6668,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_148
     name: Pane
     controlType: Pane
@@ -5493,6 +6710,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -5533,6 +6758,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -5574,6 +6809,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -5615,6 +6858,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -5656,6 +6907,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -5691,6 +6950,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -5732,6 +6999,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_155
     name: Image
     controlType: Image
@@ -5761,6 +7036,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_156
     name: Group
     controlType: Group
@@ -5796,6 +7079,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_157
     name: Group
     controlType: Group
@@ -5831,6 +7122,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -5865,6 +7164,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_159
     name: Pane
     controlType: Pane
@@ -5899,6 +7206,14 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_160
     name: Pane
     controlType: Pane
@@ -5933,6 +7248,14 @@ addons:
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: view_2
     name: Minimize
     controlType: Button
@@ -5981,6 +7304,16 @@ addons:
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_3
     name: Maximize
     controlType: Button
@@ -6029,6 +7362,16 @@ addons:
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: view_7
     name: Close
     controlType: Button
@@ -6077,6 +7420,16 @@ addons:
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: control_164
     name: Pane
     controlType: Pane
@@ -6111,6 +7464,14 @@ addons:
     automationId: ''
     className: BrowserView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_165
     name: Pane
     controlType: Pane
@@ -6145,6 +7506,14 @@ addons:
     automationId: ''
     className: MainContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_166
     name: Pane
     controlType: Pane
@@ -6179,6 +7548,14 @@ addons:
     automationId: ''
     className: TopContainerView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_167
     name: Pane
     controlType: Pane
@@ -6213,6 +7590,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_168
     name: Pane
     controlType: Pane
@@ -6247,6 +7632,14 @@ addons:
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_169
     name: Pane
     controlType: Pane
@@ -6281,6 +7674,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_170
     name: Pane
     controlType: Pane
@@ -6315,6 +7716,14 @@ addons:
     automationId: ''
     className: View
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: rootwebarea
     name: Wikipedia
     controlType: Document
@@ -6355,6 +7764,16 @@ addons:
     automationId: RootWebArea
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    - FlaUI
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
+      FlaUI: Use AutomationId selector
   - id: wikipedia.logo
     name: Wikipedia logo
     controlType: Hyperlink
@@ -6396,6 +7815,14 @@ addons:
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: i.want.to.know...
     name: I want to know...
     controlType: Edit
@@ -6437,6 +7864,14 @@ addons:
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search
     name: Search
     controlType: Button
@@ -6478,6 +7913,14 @@ addons:
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: to.get.missing.image.descriptions,.open.the.context.menu.
     name: To get missing image descriptions, open the context menu.
     controlType: Image
@@ -6513,6 +7956,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: search.options
     name: Search Options
     controlType: Button
@@ -6554,6 +8005,14 @@ addons:
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_177
     name: Image
     controlType: Image
@@ -6583,6 +8042,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_178
     name: Group
     controlType: Group
@@ -6618,6 +8085,14 @@ addons:
     automationId: ''
     className: ms_osf_content
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_179
     name: Group
     controlType: Group
@@ -6653,6 +8128,14 @@ addons:
     automationId: ''
     className: ms_osf_article
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
     name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
     controlType: Text
@@ -6687,6 +8170,14 @@ addons:
     automationId: ''
     className: ''
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
   - id: control_181
     name: Pane
     controlType: Pane
@@ -6721,3 +8212,11 @@ addons:
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
+    frameworkCompatibility:
+    - Selenium
+    - Playwright
+    recommendedFramework: Selenium
+    elementCategory: WindowBased
+    selectorStrategy:
+      Selenium: Use XPath or CSS selector
+      Playwright: Use XPath or CSS locator
