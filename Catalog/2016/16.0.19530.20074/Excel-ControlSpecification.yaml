@@ -1,0 +1,623 @@
+application: Excel
+appVersion: 16.0.19530.20074
+year: 2016
+Agent: LAVANYA
+baseLibraryVersion: null
+scan:
+  scannedAt: 2026-01-08T15:17:50.7563121+05:30
+  toolVersion: null
+  environment:
+    osBuild: 26100.7462
+    dpi: 96
+    locale: en-US
+controls:
+  - Id: ribbon.home.paste
+    Name: Paste
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Paste
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Paste
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Paste
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 120, y: 376, w: 42, h: 77 }
+  - Id: ribbon.home.paste
+    Name: Paste
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Paste
+    Selectors:
+      Primary:
+        AutomationId: Paste
+        ControlType: Button
+      Alternates:
+        - Name: Paste
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Paste
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 120, y: 376, w: 42, h: 38 }
+  - Id: ribbon.home.cut
+    Name: Cut
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Cut
+    Selectors:
+      Primary:
+        AutomationId: Cut
+        ControlType: Button
+      Alternates:
+        - Name: Cut
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Cut
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 163, y: 376, w: 24, h: 24 }
+  - Id: ribbon.home.font
+    Name: Font
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Font
+    Selectors:
+      Primary:
+        AutomationId: Font
+        ControlType: ComboBox
+      Alternates:
+        - Name: Font
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font
+    Children:
+      - Name: Font
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: Aptos Display (Headings)
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Narrow (Body)
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: All Fonts
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Abadi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Abadi ExtraLight, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ADLaM Display
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Agency FB
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aharoni, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Alasassy Caps, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aldhabi, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Algerian
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro Black
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Amasis MT Pro Medium, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Angsana New, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: AngsanaUPC, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aparajita, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Black, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Display
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos ExtraBold, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Light
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Mono, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aptos Narrow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 227, y: 376, w: 92, h: 24 }
+  - Id: ribbon.home.fontsize
+    Name: Font Size
+    ControlType: ComboBox
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - ComboBox:Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSize
+        ControlType: ComboBox
+      Alternates:
+        - Name: Font Size
+          ClassName: NetUIComboboxAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Size
+    Children:
+      - Name: Font Size
+        AutomationId: null
+        ClassName: NetUIGalleryContainer
+        ControlType: Menu
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIScrollBar
+        ControlType: ScrollBar
+      - Name: 9
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 11
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 12
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 14
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 16
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 18
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 20
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 22
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 24
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 26
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 28
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 36
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 48
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 72
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 321, y: 376, w: 50, h: 24 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 306, y: 377, w: 13, h: 22 }
+  - Id: ribbon.home.open
+    Name: Open
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Open
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Button
+      Alternates:
+        - Name: Open
+          ClassName: NetUIStickyButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Open
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 358, y: 377, w: 13, h: 22 }
+  - Id: ribbon.home.font
+    Name: Font
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Font
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Font
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Font
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 228, y: 378, w: 78, h: 19 }
+  - Id: ribbon.home.font.size
+    Name: Font Size
+    ControlType: Edit
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Edit:Font Size
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: Edit
+      Alternates:
+        - Name: Font Size
+          ClassName: NetUITextbox
+          Pattern: Invoke
+          Path: Ribbon/Home/Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 322, y: 378, w: 36, h: 19 }
+  - Id: ribbon.home.copy
+    Name: Copy
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Copy
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Copy
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Copy
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 163, y: 402, w: 48, h: 24 }
+  - Id: ribbon.home.copy
+    Name: Copy
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Copy
+    Selectors:
+      Primary:
+        AutomationId: Copy
+        ControlType: Button
+      Alternates:
+        - Name: Copy
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Copy
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 163, y: 402, w: 24, h: 24 }
+  - Id: ribbon.home.copysplitbutton_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: CopySplitButton_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Copy
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Copy as Picture...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 187, y: 402, w: 24, h: 24 }
+  - Id: ribbon.home.bold
+    Name: Bold
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Bold
+    Selectors:
+      Primary:
+        AutomationId: Bold
+        ControlType: Button
+      Alternates:
+        - Name: Bold
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Bold
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 227, y: 402, w: 24, h: 24 }
+  - Id: ribbon.home.fontsizeincrease
+    Name: Increase Font Size
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Increase Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSizeIncrease
+        ControlType: Button
+      Alternates:
+        - Name: Increase Font Size
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Increase Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 322, y: 402, w: 24, h: 24 }
+  - Id: ribbon.home.fontsizedecrease
+    Name: Decrease Font Size
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Decrease Font Size
+    Selectors:
+      Primary:
+        AutomationId: FontSizeDecrease
+        ControlType: Button
+      Alternates:
+        - Name: Decrease Font Size
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Decrease Font Size
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 347, y: 402, w: 24, h: 24 }
+  - Id: ribbon.home.pastemenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: PasteMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: Paste
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Paste Special...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 120, y: 414, w: 42, h: 38 }
+  - Id: ribbon.home.formatpainter
+    Name: Format Painter
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Format Painter
+    Selectors:
+      Primary:
+        AutomationId: FormatPainter
+        ControlType: Button
+      Alternates:
+        - Name: Format Painter
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Format Painter
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 163, y: 427, w: 24, h: 24 }
+  - Id: ribbon.home.showclipboard
+    Name: Office Clipboard...
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Office Clipboard...
+    Selectors:
+      Primary:
+        AutomationId: ShowClipboard
+        ControlType: Button
+      Alternates:
+        - Name: Office Clipboard...
+          ClassName: NetUISimpleButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Office Clipboard...
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 203, y: 454, w: 16, h: 16 }
