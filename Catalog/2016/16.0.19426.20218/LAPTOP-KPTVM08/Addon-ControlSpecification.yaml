@@ -4,8 +4,8 @@ year: 2016
 Agent: LAPTOP-KPTVM08
 baseLibraryVersion: 
 scan:
-  scannedAt: 08-01-2026 05:57:05
-  scanDate: 2026-01-08 05:57:05 UTC
+  scannedAt: 08-01-2026 06:09:39
+  scanDate: 2026-01-08 06:09:39 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -68,24 +68,24 @@ addons:
       alternates:
       - className: Intermediate D3D Window
       XPath:
-      - []
-      - []
-      - &o2 []
+      - //Pane[@ClassName='Intermediate D3D Window']
+      - //*[@ClassName='Intermediate D3D Window']
+      - //Pane
       CSS:
-      - []
-      - []
-      - &o0 []
+      - "[ClassName='Intermediate\\0020D3D\\0020Window']"
+      - Pane[ClassName='Intermediate\0020D3D\0020Window']
+      - Pane
       Properties:
         ClassName: []
-        ControlType: *o0
+        ControlType: []
       SelectorType:
-        Primary: &o1 []
+        Primary: []
         AvailableTypes:
-        - &o4 []
-        - &o5 []
-        - &o6 []
-        - *o1
-        - &o3 []
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: Intermediate D3D Window
     isEnabled: false
@@ -103,29 +103,29 @@ addons:
       alternates:
       - className: BrowserRootView
       XPath:
-      - &o33 []
-      - &o34 []
-      - &o35 []
-      - &o36 []
-      - *o2
+      - //Pane[@Name='Wikipedia - Web content']
+      - //*[@Name='Wikipedia - Web content']
+      - //Pane[@ClassName='BrowserRootView']
+      - //*[@ClassName='BrowserRootView']
+      - //Pane
       CSS:
-      - &o37 []
-      - &o38 []
-      - *o0
-      - &o39 []
-      - &o40 []
+      - "[ClassName='BrowserRootView']"
+      - Pane[ClassName='BrowserRootView']
+      - Pane
+      - "[Name='Wikipedia\\0020-\\0020Web\\0020content']"
+      - Pane[Name='Wikipedia\0020-\0020Web\0020content']
       Properties:
-        ClassName: &o41 []
-        Name: &o42 []
-        ControlType: *o0
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserRootView
     isEnabled: true
@@ -143,24 +143,24 @@ addons:
       alternates:
       - className: NonClientView
       XPath:
-      - &o43 []
-      - &o44 []
-      - *o2
+      - //Pane[@ClassName='NonClientView']
+      - //*[@ClassName='NonClientView']
+      - //Pane
       CSS:
-      - &o45 []
-      - &o46 []
-      - *o0
+      - "[ClassName='NonClientView']"
+      - Pane[ClassName='NonClientView']
+      - Pane
       Properties:
-        ClassName: &o47 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: NonClientView
     isEnabled: true
@@ -178,24 +178,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserTabRootView
       XPath:
-      - &o48 []
-      - &o49 []
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserTabRootView']
+      - //*[@ClassName='EmbeddedBrowserTabRootView']
+      - //Pane
       CSS:
-      - &o50 []
-      - &o51 []
-      - *o0
+      - "[ClassName='EmbeddedBrowserTabRootView']"
+      - Pane[ClassName='EmbeddedBrowserTabRootView']
+      - Pane
       Properties:
-        ClassName: &o52 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
@@ -213,24 +213,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserFrameView
       XPath:
-      - &o53 []
-      - &o54 []
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserFrameView']
+      - //*[@ClassName='EmbeddedBrowserFrameView']
+      - //Pane
       CSS:
-      - &o55 []
-      - &o56 []
-      - *o0
+      - "[ClassName='EmbeddedBrowserFrameView']"
+      - Pane[ClassName='EmbeddedBrowserFrameView']
+      - Pane
       Properties:
-        ClassName: &o57 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
@@ -250,36 +250,36 @@ addons:
       alternates:
       - className: Label
       XPath:
-      - &o58 []
-      - &o59 []
-      - &o60 []
-      - &o61 []
-      - &o62 []
-      - &o63 []
-      - &o32 []
-      - &o64 []
-      - &o65 []
+      - //*[@AutomationId='view_9']
+      - //Text[@AutomationId='view_9']
+      - //Text[@Name='Untitled']
+      - //*[@Name='Untitled']
+      - //Text[@ClassName='Label']
+      - //*[@ClassName='Label']
+      - //Text
+      - //Text[@AutomationId='view_9' and @Name='Untitled']
+      - //Text[@AutomationId='view_9' and @ClassName='Label']
       CSS:
-      - &o66 []
-      - &o67 []
-      - &o68 []
-      - &o69 []
-      - &o7 []
-      - &o70 []
-      - &o71 []
+      - "[AutomationId='view_9']"
+      - Text[AutomationId='view_9']
+      - "[ClassName='Label']"
+      - Text[ClassName='Label']
+      - Text
+      - "[Name='Untitled']"
+      - Text[Name='Untitled']
       Properties:
-        AutomationId: &o72 []
-        ClassName: &o73 []
-        Name: &o74 []
-        ControlType: *o7
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_9
     className: Label
     isEnabled: true
@@ -297,24 +297,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - &o75 []
-      - &o76 []
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - &o77 []
-      - &o78 []
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: &o79 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -334,36 +334,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - &o80 []
-      - &o81 []
-      - &o82 []
-      - &o83 []
-      - &o9 []
-      - &o10 []
-      - &o11 []
-      - &o84 []
-      - &o85 []
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - &o86 []
-      - &o87 []
-      - &o12 []
-      - &o13 []
-      - &o8 []
-      - &o88 []
-      - &o89 []
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: &o90 []
-        ClassName: &o14 []
-        Name: &o91 []
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -383,36 +383,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - &o92 []
-      - &o93 []
-      - &o94 []
-      - &o95 []
-      - *o9
-      - *o10
-      - *o11
-      - &o96 []
-      - &o97 []
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - &o98 []
-      - &o99 []
-      - *o12
-      - *o13
-      - *o8
-      - &o100 []
-      - &o101 []
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: &o102 []
-        ClassName: *o14
-        Name: &o103 []
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -432,36 +432,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - &o104 []
-      - &o105 []
-      - &o106 []
-      - &o107 []
-      - *o9
-      - *o10
-      - *o11
-      - &o108 []
-      - &o109 []
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - &o110 []
-      - &o111 []
-      - *o12
-      - *o13
-      - *o8
-      - &o112 []
-      - &o113 []
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: &o114 []
-        ClassName: *o14
-        Name: &o115 []
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -479,24 +479,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - &o116 []
-      - &o117 []
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - &o118 []
-      - &o119 []
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: &o120 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -514,24 +514,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - &o121 []
-      - &o122 []
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - &o123 []
-      - &o124 []
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: &o125 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -549,24 +549,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - &o126 []
-      - &o127 []
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - &o128 []
-      - &o129 []
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: &o130 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -584,24 +584,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - &o15 []
-      - &o16 []
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - &o17 []
-      - &o18 []
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: &o19 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -619,24 +619,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -654,24 +654,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - &o20 []
-      - &o21 []
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - &o22 []
-      - &o23 []
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: &o24 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -689,24 +689,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -724,30 +724,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - &o131 []
-      - &o132 []
-      - &o133 []
-      - &o134 []
-      - &o135 []
-      - &o136 []
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - &o137 []
-      - &o138 []
-      - &o25 []
-      - &o139 []
-      - &o140 []
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: &o141 []
-        Name: &o142 []
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -767,29 +767,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - &o143 []
-      - &o144 []
-      - &o145 []
-      - &o146 []
-      - &o147 []
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - &o148 []
-      - &o149 []
-      - &o26 []
-      - &o150 []
-      - &o151 []
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: &o152 []
-        Name: &o153 []
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -809,29 +809,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - &o154 []
-      - &o155 []
-      - &o156 []
-      - &o157 []
-      - &o158 []
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - &o159 []
-      - &o160 []
-      - &o27 []
-      - &o161 []
-      - &o162 []
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: &o163 []
-        Name: &o164 []
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -851,29 +851,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - &o165 []
-      - &o166 []
-      - &o167 []
-      - &o168 []
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - &o169 []
-      - &o170 []
-      - *o8
-      - &o171 []
-      - &o172 []
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: &o173 []
-        Name: &o174 []
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -892,24 +892,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - &o175 []
-      - &o176 []
-      - &o29 []
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - &o28 []
-      - &o177 []
-      - &o178 []
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: &o179 []
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -929,29 +929,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - &o180 []
-      - &o181 []
-      - &o182 []
-      - &o183 []
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - &o184 []
-      - &o185 []
-      - *o8
-      - &o186 []
-      - &o187 []
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: &o188 []
-        Name: &o189 []
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -969,19 +969,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: &o190 []
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -1000,24 +1000,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - &o191 []
-      - &o192 []
-      - &o31 []
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - &o193 []
-      - &o194 []
-      - &o30 []
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: &o195 []
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -1036,24 +1036,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - &o196 []
-      - &o197 []
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - &o198 []
-      - &o199 []
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: &o200 []
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -1071,24 +1071,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - &o201 []
-      - &o202 []
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - &o203 []
-      - &o204 []
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: &o205 []
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -1106,24 +1106,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - &o206 []
-      - &o207 []
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - &o208 []
-      - &o209 []
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: &o210 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
@@ -1141,24 +1141,24 @@ addons:
       alternates:
       - className: TopContainerOverlayView
       XPath:
-      - &o211 []
-      - &o212 []
-      - *o2
+      - //Pane[@ClassName='TopContainerOverlayView']
+      - //*[@ClassName='TopContainerOverlayView']
+      - //Pane
       CSS:
-      - &o213 []
-      - &o214 []
-      - *o0
+      - "[ClassName='TopContainerOverlayView']"
+      - Pane[ClassName='TopContainerOverlayView']
+      - Pane
       Properties:
-        ClassName: &o215 []
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
@@ -1176,29 +1176,29 @@ addons:
       alternates:
       - className: BrowserRootView
       XPath:
-      - *o33
-      - *o34
-      - *o35
-      - *o36
-      - *o2
+      - //Pane[@Name='Wikipedia - Web content']
+      - //*[@Name='Wikipedia - Web content']
+      - //Pane[@ClassName='BrowserRootView']
+      - //*[@ClassName='BrowserRootView']
+      - //Pane
       CSS:
-      - *o37
-      - *o38
-      - *o0
-      - *o39
-      - *o40
+      - "[ClassName='BrowserRootView']"
+      - Pane[ClassName='BrowserRootView']
+      - Pane
+      - "[Name='Wikipedia\\0020-\\0020Web\\0020content']"
+      - Pane[Name='Wikipedia\0020-\0020Web\0020content']
       Properties:
-        ClassName: *o41
-        Name: *o42
-        ControlType: *o0
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserRootView
     isEnabled: true
@@ -1216,24 +1216,24 @@ addons:
       alternates:
       - className: NonClientView
       XPath:
-      - *o43
-      - *o44
-      - *o2
+      - //Pane[@ClassName='NonClientView']
+      - //*[@ClassName='NonClientView']
+      - //Pane
       CSS:
-      - *o45
-      - *o46
-      - *o0
+      - "[ClassName='NonClientView']"
+      - Pane[ClassName='NonClientView']
+      - Pane
       Properties:
-        ClassName: *o47
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: NonClientView
     isEnabled: true
@@ -1251,24 +1251,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserTabRootView
       XPath:
-      - *o48
-      - *o49
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserTabRootView']
+      - //*[@ClassName='EmbeddedBrowserTabRootView']
+      - //Pane
       CSS:
-      - *o50
-      - *o51
-      - *o0
+      - "[ClassName='EmbeddedBrowserTabRootView']"
+      - Pane[ClassName='EmbeddedBrowserTabRootView']
+      - Pane
       Properties:
-        ClassName: *o52
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
@@ -1286,24 +1286,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserFrameView
       XPath:
-      - *o53
-      - *o54
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserFrameView']
+      - //*[@ClassName='EmbeddedBrowserFrameView']
+      - //Pane
       CSS:
-      - *o55
-      - *o56
-      - *o0
+      - "[ClassName='EmbeddedBrowserFrameView']"
+      - Pane[ClassName='EmbeddedBrowserFrameView']
+      - Pane
       Properties:
-        ClassName: *o57
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
@@ -1323,36 +1323,36 @@ addons:
       alternates:
       - className: Label
       XPath:
-      - *o58
-      - *o59
-      - *o60
-      - *o61
-      - *o62
-      - *o63
-      - *o32
-      - *o64
-      - *o65
+      - //*[@AutomationId='view_9']
+      - //Text[@AutomationId='view_9']
+      - //Text[@Name='Untitled']
+      - //*[@Name='Untitled']
+      - //Text[@ClassName='Label']
+      - //*[@ClassName='Label']
+      - //Text
+      - //Text[@AutomationId='view_9' and @Name='Untitled']
+      - //Text[@AutomationId='view_9' and @ClassName='Label']
       CSS:
-      - *o66
-      - *o67
-      - *o68
-      - *o69
-      - *o7
-      - *o70
-      - *o71
+      - "[AutomationId='view_9']"
+      - Text[AutomationId='view_9']
+      - "[ClassName='Label']"
+      - Text[ClassName='Label']
+      - Text
+      - "[Name='Untitled']"
+      - Text[Name='Untitled']
       Properties:
-        AutomationId: *o72
-        ClassName: *o73
-        Name: *o74
-        ControlType: *o7
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_9
     className: Label
     isEnabled: true
@@ -1370,24 +1370,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - *o75
-      - *o76
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - *o77
-      - *o78
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: *o79
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -1407,36 +1407,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o80
-      - *o81
-      - *o82
-      - *o83
-      - *o9
-      - *o10
-      - *o11
-      - *o84
-      - *o85
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o86
-      - *o87
-      - *o12
-      - *o13
-      - *o8
-      - *o88
-      - *o89
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: *o90
-        ClassName: *o14
-        Name: *o91
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -1456,36 +1456,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o92
-      - *o93
-      - *o94
-      - *o95
-      - *o9
-      - *o10
-      - *o11
-      - *o96
-      - *o97
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o98
-      - *o99
-      - *o12
-      - *o13
-      - *o8
-      - *o100
-      - *o101
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: *o102
-        ClassName: *o14
-        Name: *o103
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -1505,36 +1505,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o104
-      - *o105
-      - *o106
-      - *o107
-      - *o9
-      - *o10
-      - *o11
-      - *o108
-      - *o109
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o110
-      - *o111
-      - *o12
-      - *o13
-      - *o8
-      - *o112
-      - *o113
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: *o114
-        ClassName: *o14
-        Name: *o115
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -1552,24 +1552,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - *o116
-      - *o117
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - *o118
-      - *o119
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: *o120
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -1587,24 +1587,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - *o121
-      - *o122
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - *o123
-      - *o124
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: *o125
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -1622,24 +1622,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - *o126
-      - *o127
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - *o128
-      - *o129
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: *o130
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -1657,24 +1657,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -1692,24 +1692,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -1727,24 +1727,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -1762,24 +1762,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -1797,30 +1797,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - *o131
-      - *o132
-      - *o133
-      - *o134
-      - *o135
-      - *o136
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - *o137
-      - *o138
-      - *o25
-      - *o139
-      - *o140
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: *o141
-        Name: *o142
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -1840,29 +1840,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - *o143
-      - *o144
-      - *o145
-      - *o146
-      - *o147
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - *o148
-      - *o149
-      - *o26
-      - *o150
-      - *o151
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: *o152
-        Name: *o153
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -1882,29 +1882,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - *o154
-      - *o155
-      - *o156
-      - *o157
-      - *o158
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - *o159
-      - *o160
-      - *o27
-      - *o161
-      - *o162
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: *o163
-        Name: *o164
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -1924,29 +1924,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o165
-      - *o166
-      - *o167
-      - *o168
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o169
-      - *o170
-      - *o8
-      - *o171
-      - *o172
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: *o173
-        Name: *o174
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -1965,24 +1965,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o175
-      - *o176
-      - *o29
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - *o28
-      - *o177
-      - *o178
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: *o179
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -2002,29 +2002,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o180
-      - *o181
-      - *o182
-      - *o183
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o184
-      - *o185
-      - *o8
-      - *o186
-      - *o187
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: *o188
-        Name: *o189
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -2042,19 +2042,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: *o190
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -2073,24 +2073,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - *o191
-      - *o192
-      - *o31
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - *o193
-      - *o194
-      - *o30
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: *o195
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -2109,24 +2109,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - *o196
-      - *o197
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - *o198
-      - *o199
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: *o200
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -2144,24 +2144,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - *o201
-      - *o202
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - *o203
-      - *o204
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: *o205
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -2179,24 +2179,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - *o206
-      - *o207
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - *o208
-      - *o209
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: *o210
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
@@ -2214,24 +2214,24 @@ addons:
       alternates:
       - className: TopContainerOverlayView
       XPath:
-      - *o211
-      - *o212
-      - *o2
+      - //Pane[@ClassName='TopContainerOverlayView']
+      - //*[@ClassName='TopContainerOverlayView']
+      - //Pane
       CSS:
-      - *o213
-      - *o214
-      - *o0
+      - "[ClassName='TopContainerOverlayView']"
+      - Pane[ClassName='TopContainerOverlayView']
+      - Pane
       Properties:
-        ClassName: *o215
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
@@ -2248,24 +2248,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserFrameView
       XPath:
-      - *o53
-      - *o54
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserFrameView']
+      - //*[@ClassName='EmbeddedBrowserFrameView']
+      - //Pane
       CSS:
-      - *o55
-      - *o56
-      - *o0
+      - "[ClassName='EmbeddedBrowserFrameView']"
+      - Pane[ClassName='EmbeddedBrowserFrameView']
+      - Pane
       Properties:
-        ClassName: *o57
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
@@ -2284,36 +2284,36 @@ addons:
       alternates:
       - className: Label
       XPath:
-      - *o58
-      - *o59
-      - *o60
-      - *o61
-      - *o62
-      - *o63
-      - *o32
-      - *o64
-      - *o65
+      - //*[@AutomationId='view_9']
+      - //Text[@AutomationId='view_9']
+      - //Text[@Name='Untitled']
+      - //*[@Name='Untitled']
+      - //Text[@ClassName='Label']
+      - //*[@ClassName='Label']
+      - //Text
+      - //Text[@AutomationId='view_9' and @Name='Untitled']
+      - //Text[@AutomationId='view_9' and @ClassName='Label']
       CSS:
-      - *o66
-      - *o67
-      - *o68
-      - *o69
-      - *o7
-      - *o70
-      - *o71
+      - "[AutomationId='view_9']"
+      - Text[AutomationId='view_9']
+      - "[ClassName='Label']"
+      - Text[ClassName='Label']
+      - Text
+      - "[Name='Untitled']"
+      - Text[Name='Untitled']
       Properties:
-        AutomationId: *o72
-        ClassName: *o73
-        Name: *o74
-        ControlType: *o7
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_9
     className: Label
     isEnabled: true
@@ -2330,24 +2330,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - *o75
-      - *o76
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - *o77
-      - *o78
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: *o79
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -2366,36 +2366,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o80
-      - *o81
-      - *o82
-      - *o83
-      - *o9
-      - *o10
-      - *o11
-      - *o84
-      - *o85
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o86
-      - *o87
-      - *o12
-      - *o13
-      - *o8
-      - *o88
-      - *o89
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: *o90
-        ClassName: *o14
-        Name: *o91
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -2414,36 +2414,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o92
-      - *o93
-      - *o94
-      - *o95
-      - *o9
-      - *o10
-      - *o11
-      - *o96
-      - *o97
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o98
-      - *o99
-      - *o12
-      - *o13
-      - *o8
-      - *o100
-      - *o101
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: *o102
-        ClassName: *o14
-        Name: *o103
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -2462,36 +2462,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o104
-      - *o105
-      - *o106
-      - *o107
-      - *o9
-      - *o10
-      - *o11
-      - *o108
-      - *o109
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o110
-      - *o111
-      - *o12
-      - *o13
-      - *o8
-      - *o112
-      - *o113
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: *o114
-        ClassName: *o14
-        Name: *o115
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -2508,24 +2508,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - *o116
-      - *o117
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - *o118
-      - *o119
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: *o120
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -2542,24 +2542,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - *o121
-      - *o122
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - *o123
-      - *o124
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: *o125
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -2576,24 +2576,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - *o126
-      - *o127
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - *o128
-      - *o129
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: *o130
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -2610,24 +2610,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -2644,24 +2644,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -2678,24 +2678,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -2712,24 +2712,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -2746,30 +2746,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - *o131
-      - *o132
-      - *o133
-      - *o134
-      - *o135
-      - *o136
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - *o137
-      - *o138
-      - *o25
-      - *o139
-      - *o140
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: *o141
-        Name: *o142
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -2788,29 +2788,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - *o143
-      - *o144
-      - *o145
-      - *o146
-      - *o147
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - *o148
-      - *o149
-      - *o26
-      - *o150
-      - *o151
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: *o152
-        Name: *o153
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -2829,29 +2829,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - *o154
-      - *o155
-      - *o156
-      - *o157
-      - *o158
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - *o159
-      - *o160
-      - *o27
-      - *o161
-      - *o162
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: *o163
-        Name: *o164
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -2870,29 +2870,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o165
-      - *o166
-      - *o167
-      - *o168
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o169
-      - *o170
-      - *o8
-      - *o171
-      - *o172
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: *o173
-        Name: *o174
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -2910,24 +2910,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o175
-      - *o176
-      - *o29
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - *o28
-      - *o177
-      - *o178
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: *o179
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -2946,29 +2946,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o180
-      - *o181
-      - *o182
-      - *o183
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o184
-      - *o185
-      - *o8
-      - *o186
-      - *o187
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: *o188
-        Name: *o189
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -2985,19 +2985,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: *o190
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -3015,24 +3015,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - *o191
-      - *o192
-      - *o31
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - *o193
-      - *o194
-      - *o30
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: *o195
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -3050,24 +3050,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - *o196
-      - *o197
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - *o198
-      - *o199
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: *o200
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -3084,24 +3084,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - *o201
-      - *o202
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - *o203
-      - *o204
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: *o205
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -3118,24 +3118,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - *o206
-      - *o207
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - *o208
-      - *o209
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: *o210
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
@@ -3152,24 +3152,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - *o75
-      - *o76
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - *o77
-      - *o78
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: *o79
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -3188,36 +3188,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o80
-      - *o81
-      - *o82
-      - *o83
-      - *o9
-      - *o10
-      - *o11
-      - *o84
-      - *o85
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o86
-      - *o87
-      - *o12
-      - *o13
-      - *o8
-      - *o88
-      - *o89
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: *o90
-        ClassName: *o14
-        Name: *o91
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -3236,36 +3236,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o92
-      - *o93
-      - *o94
-      - *o95
-      - *o9
-      - *o10
-      - *o11
-      - *o96
-      - *o97
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o98
-      - *o99
-      - *o12
-      - *o13
-      - *o8
-      - *o100
-      - *o101
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: *o102
-        ClassName: *o14
-        Name: *o103
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -3284,36 +3284,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o104
-      - *o105
-      - *o106
-      - *o107
-      - *o9
-      - *o10
-      - *o11
-      - *o108
-      - *o109
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o110
-      - *o111
-      - *o12
-      - *o13
-      - *o8
-      - *o112
-      - *o113
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: *o114
-        ClassName: *o14
-        Name: *o115
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -3330,24 +3330,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - *o116
-      - *o117
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - *o118
-      - *o119
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: *o120
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -3364,24 +3364,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - *o121
-      - *o122
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - *o123
-      - *o124
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: *o125
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -3398,24 +3398,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - *o126
-      - *o127
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - *o128
-      - *o129
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: *o130
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -3432,24 +3432,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -3466,24 +3466,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -3500,24 +3500,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -3534,24 +3534,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -3568,30 +3568,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - *o131
-      - *o132
-      - *o133
-      - *o134
-      - *o135
-      - *o136
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - *o137
-      - *o138
-      - *o25
-      - *o139
-      - *o140
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: *o141
-        Name: *o142
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -3610,29 +3610,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - *o143
-      - *o144
-      - *o145
-      - *o146
-      - *o147
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - *o148
-      - *o149
-      - *o26
-      - *o150
-      - *o151
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: *o152
-        Name: *o153
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -3651,29 +3651,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - *o154
-      - *o155
-      - *o156
-      - *o157
-      - *o158
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - *o159
-      - *o160
-      - *o27
-      - *o161
-      - *o162
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: *o163
-        Name: *o164
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -3692,29 +3692,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o165
-      - *o166
-      - *o167
-      - *o168
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o169
-      - *o170
-      - *o8
-      - *o171
-      - *o172
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: *o173
-        Name: *o174
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -3732,24 +3732,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o175
-      - *o176
-      - *o29
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - *o28
-      - *o177
-      - *o178
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: *o179
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -3768,29 +3768,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o180
-      - *o181
-      - *o182
-      - *o183
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o184
-      - *o185
-      - *o8
-      - *o186
-      - *o187
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: *o188
-        Name: *o189
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -3807,19 +3807,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: *o190
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -3837,24 +3837,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - *o191
-      - *o192
-      - *o31
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - *o193
-      - *o194
-      - *o30
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: *o195
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -3872,24 +3872,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - *o196
-      - *o197
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - *o198
-      - *o199
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: *o200
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -3906,24 +3906,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - *o201
-      - *o202
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - *o203
-      - *o204
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: *o205
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -3940,24 +3940,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - *o206
-      - *o207
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - *o208
-      - *o209
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: *o210
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
@@ -4002,24 +4002,24 @@ addons:
       alternates:
       - className: NonClientView
       XPath:
-      - *o43
-      - *o44
-      - *o2
+      - //Pane[@ClassName='NonClientView']
+      - //*[@ClassName='NonClientView']
+      - //Pane
       CSS:
-      - *o45
-      - *o46
-      - *o0
+      - "[ClassName='NonClientView']"
+      - Pane[ClassName='NonClientView']
+      - Pane
       Properties:
-        ClassName: *o47
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: NonClientView
     isEnabled: true
@@ -4036,24 +4036,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserTabRootView
       XPath:
-      - *o48
-      - *o49
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserTabRootView']
+      - //*[@ClassName='EmbeddedBrowserTabRootView']
+      - //Pane
       CSS:
-      - *o50
-      - *o51
-      - *o0
+      - "[ClassName='EmbeddedBrowserTabRootView']"
+      - Pane[ClassName='EmbeddedBrowserTabRootView']
+      - Pane
       Properties:
-        ClassName: *o52
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserTabRootView
     isEnabled: true
@@ -4070,24 +4070,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserFrameView
       XPath:
-      - *o53
-      - *o54
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserFrameView']
+      - //*[@ClassName='EmbeddedBrowserFrameView']
+      - //Pane
       CSS:
-      - *o55
-      - *o56
-      - *o0
+      - "[ClassName='EmbeddedBrowserFrameView']"
+      - Pane[ClassName='EmbeddedBrowserFrameView']
+      - Pane
       Properties:
-        ClassName: *o57
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
@@ -4106,36 +4106,36 @@ addons:
       alternates:
       - className: Label
       XPath:
-      - *o58
-      - *o59
-      - *o60
-      - *o61
-      - *o62
-      - *o63
-      - *o32
-      - *o64
-      - *o65
+      - //*[@AutomationId='view_9']
+      - //Text[@AutomationId='view_9']
+      - //Text[@Name='Untitled']
+      - //*[@Name='Untitled']
+      - //Text[@ClassName='Label']
+      - //*[@ClassName='Label']
+      - //Text
+      - //Text[@AutomationId='view_9' and @Name='Untitled']
+      - //Text[@AutomationId='view_9' and @ClassName='Label']
       CSS:
-      - *o66
-      - *o67
-      - *o68
-      - *o69
-      - *o7
-      - *o70
-      - *o71
+      - "[AutomationId='view_9']"
+      - Text[AutomationId='view_9']
+      - "[ClassName='Label']"
+      - Text[ClassName='Label']
+      - Text
+      - "[Name='Untitled']"
+      - Text[Name='Untitled']
       Properties:
-        AutomationId: *o72
-        ClassName: *o73
-        Name: *o74
-        ControlType: *o7
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_9
     className: Label
     isEnabled: true
@@ -4152,24 +4152,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - *o75
-      - *o76
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - *o77
-      - *o78
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: *o79
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -4188,36 +4188,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o80
-      - *o81
-      - *o82
-      - *o83
-      - *o9
-      - *o10
-      - *o11
-      - *o84
-      - *o85
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o86
-      - *o87
-      - *o12
-      - *o13
-      - *o8
-      - *o88
-      - *o89
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: *o90
-        ClassName: *o14
-        Name: *o91
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -4236,36 +4236,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o92
-      - *o93
-      - *o94
-      - *o95
-      - *o9
-      - *o10
-      - *o11
-      - *o96
-      - *o97
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o98
-      - *o99
-      - *o12
-      - *o13
-      - *o8
-      - *o100
-      - *o101
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: *o102
-        ClassName: *o14
-        Name: *o103
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -4284,36 +4284,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o104
-      - *o105
-      - *o106
-      - *o107
-      - *o9
-      - *o10
-      - *o11
-      - *o108
-      - *o109
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o110
-      - *o111
-      - *o12
-      - *o13
-      - *o8
-      - *o112
-      - *o113
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: *o114
-        ClassName: *o14
-        Name: *o115
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -4330,24 +4330,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - *o116
-      - *o117
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - *o118
-      - *o119
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: *o120
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -4364,24 +4364,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - *o121
-      - *o122
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - *o123
-      - *o124
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: *o125
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -4398,24 +4398,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - *o126
-      - *o127
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - *o128
-      - *o129
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: *o130
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -4432,24 +4432,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -4466,24 +4466,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -4500,24 +4500,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -4534,24 +4534,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -4568,30 +4568,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - *o131
-      - *o132
-      - *o133
-      - *o134
-      - *o135
-      - *o136
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - *o137
-      - *o138
-      - *o25
-      - *o139
-      - *o140
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: *o141
-        Name: *o142
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -4610,29 +4610,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - *o143
-      - *o144
-      - *o145
-      - *o146
-      - *o147
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - *o148
-      - *o149
-      - *o26
-      - *o150
-      - *o151
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: *o152
-        Name: *o153
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -4651,29 +4651,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - *o154
-      - *o155
-      - *o156
-      - *o157
-      - *o158
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - *o159
-      - *o160
-      - *o27
-      - *o161
-      - *o162
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: *o163
-        Name: *o164
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -4692,29 +4692,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o165
-      - *o166
-      - *o167
-      - *o168
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o169
-      - *o170
-      - *o8
-      - *o171
-      - *o172
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: *o173
-        Name: *o174
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -4732,24 +4732,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o175
-      - *o176
-      - *o29
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - *o28
-      - *o177
-      - *o178
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: *o179
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -4768,29 +4768,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o180
-      - *o181
-      - *o182
-      - *o183
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o184
-      - *o185
-      - *o8
-      - *o186
-      - *o187
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: *o188
-        Name: *o189
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -4807,19 +4807,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: *o190
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -4837,24 +4837,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - *o191
-      - *o192
-      - *o31
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - *o193
-      - *o194
-      - *o30
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: *o195
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -4872,24 +4872,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - *o196
-      - *o197
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - *o198
-      - *o199
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: *o200
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -4906,24 +4906,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - *o201
-      - *o202
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - *o203
-      - *o204
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: *o205
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -4940,24 +4940,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - *o206
-      - *o207
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - *o208
-      - *o209
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: *o210
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
@@ -4974,24 +4974,24 @@ addons:
       alternates:
       - className: TopContainerOverlayView
       XPath:
-      - *o211
-      - *o212
-      - *o2
+      - //Pane[@ClassName='TopContainerOverlayView']
+      - //*[@ClassName='TopContainerOverlayView']
+      - //Pane
       CSS:
-      - *o213
-      - *o214
-      - *o0
+      - "[ClassName='TopContainerOverlayView']"
+      - Pane[ClassName='TopContainerOverlayView']
+      - Pane
       Properties:
-        ClassName: *o215
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerOverlayView
     isEnabled: true
@@ -5008,24 +5008,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserFrameView
       XPath:
-      - *o53
-      - *o54
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserFrameView']
+      - //*[@ClassName='EmbeddedBrowserFrameView']
+      - //Pane
       CSS:
-      - *o55
-      - *o56
-      - *o0
+      - "[ClassName='EmbeddedBrowserFrameView']"
+      - Pane[ClassName='EmbeddedBrowserFrameView']
+      - Pane
       Properties:
-        ClassName: *o57
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserFrameView
     isEnabled: true
@@ -5044,36 +5044,36 @@ addons:
       alternates:
       - className: Label
       XPath:
-      - *o58
-      - *o59
-      - *o60
-      - *o61
-      - *o62
-      - *o63
-      - *o32
-      - *o64
-      - *o65
+      - //*[@AutomationId='view_9']
+      - //Text[@AutomationId='view_9']
+      - //Text[@Name='Untitled']
+      - //*[@Name='Untitled']
+      - //Text[@ClassName='Label']
+      - //*[@ClassName='Label']
+      - //Text
+      - //Text[@AutomationId='view_9' and @Name='Untitled']
+      - //Text[@AutomationId='view_9' and @ClassName='Label']
       CSS:
-      - *o66
-      - *o67
-      - *o68
-      - *o69
-      - *o7
-      - *o70
-      - *o71
+      - "[AutomationId='view_9']"
+      - Text[AutomationId='view_9']
+      - "[ClassName='Label']"
+      - Text[ClassName='Label']
+      - Text
+      - "[Name='Untitled']"
+      - Text[Name='Untitled']
       Properties:
-        AutomationId: *o72
-        ClassName: *o73
-        Name: *o74
-        ControlType: *o7
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_9
     className: Label
     isEnabled: true
@@ -5090,24 +5090,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - *o75
-      - *o76
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - *o77
-      - *o78
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: *o79
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -5126,36 +5126,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o80
-      - *o81
-      - *o82
-      - *o83
-      - *o9
-      - *o10
-      - *o11
-      - *o84
-      - *o85
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o86
-      - *o87
-      - *o12
-      - *o13
-      - *o8
-      - *o88
-      - *o89
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: *o90
-        ClassName: *o14
-        Name: *o91
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -5174,36 +5174,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o92
-      - *o93
-      - *o94
-      - *o95
-      - *o9
-      - *o10
-      - *o11
-      - *o96
-      - *o97
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o98
-      - *o99
-      - *o12
-      - *o13
-      - *o8
-      - *o100
-      - *o101
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: *o102
-        ClassName: *o14
-        Name: *o103
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -5222,36 +5222,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o104
-      - *o105
-      - *o106
-      - *o107
-      - *o9
-      - *o10
-      - *o11
-      - *o108
-      - *o109
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o110
-      - *o111
-      - *o12
-      - *o13
-      - *o8
-      - *o112
-      - *o113
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: *o114
-        ClassName: *o14
-        Name: *o115
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -5268,24 +5268,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - *o116
-      - *o117
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - *o118
-      - *o119
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: *o120
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -5302,24 +5302,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - *o121
-      - *o122
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - *o123
-      - *o124
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: *o125
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -5336,24 +5336,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - *o126
-      - *o127
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - *o128
-      - *o129
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: *o130
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -5370,24 +5370,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -5404,24 +5404,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -5438,24 +5438,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -5472,24 +5472,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -5506,30 +5506,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - *o131
-      - *o132
-      - *o133
-      - *o134
-      - *o135
-      - *o136
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - *o137
-      - *o138
-      - *o25
-      - *o139
-      - *o140
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: *o141
-        Name: *o142
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -5548,29 +5548,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - *o143
-      - *o144
-      - *o145
-      - *o146
-      - *o147
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - *o148
-      - *o149
-      - *o26
-      - *o150
-      - *o151
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: *o152
-        Name: *o153
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -5589,29 +5589,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - *o154
-      - *o155
-      - *o156
-      - *o157
-      - *o158
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - *o159
-      - *o160
-      - *o27
-      - *o161
-      - *o162
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: *o163
-        Name: *o164
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -5630,29 +5630,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o165
-      - *o166
-      - *o167
-      - *o168
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o169
-      - *o170
-      - *o8
-      - *o171
-      - *o172
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: *o173
-        Name: *o174
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -5670,24 +5670,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o175
-      - *o176
-      - *o29
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - *o28
-      - *o177
-      - *o178
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: *o179
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -5706,29 +5706,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o180
-      - *o181
-      - *o182
-      - *o183
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o184
-      - *o185
-      - *o8
-      - *o186
-      - *o187
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: *o188
-        Name: *o189
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -5745,19 +5745,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: *o190
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -5775,24 +5775,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - *o191
-      - *o192
-      - *o31
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - *o193
-      - *o194
-      - *o30
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: *o195
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -5810,24 +5810,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - *o196
-      - *o197
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - *o198
-      - *o199
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: *o200
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -5844,24 +5844,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - *o201
-      - *o202
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - *o203
-      - *o204
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: *o205
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -5878,24 +5878,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - *o206
-      - *o207
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - *o208
-      - *o209
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: *o210
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
@@ -5912,24 +5912,24 @@ addons:
       alternates:
       - className: BrowserCaptionButtonContainer
       XPath:
-      - *o75
-      - *o76
-      - *o2
+      - //Pane[@ClassName='BrowserCaptionButtonContainer']
+      - //*[@ClassName='BrowserCaptionButtonContainer']
+      - //Pane
       CSS:
-      - *o77
-      - *o78
-      - *o0
+      - "[ClassName='BrowserCaptionButtonContainer']"
+      - Pane[ClassName='BrowserCaptionButtonContainer']
+      - Pane
       Properties:
-        ClassName: *o79
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserCaptionButtonContainer
     isEnabled: true
@@ -5948,36 +5948,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o80
-      - *o81
-      - *o82
-      - *o83
-      - *o9
-      - *o10
-      - *o11
-      - *o84
-      - *o85
+      - //*[@AutomationId='view_2']
+      - //Button[@AutomationId='view_2']
+      - //Button[@Name='Minimize']
+      - //*[@Name='Minimize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_2' and @Name='Minimize']
+      - //Button[@AutomationId='view_2' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o86
-      - *o87
-      - *o12
-      - *o13
-      - *o8
-      - *o88
-      - *o89
+      - "[AutomationId='view_2']"
+      - Button[AutomationId='view_2']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Minimize']"
+      - Button[Name='Minimize']
       Properties:
-        AutomationId: *o90
-        ClassName: *o14
-        Name: *o91
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_2
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -5996,36 +5996,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o92
-      - *o93
-      - *o94
-      - *o95
-      - *o9
-      - *o10
-      - *o11
-      - *o96
-      - *o97
+      - //*[@AutomationId='view_3']
+      - //Button[@AutomationId='view_3']
+      - //Button[@Name='Maximize']
+      - //*[@Name='Maximize']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_3' and @Name='Maximize']
+      - //Button[@AutomationId='view_3' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o98
-      - *o99
-      - *o12
-      - *o13
-      - *o8
-      - *o100
-      - *o101
+      - "[AutomationId='view_3']"
+      - Button[AutomationId='view_3']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Maximize']"
+      - Button[Name='Maximize']
       Properties:
-        AutomationId: *o102
-        ClassName: *o14
-        Name: *o103
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_3
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -6044,36 +6044,36 @@ addons:
       alternates:
       - className: EdgeWindowsCaptionButton
       XPath:
-      - *o104
-      - *o105
-      - *o106
-      - *o107
-      - *o9
-      - *o10
-      - *o11
-      - *o108
-      - *o109
+      - //*[@AutomationId='view_7']
+      - //Button[@AutomationId='view_7']
+      - //Button[@Name='Close']
+      - //*[@Name='Close']
+      - //Button[@ClassName='EdgeWindowsCaptionButton']
+      - //*[@ClassName='EdgeWindowsCaptionButton']
+      - //Button
+      - //Button[@AutomationId='view_7' and @Name='Close']
+      - //Button[@AutomationId='view_7' and @ClassName='EdgeWindowsCaptionButton']
       CSS:
-      - *o110
-      - *o111
-      - *o12
-      - *o13
-      - *o8
-      - *o112
-      - *o113
+      - "[AutomationId='view_7']"
+      - Button[AutomationId='view_7']
+      - "[ClassName='EdgeWindowsCaptionButton']"
+      - Button[ClassName='EdgeWindowsCaptionButton']
+      - Button
+      - "[Name='Close']"
+      - Button[Name='Close']
       Properties:
-        AutomationId: *o114
-        ClassName: *o14
-        Name: *o115
-        ControlType: *o8
+        AutomationId: []
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: view_7
     className: EdgeWindowsCaptionButton
     isEnabled: true
@@ -6090,24 +6090,24 @@ addons:
       alternates:
       - className: BrowserView
       XPath:
-      - *o116
-      - *o117
-      - *o2
+      - //Pane[@ClassName='BrowserView']
+      - //*[@ClassName='BrowserView']
+      - //Pane
       CSS:
-      - *o118
-      - *o119
-      - *o0
+      - "[ClassName='BrowserView']"
+      - Pane[ClassName='BrowserView']
+      - Pane
       Properties:
-        ClassName: *o120
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: BrowserView
     isEnabled: true
@@ -6124,24 +6124,24 @@ addons:
       alternates:
       - className: MainContainerView
       XPath:
-      - *o121
-      - *o122
-      - *o2
+      - //Pane[@ClassName='MainContainerView']
+      - //*[@ClassName='MainContainerView']
+      - //Pane
       CSS:
-      - *o123
-      - *o124
-      - *o0
+      - "[ClassName='MainContainerView']"
+      - Pane[ClassName='MainContainerView']
+      - Pane
       Properties:
-        ClassName: *o125
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: MainContainerView
     isEnabled: true
@@ -6158,24 +6158,24 @@ addons:
       alternates:
       - className: TopContainerView
       XPath:
-      - *o126
-      - *o127
-      - *o2
+      - //Pane[@ClassName='TopContainerView']
+      - //*[@ClassName='TopContainerView']
+      - //Pane
       CSS:
-      - *o128
-      - *o129
-      - *o0
+      - "[ClassName='TopContainerView']"
+      - Pane[ClassName='TopContainerView']
+      - Pane
       Properties:
-        ClassName: *o130
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: TopContainerView
     isEnabled: true
@@ -6192,24 +6192,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -6226,24 +6226,24 @@ addons:
       alternates:
       - className: SidebarContentsSplitView
       XPath:
-      - *o15
-      - *o16
-      - *o2
+      - //Pane[@ClassName='SidebarContentsSplitView']
+      - //*[@ClassName='SidebarContentsSplitView']
+      - //Pane
       CSS:
-      - *o17
-      - *o18
-      - *o0
+      - "[ClassName='SidebarContentsSplitView']"
+      - Pane[ClassName='SidebarContentsSplitView']
+      - Pane
       Properties:
-        ClassName: *o19
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: SidebarContentsSplitView
     isEnabled: true
@@ -6260,24 +6260,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -6294,24 +6294,24 @@ addons:
       alternates:
       - className: View
       XPath:
-      - *o20
-      - *o21
-      - *o2
+      - //Pane[@ClassName='View']
+      - //*[@ClassName='View']
+      - //Pane
       CSS:
-      - *o22
-      - *o23
-      - *o0
+      - "[ClassName='View']"
+      - Pane[ClassName='View']
+      - Pane
       Properties:
-        ClassName: *o24
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: View
     isEnabled: true
@@ -6328,30 +6328,30 @@ addons:
         automationId: RootWebArea
         controlType: Document
       XPath:
-      - *o131
-      - *o132
-      - *o133
-      - *o134
-      - *o135
-      - *o136
+      - //*[@AutomationId='RootWebArea']
+      - //Document[@AutomationId='RootWebArea']
+      - //Document[@Name='Wikipedia']
+      - //*[@Name='Wikipedia']
+      - //Document
+      - //Document[@AutomationId='RootWebArea' and @Name='Wikipedia']
       CSS:
-      - *o137
-      - *o138
-      - *o25
-      - *o139
-      - *o140
+      - "[AutomationId='RootWebArea']"
+      - Document[AutomationId='RootWebArea']
+      - Document
+      - "[Name='Wikipedia']"
+      - Document[Name='Wikipedia']
       Properties:
-        AutomationId: *o141
-        Name: *o142
-        ControlType: *o25
+        AutomationId: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o6
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: RootWebArea
     className: ''
     isEnabled: true
@@ -6370,29 +6370,29 @@ addons:
       alternates:
       - className: ms_osf_logo ms_osf_clickable ms_osf_visible
       XPath:
-      - *o143
-      - *o144
-      - *o145
-      - *o146
-      - *o147
+      - //Hyperlink[@Name='Wikipedia logo']
+      - //*[@Name='Wikipedia logo']
+      - //Hyperlink[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //*[@ClassName='ms_osf_logo ms_osf_clickable ms_osf_visible']
+      - //Hyperlink
       CSS:
-      - *o148
-      - *o149
-      - *o26
-      - *o150
-      - *o151
+      - "[ClassName='ms_osf_logo\\0020ms_osf_clickable\\0020ms_osf_visible']"
+      - Hyperlink[ClassName='ms_osf_logo\0020ms_osf_clickable\0020ms_osf_visible']
+      - Hyperlink
+      - "[Name='Wikipedia\\0020logo']"
+      - Hyperlink[Name='Wikipedia\0020logo']
       Properties:
-        ClassName: *o152
-        Name: *o153
-        ControlType: *o26
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_logo ms_osf_clickable ms_osf_visible
     isEnabled: true
@@ -6411,29 +6411,29 @@ addons:
       alternates:
       - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
       XPath:
-      - *o154
-      - *o155
-      - *o156
-      - *o157
-      - *o158
+      - //Edit[@Name='I want to know...']
+      - //*[@Name='I want to know...']
+      - //Edit[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //*[@ClassName='ms_osf_searchBarInput ms_osf_searchBarInputHint']
+      - //Edit
       CSS:
-      - *o159
-      - *o160
-      - *o27
-      - *o161
-      - *o162
+      - "[ClassName='ms_osf_searchBarInput\\0020ms_osf_searchBarInputHint']"
+      - Edit[ClassName='ms_osf_searchBarInput\0020ms_osf_searchBarInputHint']
+      - Edit
+      - "[Name='I\\0020want\\0020to\\0020know\\002E\\002E\\002E']"
+      - Edit[Name='I\0020want\0020to\0020know\002E\002E\002E']
       Properties:
-        ClassName: *o163
-        Name: *o164
-        ControlType: *o27
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchBarInput ms_osf_searchBarInputHint
     isEnabled: true
@@ -6452,29 +6452,29 @@ addons:
       alternates:
       - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o165
-      - *o166
-      - *o167
-      - *o168
-      - *o11
+      - //Button[@Name='Search']
+      - //*[@Name='Search']
+      - //Button[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o169
-      - *o170
-      - *o8
-      - *o171
-      - *o172
+      - "[ClassName='ms_osf_searchButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search']"
+      - Button[Name='Search']
       Properties:
-        ClassName: *o173
-        Name: *o174
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -6492,24 +6492,24 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o175
-      - *o176
-      - *o29
+      - //Image[@Name='To get missing image descriptions, open the context menu.']
+      - //*[@Name='To get missing image descriptions, open the context menu.']
+      - //Image
       CSS:
-      - *o28
-      - *o177
-      - *o178
+      - Image
+      - "[Name='To\\0020get\\0020missing\\0020image\\0020descriptions\\002C\\0020open\\0020the\\0020context\\0020menu\\002E']"
+      - Image[Name='To\0020get\0020missing\0020image\0020descriptions\002C\0020open\0020the\0020context\0020menu\002E']
       Properties:
-        Name: *o179
-        ControlType: *o28
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -6528,29 +6528,29 @@ addons:
       alternates:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
       XPath:
-      - *o180
-      - *o181
-      - *o182
-      - *o183
-      - *o11
+      - //Button[@Name='Search Options']
+      - //*[@Name='Search Options']
+      - //Button[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //*[@ClassName='ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton']
+      - //Button
       CSS:
-      - *o184
-      - *o185
-      - *o8
-      - *o186
-      - *o187
+      - "[ClassName='ms_osf_searchOptionsButton\\0020ms_osf_clickable\\0020ms_osf_navButton']"
+      - Button[ClassName='ms_osf_searchOptionsButton\0020ms_osf_clickable\0020ms_osf_navButton']
+      - Button
+      - "[Name='Search\\0020Options']"
+      - Button[Name='Search\0020Options']
       Properties:
-        ClassName: *o188
-        Name: *o189
-        ControlType: *o8
+        ClassName: []
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
@@ -6567,19 +6567,19 @@ addons:
       primary:
         controlType: Image
       XPath:
-      - *o29
+      - //Image
       CSS:
-      - *o28
+      - Image
       Properties:
-        ControlType: *o28
+        ControlType: []
       SelectorType:
-        Primary: *o190
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -6597,24 +6597,24 @@ addons:
       alternates:
       - className: ms_osf_content
       XPath:
-      - *o191
-      - *o192
-      - *o31
+      - //Group[@ClassName='ms_osf_content']
+      - //*[@ClassName='ms_osf_content']
+      - //Group
       CSS:
-      - *o193
-      - *o194
-      - *o30
+      - "[ClassName='ms_osf_content']"
+      - Group[ClassName='ms_osf_content']
+      - Group
       Properties:
-        ClassName: *o195
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_content
     isEnabled: true
@@ -6632,24 +6632,24 @@ addons:
       alternates:
       - className: ms_osf_article
       XPath:
-      - *o196
-      - *o197
-      - *o31
+      - //Group[@ClassName='ms_osf_article']
+      - //*[@ClassName='ms_osf_article']
+      - //Group
       CSS:
-      - *o198
-      - *o199
-      - *o30
+      - "[ClassName='ms_osf_article']"
+      - Group[ClassName='ms_osf_article']
+      - Group
       Properties:
-        ClassName: *o200
-        ControlType: *o30
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ms_osf_article
     isEnabled: true
@@ -6666,24 +6666,24 @@ addons:
       primary:
         controlType: Text
       XPath:
-      - *o201
-      - *o202
-      - *o32
+      - //Text[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //*[@Name='The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.']
+      - //Text
       CSS:
-      - *o7
-      - *o203
-      - *o204
+      - Text
+      - "[Name='The\\0020add-in\\0020can\\0020search\\0020from\\0020Wikipedia\\0020automatically\\0020and\\0020insert\\0020seamlessly\\0020the\\0020information\\0020to\\0020your\\0020document\\002E']"
+      - Text[Name='The\0020add-in\0020can\0020search\0020from\0020Wikipedia\0020automatically\0020and\0020insert\0020seamlessly\0020the\0020information\0020to\0020your\0020document\002E']
       Properties:
-        Name: *o205
-        ControlType: *o7
+        Name: []
+        ControlType: []
       SelectorType:
-        Primary: *o3
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: ''
     isEnabled: true
@@ -6700,24 +6700,24 @@ addons:
       alternates:
       - className: EmbeddedBrowserDownloadView
       XPath:
-      - *o206
-      - *o207
-      - *o2
+      - //Pane[@ClassName='EmbeddedBrowserDownloadView']
+      - //*[@ClassName='EmbeddedBrowserDownloadView']
+      - //Pane
       CSS:
-      - *o208
-      - *o209
-      - *o0
+      - "[ClassName='EmbeddedBrowserDownloadView']"
+      - Pane[ClassName='EmbeddedBrowserDownloadView']
+      - Pane
       Properties:
-        ClassName: *o210
-        ControlType: *o0
+        ClassName: []
+        ControlType: []
       SelectorType:
-        Primary: *o1
+        Primary: []
         AvailableTypes:
-        - *o4
-        - *o5
-        - *o6
-        - *o1
-        - *o3
+        - []
+        - []
+        - []
+        - []
+        - []
     automationId: ''
     className: EmbeddedBrowserDownloadView
     isEnabled: true
