@@ -1,11 +1,11 @@
 application: Excel
 appVersion: 16.101.3
 year: 2016
-Agent: LAPTOP-KPTVM09
+executionNodeName: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 09-01-2026 07:15:08
-  scanDate: 2026-01-09 07:15:08 UTC
+  scannedAt: 09-01-2026 08:02:56
+  scanDate: 2026-01-09 08:02:56 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
