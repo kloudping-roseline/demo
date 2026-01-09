@@ -4,574 +4,15 @@ year: 2016
 Agent: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 09-01-2026 05:01:45
-  scanDate: 2026-01-09 05:01:45 UTC
-  totalAddons: 3
+  scannedAt: 09-01-2026 05:41:44
+  scanDate: 2026-01-09 05:41:44 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
     dpi: 96
     locale: en-IN
 addons:
-- addonName: ChatGPT for Excel
-  elementCount: 39
-  controls:
-  - id: twistlycells.-.chatgpt.for.excel
-    name: TwistlyCells - ChatGPT for Excel
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Chrome_WidgetWin_1
-    className: Chrome_WidgetWin_1
-    isEnabled: true
-  - id: control_2
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Intermediate D3D Window
-    className: Intermediate D3D Window
-    isEnabled: false
-  - id: twistlycells.-.chatgpt.for.excel.-.web.content
-    name: TwistlyCells - ChatGPT for Excel - Web content
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_4
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_5
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
-  - id: control_6
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserFrameView
-    className: EmbeddedBrowserFrameView
-    isEnabled: true
-  - id: view_9
-    name: Untitled
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Text:Untitled
-    selectors:
-      primary:
-        automationId: view_9
-        controlType: Text
-      alternates:
-      - className: Label
-    className: Label
-    isEnabled: true
-  - id: control_8
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserCaptionButtonContainer
-    className: BrowserCaptionButtonContainer
-    isEnabled: true
-  - id: view_2
-    name: Minimize
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Button:Minimize
-    selectors:
-      primary:
-        automationId: view_2
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_3
-    name: Maximize
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Button:Maximize
-    selectors:
-      primary:
-        automationId: view_3
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_7
-    name: Close
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Button:Close
-    selectors:
-      primary:
-        automationId: view_7
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: control_12
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserView
-    className: BrowserView
-    isEnabled: true
-  - id: control_13
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: MainContainerView
-    className: MainContainerView
-    isEnabled: true
-  - id: control_14
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerView
-    className: TopContainerView
-    isEnabled: true
-  - id: control_15
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_16
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_17
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: control_18
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: rootwebarea
-    name: TwistlyCells - ChatGPT for Excel
-    controlType: Document
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: control_20
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: ms-font-m ms-Fabric
-    className: ms-font-m ms-Fabric
-    isEnabled: true
-  - id: control_21
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: let's.get.started
-    name: Let's Get Started
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiDialog-container MuiDialog-scrollPaper css-ekeie0
-    className: MuiDialog-container MuiDialog-scrollPaper css-ekeie0
-    isEnabled: true
-  - id: let's.get.started
-    name: Let's Get Started
-    controlType: Window
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    selectors:
-      primary:
-        controlType: Window
-      alternates:
-      - className: MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1rtuqxw
-    className: MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1rtuqxw
-    isEnabled: true
-  - id: alert-dialog-title
-    name: Let's Get Started
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Text:Let's Get Started
-    selectors:
-      primary:
-        automationId: alert-dialog-title
-        controlType: Text
-      alternates:
-      - className: MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-f6ef6d
-    className: MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-f6ef6d
-    isEnabled: true
-  - id: close
-    name: close
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Button:close
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1vfozcu
-    className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1vfozcu
-    isEnabled: true
-  - id: tell.us.more,.so.we.can.personalize.your.experience
-    name: Tell us more, so we can personalize your experience
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Text:Tell us more, so we can personalize your experience
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: responsibility-menu-label
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    selectors:
-      primary:
-        automationId: responsibility-menu-label
-        controlType: Group
-      alternates:
-      - className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
-    className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
-    isEnabled: true
-  - id: what.is.your.main.job.responsibility?
-    name: What is your main job responsibility?
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Text:What is your main job responsibility?
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_29
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
-    className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
-    isEnabled: true
-  - id: what.is.your.main.job.responsibility?
-    name: What is your main job responsibility?
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Button:What is your main job responsibility?
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
-    className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
-    isEnabled: true
-  - id: where-find-menu-label
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    selectors:
-      primary:
-        automationId: where-find-menu-label
-        controlType: Group
-      alternates:
-      - className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
-    className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
-    isEnabled: true
-  - id: where.did.you.find.us?
-    name: Where did you find us?
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Text:Where did you find us?
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_33
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
-    className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
-    isEnabled: true
-  - id: where.did.you.find.us?
-    name: Where did you find us?
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Button:Where did you find us?
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
-    className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
-    isEnabled: true
-  - id: prev
-    name: Prev
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Button:Prev
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
-    className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
-    isEnabled: false
-  - id: next
-    name: Next
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Let's Get Started
-    - Window:Let's Get Started
-    - Button:Next
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
-    className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
-    isEnabled: true
-  - id: control_37
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: control_38
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
-    isEnabled: true
-  - id: control_39
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
-    isEnabled: true
 - addonName: GPT for Excel Word
   elementCount: 71
   controls:
@@ -587,7 +28,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_41
+  - id: control_2
     name: Pane
     controlType: Pane
     hierarchy:
@@ -612,7 +53,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_43
+  - id: control_4
     name: Pane
     controlType: Pane
     hierarchy:
@@ -625,7 +66,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_44
+  - id: control_5
     name: Pane
     controlType: Pane
     hierarchy:
@@ -638,7 +79,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_45
+  - id: control_6
     name: Pane
     controlType: Pane
     hierarchy:
@@ -666,7 +107,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_47
+  - id: control_8
     name: Pane
     controlType: Pane
     hierarchy:
@@ -724,7 +165,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_51
+  - id: control_12
     name: Pane
     controlType: Pane
     hierarchy:
@@ -737,7 +178,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_52
+  - id: control_13
     name: Pane
     controlType: Pane
     hierarchy:
@@ -750,7 +191,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_53
+  - id: control_14
     name: Pane
     controlType: Pane
     hierarchy:
@@ -763,7 +204,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_54
+  - id: control_15
     name: Pane
     controlType: Pane
     hierarchy:
@@ -776,7 +217,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_55
+  - id: control_16
     name: Pane
     controlType: Pane
     hierarchy:
@@ -789,7 +230,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_56
+  - id: control_17
     name: Pane
     controlType: Pane
     hierarchy:
@@ -802,7 +243,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_57
+  - id: control_18
     name: Pane
     controlType: Pane
     hierarchy:
@@ -827,7 +268,7 @@ addons:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_59
+  - id: control_20
     name: Group
     controlType: Group
     hierarchy:
@@ -850,7 +291,7 @@ addons:
         automationId: root
         controlType: Group
     isEnabled: true
-  - id: control_61
+  - id: control_22
     name: Image
     controlType: Image
     hierarchy:
@@ -913,7 +354,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_66
+  - id: control_27
     name: Image
     controlType: Image
     hierarchy:
@@ -936,7 +377,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_68
+  - id: control_29
     name: Image
     controlType: Image
     hierarchy:
@@ -959,7 +400,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_70
+  - id: control_31
     name: Image
     controlType: Image
     hierarchy:
@@ -982,7 +423,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_72
+  - id: control_33
     name: Image
     controlType: Image
     hierarchy:
@@ -1029,7 +470,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_76
+  - id: control_37
     name: Image
     controlType: Image
     hierarchy:
@@ -1163,7 +604,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_87
+  - id: control_48
     name: Image
     controlType: Image
     hierarchy:
@@ -1174,7 +615,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_88
+  - id: control_49
     name: Image
     controlType: Image
     hierarchy:
@@ -1185,7 +626,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_89
+  - id: control_50
     name: Image
     controlType: Image
     hierarchy:
@@ -1196,7 +637,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_90
+  - id: control_51
     name: Image
     controlType: Image
     hierarchy:
@@ -1207,7 +648,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_91
+  - id: control_52
     name: Image
     controlType: Image
     hierarchy:
@@ -1218,7 +659,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_92
+  - id: control_53
     name: Image
     controlType: Image
     hierarchy:
@@ -1229,7 +670,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_93
+  - id: control_54
     name: Image
     controlType: Image
     hierarchy:
@@ -1252,7 +693,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_95
+  - id: control_56
     name: Image
     controlType: Image
     hierarchy:
@@ -1263,7 +704,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_96
+  - id: control_57
     name: Image
     controlType: Image
     hierarchy:
@@ -1274,7 +715,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_97
+  - id: control_58
     name: Image
     controlType: Image
     hierarchy:
@@ -1285,7 +726,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_98
+  - id: control_59
     name: Image
     controlType: Image
     hierarchy:
@@ -1296,7 +737,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_99
+  - id: control_60
     name: Image
     controlType: Image
     hierarchy:
@@ -1307,7 +748,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_100
+  - id: control_61
     name: Image
     controlType: Image
     hierarchy:
@@ -1318,7 +759,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_101
+  - id: control_62
     name: Image
     controlType: Image
     hierarchy:
@@ -1432,7 +873,7 @@ addons:
       - className: _root_86xeo_2 _talarian_7ldok_164
     className: _root_86xeo_2 _talarian_7ldok_164
     isEnabled: true
-  - id: control_109
+  - id: control_70
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1445,7 +886,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_110
+  - id: control_71
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1473,7 +914,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_112
+  - id: control_73
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1498,7 +939,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_114
+  - id: control_75
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1511,7 +952,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_115
+  - id: control_76
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1524,7 +965,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_116
+  - id: control_77
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1552,7 +993,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_118
+  - id: control_79
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1610,7 +1051,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_122
+  - id: control_83
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1623,7 +1064,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_123
+  - id: control_84
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1636,7 +1077,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_124
+  - id: control_85
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1649,7 +1090,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_125
+  - id: control_86
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1662,7 +1103,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_126
+  - id: control_87
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1675,7 +1116,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_127
+  - id: control_88
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1688,7 +1129,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_128
+  - id: control_89
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1713,7 +1154,7 @@ addons:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_130
+  - id: control_91
     name: MenuBar
     controlType: MenuBar
     hierarchy:
@@ -1836,7 +1277,7 @@ addons:
       - className: ms-Button ms-Button--default root-197
     className: ms-Button ms-Button--default root-197
     isEnabled: true
-  - id: control_139
+  - id: control_100
     name: List
     controlType: List
     hierarchy:
@@ -1920,7 +1361,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_145
+  - id: control_106
     name: ComboBox
     controlType: ComboBox
     hierarchy:
@@ -1977,7 +1418,7 @@ addons:
       - className: ms-Button ms-Button--icon is-disabled root-183
     className: ms-Button ms-Button--icon is-disabled root-183
     isEnabled: false
-  - id: control_149
+  - id: control_110
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1990,7 +1431,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_150
+  - id: control_111
     name: Pane
     controlType: Pane
     hierarchy:
