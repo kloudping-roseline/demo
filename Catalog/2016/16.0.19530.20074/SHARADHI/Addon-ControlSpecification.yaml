@@ -4,8 +4,8 @@ year: 2016
 Agent: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 08-01-2026 11:48:19
-  scanDate: 2026-01-08 11:48:19 UTC
+  scannedAt: 09-01-2026 05:19:07
+  scanDate: 2026-01-09 05:19:07 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: ChatGPT for Excel
-  elementCount: 62
+  elementCount: 39
   controls:
   - id: twistlycells.-.chatgpt.for.excel
     name: TwistlyCells - ChatGPT for Excel
@@ -282,19 +282,7 @@ addons:
       - className: ms-font-m ms-Fabric
     className: ms-font-m ms-Fabric
     isEnabled: true
-  - id: container
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        automationId: container
-        controlType: Group
-    isEnabled: true
-  - id: control_22
+  - id: control_21
     name: Group
     controlType: Group
     hierarchy:
@@ -304,289 +292,250 @@ addons:
     selectors:
       primary:
         controlType: Group
-      alternates:
-      - className: MuiGrid-root css-rfnosa
-    className: MuiGrid-root css-rfnosa
     isEnabled: true
-  - id: hometab
-    name: HomeTab
+  - id: let's.get.started
+    name: Let's Get Started
     controlType: Group
     hierarchy:
     - Pane:TwistlyCells - ChatGPT for Excel
     - Pane:TwistlyCells - ChatGPT for Excel - Web content
     - Document:TwistlyCells - ChatGPT for Excel
-    - Group:HomeTab
+    - Group:Let's Get Started
     selectors:
       primary:
         controlType: Group
       alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
+      - className: MuiDialog-container MuiDialog-scrollPaper css-ekeie0
+    className: MuiDialog-container MuiDialog-scrollPaper css-ekeie0
     isEnabled: true
-  - id: control_24
-    name: Image
-    controlType: Image
+  - id: let's.get.started
+    name: Let's Get Started
+    controlType: Window
     hierarchy:
     - Pane:TwistlyCells - ChatGPT for Excel
     - Pane:TwistlyCells - ChatGPT for Excel - Web content
     - Document:TwistlyCells - ChatGPT for Excel
-    - Group:HomeTab
+    - Group:Let's Get Started
+    - Window:Let's Get Started
     selectors:
       primary:
-        controlType: Image
-    isEnabled: true
-  - id: plans
-    name: Plans
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Plans
-    selectors:
-      primary:
-        controlType: Group
+        controlType: Window
       alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
+      - className: MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1rtuqxw
+    className: MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1rtuqxw
     isEnabled: true
-  - id: control_26
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Plans
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: ai.newbie
-    name: AI Newbie
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:AI Newbie
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root MuiGrid-item css-1s05flz
-    className: MuiGrid-root MuiGrid-item css-1s05flz
-    isEnabled: true
-  - id: control_28
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:AI Newbie
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: more
-    name: More
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:More
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root css-yu6giy
-    className: MuiGrid-root css-yu6giy
-    isEnabled: true
-  - id: layer_1
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:More
-    selectors:
-      primary:
-        automationId: Layer_1
-        controlType: Image
-    isEnabled: true
-  - id: control_31
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiGrid-root css-d7gr33
-    className: MuiGrid-root css-d7gr33
-    isEnabled: true
-  - id: let.ai.magic.begin!
-    name: Let AI Magic Begin!
+  - id: alert-dialog-title
+    name: Let's Get Started
     controlType: Text
     hierarchy:
     - Pane:TwistlyCells - ChatGPT for Excel
     - Pane:TwistlyCells - ChatGPT for Excel - Web content
     - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Let AI Magic Begin!
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Text:Let's Get Started
     selectors:
       primary:
+        automationId: alert-dialog-title
         controlType: Text
       alternates:
-      - className: MuiTypography-root MuiTypography-h5 css-yd1gs9
-    className: MuiTypography-root MuiTypography-h5 css-yd1gs9
+      - className: MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-f6ef6d
+    className: MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-f6ef6d
     isEnabled: true
-  - id: how.to.use
-    name: How to use
+  - id: close
+    name: close
     controlType: Button
     hierarchy:
     - Pane:TwistlyCells - ChatGPT for Excel
     - Pane:TwistlyCells - ChatGPT for Excel - Web content
     - Document:TwistlyCells - ChatGPT for Excel
-    - Button:How to use
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Button:close
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
+      - className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1vfozcu
+    className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1vfozcu
     isEnabled: true
-  - id: settings
-    name: Settings
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:Settings
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    className: MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-pg4z6o
-    isEnabled: true
-  - id: control_35
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:Settings
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: ai.function.status
-    name: AI function status
+  - id: tell.us.more,.so.we.can.personalize.your.experience
+    name: Tell us more, so we can personalize your experience
     controlType: Text
     hierarchy:
     - Pane:TwistlyCells - ChatGPT for Excel
     - Pane:TwistlyCells - ChatGPT for Excel - Web content
     - Document:TwistlyCells - ChatGPT for Excel
-    - Text:AI function status
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Text:Tell us more, so we can personalize your experience
     selectors:
       primary:
         controlType: Text
+    isEnabled: true
+  - id: responsibility-menu-label
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    selectors:
+      primary:
+        automationId: responsibility-menu-label
+        controlType: Group
+      alternates:
+      - className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+    className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+    isEnabled: true
+  - id: what.is.your.main.job.responsibility?
+    name: What is your main job responsibility?
+    controlType: Text
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Text:What is your main job responsibility?
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_29
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+    className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+    isEnabled: true
+  - id: what.is.your.main.job.responsibility?
+    name: What is your main job responsibility?
+    controlType: Button
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Button:What is your main job responsibility?
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+    className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+    isEnabled: true
+  - id: where-find-menu-label
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    selectors:
+      primary:
+        automationId: where-find-menu-label
+        controlType: Group
+      alternates:
+      - className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+    className: MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1074rsj
+    isEnabled: true
+  - id: where.did.you.find.us?
+    name: Where did you find us?
+    controlType: Text
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Text:Where did you find us?
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_33
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+    className: MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1w04y52
+    isEnabled: true
+  - id: where.did.you.find.us?
+    name: Where did you find us?
+    controlType: Button
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Button:Where did you find us?
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+    className: MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb
+    isEnabled: true
+  - id: prev
+    name: Prev
+    controlType: Button
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Button:Prev
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+    className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+    isEnabled: false
+  - id: next
+    name: Next
+    controlType: Button
+    hierarchy:
+    - Pane:TwistlyCells - ChatGPT for Excel
+    - Pane:TwistlyCells - ChatGPT for Excel - Web content
+    - Document:TwistlyCells - ChatGPT for Excel
+    - Group:Let's Get Started
+    - Window:Let's Get Started
+    - Button:Next
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
+    className: MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-10e2a0d
     isEnabled: true
   - id: control_37
-    name: Button
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1oefeqc
-    className: MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1oefeqc
-    isEnabled: true
-  - id: 0
-    name: 0
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: completed
-    name: Completed
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Completed
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 0
-    name: 0
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: running
-    name: Running
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Running
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 0
-    name: 0
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:0
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: errors
-    name: Errors
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Errors
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_44
     name: Group
     controlType: Group
     hierarchy:
@@ -596,220 +545,8 @@ addons:
     selectors:
       primary:
         controlType: Group
-      alternates:
-      - className: MuiBox-root css-1nhxrgq
-    className: MuiBox-root css-1nhxrgq
     isEnabled: true
-  - id: control_45
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: select.range.to.replace.all.ai.formulas.with.it's.value.in.selected.range
-    name: Select range to replace all AI formulas with it's value in selected range
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Select range to replace all AI formulas with it's value in selected range
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    isEnabled: true
-  - id: replace
-    name: Replace
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Select range to replace all AI formulas with it's value in selected range
-    - Text:Replace
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_48
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiBox-root css-1nhxrgq
-    className: MuiBox-root css-1nhxrgq
-    isEnabled: true
-  - id: activate.to.temporarily.suspend.ai.functions.and.resume.at.your.convenience.
-    name: Activate to temporarily suspend AI functions and resume at your convenience.
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Activate to temporarily suspend AI functions and resume at your convenience.
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    isEnabled: true
-  - id: pause
-    name: Pause
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Activate to temporarily suspend AI functions and resume at your convenience.
-    - Text:Pause
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_51
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiBox-root css-1nhxrgq
-    className: MuiBox-root css-1nhxrgq
-    isEnabled: true
-  - id: control_52
-    name: Image
-    controlType: Image
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    selectors:
-      primary:
-        controlType: Image
-    isEnabled: true
-  - id: re-run.all.ai.error.fields
-    name: Re-run all AI error fields
-    controlType: Group
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Re-run all AI error fields
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    className: MuiTypography-root MuiTypography-body1 css-1s8gau4
-    isEnabled: true
-  - id: retry
-    name: Retry
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Group:Re-run all AI error fields
-    - Text:Retry
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: tips
-    name: Tips
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Tips
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: ai.ask
-    name: AI.ASK
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:AI.ASK
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: the.ai.ask.function.lets.you.use.ai.directly.in.your.spreadsheet..simply.type.a.question.or.prompt,.and.ai.ask.will.provide.a.helpful.response..use.it.to.write.text,.summarize,.analyze.data,.and.more—like.having.a.smart.helper.in.excel!
-    name: The AI.ASK function lets you use AI directly in your spreadsheet. Simply type a question or prompt, and AI.ASK will provide a helpful response. Use it to write text, summarize, analyze data, and more—like having a smart helper in Excel!
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:The AI.ASK function lets you use AI directly in your spreadsheet. Simply type a question or prompt, and AI.ASK will provide a helpful response. Use it to write text, summarize, analyze data, and more—like having a smart helper in Excel!
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: free.trial
-    name: Free Trial
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:Free Trial
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 300.ai.calls
-    name: 300 AI Calls
-    controlType: Text
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Text:300 AI Calls
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: see.plans
-    name: SEE PLANS
-    controlType: Button
-    hierarchy:
-    - Pane:TwistlyCells - ChatGPT for Excel
-    - Pane:TwistlyCells - ChatGPT for Excel - Web content
-    - Document:TwistlyCells - ChatGPT for Excel
-    - Button:SEE PLANS
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth css-89ua91
-    className: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-fullWidth css-89ua91
-    isEnabled: true
-  - id: control_61
+  - id: control_38
     name: Pane
     controlType: Pane
     hierarchy:
@@ -822,7 +559,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_62
+  - id: control_39
     name: Pane
     controlType: Pane
     hierarchy:
