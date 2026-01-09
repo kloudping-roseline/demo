@@ -1,15 +1,15 @@
 application: Excel
 appVersion: 16.0.19530.20074
 year: 2016
-Agent: LAVANYA
+Agent: SHARADHI
 baseLibraryVersion: null
 scan:
-  scannedAt: 2026-01-09T10:41:47.8417764+05:30
+  scannedAt: 2026-01-09T10:44:33.9959990+05:30
   toolVersion: null
   environment:
-    osBuild: 26100.7462
+    osBuild: 26200.7462
     dpi: 96
-    locale: en-US
+    locale: en-IN
 controls:
   - Id: ribbon.home.paste
     Name: Paste
@@ -146,7 +146,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 754, y: 82, w: 74, h: 77 }
+    Bbox: { x: 820, y: 82, w: 74, h: 77 }
   - Id: ribbon.home.formatastablegallery
     Name: Format as Table
     ControlType: MenuItem
@@ -437,7 +437,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 830, y: 82, w: 57, h: 77 }
+    Bbox: { x: 896, y: 82, w: 57, h: 77 }
   - Id: ribbon.home.cellstylesgallery
     Name: Cell Styles
     ControlType: MenuItem
@@ -668,7 +668,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 889, y: 82, w: 46, h: 69 }
+    Bbox: { x: 954, y: 82, w: 46, h: 69 }
   - Id: ribbon.home.insert
     Name: Insert
     ControlType: SplitButton
@@ -691,7 +691,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 951, y: 82, w: 86, h: 24 }
+    Bbox: { x: 1017, y: 82, w: 42, h: 77 }
   - Id: ribbon.home.cellsinsertsmart
     Name: Insert Cells
     ControlType: Button
@@ -714,23 +714,69 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 951, y: 82, w: 62, h: 24 }
-  - Id: ribbon.home.insertcellstmenu_dropdown
-    Name: More Options
+    Bbox: { x: 1017, y: 82, w: 42, h: 38 }
+  - Id: ribbon.home.delete
+    Name: Delete
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - SplitButton:Delete
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Delete
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Home/Delete
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1060, y: 82, w: 42, h: 77 }
+  - Id: ribbon.home.cellsdeletesmart
+    Name: Delete Cells...
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - Button:Delete Cells...
+    Selectors:
+      Primary:
+        AutomationId: CellsDeleteSmart
+        ControlType: Button
+      Alternates:
+        - Name: Delete Cells...
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/Delete Cells...
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1060, y: 82, w: 42, h: 38 }
+  - Id: ribbon.home.formatcellsmenu
+    Name: Format
     ControlType: MenuItem
     Hierarchy:
       - Window:Excel
       - Ribbon:Home
-      - MenuItem:More Options
+      - MenuItem:Format
     Selectors:
       Primary:
-        AutomationId: InsertCellstMenu_Dropdown
+        AutomationId: FormatCellsMenu
         ControlType: MenuItem
       Alternates:
-        - Name: More Options
-          ClassName: NetUIRibbonButton
+        - Name: Format
+          ClassName: NetUIAnchor
           Pattern: Invoke
-          Path: Ribbon/Home/More Options
+          Path: Ribbon/Home/Format
     Children:
       - Name: ''
         AutomationId: null
@@ -740,27 +786,55 @@ controls:
         AutomationId: null
         ClassName: NetUITWMenuContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: Cell Size
         AutomationId: null
         ClassName: NetUITWMenuItemGroup
         ControlType: Group
-      - Name: Insert Cells...
+      - Name: Row Height...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Insert Sheet Rows
+      - Name: AutoFit Row Height
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: Insert Sheet Columns
+      - Name: Column Width...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: Insert Sheet
+      - Name: AutoFit Column Width
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Default Width...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Hide & Unhide
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Rename Sheet
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Move or Copy Sheet...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Tab Color
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Protect Sheet...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Lock Cell
+        AutomationId: null
+        ClassName: NetUITWBtnCheckMenuItem
+        ControlType: MenuItem
+      - Name: Format Cells...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
@@ -769,7 +843,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1014, y: 82, w: 24, h: 24 }
+    Bbox: { x: 1103, y: 82, w: 42, h: 77 }
   - Id: ribbon.home.autosum
     Name: AutoSum
     ControlType: SplitButton
@@ -792,7 +866,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1060, y: 82, w: 48, h: 24 }
+    Bbox: { x: 1162, y: 82, w: 106, h: 24 }
   - Id: ribbon.home.autosum
     Name: Sum
     ControlType: Button
@@ -815,7 +889,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1060, y: 82, w: 24, h: 24 }
+    Bbox: { x: 1162, y: 82, w: 82, h: 24 }
   - Id: ribbon.home.autosummenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -874,7 +948,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1084, y: 82, w: 24, h: 24 }
+    Bbox: { x: 1244, y: 82, w: 24, h: 24 }
   - Id: ribbon.home.sortfiltermenu
     Name: Sort & Filter
     ControlType: MenuItem
@@ -933,7 +1007,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1110, y: 82, w: 42, h: 77 }
+    Bbox: { x: 1270, y: 82, w: 42, h: 77 }
   - Id: ribbon.home.selectmenuexcel
     Name: Find & Select
     ControlType: MenuItem
@@ -1012,7 +1086,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1154, y: 82, w: 48, h: 77 }
+    Bbox: { x: 1314, y: 82, w: 48, h: 77 }
   - Id: ribbon.home.officeextensionsshowaddinflyout
     Name: Add‑ins
     ControlType: Button
@@ -1035,53 +1109,30 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1218, y: 82, w: 46, h: 77 }
-  - Id: ribbon.home.copilot
-    Name: Copilot
+    Bbox: { x: 1378, y: 82, w: 46, h: 77 }
+  - Id: ribbon.home.chatgpt.for.excel
+    Name: ChatGPT for Excel
     ControlType: Button
     Hierarchy:
       - Window:Excel
       - Ribbon:Home
-      - Button:Copilot
+      - Button:ChatGPT for Excel
     Selectors:
       Primary:
         AutomationId: null
         ControlType: Button
       Alternates:
-        - Name: Copilot
+        - Name: ChatGPT for Excel
           ClassName: NetUIRibbonButton
           Pattern: Invoke
-          Path: Ribbon/Home/Copilot
+          Path: Ribbon/Home/ChatGPT for Excel
     Children: []
     Patterns:
       - Invoke
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1280, y: 82, w: 44, h: 77 }
-  - Id: ribbon.home.autopilot
-    Name: Autopilot
-    ControlType: Button
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - Button:Autopilot
-    Selectors:
-      Primary:
-        AutomationId: null
-        ControlType: Button
-      Alternates:
-        - Name: Autopilot
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/Home/Autopilot
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 1340, y: 82, w: 55, h: 77 }
+    Bbox: { x: 1440, y: 82, w: 50, h: 77 }
   - Id: ribbon.home.font
     Name: Font
     ControlType: ComboBox
@@ -1131,7 +1182,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: ADLaM Display
+      - Name: ADLaM Display, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1143,11 +1194,11 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Alasassy Caps, select to download
+      - Name: Alasassy Caps
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Aldhabi, select to download
+      - Name: Aldhabi
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1159,7 +1210,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Amasis MT Pro Black
+      - Name: Amasis MT Pro Black, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1203,7 +1254,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Aptos Light
+      - Name: Aptos Light, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1279,7 +1330,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Avenir Next LT Pro
+      - Name: Avenir Next LT Pro, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1375,7 +1426,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Bierstadt
+      - Name: Bierstadt, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1667,7 +1718,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: DengXian
+      - Name: DengXian, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -1955,7 +2006,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Grandview Display
+      - Name: Grandview Display, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -2211,7 +2262,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Latha
+      - Name: Latha, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -2447,7 +2498,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: MS Mincho
+      - Name: MS Mincho, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -2499,7 +2550,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Neue Haas Grotesk Text Pro
+      - Name: Neue Haas Grotesk Text Pro, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -2672,6 +2723,10 @@ controls:
         ClassName: NetUIGalleryButton
         ControlType: ListItem
       - Name: Rod, select to download
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ROG Fonts
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -2919,7 +2974,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Source Sans Pro
+      - Name: Source Sans Pro, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3011,7 +3066,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: The Hand
+      - Name: The Hand, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3027,7 +3082,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: The Serif Hand
+      - Name: The Serif Hand, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3063,7 +3118,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Trade Gothic Next Cond
+      - Name: Trade Gothic Next Cond, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3075,7 +3130,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Trade Gothic Next Light
+      - Name: Trade Gothic Next Light, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3135,7 +3190,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Univers Condensed
+      - Name: Univers Condensed, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3143,7 +3198,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Univers Light
+      - Name: Univers Light, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3195,7 +3250,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Vijaya
+      - Name: Vijaya, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3215,7 +3270,7 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Walbaum Display
+      - Name: Walbaum Display, select to download
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -3627,176 +3682,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 438, y: 90, w: 40, h: 24 }
-  - Id: ribbon.home.left-to-right
-    Name: Left-to-Right
-    ControlType: SplitButton
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - SplitButton:Left-to-Right
-    Selectors:
-      Primary:
-        AutomationId: null
-        ControlType: SplitButton
-      Alternates:
-        - Name: Left-to-Right
-          ClassName: NetUISplitButtonAnchor
-          Pattern: Invoke
-          Path: Ribbon/Home/Left-to-Right
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 479, y: 90, w: 39, h: 24 }
-  - Id: ribbon.home.textdirectionlefttoright
-    Name: Left-to-Right
-    ControlType: Button
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - Button:Left-to-Right
-    Selectors:
-      Primary:
-        AutomationId: TextDirectionLeftToRight
-        ControlType: Button
-      Alternates:
-        - Name: Left-to-Right
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/Home/Left-to-Right
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 479, y: 90, w: 24, h: 24 }
-  - Id: ribbon.home.alignlefttorightmenu_dropdown
-    Name: More Options
-    ControlType: MenuItem
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - MenuItem:More Options
-    Selectors:
-      Primary:
-        AutomationId: AlignLeftToRightMenu_Dropdown
-        ControlType: MenuItem
-      Alternates:
-        - Name: More Options
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/Home/More Options
-    Children:
-      - Name: ''
-        AutomationId: null
-        ClassName: NUIPane
-        ControlType: Pane
-      - Name: Ribbon
-        AutomationId: null
-        ClassName: NetUInetpane
-        ControlType: Pane
-      - Name: ‪Book1‬  -  Excel
-        AutomationId: null
-        ClassName: NetUIOfficeCaption
-        ControlType: TitleBar
-      - Name: ‪Book1‬  -  Excel
-        AutomationId: null
-        ClassName: NetUISimpleButton
-        ControlType: Button
-      - Name: Type to search and use the up and down arrow keys to navigate
-        AutomationId: TellMeControlAnchor
-        ClassName: NetUISearchBoxAnchor
-        ControlType: MenuItem
-      - Name: Customize Quick Access Toolbar
-        AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Microsoft search
-        AutomationId: TellMeTextBoxAutomationId
-        ClassName: NetUISearchBoxTextbox
-        ControlType: Edit
-      - Name: Ribbon Tabs
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Tab
-      - Name: Data
-        AutomationId: TabData
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
-      - Name: Review
-        AutomationId: TabReview
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
-      - Name: View
-        AutomationId: TabView
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
-      - Name: Automate
-        AutomationId: TabAutomate
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
-      - Name: Lower Ribbon
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Pane
-      - Name: Home
-        AutomationId: null
-        ClassName: NetUIOrderedGroup
-        ControlType: Group
-      - Name: Alignment
-        AutomationId: null
-        ClassName: NetUIChunk
-        ControlType: Group
-      - Name: Number
-        AutomationId: null
-        ClassName: NetUIChunk
-        ControlType: Group
-      - Name: Open
-        AutomationId: null
-        ClassName: NetUIStickyButton
-        ControlType: Button
-      - Name: Left-to-Right
-        AutomationId: null
-        ClassName: NetUISplitButtonAnchor
-        ControlType: SplitButton
-      - Name: Open
-        AutomationId: null
-        ClassName: NetUIStickyButton
-        ControlType: Button
-      - Name: Font Size
-        AutomationId: null
-        ClassName: NetUITextbox
-        ControlType: Edit
-      - Name: Number Format
-        AutomationId: null
-        ClassName: NetUITextbox
-        ControlType: Edit
-      - Name: Fill Color RGB(255, 255, 0)
-        AutomationId: null
-        ClassName: NetUIRibbonButton
-        ControlType: Button
-      - Name: Font Color RGB(255, 0, 0)
-        AutomationId: null
-        ClassName: NetUIRibbonButton
-        ControlType: Button
-      - Name: Merge & Center
-        AutomationId: null
-        ClassName: NetUISplitButtonAnchor
-        ControlType: SplitButton
-      - Name: Accounting Number Format
-        AutomationId: null
-        ClassName: NetUISplitButtonAnchor
-        ControlType: SplitButton
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 503, y: 90, w: 15, h: 24 }
+    Bbox: { x: 440, y: 90, w: 40, h: 24 }
   - Id: ribbon.home.wraptext
     Name: Wrap Text
     ControlType: Button
@@ -3819,7 +3705,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 530, y: 90, w: 24, h: 24 }
+    Bbox: { x: 502, y: 90, w: 87, h: 24 }
   - Id: ribbon.home.numberformatgallery
     Name: Number Format
     ControlType: ComboBox
@@ -3849,18 +3735,10 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUIScrollBar
-        ControlType: ScrollBar
       - Name: Line up
         AutomationId: null
         ClassName: NetUIRepeatButton
         ControlType: Button
-      - Name: Position
-        AutomationId: null
-        ClassName: NetUIThumb
-        ControlType: Thumb
       - Name: Number
         AutomationId: null
         ClassName: NetUIGalleryButton
@@ -3918,7 +3796,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 594, y: 90, w: 144, h: 24 }
+    Bbox: { x: 660, y: 90, w: 144, h: 24 }
   - Id: ribbon.home.open
     Name: Open
     ControlType: Button
@@ -3941,7 +3819,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 725, y: 90, w: 13, h: 22 }
+    Bbox: { x: 790, y: 90, w: 13, h: 22 }
   - Id: ribbon.home.font
     Name: Font
     ControlType: Edit
@@ -4010,7 +3888,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 595, y: 92, w: 130, h: 19 }
+    Bbox: { x: 661, y: 92, w: 130, h: 19 }
   - Id: ribbon.home.copy
     Name: Copy
     ControlType: SplitButton
@@ -4100,107 +3978,6 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
     Bbox: { x: 87, y: 107, w: 24, h: 24 }
-  - Id: ribbon.home.delete
-    Name: Delete
-    ControlType: SplitButton
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - SplitButton:Delete
-    Selectors:
-      Primary:
-        AutomationId: null
-        ControlType: SplitButton
-      Alternates:
-        - Name: Delete
-          ClassName: NetUISplitButtonAnchor
-          Pattern: Invoke
-          Path: Ribbon/Home/Delete
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 951, y: 107, w: 93, h: 24 }
-  - Id: ribbon.home.cellsdeletesmart
-    Name: Delete Cells...
-    ControlType: Button
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - Button:Delete Cells...
-    Selectors:
-      Primary:
-        AutomationId: CellsDeleteSmart
-        ControlType: Button
-      Alternates:
-        - Name: Delete Cells...
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/Home/Delete Cells...
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 951, y: 107, w: 69, h: 24 }
-  - Id: ribbon.home.tabledeleterowsandcolumnsmenu_dropdown
-    Name: More Options
-    ControlType: MenuItem
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - MenuItem:More Options
-    Selectors:
-      Primary:
-        AutomationId: TableDeleteRowsAndColumnsMenu_Dropdown
-        ControlType: MenuItem
-      Alternates:
-        - Name: More Options
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/Home/More Options
-    Children:
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Pane
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Delete Cells...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Delete Sheet Rows
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Delete Sheet Columns
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Delete Sheet
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 1020, y: 107, w: 24, h: 24 }
   - Id: ribbon.home.fillmenu
     Name: Fill
     ControlType: MenuItem
@@ -4267,7 +4044,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1060, y: 107, w: 40, h: 24 }
+    Bbox: { x: 1162, y: 107, w: 60, h: 24 }
   - Id: ribbon.home.pastemenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -4309,10 +4086,58 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: ' '
+      - Name: Formulas
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Formulas & Number Formatting
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Keep Source Formatting
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: No Borders
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Keep Source Column Widths
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Transpose
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Values
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Values & Number Formatting
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Values & Source Formatting
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Formatting
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Paste Link...
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Picture
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Linked Picture
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: Paste Special...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -4323,6 +4148,116 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
     Bbox: { x: 20, y: 120, w: 42, h: 38 }
+  - Id: ribbon.home.insertcellstmenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: InsertCellstMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUITWMenuContainer
+        ControlType: Menu
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Insert Copied Cells...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Insert Sheet Rows
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Insert Sheet Columns
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Insert Sheet
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1017, y: 120, w: 42, h: 38 }
+  - Id: ribbon.home.tabledeleterowsandcolumnsmenu_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Home
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: TableDeleteRowsAndColumnsMenu_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Home/More Options
+    Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: ''
+        AutomationId: null
+        ClassName: NetUITWMenuContainer
+        ControlType: Menu
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Delete Cells...
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUITWMenuItemGroup
+        ControlType: Group
+      - Name: Delete Sheet Rows
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Delete Sheet Columns
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+      - Name: Delete Sheet
+        AutomationId: null
+        ClassName: NetUITWBtnMenuItem
+        ControlType: MenuItem
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Home group
+    Bbox: { x: 1060, y: 120, w: 42, h: 38 }
   - Id: ribbon.home.bold
     Name: Bold
     ControlType: Button
@@ -6160,7 +6095,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 438, y: 122, w: 24, h: 24 }
+    Bbox: { x: 440, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.indentincreaseexcel
     Name: Increase Indent
     ControlType: Button
@@ -6183,7 +6118,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 463, y: 122, w: 24, h: 24 }
+    Bbox: { x: 466, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.merge.&.center
     Name: Merge & Center
     ControlType: SplitButton
@@ -6206,7 +6141,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 530, y: 122, w: 48, h: 24 }
+    Bbox: { x: 502, y: 122, w: 142, h: 24 }
   - Id: ribbon.home.mergecenter
     Name: Merge & Center
     ControlType: Button
@@ -6229,7 +6164,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 530, y: 122, w: 24, h: 24 }
+    Bbox: { x: 502, y: 122, w: 118, h: 24 }
   - Id: ribbon.home.mergecentermenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -6280,7 +6215,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 554, y: 122, w: 24, h: 24 }
+    Bbox: { x: 620, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.accounting.number.format
     Name: Accounting Number Format
     ControlType: SplitButton
@@ -6303,8 +6238,8 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 594, y: 122, w: 39, h: 24 }
-  - Id: ribbon.home.accountingformat
+    Bbox: { x: 660, y: 122, w: 39, h: 24 }
+  - Id: ribbon.home.internationalcurrency
     Name: Accounting Number Format
     ControlType: Button
     Hierarchy:
@@ -6313,7 +6248,7 @@ controls:
       - Button:Accounting Number Format
     Selectors:
       Primary:
-        AutomationId: AccountingFormat
+        AutomationId: InternationalCurrency
         ControlType: Button
       Alternates:
         - Name: Accounting Number Format
@@ -6326,7 +6261,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 594, y: 122, w: 24, h: 24 }
+    Bbox: { x: 660, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.accountingformatmenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -6356,11 +6291,11 @@ controls:
         AutomationId: null
         ClassName: NetUITWMenuItemGroup
         ControlType: Group
-      - Name: ‎$‎ English (United States)‎
+      - Name: ‎₹‎ English (India)‎
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: ‎₹‎ English (India)‎
+      - Name: ‎$‎ English (United States)‎
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
@@ -6389,7 +6324,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 618, y: 122, w: 15, h: 24 }
+    Bbox: { x: 684, y: 122, w: 15, h: 24 }
   - Id: ribbon.home.percentstyle
     Name: Percent Style
     ControlType: Button
@@ -6412,7 +6347,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 635, y: 122, w: 24, h: 24 }
+    Bbox: { x: 701, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.commastyle
     Name: Comma Style
     ControlType: Button
@@ -6435,7 +6370,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 661, y: 122, w: 24, h: 24 }
+    Bbox: { x: 726, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.decimalsincrease
     Name: Increase Decimal
     ControlType: Button
@@ -6458,7 +6393,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 689, y: 122, w: 24, h: 24 }
+    Bbox: { x: 754, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.decimalsdecrease
     Name: Decrease Decimal
     ControlType: Button
@@ -6481,7 +6416,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 714, y: 122, w: 24, h: 24 }
+    Bbox: { x: 780, y: 122, w: 24, h: 24 }
   - Id: ribbon.home.formatpainter
     Name: Format Painter
     ControlType: Button
@@ -6505,89 +6440,6 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
     Bbox: { x: 63, y: 133, w: 24, h: 24 }
-  - Id: ribbon.home.formatcellsmenu
-    Name: Format
-    ControlType: MenuItem
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Home
-      - MenuItem:Format
-    Selectors:
-      Primary:
-        AutomationId: FormatCellsMenu
-        ControlType: MenuItem
-      Alternates:
-        - Name: Format
-          ClassName: NetUIAnchor
-          Pattern: Invoke
-          Path: Ribbon/Home/Format
-    Children:
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUIPanViewer
-        ControlType: Pane
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: Cell Size
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Row Height...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: AutoFit Row Height
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Column Width...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: AutoFit Column Width
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Default Width...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Hide & Unhide
-        AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Rename Sheet
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Move or Copy Sheet...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Tab Color
-        AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Protect Sheet...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Lock Cell
-        AutomationId: null
-        ClassName: NetUITWBtnCheckMenuItem
-        ControlType: MenuItem
-      - Name: Format Cells...
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Home group
-    Bbox: { x: 951, y: 133, w: 82, h: 24 }
   - Id: ribbon.home.clearmenu
     Name: Clear
     ControlType: MenuItem
@@ -6646,7 +6498,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 1060, y: 133, w: 40, h: 24 }
+    Bbox: { x: 1162, y: 133, w: 72, h: 24 }
   - Id: ribbon.home.ribbon.display.options
     Name: Ribbon Display Options
     ControlType: MenuItem
@@ -6738,7 +6590,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 570, y: 160, w: 16, h: 16 }
+    Bbox: { x: 636, y: 160, w: 16, h: 16 }
   - Id: ribbon.home.formatcellsnumberdialog
     Name: Format Cell Number
     ControlType: Button
@@ -6761,7 +6613,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Home group
-    Bbox: { x: 730, y: 160, w: 16, h: 16 }
+    Bbox: { x: 796, y: 160, w: 16, h: 16 }
   - Id: ribbon.insert.text
     Name: Text
     ControlType: MenuItem
@@ -7707,21 +7559,69 @@ controls:
           Pattern: Invoke
           Path: Ribbon/Insert/More Options
     Children:
+      - Name: ''
+        AutomationId: null
+        ClassName: NUIPane
+        ControlType: Pane
+      - Name: Ribbon
+        AutomationId: null
+        ClassName: NetUInetpane
+        ControlType: Pane
+      - Name: Sharadhi Adiga
+        AutomationId: MeControlWidget
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Minimize
+        AutomationId: null
+        ClassName: NetUIAppFrameHelper
+        ControlType: Button
+      - Name: Restore Down
+        AutomationId: null
+        ClassName: NetUIAppFrameHelper
+        ControlType: Button
+      - Name: Close
+        AutomationId: null
+        ClassName: NetUIAppFrameHelper
+        ControlType: Button
+      - Name: Ribbon Tabs
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Tab
+      - Name: Share
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Comments
+        AutomationId: null
+        ClassName: NetUIStickyButton
+        ControlType: Button
+      - Name: Lower Ribbon
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: Insert
+        AutomationId: null
+        ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Text
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Symbols
+        AutomationId: null
+        ClassName: NetUIChunk
+        ControlType: Group
+      - Name: Link
+        AutomationId: null
+        ClassName: NetUIRibbonButton
+        ControlType: Button
       - Name: Equation
         AutomationId: null
-        ClassName: NetUIGalleryContainer
-        ControlType: Menu
-      - Name: ' '
+        ClassName: NetUIRibbonButton
+        ControlType: Button
+      - Name: Ribbon Display Options
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Insert New Equation
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: Ink Equation
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
+        ClassName: NetUIAnchor
         ControlType: MenuItem
     Patterns:
       - Invoke
@@ -8528,10 +8428,62 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: 2-D Line
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Line
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Stacked Line
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 100% Stacked Line
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line with Markers
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Stacked Line with Markers
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 100% Stacked Line with Markers
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3-D Line
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Area
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Stacked Area
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 100% Stacked Area
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3-D Area
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3-D Stacked Area
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3-D 100% Stacked Area
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Line Charts...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -8563,10 +8515,22 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: Histogram
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Histogram
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pareto
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Box and Whisker
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Statistical Charts...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -8598,10 +8562,22 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: Combo
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Clustered Column - Line
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Clustered Column - Line on Secondary Axis
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Stacked Area - Clustered Column
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: Create Custom Combo Chart...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -8812,43 +8788,35 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
-      - Name: meet.google.com is sharing your screen.
+      - Name: C:\Mywork\ai-desktop-testing-framework\TestEngine.Console\bin\Debug\net8.0\TestEngine.Console.exe
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: Insert 3D Model
+      - Name: C:\Mywork\ai-desktop-testing-framework\Exaction.Console\bin\Debug\net8.0-windows7.0\Exaction.Console.exe
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: localhost - Work - Microsoft​ Edge
+      - Name: Exaction.Console (Running) - TestCase.cs - Microsoft Visual Studio
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: C:\kloudping\mywork\ai-desktop-testing-framework\TestEngine.Console\bin\Debug\net8.0\TestEngine.Console.exe
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: C:\kloudping\mywork\ai-desktop-testing-framework\Exaction.Console\bin\Debug\net8.0-windows7.0\Exaction.Console.exe
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: C:\kloudping\mywork\ai-desktop-testing-framework\API\bin\Debug\net8.0\API.exe
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: Exaction.Console (Running) - appsettings.json - Microsoft Visual Studio
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: Excel-ControlSpecification.yaml - Visual Studio Code
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: 16.0.19530.20074 - File Explorer
+      - Name: ai-desktop-testing-framework - File Explorer
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
       - Name: CMS - E-commerce focused CMS platforms - Google Chrome
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: CMS - E-commerce focused CMS platforms - Google Chrome
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: C:\Mywork\ai-desktop-testing-framework\API\bin\Debug\net8.0\API.exe
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ng serve
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -8883,10 +8851,30 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: 2-D Pie
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Pie
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Pie of Pie
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bar of Pie
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3-D Pie
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Doughnut
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Pie Charts...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -8918,10 +8906,38 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: Scatter
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Scatter
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Scatter with Smooth Lines and Markers
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Scatter with Smooth Lines
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Scatter with Straight Lines and Markers
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Scatter with Straight Lines
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Bubble
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3-D Bubble
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Scatter Charts...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -8979,21 +8995,21 @@ controls:
     Notes: Ribbon button in Insert group
     Bbox: { x: 866, y: 160, w: 16, h: 16 }
   - Id: ribbon.draw.undobutton
-    Name: Undo Typing
+    Name: Undo Checkbox
     ControlType: Button
     Hierarchy:
       - Window:Excel
       - Ribbon:Draw
-      - Button:Undo Typing
+      - Button:Undo Checkbox
     Selectors:
       Primary:
         AutomationId: UndoButton
         ControlType: Button
       Alternates:
-        - Name: Undo Typing
+        - Name: Undo Checkbox
           ClassName: NetUIRibbonButton
           Pattern: Invoke
-          Path: Ribbon/Draw/Undo Typing
+          Path: Ribbon/Draw/Undo Checkbox
     Children: []
     Patterns:
       - Invoke
@@ -9023,7 +9039,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 588, y: 82, w: 42, h: 69 }
+    Bbox: { x: 540, y: 82, w: 42, h: 69 }
   - Id: ribbon.draw.diagrammingonline
     Name: Ink to Shape
     ControlType: Button
@@ -9046,7 +9062,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 646, y: 82, w: 42, h: 77 }
+    Bbox: { x: 598, y: 82, w: 42, h: 77 }
   - Id: ribbon.draw.selectiontomathconvert
     Name: Ink to Math
     ControlType: Button
@@ -9069,7 +9085,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 689, y: 82, w: 42, h: 77 }
+    Bbox: { x: 641, y: 82, w: 42, h: 77 }
   - Id: ribbon.draw.replay
     Name: Ink Replay
     ControlType: Button
@@ -9092,7 +9108,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 746, y: 82, w: 42, h: 77 }
+    Bbox: { x: 698, y: 82, w: 42, h: 77 }
   - Id: ribbon.draw.penandinkhelp
     Name: Ink Help
     ControlType: Button
@@ -9115,7 +9131,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 804, y: 82, w: 42, h: 77 }
+    Bbox: { x: 756, y: 82, w: 42, h: 77 }
   - Id: ribbon.draw.select:.select.objects.including.ink,.shapes,.and.text.areas..this.is.especially.useful.when.working.with.objects.that.are.behind.the.text.
     Name: 'Select: Select objects including ink, shapes, and text areas. This is especially useful when working with objects that are behind the text.'
     ControlType: SplitButton
@@ -9231,29 +9247,6 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
     Bbox: { x: 252, y: 86, w: 48, h: 60 }
-  - Id: ribbon.draw.pen:.galaxy,.0.5.mm
-    Name: 'Pen: Galaxy, 0.5 mm'
-    ControlType: SplitButton
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Draw
-      - 'SplitButton:Pen: Galaxy, 0.5 mm'
-    Selectors:
-      Primary:
-        AutomationId: null
-        ControlType: SplitButton
-      Alternates:
-        - Name: 'Pen: Galaxy, 0.5 mm'
-          ClassName: NetUIToolboxButtonAnchor
-          Pattern: Invoke
-          Path: 'Ribbon/Draw/Pen: Galaxy, 0.5 mm'
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Draw group
-    Bbox: { x: 300, y: 86, w: 48, h: 60 }
   - Id: ribbon.draw.pencil:.gray,.0.5.mm
     Name: 'Pencil: Gray, 0.5 mm'
     ControlType: SplitButton
@@ -9276,7 +9269,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 348, y: 86, w: 48, h: 60 }
+    Bbox: { x: 300, y: 86, w: 48, h: 60 }
   - Id: ribbon.draw.highlighter:.yellow,.6.mm,.snap.to.text:.off
     Name: 'Highlighter: Yellow, 6 mm, Snap to Text: Off'
     ControlType: SplitButton
@@ -9299,7 +9292,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 396, y: 86, w: 48, h: 60 }
+    Bbox: { x: 348, y: 86, w: 48, h: 60 }
   - Id: ribbon.draw.fountain.pen:.dark.blue,.1.mm
     Name: 'Fountain Pen: Dark Blue, 1 mm'
     ControlType: SplitButton
@@ -9322,7 +9315,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 444, y: 86, w: 48, h: 60 }
+    Bbox: { x: 396, y: 86, w: 48, h: 60 }
   - Id: ribbon.draw.brush.pen:.green,.1.mm
     Name: 'Brush Pen: Green, 1 mm'
     ControlType: SplitButton
@@ -9345,7 +9338,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 492, y: 86, w: 48, h: 60 }
+    Bbox: { x: 444, y: 86, w: 48, h: 60 }
   - Id: ribbon.draw.action.pen:.use.the.action.pen.to.enter.data.by.handwriting.
     Name: 'Action Pen: Use the Action Pen to enter data by handwriting.'
     ControlType: SplitButton
@@ -9368,23 +9361,23 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Draw group
-    Bbox: { x: 540, y: 86, w: 48, h: 60 }
+    Bbox: { x: 492, y: 86, w: 48, h: 60 }
   - Id: ribbon.draw.repeat
-    Name: Can't Repeat
+    Name: Repeat Checkbox
     ControlType: Button
     Hierarchy:
       - Window:Excel
       - Ribbon:Draw
-      - Button:Can't Repeat
+      - Button:Repeat Checkbox
     Selectors:
       Primary:
         AutomationId: Repeat
         ControlType: Button
       Alternates:
-        - Name: Can't Repeat
+        - Name: Repeat Checkbox
           ClassName: NetUIRibbonButton
           Pattern: Invoke
-          Path: Ribbon/Draw/Can't Repeat
+          Path: Ribbon/Draw/Repeat Checkbox
     Children: []
     Patterns:
       - Invoke
@@ -9436,10 +9429,118 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ' '
+      - Name: Office
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Line up
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Office
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Office 2013 - 2022 Theme
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Facet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gallery
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Integral
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Ion
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Ion Boardroom
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Organic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Retrospect
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Slice
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wisp
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Banded
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Basis
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Berlin
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Circuit
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Damask
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Page down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Dividend
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Droplet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Frame
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gallery
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Main Event
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Mesh
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Metropolitan
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Parallax
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: Browse for Themes...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -9448,6 +9549,30 @@ controls:
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
+      - Name: Parcel
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Savon
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Slate
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Vapor Trail
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: View
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wood Type
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -9475,22 +9600,122 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ''
+      - Name: Office
         AutomationId: null
-        ClassName: NetUIScrollBar
-        ControlType: ScrollBar
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Line up
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Office
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Office 2013 - 2022
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Office 2007 - 2010
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Grayscale
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blue Warm
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blue
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blue II
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Blue Green
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Green Yellow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yellow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Yellow Orange
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Orange Red
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Red Orange
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Red
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Red Violet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Violet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Page down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Violet II
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Median
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Paper
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Marquee
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: Customize Colors...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: Size box
+      - Name: Slipstream
         AutomationId: null
-        ClassName: NetUIGrippie
-        ControlType: Thumb
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Aspect
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -9520,8 +9745,20 @@ controls:
         ControlType: Menu
       - Name: ' '
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Normal Margins
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Wide Margins
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Narrow Margins
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: Custom Margins...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -9553,6 +9790,18 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
+      - Name: ' '
+        AutomationId: null
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Portrait
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Landscape
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -9582,12 +9831,240 @@ controls:
         ControlType: Menu
       - Name: ' '
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Letter
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line up
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Tabloid
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Legal
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Page down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: Statement
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Executive
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: A3
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: A4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: A5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: B4 (JIS)
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: B5 (JIS)
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: 'Envelope #9'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Paper Sizes...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
+      - Name: 'Envelope #10'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: C size sheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: D size sheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: E size sheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Envelope DL
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Envelope C5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Envelope C4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Envelope B5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Envelope Monarch
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Japanese Postcard
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Super B
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: A2
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: A6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Japanese Envelope Kaku #2'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Japanese Envelope Chou #3'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Japanese Envelope Chou #4'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Japan Envelope You #4'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ASMEFSheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Architecture ASheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Architecture BSheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Architecture CSheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Architecture DSheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Architecture E1Sheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Architecture ESheet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Business Card 2x 3 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Business Card 55x 85mm
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Business Card 55x 91mm
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: English 14x 17
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: English Photo L
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Metric Photo L
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: North America 3x 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: North America 5x 8
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Photo 10x 12
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Photo 4x 4
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Photo 5x 5
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Photo 89x 89mm
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Credit Card
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ISOA0
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ISOA1
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Japan Chou 40 Envelope
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: North America 4x 6
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: North America 5x 7
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: North America 8x 10
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -9757,8 +10234,48 @@ controls:
         ControlType: Menu
       - Name: ' '
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Automatic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 1 page
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 2 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 4 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 5 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 6 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 7 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 8 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 9 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Pages...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -9792,29 +10309,6 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
     Bbox: { x: 668, y: 82, w: 13, h: 22 }
-  - Id: ribbon.page.layout.righttoleftdocument
-    Name: Sheet Right-to-Left
-    ControlType: Button
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:Page Layout
-      - Button:Sheet Right-to-Left
-    Selectors:
-      Primary:
-        AutomationId: RightToLeftDocument
-        ControlType: Button
-      Alternates:
-        - Name: Sheet Right-to-Left
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/Page Layout/Sheet Right-to-Left
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in Page Layout group
-    Bbox: { x: 698, y: 82, w: 70, h: 77 }
   - Id: ribbon.page.layout.bring.forward
     Name: Bring Forward
     ControlType: SplitButton
@@ -9837,7 +10331,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 906, y: 82, w: 59, h: 77 }
+    Bbox: { x: 834, y: 82, w: 59, h: 77 }
   - Id: ribbon.page.layout.objectbringforward
     Name: Bring Forward
     ControlType: Button
@@ -9860,7 +10354,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 906, y: 82, w: 59, h: 38 }
+    Bbox: { x: 834, y: 82, w: 59, h: 38 }
   - Id: ribbon.page.layout.send.backward
     Name: Send Backward
     ControlType: SplitButton
@@ -9883,7 +10377,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 967, y: 82, w: 67, h: 77 }
+    Bbox: { x: 895, y: 82, w: 67, h: 77 }
   - Id: ribbon.page.layout.objectsendbackward
     Name: Send Backward
     ControlType: Button
@@ -9906,7 +10400,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 967, y: 82, w: 67, h: 38 }
+    Bbox: { x: 895, y: 82, w: 67, h: 38 }
   - Id: ribbon.page.layout.selectionpane
     Name: Selection Pane...
     ControlType: Button
@@ -9929,7 +10423,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 1036, y: 82, w: 54, h: 77 }
+    Bbox: { x: 964, y: 82, w: 54, h: 77 }
   - Id: ribbon.page.layout.objectalignmenu
     Name: Align
     ControlType: MenuItem
@@ -10008,7 +10502,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 1091, y: 82, w: 42, h: 77 }
+    Bbox: { x: 1019, y: 82, w: 42, h: 77 }
   - Id: ribbon.page.layout.objectsgroupmenu
     Name: Group
     ControlType: MenuItem
@@ -10059,7 +10553,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 1134, y: 82, w: 42, h: 77 }
+    Bbox: { x: 1062, y: 82, w: 42, h: 77 }
   - Id: ribbon.page.layout.objectrotategallery
     Name: Rotate
     ControlType: MenuItem
@@ -10110,7 +10604,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 1178, y: 82, w: 42, h: 77 }
+    Bbox: { x: 1106, y: 82, w: 42, h: 77 }
   - Id: ribbon.page.layout.width
     Name: Width
     ControlType: Edit
@@ -10155,22 +10649,130 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ''
+      - Name: Office
         AutomationId: null
-        ClassName: NetUIScrollBar
-        ControlType: ScrollBar
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Line up
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: 'Office, Heading Font: Aptos Display, Body Font: Aptos Narrow'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Office 2013 - 2022, Heading Font: Calibri Light, Body Font: Calibri'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Office 2007 - 2010, Heading Font: Cambria, Body Font: Calibri'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Page down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: 'Calibri, Heading Font: Calibri, Body Font: Calibri'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Arial, Heading Font: Arial, Body Font: Arial'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Corbel, Heading Font: Corbel, Body Font: Corbel'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Candara, Heading Font: Candara, Body Font: Candara'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 'Franklin Gothic, Heading Font: Franklin Gothic Medium, Body Font: Franklin Gothic Book'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Line down
+        AutomationId: null
+        ClassName: NetUIRepeatButton
+        ControlType: Button
+      - Name: 'Century Gothic, Heading Font: Century Gothic, Body Font: Century Gothic'
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: Customize Fonts...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: Size box
+      - Name: Tw Cen MT
         AutomationId: null
-        ClassName: NetUIGrippie
-        ControlType: Thumb
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Cambria
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Garamond
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Georgia
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Century Schoolbook
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Calibri-Cambria
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial-Times New Roman
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Calibri Light-Constantia
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Century Gothic-Palatino Linotype
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Tw Cen MT-Rockwell
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Times New Roman-Arial
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Constantia-Franklin Gothic Book
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Consolas-Verdana
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Arial Black-Arial
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Garamond-TrebuchetMs
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Gill Sans MT
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: TrebuchetMs
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -10200,8 +10802,48 @@ controls:
         ControlType: Menu
       - Name: ' '
         AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIGalleryCategoryContainer
         ControlType: Group
+      - Name: Automatic
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 1 page
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 2 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 3 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 4 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 5 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 6 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 7 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 8 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: 9 pages
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: More Pages...
         AutomationId: null
         ClassName: NetUITWBtnMenuItem
@@ -10272,6 +10914,14 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Tab
+      - Name: Automate
+        AutomationId: TabAutomate
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: Help
+        AutomationId: HelpTab
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
       - Name: Lower Ribbon
         AutomationId: null
         ClassName: NetUIPanViewer
@@ -10279,6 +10929,10 @@ controls:
       - Name: Page Layout
         AutomationId: null
         ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Scale to Fit
+        AutomationId: null
+        ClassName: NetUIChunk
         ControlType: Group
       - Name: Sheet Options
         AutomationId: null
@@ -10325,7 +10979,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 770, y: 108, w: 54, h: 24 }
+    Bbox: { x: 698, y: 108, w: 54, h: 24 }
   - Id: ribbon.page.layout.viewsheetheadings
     Name: View
     ControlType: CheckBox
@@ -10370,6 +11024,10 @@ controls:
       - Name: Page Layout
         AutomationId: null
         ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Scale to Fit
+        AutomationId: null
+        ClassName: NetUIChunk
         ControlType: Group
       - Name: Sheet Options
         AutomationId: null
@@ -10424,7 +11082,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 836, y: 108, w: 54, h: 24 }
+    Bbox: { x: 764, y: 108, w: 54, h: 24 }
   - Id: ribbon.page.layout.height
     Name: Height
     ControlType: Edit
@@ -10490,7 +11148,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 906, y: 120, w: 59, h: 38 }
+    Bbox: { x: 834, y: 120, w: 59, h: 38 }
   - Id: ribbon.page.layout.objectsendbackwardmenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -10533,7 +11191,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 967, y: 120, w: 67, h: 38 }
+    Bbox: { x: 895, y: 120, w: 67, h: 38 }
   - Id: ribbon.page.layout.sheetprintgridlines
     Name: Print
     ControlType: CheckBox
@@ -10571,6 +11229,14 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Tab
+      - Name: Automate
+        AutomationId: TabAutomate
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: Help
+        AutomationId: HelpTab
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
       - Name: Lower Ribbon
         AutomationId: null
         ClassName: NetUIPanViewer
@@ -10578,6 +11244,10 @@ controls:
       - Name: Page Layout
         AutomationId: null
         ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Scale to Fit
+        AutomationId: null
+        ClassName: NetUIChunk
         ControlType: Group
       - Name: Sheet Options
         AutomationId: null
@@ -10624,7 +11294,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 770, y: 132, w: 53, h: 24 }
+    Bbox: { x: 698, y: 132, w: 53, h: 24 }
   - Id: ribbon.page.layout.sheetprintheadings
     Name: Print
     ControlType: CheckBox
@@ -10669,6 +11339,10 @@ controls:
       - Name: Page Layout
         AutomationId: null
         ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Scale to Fit
+        AutomationId: null
+        ClassName: NetUIChunk
         ControlType: Group
       - Name: Sheet Options
         AutomationId: null
@@ -10723,7 +11397,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 836, y: 132, w: 53, h: 24 }
+    Bbox: { x: 764, y: 132, w: 53, h: 24 }
   - Id: ribbon.page.layout.themeeffectsgallery
     Name: Effects
     ControlType: MenuItem
@@ -10745,14 +11419,70 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryContainer
         ControlType: Menu
-      - Name: ''
+      - Name: Office
         AutomationId: null
-        ClassName: NetUIScrollBar
-        ControlType: ScrollBar
-      - Name: Size box
+        ClassName: NetUIGalleryCategoryContainer
+        ControlType: Group
+      - Name: Office
         AutomationId: null
-        ClassName: NetUIGrippie
-        ControlType: Thumb
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Office 2007 - 2010
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Subtle Solids
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Banded Edge
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Smokey Glass
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Glow Edge
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Grunge Texture
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Frosted Glass
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Top Shadow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Inset
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Milk Glass
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Riblet
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Reflection
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Extreme Shadow
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: Glossy
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -10859,6 +11589,10 @@ controls:
         AutomationId: null
         ClassName: NetUITextbox
         ControlType: Edit
+      - Name: Gridlines
+        AutomationId: GridlinesLabel
+        ClassName: NetUIElement
+        ControlType: Group
       - Name: Open
         AutomationId: null
         ClassName: NetUIStickyButton
@@ -10995,7 +11729,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Page Layout group
-    Bbox: { x: 882, y: 160, w: 16, h: 16 }
+    Bbox: { x: 810, y: 160, w: 16, h: 16 }
   - Id: ribbon.formulas.functionwizard
     Name: Insert Function...
     ControlType: Button
@@ -11094,11 +11828,23 @@ controls:
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
+      - Name: AVERAGE
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
       - Name: SUM
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
-      - Name: AVERAGE
+      - Name: ABS
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: MIN
+        AutomationId: null
+        ClassName: NetUIGalleryButton
+        ControlType: ListItem
+      - Name: ACCRINT
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -11115,18 +11861,6 @@ controls:
         ClassName: NetUIGalleryButton
         ControlType: ListItem
       - Name: SIN
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: SUMIF
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: PMT
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: STDEV
         AutomationId: null
         ClassName: NetUIGalleryButton
         ControlType: ListItem
@@ -12453,6 +13187,174 @@ controls:
     Children:
       - Name: ''
         AutomationId: null
+        ClassName: NUIPane
+        ControlType: Pane
+      - Name: Ribbon
+        AutomationId: null
+        ClassName: NetUInetpane
+        ControlType: Pane
+      - Name: ‪Book1‬  -  Excel
+        AutomationId: null
+        ClassName: NetUIOfficeCaption
+        ControlType: TitleBar
+      - Name: ‪Book1‬  -  Excel
+        AutomationId: null
+        ClassName: NetUISimpleButton
+        ControlType: Button
+      - Name: Type to search and use the up and down arrow keys to navigate
+        AutomationId: TellMeControlAnchor
+        ClassName: NetUISearchBoxAnchor
+        ControlType: MenuItem
+      - Name: Customize Quick Access Toolbar
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: More Options
+        AutomationId: Redo_Dropdown
+        ClassName: NetUIRibbonButton
+        ControlType: MenuItem
+      - Name: Microsoft search
+        AutomationId: TellMeTextBoxAutomationId
+        ClassName: NetUISearchBoxTextbox
+        ControlType: Edit
+      - Name: Ribbon Tabs
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Tab
+      - Name: Data
+        AutomationId: TabData
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: Review
+        AutomationId: TabReview
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: View
+        AutomationId: TabView
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: Automate
+        AutomationId: TabAutomate
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: Help
+        AutomationId: HelpTab
+        ClassName: NetUIRibbonTab
+        ControlType: TabItem
+      - Name: Lower Ribbon
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Pane
+      - Name: Formulas
+        AutomationId: null
+        ClassName: NetUIOrderedGroup
+        ControlType: Group
+      - Name: Function Library
+        AutomationId: null
+        ClassName: NetUIChunk
+        ControlType: Group
+      - Name: Python (Preview)
+        AutomationId: null
+        ClassName: NetUIChunk
+        ControlType: Group
+      - Name: Reset
+        AutomationId: null
+        ClassName: NetUISplitButtonAnchor
+        ControlType: SplitButton
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Formulas group
+    Bbox: { x: 490, y: 82, w: 66, h: 77 }
+  - Id: ribbon.formulas.insertpythonpreview
+    Name: Insert Python
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Formulas
+      - Button:Insert Python
+    Selectors:
+      Primary:
+        AutomationId: InsertPythonPreview
+        ControlType: Button
+      Alternates:
+        - Name: Insert Python
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Formulas/Insert Python
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Formulas group
+    Bbox: { x: 572, y: 82, w: 42, h: 77 }
+  - Id: ribbon.formulas.reset
+    Name: Reset
+    ControlType: SplitButton
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Formulas
+      - SplitButton:Reset
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: SplitButton
+      Alternates:
+        - Name: Reset
+          ClassName: NetUISplitButtonAnchor
+          Pattern: Invoke
+          Path: Ribbon/Formulas/Reset
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Formulas group
+    Bbox: { x: 615, y: 82, w: 86, h: 24 }
+  - Id: ribbon.formulas.pythonclearglobalspreview
+    Name: Reset
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Formulas
+      - Button:Reset
+    Selectors:
+      Primary:
+        AutomationId: PythonClearGlobalsPreview
+        ControlType: Button
+      Alternates:
+        - Name: Reset
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Formulas/Reset
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Formulas group
+    Bbox: { x: 615, y: 82, w: 62, h: 24 }
+  - Id: ribbon.formulas.pythonresetmenupreview_dropdown
+    Name: More Options
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Formulas
+      - MenuItem:More Options
+    Selectors:
+      Primary:
+        AutomationId: PythonResetMenuPreview_Dropdown
+        ControlType: MenuItem
+      Alternates:
+        - Name: More Options
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Formulas/More Options
+    Children:
+      - Name: ''
+        AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Pane
       - Name: ''
@@ -12463,36 +13365,20 @@ controls:
         AutomationId: null
         ClassName: NetUITWMenuItemGroup
         ControlType: Group
-      - Name: Statistical
+      - Name: Reset
         AutomationId: null
-        ClassName: NetUIAnchor
+        ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
-      - Name: Engineering
+      - Name: Reset Runtime
         AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Cube
-        AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Information
-        AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Compatibility
-        AutomationId: null
-        ClassName: NetUIAnchor
-        ControlType: MenuItem
-      - Name: Web
-        AutomationId: null
-        ClassName: NetUIAnchor
+        ClassName: NetUITWBtnMenuItem
         ControlType: MenuItem
     Patterns:
       - Invoke
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 490, y: 82, w: 66, h: 77 }
+    Bbox: { x: 678, y: 82, w: 24, h: 24 }
   - Id: ribbon.formulas.namemanager
     Name: Name Manager
     ControlType: Button
@@ -12515,7 +13401,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 572, y: 82, w: 52, h: 77 }
+    Bbox: { x: 730, y: 82, w: 52, h: 77 }
   - Id: ribbon.formulas.define.name
     Name: Define Name
     ControlType: SplitButton
@@ -12538,7 +13424,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 626, y: 82, w: 128, h: 24 }
+    Bbox: { x: 784, y: 82, w: 128, h: 24 }
   - Id: ribbon.formulas.namedefine
     Name: Define Name...
     ControlType: Button
@@ -12561,7 +13447,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 626, y: 82, w: 104, h: 24 }
+    Bbox: { x: 784, y: 82, w: 104, h: 24 }
   - Id: ribbon.formulas.namedefinemenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -12604,7 +13490,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 730, y: 82, w: 24, h: 24 }
+    Bbox: { x: 888, y: 82, w: 24, h: 24 }
   - Id: ribbon.formulas.traceprecedents
     Name: Trace Precedents
     ControlType: Button
@@ -12627,7 +13513,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 790, y: 82, w: 122, h: 24 }
+    Bbox: { x: 949, y: 82, w: 122, h: 24 }
   - Id: ribbon.formulas.showformulas
     Name: Show Formulas
     ControlType: Button
@@ -12650,7 +13536,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 933, y: 82, w: 114, h: 24 }
+    Bbox: { x: 1091, y: 82, w: 114, h: 24 }
   - Id: ribbon.formulas.watchwindow
     Name: Watch Window
     ControlType: Button
@@ -12673,7 +13559,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 1079, y: 82, w: 49, h: 77 }
+    Bbox: { x: 1238, y: 82, w: 49, h: 77 }
   - Id: ribbon.formulas.calculationoptionsmenu
     Name: Calculation Options
     ControlType: MenuItem
@@ -12728,7 +13614,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 1144, y: 82, w: 64, h: 77 }
+    Bbox: { x: 1302, y: 82, w: 64, h: 77 }
   - Id: ribbon.formulas.calculatenow
     Name: Calculate Now
     ControlType: Button
@@ -12751,7 +13637,30 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 1210, y: 90, w: 110, h: 24 }
+    Bbox: { x: 1368, y: 90, w: 110, h: 24 }
+  - Id: ribbon.formulas.pythoneditorpreview
+    Name: Editor
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Formulas
+      - Button:Editor
+    Selectors:
+      Primary:
+        AutomationId: PythonEditorPreview
+        ControlType: Button
+      Alternates:
+        - Name: Editor
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Formulas/Editor
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Formulas group
+    Bbox: { x: 615, y: 107, w: 66, h: 24 }
   - Id: ribbon.formulas.nameuseinformula
     Name: Use in Formula
     ControlType: MenuItem
@@ -12786,7 +13695,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 626, y: 107, w: 123, h: 24 }
+    Bbox: { x: 784, y: 107, w: 123, h: 24 }
   - Id: ribbon.formulas.tracedependents
     Name: Trace Dependents
     ControlType: Button
@@ -12809,7 +13718,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 790, y: 107, w: 129, h: 24 }
+    Bbox: { x: 949, y: 107, w: 129, h: 24 }
   - Id: ribbon.formulas.error.checking...
     Name: Error Checking...
     ControlType: SplitButton
@@ -12832,7 +13741,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 933, y: 107, w: 134, h: 24 }
+    Bbox: { x: 1091, y: 107, w: 134, h: 24 }
   - Id: ribbon.formulas.errorchecking
     Name: Error Checking...
     ControlType: Button
@@ -12855,7 +13764,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 933, y: 107, w: 110, h: 24 }
+    Bbox: { x: 1091, y: 107, w: 110, h: 24 }
   - Id: ribbon.formulas.errorcheckingmenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -12902,7 +13811,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 1043, y: 107, w: 24, h: 24 }
+    Bbox: { x: 1202, y: 107, w: 24, h: 24 }
   - Id: ribbon.formulas.autosummenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -12984,7 +13893,30 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 1210, y: 122, w: 115, h: 24 }
+    Bbox: { x: 1368, y: 122, w: 115, h: 24 }
+  - Id: ribbon.formulas.initpyeditorpreview
+    Name: Initialization
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Formulas
+      - Button:Initialization
+    Selectors:
+      Primary:
+        AutomationId: InitPyEditorPreview
+        ControlType: Button
+      Alternates:
+        - Name: Initialization
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/Formulas/Initialization
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Formulas group
+    Bbox: { x: 615, y: 133, w: 99, h: 24 }
   - Id: ribbon.formulas.namecreatefromselection
     Name: Create from Selection...
     ControlType: Button
@@ -13007,7 +13939,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 626, y: 133, w: 149, h: 24 }
+    Bbox: { x: 784, y: 133, w: 149, h: 24 }
   - Id: ribbon.formulas.remove.arrows
     Name: Remove Arrows
     ControlType: SplitButton
@@ -13030,7 +13962,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 790, y: 133, w: 141, h: 24 }
+    Bbox: { x: 949, y: 133, w: 141, h: 24 }
   - Id: ribbon.formulas.traceremoveallarrows
     Name: Remove Arrows
     ControlType: Button
@@ -13053,7 +13985,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 790, y: 133, w: 117, h: 24 }
+    Bbox: { x: 949, y: 133, w: 117, h: 24 }
   - Id: ribbon.formulas.traceremovearrowsmenu_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -13104,7 +14036,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 907, y: 133, w: 24, h: 24 }
+    Bbox: { x: 1066, y: 133, w: 24, h: 24 }
   - Id: ribbon.formulas.formulaevaluate
     Name: Evaluate Formula
     ControlType: Button
@@ -13127,7 +14059,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in Formulas group
-    Bbox: { x: 933, y: 133, w: 125, h: 24 }
+    Bbox: { x: 1091, y: 133, w: 125, h: 24 }
   - Id: ribbon.formulas.ribbon.display.options
     Name: Ribbon Display Options
     ControlType: MenuItem
@@ -13962,34 +14894,6 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Pane
-      - Name: ''
-        AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
-        ControlType: Group
-      - Name: Manage Data Model
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
-      - Name: 3D Map
-        AutomationId: null
-        ClassName: NetUITWSplitBtnMenuItem
-        ControlType: SplitButton
-      - Name: 3D Map
-        AutomationId: null
-        ClassName: NetUITWBtnCheckMenuItem
-        ControlType: MenuItem
-      - Name: 3D Map
-        AutomationId: null
-        ClassName: NetUITWSplitBtnDropArrow
-        ControlType: Button
-      - Name: Relationships
-        AutomationId: null
-        ClassName: NetUITWBtnMenuItem
-        ControlType: MenuItem
     Patterns:
       - Invoke
       - LegacyIAccessible
@@ -15061,52 +15965,29 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in View group
     Bbox: { x: 334, y: 82, w: 63, h: 77 }
-  - Id: ribbon.view.viewpagelayoutview
-    Name: Page Layout
+  - Id: ribbon.view.darkmodeoff
+    Name: Switch Modes
     ControlType: Button
     Hierarchy:
       - Window:Excel
       - Ribbon:View
-      - Button:Page Layout
+      - Button:Switch Modes
     Selectors:
       Primary:
-        AutomationId: ViewPageLayoutView
+        AutomationId: DarkModeOff
         ControlType: Button
       Alternates:
-        - Name: Page Layout
+        - Name: Switch Modes
           ClassName: NetUIRibbonButton
           Pattern: Invoke
-          Path: Ribbon/View/Page Layout
+          Path: Ribbon/View/Switch Modes
     Children: []
     Patterns:
       - Invoke
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 398, y: 82, w: 42, h: 77 }
-  - Id: ribbon.view.viewcustomviews
-    Name: Custom Views...
-    ControlType: Button
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:View
-      - Button:Custom Views...
-    Selectors:
-      Primary:
-        AutomationId: ViewCustomViews
-        ControlType: Button
-      Alternates:
-        - Name: Custom Views...
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/View/Custom Views...
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in View group
-    Bbox: { x: 442, y: 82, w: 45, h: 77 }
+    Bbox: { x: 522, y: 82, w: 42, h: 77 }
   - Id: ribbon.view.navigationpaneexcelfeature
     Name: Navigation
     ControlType: Button
@@ -15129,7 +16010,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 502, y: 82, w: 63, h: 69 }
+    Bbox: { x: 582, y: 82, w: 63, h: 69 }
   - Id: ribbon.view.viewrulerexcel
     Name: Ruler
     ControlType: CheckBox
@@ -15159,10 +16040,6 @@ controls:
         AutomationId: null
         ClassName: NetUIOfficeCaption
         ControlType: TitleBar
-      - Name: ‪Book1‬  -  Excel
-        AutomationId: null
-        ClassName: NetUISimpleButton
-        ControlType: Button
       - Name: Type to search and use the up and down arrow keys to navigate
         AutomationId: TellMeControlAnchor
         ClassName: NetUISearchBoxAnchor
@@ -15175,14 +16052,6 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Tab
-      - Name: Review
-        AutomationId: TabReview
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
-      - Name: View
-        AutomationId: TabView
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
       - Name: Automate
         AutomationId: TabAutomate
         ClassName: NetUIRibbonTab
@@ -15207,7 +16076,7 @@ controls:
         AutomationId: null
         ClassName: NetUIOrderedGroup
         ControlType: Group
-      - Name: Workbook Views
+      - Name: Dark Mode
         AutomationId: null
         ClassName: NetUIChunk
         ControlType: Group
@@ -15224,7 +16093,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 567, y: 82, w: 56, h: 24 }
+    Bbox: { x: 646, y: 82, w: 56, h: 24 }
   - Id: ribbon.view.viewsheetheadings
     Name: Headings
     ControlType: CheckBox
@@ -15250,10 +16119,6 @@ controls:
         AutomationId: null
         ClassName: NetUInetpane
         ControlType: Pane
-      - Name: ‪Book1‬  -  Excel
-        AutomationId: null
-        ClassName: NetUIOfficeCaption
-        ControlType: TitleBar
       - Name: Type to search and use the up and down arrow keys to navigate
         AutomationId: TellMeControlAnchor
         ClassName: NetUISearchBoxAnchor
@@ -15266,10 +16131,6 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Tab
-      - Name: Automate
-        AutomationId: TabAutomate
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
       - Name: Help
         AutomationId: HelpTab
         ClassName: NetUIRibbonTab
@@ -15307,7 +16168,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 662, y: 82, w: 79, h: 24 }
+    Bbox: { x: 741, y: 82, w: 79, h: 24 }
   - Id: ribbon.view.zoomdialog
     Name: Zoom...
     ControlType: Button
@@ -15330,7 +16191,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 790, y: 82, w: 42, h: 77 }
+    Bbox: { x: 870, y: 82, w: 42, h: 77 }
   - Id: ribbon.view.zoomcurrent100
     Name: 100%
     ControlType: Button
@@ -15353,7 +16214,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 834, y: 82, w: 42, h: 77 }
+    Bbox: { x: 913, y: 82, w: 42, h: 77 }
   - Id: ribbon.view.zoomtoselection
     Name: Zoom to Selection
     ControlType: Button
@@ -15376,7 +16237,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 877, y: 82, w: 54, h: 77 }
+    Bbox: { x: 956, y: 82, w: 54, h: 77 }
   - Id: ribbon.view.windownew
     Name: New Window
     ControlType: Button
@@ -15399,73 +16260,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 946, y: 82, w: 49, h: 77 }
-  - Id: ribbon.view.windowsarrangeall
-    Name: Arrange All
-    ControlType: Button
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:View
-      - Button:Arrange All
-    Selectors:
-      Primary:
-        AutomationId: WindowsArrangeAll
-        ControlType: Button
-      Alternates:
-        - Name: Arrange All
-          ClassName: NetUIRibbonButton
-          Pattern: Invoke
-          Path: Ribbon/View/Arrange All
-    Children: []
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in View group
-    Bbox: { x: 997, y: 82, w: 47, h: 77 }
-  - Id: ribbon.view.viewfreezepanesgallery
-    Name: Freeze Panes
-    ControlType: MenuItem
-    Hierarchy:
-      - Window:Excel
-      - Ribbon:View
-      - MenuItem:Freeze Panes
-    Selectors:
-      Primary:
-        AutomationId: ViewFreezePanesGallery
-        ControlType: MenuItem
-      Alternates:
-        - Name: Freeze Panes
-          ClassName: NetUIAnchor
-          Pattern: Invoke
-          Path: Ribbon/View/Freeze Panes
-    Children:
-      - Name: Freeze Panes
-        AutomationId: null
-        ClassName: NetUIGalleryContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUIGalleryCategoryContainer
-        ControlType: Group
-      - Name: Freeze Panes
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: Freeze Top Row
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-      - Name: Freeze First Column
-        AutomationId: null
-        ClassName: NetUIGalleryButton
-        ControlType: ListItem
-    Patterns:
-      - Invoke
-      - LegacyIAccessible
-    StabilityScore: 0.9
-    Notes: Ribbon button in View group
-    Bbox: { x: 1046, y: 82, w: 46, h: 77 }
+    Bbox: { x: 1026, y: 82, w: 105, h: 24 }
   - Id: ribbon.view.windowsplittoggle
     Name: Split
     ControlType: Button
@@ -15488,7 +16283,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1093, y: 82, w: 58, h: 24 }
+    Bbox: { x: 1139, y: 82, w: 58, h: 24 }
   - Id: ribbon.view.viewsidebyside
     Name: View Side by Side
     ControlType: Button
@@ -15511,7 +16306,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1176, y: 82, w: 128, h: 24 }
+    Bbox: { x: 1222, y: 82, w: 24, h: 24 }
   - Id: ribbon.view.windowswitchwindowsmenuexcel
     Name: Switch Windows
     ControlType: MenuItem
@@ -15531,30 +16326,70 @@ controls:
     Children:
       - Name: ''
         AutomationId: null
+        ClassName: NUIPane
+        ControlType: Pane
+      - Name: Ribbon
+        AutomationId: null
+        ClassName: NetUInetpane
+        ControlType: Pane
+      - Name: Sharadhi Adiga
+        AutomationId: MeControlWidget
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Minimize
+        AutomationId: null
+        ClassName: NetUIAppFrameHelper
+        ControlType: Button
+      - Name: Restore Down
+        AutomationId: null
+        ClassName: NetUIAppFrameHelper
+        ControlType: Button
+      - Name: Close
+        AutomationId: null
+        ClassName: NetUIAppFrameHelper
+        ControlType: Button
+      - Name: Ribbon Tabs
+        AutomationId: null
+        ClassName: NetUIPanViewer
+        ControlType: Tab
+      - Name: Share
+        AutomationId: null
+        ClassName: NetUIAnchor
+        ControlType: MenuItem
+      - Name: Comments
+        AutomationId: null
+        ClassName: NetUIStickyButton
+        ControlType: Button
+      - Name: Lower Ribbon
+        AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Pane
-      - Name: ''
+      - Name: View
         AutomationId: null
-        ClassName: NetUITWMenuContainer
-        ControlType: Menu
-      - Name: ' '
-        AutomationId: null
-        ClassName: NetUITWMenuItemGroup
+        ClassName: NetUIOrderedGroup
         ControlType: Group
-      - Name: 1 Book1  -  1
+      - Name: Window
         AutomationId: null
-        ClassName: NetUITWBtnCheckMenuItem
-        ControlType: MenuItem
-      - Name: 2 Book1  -  2
+        ClassName: NetUIChunk
+        ControlType: Group
+      - Name: Macros
         AutomationId: null
-        ClassName: NetUITWBtnCheckMenuItem
+        ClassName: NetUIChunk
+        ControlType: Group
+      - Name: Macros
+        AutomationId: null
+        ClassName: NetUISplitButtonAnchor
+        ControlType: SplitButton
+      - Name: Ribbon Display Options
+        AutomationId: null
+        ClassName: NetUIAnchor
         ControlType: MenuItem
     Patterns:
       - Invoke
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1342, y: 82, w: 65, h: 77 }
+    Bbox: { x: 1258, y: 82, w: 65, h: 77 }
   - Id: ribbon.view.macros
     Name: Macros
     ControlType: SplitButton
@@ -15577,7 +16412,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1423, y: 82, w: 43, h: 77 }
+    Bbox: { x: 1339, y: 82, w: 43, h: 77 }
   - Id: ribbon.view.macroplay
     Name: View Macros
     ControlType: Button
@@ -15600,7 +16435,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1423, y: 82, w: 43, h: 38 }
+    Bbox: { x: 1339, y: 82, w: 43, h: 38 }
   - Id: ribbon.view.sheetviewcombobox
     Name: Switch Sheet View
     ControlType: ComboBox
@@ -15659,6 +16494,29 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in View group
     Bbox: { x: 258, y: 90, w: 13, h: 22 }
+  - Id: ribbon.view.viewpagelayoutview
+    Name: Page Layout
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:View
+      - Button:Page Layout
+    Selectors:
+      Primary:
+        AutomationId: ViewPageLayoutView
+        ControlType: Button
+      Alternates:
+        - Name: Page Layout
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/View/Page Layout
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in View group
+    Bbox: { x: 398, y: 90, w: 98, h: 24 }
   - Id: ribbon.view.switch.sheet.view
     Name: Switch Sheet View
     ControlType: Edit
@@ -15727,14 +16585,6 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Tab
-      - Name: Review
-        AutomationId: TabReview
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
-      - Name: View
-        AutomationId: TabView
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
       - Name: Automate
         AutomationId: TabAutomate
         ClassName: NetUIRibbonTab
@@ -15759,7 +16609,7 @@ controls:
         AutomationId: null
         ClassName: NetUIOrderedGroup
         ControlType: Group
-      - Name: Workbook Views
+      - Name: Dark Mode
         AutomationId: null
         ClassName: NetUIChunk
         ControlType: Group
@@ -15776,7 +16626,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 567, y: 107, w: 75, h: 24 }
+    Bbox: { x: 646, y: 107, w: 75, h: 24 }
   - Id: ribbon.view.datatypeicons
     Name: Data Type Icons
     ControlType: CheckBox
@@ -15802,10 +16652,6 @@ controls:
         AutomationId: null
         ClassName: NetUInetpane
         ControlType: Pane
-      - Name: ‪Book1  -  1‬  -  Excel
-        AutomationId: null
-        ClassName: NetUIOfficeCaption
-        ControlType: TitleBar
       - Name: Type to search and use the up and down arrow keys to navigate
         AutomationId: TellMeControlAnchor
         ClassName: NetUISearchBoxAnchor
@@ -15818,10 +16664,6 @@ controls:
         AutomationId: null
         ClassName: NetUIPanViewer
         ControlType: Tab
-      - Name: Automate
-        AutomationId: TabAutomate
-        ClassName: NetUIRibbonTab
-        ControlType: TabItem
       - Name: Help
         AutomationId: HelpTab
         ClassName: NetUIRibbonTab
@@ -15859,7 +16701,30 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 662, y: 107, w: 113, h: 24 }
+    Bbox: { x: 741, y: 107, w: 113, h: 24 }
+  - Id: ribbon.view.windowsarrangeall
+    Name: Arrange All
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:View
+      - Button:Arrange All
+    Selectors:
+      Primary:
+        AutomationId: WindowsArrangeAll
+        ControlType: Button
+      Alternates:
+        - Name: Arrange All
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/View/Arrange All
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in View group
+    Bbox: { x: 1026, y: 107, w: 94, h: 24 }
   - Id: ribbon.view.windowhide
     Name: Hide
     ControlType: Button
@@ -15882,7 +16747,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1093, y: 107, w: 59, h: 24 }
+    Bbox: { x: 1139, y: 107, w: 59, h: 24 }
   - Id: ribbon.view.windowsidebysidesynchronousscrolling
     Name: Synchronous Scrolling
     ControlType: Button
@@ -15905,7 +16770,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1176, y: 107, w: 150, h: 24 }
+    Bbox: { x: 1222, y: 107, w: 24, h: 24 }
   - Id: ribbon.view.menumacros_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -15928,7 +16793,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1423, y: 120, w: 43, h: 38 }
+    Bbox: { x: 1339, y: 120, w: 43, h: 38 }
   - Id: ribbon.view.keeptemporarysheetview
     Name: Keep
     ControlType: Button
@@ -16021,6 +16886,29 @@ controls:
     StabilityScore: 0.9
     Notes: Ribbon button in View group
     Bbox: { x: 196, y: 122, w: 75, h: 24 }
+  - Id: ribbon.view.viewcustomviews
+    Name: Custom Views...
+    ControlType: Button
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:View
+      - Button:Custom Views...
+    Selectors:
+      Primary:
+        AutomationId: ViewCustomViews
+        ControlType: Button
+      Alternates:
+        - Name: Custom Views...
+          ClassName: NetUIRibbonButton
+          Pattern: Invoke
+          Path: Ribbon/View/Custom Views...
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in View group
+    Bbox: { x: 398, y: 122, w: 107, h: 24 }
   - Id: ribbon.view.viewformulabar
     Name: Formula Bar
     ControlType: CheckBox
@@ -16043,7 +16931,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 567, y: 133, w: 93, h: 24 }
+    Bbox: { x: 646, y: 133, w: 93, h: 24 }
   - Id: ribbon.view.focus.cell
     Name: Focus Cell
     ControlType: SplitButton
@@ -16066,7 +16954,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 662, y: 133, w: 110, h: 24 }
+    Bbox: { x: 741, y: 133, w: 110, h: 24 }
   - Id: ribbon.view.focusactivecell
     Name: Focus Cell
     ControlType: Button
@@ -16089,7 +16977,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 662, y: 133, w: 86, h: 24 }
+    Bbox: { x: 741, y: 133, w: 86, h: 24 }
   - Id: ribbon.view.menufocuscell_dropdown
     Name: More Options
     ControlType: MenuItem
@@ -16112,7 +17000,30 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 748, y: 133, w: 24, h: 24 }
+    Bbox: { x: 827, y: 133, w: 24, h: 24 }
+  - Id: ribbon.view.viewfreezepanesgallery
+    Name: Freeze Panes
+    ControlType: MenuItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:View
+      - MenuItem:Freeze Panes
+    Selectors:
+      Primary:
+        AutomationId: ViewFreezePanesGallery
+        ControlType: MenuItem
+      Alternates:
+        - Name: Freeze Panes
+          ClassName: NetUIAnchor
+          Pattern: Invoke
+          Path: Ribbon/View/Freeze Panes
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in View group
+    Bbox: { x: 1026, y: 133, w: 112, h: 24 }
   - Id: ribbon.view.windowunhide
     Name: Unhide...
     ControlType: Button
@@ -16135,7 +17046,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1093, y: 133, w: 71, h: 24 }
+    Bbox: { x: 1139, y: 133, w: 71, h: 24 }
   - Id: ribbon.view.windowresetposition
     Name: Reset Window Position
     ControlType: Button
@@ -16158,7 +17069,7 @@ controls:
       - LegacyIAccessible
     StabilityScore: 0.9
     Notes: Ribbon button in View group
-    Bbox: { x: 1176, y: 133, w: 154, h: 24 }
+    Bbox: { x: 1222, y: 133, w: 24, h: 24 }
   - Id: ribbon.view.ribbon.display.options
     Name: Ribbon Display Options
     ControlType: MenuItem
