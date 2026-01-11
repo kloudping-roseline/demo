@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 11-01-2026 15:06:14
-  scanDate: 2026-01-11 15:06:14 UTC
+  scannedAt: 11-01-2026 15:08:43
+  scanDate: 2026-01-11 15:08:43 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 7
+  elementCount: 3
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -40,42 +40,3 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: openai.chatgpt.in.microsoft.office.-.web.content
-    name: OpenAI ChatGPT in Microsoft Office - Web content
-    controlType: Pane
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_4
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_5
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
