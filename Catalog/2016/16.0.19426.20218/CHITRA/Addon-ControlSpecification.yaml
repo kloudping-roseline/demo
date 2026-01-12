@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: CHITRA
 baseLibraryVersion: 
 scan:
-  scannedAt: 1/12/2026 5:08:32 AM
-  scanDate: 2026-01-12 05:08:32 UTC
+  scannedAt: 1/12/2026 6:50:19 AM
+  scanDate: 2026-01-12 06:50:19 UTC
   totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
@@ -14,7 +14,7 @@ scan:
     locale: en-US
 addons:
 - addonName: Python for Excel
-  elementCount: 88
+  elementCount: 81
   controls:
   - id: about:blank
     name: about:blank
@@ -1046,115 +1046,6 @@ addons:
       - className: table
     className: table
     isEnabled: true
-  - id: control_76
-    name: Text
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    selectors:
-      primary:
-        controlType: Text
-      alternates:
-      - className: new-session-popup-v2sso
-    className: new-session-popup-v2sso
-    isEnabled: true
-  - id: 'we.found.an.account.you.can.use.here:'
-    name: 'We found an account you can use here:'
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - 'Text:We found an account you can use here:'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: newsessionlink
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    selectors:
-      primary:
-        automationId: newSessionLink
-        controlType: Group
-      alternates:
-      - className: table
-    className: table
-    isEnabled: true
-  - id: chitra.r.chitra.r@cloudcosmos.tech.signed.in
-    name: Chitra R chitra.r@cloudcosmos.tech Signed in
-    controlType: Group
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Group:Chitra R chitra.r@cloudcosmos.tech Signed in
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: table-cell text-left content
-    className: table-cell text-left content
-    isEnabled: true
-  - id: chitra.r
-    name: Chitra R
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Group:Chitra R chitra.r@cloudcosmos.tech Signed in
-    - Text:Chitra R
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: chitra.r@cloudcosmos.tech
-    name: chitra.r@cloudcosmos.tech
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Group:Chitra R chitra.r@cloudcosmos.tech Signed in
-    - Text:chitra.r@cloudcosmos.tech
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: signed.in
-    name: Signed in
-    controlType: Text
-    hierarchy:
-    - Pane:about:blank
-    - Pane:LoginPopup
-    - Pane:Sign in to your account - Web content
-    - Document:Sign in to your account
-    - Group:Microsoft Sign-in options undefined
-    - Group:Chitra R chitra.r@cloudcosmos.tech Signed in
-    - Text:Signed in
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
   - id: footer
     name: Group
     controlType: Group
@@ -1222,7 +1113,7 @@ addons:
       - className: footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item
     className: footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item
     isEnabled: true
-  - id: control_87
+  - id: control_80
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1236,7 +1127,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_88
+  - id: control_81
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1265,7 +1156,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_90
+  - id: control_83
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1290,7 +1181,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_92
+  - id: control_85
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1303,7 +1194,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_93
+  - id: control_86
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1316,7 +1207,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_94
+  - id: control_87
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1344,7 +1235,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_96
+  - id: control_89
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1402,7 +1293,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_100
+  - id: control_93
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1415,7 +1306,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_101
+  - id: control_94
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1428,7 +1319,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_102
+  - id: control_95
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1441,7 +1332,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_103
+  - id: control_96
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1454,7 +1345,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_104
+  - id: control_97
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1467,7 +1358,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_105
+  - id: control_98
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1480,7 +1371,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_106
+  - id: control_99
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1578,7 +1469,7 @@ addons:
       - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
     isEnabled: true
-  - id: control_113
+  - id: control_106
     name: Image
     controlType: Image
     hierarchy:
@@ -1590,7 +1481,7 @@ addons:
       primary:
         controlType: Image
     isEnabled: true
-  - id: control_114
+  - id: control_107
     name: Group
     controlType: Group
     hierarchy:
@@ -1604,7 +1495,7 @@ addons:
       - className: ms_osf_content
     className: ms_osf_content
     isEnabled: true
-  - id: control_115
+  - id: control_108
     name: Group
     controlType: Group
     hierarchy:
@@ -1630,7 +1521,7 @@ addons:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_117
+  - id: control_110
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1643,7 +1534,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_118
+  - id: control_111
     name: Pane
     controlType: Pane
     hierarchy:
