@@ -1,11 +1,11 @@
 application: Excel
 appVersion: 16.101.3
 year: 2016
-Agent: SHARADHI
+executionNodeName: SHARADHI
 baseLibraryVersion: 
 scan:
-  scannedAt: 09-01-2026 10:55:49
-  scanDate: 2026-01-09 10:55:49 UTC
+  scannedAt: 12-01-2026 05:05:17
+  scanDate: 2026-01-12 05:05:17 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
