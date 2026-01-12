@@ -4,9 +4,9 @@ year: 2016
 executionNodeName: LAVANYA
 baseLibraryVersion: 
 scan:
-  scannedAt: 1/12/2026 12:29:45 PM
-  scanDate: 2026-01-12 12:29:45 UTC
-  totalAddons: 1
+  scannedAt: 1/12/2026 12:43:12 PM
+  scanDate: 2026-01-12 12:43:12 UTC
+  totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26100.7462
@@ -14,7 +14,7 @@ scan:
     locale: en-US
 addons:
 - addonName: Autopilot
-  elementCount: 88
+  elementCount: 44
   controls:
   - id: openai.chatgpt.in.microsoft.office
     name: OpenAI ChatGPT in Microsoft Office
@@ -611,23 +611,26 @@ addons:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
     isEnabled: true
-  - id: loginpopup
-    name: LoginPopup
+- addonName: GPT for Excel Word
+  elementCount: 71
+  controls:
+  - id: gpt.for.excel
+    name: GPT for Excel
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
+    - Pane:GPT for Excel
     selectors:
       primary:
-        automationId: LoginPopup
         controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
     isEnabled: true
   - id: control_46
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
+    - Pane:GPT for Excel
     selectors:
       primary:
         controlType: Pane
@@ -635,13 +638,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: openai.chatgpt.in.microsoft.office.-.web.content
-    name: OpenAI ChatGPT in Microsoft Office - Web content
+  - id: gpt.for.excel.-.web.content
+    name: GPT for Excel - Web content
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -653,9 +655,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -667,9 +668,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -681,9 +681,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -695,9 +694,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -711,9 +709,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -725,9 +722,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -741,9 +737,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -757,9 +752,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     - Button:Close
     selectors:
       primary:
@@ -773,9 +767,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -787,9 +780,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -801,9 +793,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -815,9 +806,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -829,9 +819,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -843,9 +832,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -857,9 +845,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -868,365 +855,628 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: OpenAI ChatGPT in Microsoft Office
+    name: GPT for Excel
     controlType: Document
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: header
+  - id: control_64
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
-        automationId: header
         controlType: Group
-      alternates:
-      - className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
-    className: ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500
     isEnabled: true
-  - id: logosmall
-    name: To get missing image descriptions, open the context menu.
+  - id: root
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        automationId: root
+        controlType: Group
+    isEnabled: true
+  - id: control_66
+    name: Image
     controlType: Image
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Image:To get missing image descriptions, open the context menu.
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
-        automationId: logosmall
         controlType: Image
-      alternates:
-      - className: autopilot-icon
-    className: autopilot-icon
     isEnabled: true
-  - id: free.edition
-    name: Free edition
+  - id: welcome.to.gpt.for.excel
+    name: Welcome to GPT for Excel
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:Free edition
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Welcome to GPT for Excel
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: 
-    name: 
-    controlType: Text
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
     selectors:
       primary:
-        controlType: Text
-    isEnabled: true
-  - id: upgradeflag
-    name: UPGRADE
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:UPGRADE
-    selectors:
-      primary:
-        automationId: upgradeflag
-        controlType: Hyperlink
+        controlType: Button
       alternates:
-      - className: updatetag
-    className: updatetag
+      - className: _msButton_7ldok_72
+    className: _msButton_7ldok_72
     isEnabled: true
-  - id: favoriteslink
-    name: 
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:
-    selectors:
-      primary:
-        automationId: favoritesLink
-        controlType: Hyperlink
-    isEnabled: true
-  - id: settingslink
-    name: 
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:
-    selectors:
-      primary:
-        automationId: settingsLink
-        controlType: Hyperlink
-    isEnabled: true
-  - id: mainsection
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    selectors:
-      primary:
-        automationId: mainsection
-        controlType: Group
-      alternates:
-      - className: ms-welcome__main
-    className: ms-welcome__main
-    isEnabled: true
-  - id: welcomefree
-    name: chatgpt web add-in
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
     controlType: Image
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Image:chatgpt web add-in
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    - Image:MS-SymbolLockup
     selectors:
       primary:
-        automationId: welcomefree
         controlType: Image
     isEnabled: true
-  - id: welcome.to.autopilot!
-    name: Welcome to Autopilot!
+  - id: 'typical.use-cases:'
+    name: 'Typical use-cases:'
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:Welcome to Autopilot!
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - 'Text:Typical use-cases:'
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
-    name: Here are a few examples of what you can do with Autopilot
+  - id: control_71
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: copywriting.for.seo,.e-commerce
+    name: Copywriting for SEO, e-commerce
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:Here are a few examples of what you can do with Autopilot
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Copywriting for SEO, e-commerce
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: talk.to.it.like.chatgpt
-    name: Talk to it like ChatGPT
-    controlType: Hyperlink
+  - id: control_73
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Talk to it like ChatGPT
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
+        controlType: Image
     isEnabled: true
-  - id: use.content.in.your.document
-    name: Use content in your document
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Use content in your document
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: how.to.use.favorites
-    name: How to use Favorites
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:How to use Favorites
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: connect.other.ai.models
-    name: Connect other AI models
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Connect other AI models
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: autopilot.pro.advanced.features
-    name: Autopilot PRO advanced features
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Autopilot PRO advanced features
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links-pro
-    className: gw-active-links-pro
-    isEnabled: true
-  - id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
-    name: 'To get started, type a prompt into the box below and hit the '
+  - id: translation
+    name: Translation
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - 'Text:To get started, type a prompt into the box below and hit the '
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Translation
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: enter
-    name: ENTER
+  - id: control_75
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: segmenting.and.cleaning.a.database
+    name: Segmenting and cleaning a database
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:ENTER
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Segmenting and cleaning a database
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: .key.
-    name: ' key.'
+  - id: control_77
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: market.research...
+    name: Market research...
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - 'Text: key.'
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Market research...
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: divcommandarea
-    name: Group
-    controlType: Group
+  - id: 'main.features:'
+    name: 'Main features:'
+    controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - 'Text:Main features:'
     selectors:
       primary:
-        automationId: divcommandarea
-        controlType: Group
+        controlType: Text
     isEnabled: true
-  - id: commandprompt
-    name: Ask anything...
-    controlType: Edit
+  - id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
+    name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+    controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Edit:Ask anything...
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
     selectors:
       primary:
-        automationId: commandprompt
-        controlType: Edit
+        controlType: Text
     isEnabled: true
-  - id: run
-    name:  
+  - id: control_81
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: _arrow_7ldok_184
+    className: _arrow_7ldok_184
+    isEnabled: true
+  - id: 1
+    name: 1
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:1
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 2
+    name: 2
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:2
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 3
+    name: 3
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:3
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 4
+    name: 4
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:4
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 5
+    name: 5
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:5
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 6
+    name: 6
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:6
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 7
+    name: 7
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:7
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: a
+    name: A
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:A
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: b
+    name: B
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:B
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: c
+    name: C
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:C
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_92
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_93
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_94
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_95
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_96
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_97
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_98
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: d
+    name: D
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:D
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_100
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_101
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_102
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_103
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_104
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_105
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_106
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Button: 
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
     selectors:
       primary:
-        automationId: run
         controlType: Button
       alternates:
-      - className: btn-send
-    className: btn-send
+      - className: _msButton_7ldok_72
+    className: _msButton_7ldok_72
     isEnabled: true
-  - id: finetune
-    name: 
-    controlType: Button
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Image
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Button:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    - Image:MS-SymbolLockup
     selectors:
       primary:
-        automationId: finetune
-        controlType: Button
-      alternates:
-      - className: btn-finetune
-    className: btn-finetune
+        controlType: Image
     isEnabled: true
-  - id: control_87
+  - id: about
+    name: About
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:About
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Help
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: terms
+    name: Terms
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Terms
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: privacy.policy
+    name: Privacy Policy
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Privacy Policy
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: made.by.talarian
+    name: Made by Talarian
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Made by Talarian
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2 _talarian_7ldok_164
+    className: _root_86xeo_2 _talarian_7ldok_164
+    isEnabled: true
+  - id: control_114
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1234,13 +1484,418 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_88
+  - id: control_115
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:LoginPopup
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Wikipedia
+  elementCount: 30
+  controls:
+  - id: wikipedia
+    name: Wikipedia
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_117
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: wikipedia.-.web.content
+    name: Wikipedia - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_119
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_120
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_121
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_123
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_127
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_128
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_129
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_130
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_131
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_132
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_133
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Wikipedia
+    controlType: Document
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: wikipedia.logo
+    name: Wikipedia logo
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Hyperlink:Wikipedia logo
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+    className: ms_osf_logo ms_osf_clickable ms_osf_visible
+    isEnabled: true
+  - id: i.want.to.know...
+    name: I want to know...
+    controlType: Edit
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Edit:I want to know...
+    selectors:
+      primary:
+        controlType: Edit
+      alternates:
+      - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+    className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+    isEnabled: true
+  - id: search
+    name: Search
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+    className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+    isEnabled: true
+  - id: to.get.missing.image.descriptions,.open.the.context.menu.
+    name: To get missing image descriptions, open the context menu.
+    controlType: Image
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search
+    - Image:To get missing image descriptions, open the context menu.
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: search.options
+    name: Search Options
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search Options
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+    className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+    isEnabled: true
+  - id: control_140
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search Options
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_141
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: ms_osf_content
+    className: ms_osf_content
+    isEnabled: true
+  - id: control_142
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: ms_osf_article
+    className: ms_osf_article
+    isEnabled: true
+  - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
+    name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+    controlType: Text
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Text:The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_144
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_145
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
