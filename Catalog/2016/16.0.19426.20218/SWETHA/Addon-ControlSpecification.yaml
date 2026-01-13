@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 12-01-2026 13:39:05
-  scanDate: 2026-01-12 13:39:05 UTC
+  scannedAt: 13-01-2026 05:08:06
+  scanDate: 2026-01-13 05:08:06 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
