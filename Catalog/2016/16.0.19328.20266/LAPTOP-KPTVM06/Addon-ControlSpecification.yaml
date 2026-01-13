@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM06
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-01-2026 07:53:50
-  scanDate: 2026-01-13 07:53:50 UTC
+  scannedAt: 13-01-2026 09:11:47
+  scanDate: 2026-01-13 09:11:47 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
@@ -16,11 +16,11 @@ addons:
 - addonName: GMetrix Labs
   elementCount: 37
   controls:
-  - id: gmetrix
-    name: GMetrix
+  - id: about:blank
+    name: about:blank
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -44,7 +44,7 @@ addons:
     name: GMetrix - Web content
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -57,7 +57,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -70,7 +70,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -83,7 +83,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -96,7 +96,7 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Text:Untitled
     selectors:
@@ -111,7 +111,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -124,7 +124,7 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Button:Minimize
     selectors:
@@ -139,7 +139,7 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Button:Maximize
     selectors:
@@ -154,7 +154,7 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Button:Close
     selectors:
@@ -169,7 +169,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -182,7 +182,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -195,7 +195,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -208,7 +208,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -221,7 +221,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -234,7 +234,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -247,7 +247,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -260,7 +260,7 @@ addons:
     name: GMetrix
     controlType: Document
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     selectors:
@@ -272,7 +272,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     selectors:
@@ -284,7 +284,7 @@ addons:
     name: To get missing image descriptions, open the context menu.
     controlType: Image
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Image:To get missing image descriptions, open the context menu.
@@ -299,7 +299,7 @@ addons:
     name: Learning, meet doing.
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Learning, meet doing.
@@ -314,7 +314,7 @@ addons:
     name: Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
@@ -326,7 +326,7 @@ addons:
     name: Sign in
     controlType: Hyperlink
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Sign in
@@ -341,7 +341,7 @@ addons:
     name: Sign in
     controlType: Button
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Sign in
@@ -357,7 +357,7 @@ addons:
     name: Create an account
     controlType: Hyperlink
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Create an account
@@ -372,7 +372,7 @@ addons:
     name: Create an account
     controlType: Button
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Create an account
@@ -388,7 +388,7 @@ addons:
     name: Copyright
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Copyright
@@ -400,7 +400,7 @@ addons:
     name: ' '
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - 'Text: '
@@ -412,7 +412,7 @@ addons:
     name: 2026
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:2026
@@ -424,7 +424,7 @@ addons:
     name: ' · '
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - 'Text: · '
@@ -436,7 +436,7 @@ addons:
     name: GMetrix
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:GMetrix
@@ -448,7 +448,7 @@ addons:
     name: ' · '
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - 'Text: · '
@@ -460,7 +460,7 @@ addons:
     name: All rights reserved
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:All rights reserved
@@ -472,7 +472,7 @@ addons:
     name: Powered by GMetrix
     controlType: Text
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Powered by GMetrix
@@ -484,7 +484,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -497,7 +497,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:GMetrix
+    - Pane:about:blank
     - Pane:GMetrix - Web content
     selectors:
       primary:
