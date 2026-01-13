@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-01-2026 05:17:00
-  scanDate: 2026-01-13 05:17:00 UTC
+  scannedAt: 13-01-2026 06:26:32
+  scanDate: 2026-01-13 06:26:32 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
@@ -1436,11 +1436,11 @@ addons:
 - addonName: Spreadsheet Sync
   elementCount: 104
   controls:
-  - id: intuit.app
-    name: Intuit App
+  - id: about:blank
+    name: about:blank
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -1452,7 +1452,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -1464,7 +1464,7 @@ addons:
     name: Intuit App - Web content
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1477,7 +1477,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1490,7 +1490,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1503,7 +1503,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1516,7 +1516,7 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Text:Untitled
     selectors:
@@ -1531,7 +1531,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1544,7 +1544,7 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Button:Minimize
     selectors:
@@ -1559,7 +1559,7 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Button:Maximize
     selectors:
@@ -1574,7 +1574,7 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Button:Close
     selectors:
@@ -1589,7 +1589,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1602,7 +1602,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1615,7 +1615,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1628,7 +1628,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1641,7 +1641,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1654,7 +1654,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1667,7 +1667,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1680,7 +1680,7 @@ addons:
     name: Intuit App
     controlType: Document
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1692,7 +1692,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1703,7 +1703,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1715,7 +1715,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1729,7 +1729,7 @@ addons:
     name: Welcome to Spreadsheet Sync
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Text:Welcome to Spreadsheet Sync
@@ -1744,7 +1744,7 @@ addons:
     name: Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Text:Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
@@ -1756,7 +1756,7 @@ addons:
     name: previous slider control
     controlType: Image
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Image:previous slider control
@@ -1771,7 +1771,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1785,7 +1785,7 @@ addons:
     name: landing page carousel
     controlType: List
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - List:landing page carousel
@@ -1800,7 +1800,7 @@ addons:
     name: ListItem
     controlType: ListItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - List:landing page carousel
@@ -1815,7 +1815,7 @@ addons:
     name: Spreadsheet Sync Welcome Video
     controlType: Image
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - List:landing page carousel
@@ -1831,7 +1831,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1845,7 +1845,7 @@ addons:
     name: Move to item 1 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Button:Move to item 1 of 5 in landing page carousel
@@ -1860,7 +1860,7 @@ addons:
     name: Move to item 2 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Button:Move to item 2 of 5 in landing page carousel
@@ -1875,7 +1875,7 @@ addons:
     name: Move to item 3 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Button:Move to item 3 of 5 in landing page carousel
@@ -1890,7 +1890,7 @@ addons:
     name: Move to item 4 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Button:Move to item 4 of 5 in landing page carousel
@@ -1905,7 +1905,7 @@ addons:
     name: Move to item 5 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Button:Move to item 5 of 5 in landing page carousel
@@ -1920,7 +1920,7 @@ addons:
     name: next slider control
     controlType: Image
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Image:next slider control
@@ -1935,7 +1935,7 @@ addons:
     name: Sign in to your Intuit Account to work with your company data and sync changes.
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Text:Sign in to your Intuit Account to work with your company data and sync changes.
@@ -1947,7 +1947,7 @@ addons:
     name: Get started
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     - Button:Get started
@@ -1962,7 +1962,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     - Document:Intuit App
     selectors:
@@ -1973,7 +1973,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1986,7 +1986,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:Intuit App - Web content
     selectors:
       primary:
@@ -1999,7 +1999,7 @@ addons:
     name: LoginPopup
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     selectors:
       primary:
@@ -2010,7 +2010,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     selectors:
       primary:
@@ -2023,7 +2023,7 @@ addons:
     name: 'QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2037,7 +2037,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2051,7 +2051,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2065,7 +2065,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2079,7 +2079,7 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - Text:Untitled
@@ -2095,7 +2095,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2109,7 +2109,7 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - Button:Minimize
@@ -2125,7 +2125,7 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - Button:Maximize
@@ -2141,7 +2141,7 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - Button:Close
@@ -2157,7 +2157,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2171,7 +2171,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2185,7 +2185,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2199,7 +2199,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2213,7 +2213,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2227,7 +2227,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2241,7 +2241,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2255,7 +2255,7 @@ addons:
     name: 'QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
     controlType: Document
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2268,7 +2268,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2280,7 +2280,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2293,7 +2293,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2308,7 +2308,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2320,7 +2320,7 @@ addons:
     name: Let's get you in to QuickBooks
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2337,7 +2337,7 @@ addons:
     name: Tab
     controlType: Tab
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2352,7 +2352,7 @@ addons:
     name: Email or user ID
     controlType: TabItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2369,7 +2369,7 @@ addons:
     name: Phone
     controlType: TabItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2386,7 +2386,7 @@ addons:
     name: Email or user ID
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2403,7 +2403,7 @@ addons:
     name: Edit
     controlType: Edit
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2420,7 +2420,7 @@ addons:
     name: Remember me
     controlType: CheckBox
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2436,7 +2436,7 @@ addons:
     name: Remember me
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2449,7 +2449,7 @@ addons:
     name: Sign in
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2465,7 +2465,7 @@ addons:
     name: 'By selecting Sign in, you agree to Intuit '
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2478,7 +2478,7 @@ addons:
     name: Terms
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2494,7 +2494,7 @@ addons:
     name: ' and Mailchimp '
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2507,7 +2507,7 @@ addons:
     name: Terms
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2523,7 +2523,7 @@ addons:
     name: '. Our '
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2536,7 +2536,7 @@ addons:
     name: Privacy Policy
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2552,7 +2552,7 @@ addons:
     name: ' applies to your personal data.'
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2565,7 +2565,7 @@ addons:
     name: 'New to Intuit? '
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2578,7 +2578,7 @@ addons:
     name: Create an account
     controlType: Button
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2594,7 +2594,7 @@ addons:
     name: 'Invisible reCAPTCHA by Google '
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2607,7 +2607,7 @@ addons:
     name: Privacy Policy for Google
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2623,7 +2623,7 @@ addons:
     name: ' and '
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2636,7 +2636,7 @@ addons:
     name: Terms of Use for Google
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2652,7 +2652,7 @@ addons:
     name: .
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2665,7 +2665,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2680,7 +2680,7 @@ addons:
     name: List
     controlType: List
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2695,7 +2695,7 @@ addons:
     name: Legal
     controlType: ListItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2711,7 +2711,7 @@ addons:
     name: Legal
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2728,7 +2728,7 @@ addons:
     name: Privacy
     controlType: ListItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2744,7 +2744,7 @@ addons:
     name: Privacy
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2761,7 +2761,7 @@ addons:
     name: Security
     controlType: ListItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2777,7 +2777,7 @@ addons:
     name: Security
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2794,7 +2794,7 @@ addons:
     name: List
     controlType: List
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2809,7 +2809,7 @@ addons:
     name: Support
     controlType: ListItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2825,7 +2825,7 @@ addons:
     name: Support
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2842,7 +2842,7 @@ addons:
     name: Software License Agreement
     controlType: ListItem
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2858,7 +2858,7 @@ addons:
     name: Software License Agreement
     controlType: Hyperlink
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2875,7 +2875,7 @@ addons:
     name: Intuit, QuickBooks, QB, TurboTax, ProConnect, Credit Karma, and Mailchimp are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2888,7 +2888,7 @@ addons:
     name: © 2026 Intuit, Inc. All rights reserved.
     controlType: Text
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
@@ -2901,7 +2901,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
@@ -2915,7 +2915,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:Intuit App
+    - Pane:about:blank
     - Pane:LoginPopup
     - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
