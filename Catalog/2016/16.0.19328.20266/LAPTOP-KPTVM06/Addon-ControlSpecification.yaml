@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM06
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-01-2026 09:11:47
-  scanDate: 2026-01-13 09:11:47 UTC
+  scannedAt: 13-01-2026 10:22:17
+  scanDate: 2026-01-13 10:22:17 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
@@ -16,11 +16,11 @@ addons:
 - addonName: GMetrix Labs
   elementCount: 37
   controls:
-  - id: about:blank
-    name: about:blank
+  - id: gmetrix
+    name: GMetrix
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     selectors:
       primary:
         controlType: Pane
@@ -44,7 +44,7 @@ addons:
     name: GMetrix - Web content
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -57,7 +57,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -70,7 +70,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -83,7 +83,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -96,7 +96,7 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Text:Untitled
     selectors:
@@ -111,7 +111,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -124,7 +124,7 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Button:Minimize
     selectors:
@@ -139,7 +139,7 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Button:Maximize
     selectors:
@@ -154,7 +154,7 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Button:Close
     selectors:
@@ -169,7 +169,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -182,7 +182,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -195,7 +195,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -208,7 +208,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -221,7 +221,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -234,7 +234,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -247,7 +247,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -260,7 +260,7 @@ addons:
     name: GMetrix
     controlType: Document
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     selectors:
@@ -272,7 +272,7 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     selectors:
@@ -284,7 +284,7 @@ addons:
     name: To get missing image descriptions, open the context menu.
     controlType: Image
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Image:To get missing image descriptions, open the context menu.
@@ -299,7 +299,7 @@ addons:
     name: Learning, meet doing.
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Learning, meet doing.
@@ -314,7 +314,7 @@ addons:
     name: Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
@@ -326,7 +326,7 @@ addons:
     name: Sign in
     controlType: Hyperlink
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Sign in
@@ -341,7 +341,7 @@ addons:
     name: Sign in
     controlType: Button
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Sign in
@@ -357,7 +357,7 @@ addons:
     name: Create an account
     controlType: Hyperlink
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Create an account
@@ -372,7 +372,7 @@ addons:
     name: Create an account
     controlType: Button
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Hyperlink:Create an account
@@ -388,7 +388,7 @@ addons:
     name: Copyright
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Copyright
@@ -400,7 +400,7 @@ addons:
     name: ' '
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - 'Text: '
@@ -412,7 +412,7 @@ addons:
     name: 2026
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:2026
@@ -424,7 +424,7 @@ addons:
     name: ' · '
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - 'Text: · '
@@ -436,7 +436,7 @@ addons:
     name: GMetrix
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:GMetrix
@@ -448,7 +448,7 @@ addons:
     name: ' · '
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - 'Text: · '
@@ -460,7 +460,7 @@ addons:
     name: All rights reserved
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:All rights reserved
@@ -472,7 +472,7 @@ addons:
     name: Powered by GMetrix
     controlType: Text
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     - Document:GMetrix
     - Text:Powered by GMetrix
@@ -484,7 +484,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -497,7 +497,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:about:blank
+    - Pane:GMetrix
     - Pane:GMetrix - Web content
     selectors:
       primary:
@@ -789,8 +789,8 @@ addons:
       primary:
         controlType: Group
       alternates:
-      - className: menuIcon-171
-    className: menuIcon-171
+      - className: menuIcon-168
+    className: menuIcon-168
     isEnabled: true
   - id: import.data.from.jira
     name: Import data from Jira
@@ -828,8 +828,8 @@ addons:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Button ms-Button--icon root-175
-    className: ms-Button ms-Button--icon root-175
+      - className: ms-Button ms-Button--icon root-174
+    className: ms-Button ms-Button--icon root-174
     isEnabled: true
   - id: control_62
     name: Tab
@@ -842,8 +842,8 @@ addons:
       primary:
         controlType: Tab
       alternates:
-      - className: ms-Pivot root-179
-    className: ms-Pivot root-179
+      - className: ms-Pivot root-178
+    className: ms-Pivot root-178
     isEnabled: true
   - id: pivot12-tab0
     name: Issues
@@ -858,8 +858,8 @@ addons:
         automationId: Pivot12-Tab0
         controlType: TabItem
       alternates:
-      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-187
-    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-187
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-186
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-186
     isEnabled: true
   - id: pivot12-tab1
     name: Fields
@@ -874,8 +874,8 @@ addons:
         automationId: Pivot12-Tab1
         controlType: TabItem
       alternates:
-      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
-    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-191
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-191
     isEnabled: true
   - id: pivot12-tab2
     name: Updates
@@ -890,8 +890,8 @@ addons:
         automationId: Pivot12-Tab2
         controlType: TabItem
       alternates:
-      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
-    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-191
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-191
     isEnabled: true
   - id: issues
     name: Issues
@@ -916,8 +916,8 @@ addons:
       primary:
         controlType: StatusBar
       alternates:
-      - className: ms-MessageBar-innerText innerText-198
-    className: ms-MessageBar-innerText innerText-198
+      - className: ms-MessageBar-innerText innerText-197
+    className: ms-MessageBar-innerText innerText-197
     isEnabled: true
   - id: bring.atlassian.to.where.you.and.your.teams.work.for.jira,.confluence,.bitbucket.and.trello.
     name: Bring Atlassian to where you and your teams work for Jira, Confluence, Bitbucket and Trello.
@@ -943,8 +943,8 @@ addons:
       primary:
         controlType: Hyperlink
       alternates:
-      - className: ms-Link root-242
-    className: ms-Link root-242
+      - className: ms-Link root-247
+    className: ms-Link root-247
     isEnabled: true
   - id: control_70
     name: Button
@@ -957,8 +957,8 @@ addons:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-205
-    className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-205
+      - className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-204
+    className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-204
     isEnabled: true
   - id: import.type
     name: Import type
@@ -985,8 +985,8 @@ addons:
         automationId: Dropdown27
         controlType: List
       alternates:
-      - className: ms-Dropdown dropdown-209
-    className: ms-Dropdown dropdown-209
+      - className: ms-Dropdown dropdown-208
+    className: ms-Dropdown dropdown-208
     isEnabled: true
   - id: dropdown27-option
     name: JQL query
@@ -1002,8 +1002,8 @@ addons:
         automationId: Dropdown27-option
         controlType: ListItem
       alternates:
-      - className: ms-Dropdown-title title-210
-    className: ms-Dropdown-title title-210
+      - className: ms-Dropdown-title title-209
+    className: ms-Dropdown-title title-209
     isEnabled: true
   - id: jql.query
     name: JQL query
@@ -1044,8 +1044,8 @@ addons:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Link root-228
-    className: ms-Link root-228
+      - className: ms-Link root-233
+    className: ms-Link root-233
     isEnabled: true
   - id: max.rows
     name: Max rows
@@ -1072,8 +1072,8 @@ addons:
         automationId: TextField30
         controlType: Edit
       alternates:
-      - className: ms-TextField-field field-233
-    className: ms-TextField-field field-233
+      - className: ms-TextField-field field-238
+    className: ms-TextField-field field-238
     isEnabled: true
   - id: get.data.now
     name: Get Data Now
@@ -1087,8 +1087,8 @@ addons:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Button ms-Button--primary root-241
-    className: ms-Button ms-Button--primary root-241
+      - className: ms-Button ms-Button--primary root-246
+    className: ms-Button ms-Button--primary root-246
     isEnabled: true
   - id: control_80
     name: Pane
