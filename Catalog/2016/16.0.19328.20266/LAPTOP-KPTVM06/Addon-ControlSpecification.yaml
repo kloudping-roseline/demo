@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM06
 baseLibraryVersion: 
 scan:
-  scannedAt: 12-01-2026 19:36:28
-  scanDate: 2026-01-12 19:36:28 UTC
+  scannedAt: 13-01-2026 07:03:32
+  scanDate: 2026-01-13 07:03:32 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,14 +13,14 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Jira Cloud for Excel
-  elementCount: 44
+- addonName: GMetrix Labs
+  elementCount: 37
   controls:
-  - id: excel-jira
-    name: excel-jira
+  - id: gmetrix
+    name: GMetrix
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
+    - Pane:GMetrix
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
+    - Pane:GMetrix
     selectors:
       primary:
         controlType: Pane
@@ -40,12 +40,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: excel-jira.-.web.content
-    name: excel-jira - Web content
+  - id: gmetrix.-.web.content
+    name: GMetrix - Web content
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -57,8 +57,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -70,8 +70,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -83,8 +83,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -96,8 +96,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -111,8 +111,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -124,8 +124,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -139,8 +139,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -154,8 +154,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     - Button:Close
     selectors:
       primary:
@@ -169,8 +169,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -182,8 +182,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -195,8 +195,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -208,8 +208,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -221,8 +221,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -234,8 +234,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -247,8 +247,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -257,352 +257,235 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: excel-jira
+    name: GMetrix
     controlType: Document
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: menu
-    name: Menu
-    controlType: Button
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Button:Menu
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: ms-Button ms-Button--primary menuButton-160
-    className: ms-Button ms-Button--primary menuButton-160
-    isEnabled: true
-  - id: menu
-    name: Menu
+  - id: root
+    name: Group
     controlType: Group
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Button:Menu
-    - Group:Menu
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
     selectors:
       primary:
+        automationId: root
         controlType: Group
-      alternates:
-      - className: menuIcon-171
-    className: menuIcon-171
     isEnabled: true
-  - id: import.data.from.jira
-    name: Import data from Jira
+  - id: to.get.missing.image.descriptions,.open.the.context.menu.
+    name: To get missing image descriptions, open the context menu.
+    controlType: Image
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Image:To get missing image descriptions, open the context menu.
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: img-fluid
+    className: img-fluid
+    isEnabled: true
+  - id: learning,.meet.doing.
+    name: Learning, meet doing.
     controlType: Text
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Text:Import data from Jira
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Learning, meet doing.
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-center mt-3
+    className: text-center mt-3
+    isEnabled: true
+  - id: receive.guided.instruction.and.live.feedback.as.you.learn.mastery.of.microsoft.office.
+    name: Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: sheet1
-    name: Sheet1
-    controlType: Text
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Text:Sheet1
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: sheet.refresh
-    name: Sheet Refresh
-    controlType: Button
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Button:Sheet Refresh
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: ms-Button ms-Button--icon root-175
-    className: ms-Button ms-Button--icon root-175
-    isEnabled: true
-  - id: control_25
-    name: Tab
-    controlType: Tab
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    selectors:
-      primary:
-        controlType: Tab
-      alternates:
-      - className: ms-Pivot root-179
-    className: ms-Pivot root-179
-    isEnabled: true
-  - id: pivot12-tab0
-    name: Issues
-    controlType: TabItem
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - TabItem:Issues
-    selectors:
-      primary:
-        automationId: Pivot12-Tab0
-        controlType: TabItem
-      alternates:
-      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-187
-    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-187
-    isEnabled: true
-  - id: pivot12-tab1
-    name: Fields
-    controlType: TabItem
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - TabItem:Fields
-    selectors:
-      primary:
-        automationId: Pivot12-Tab1
-        controlType: TabItem
-      alternates:
-      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
-    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
-    isEnabled: true
-  - id: pivot12-tab2
-    name: Updates
-    controlType: TabItem
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - TabItem:Updates
-    selectors:
-      primary:
-        automationId: Pivot12-Tab2
-        controlType: TabItem
-      alternates:
-      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
-    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
-    isEnabled: true
-  - id: issues
-    name: Issues
-    controlType: Pane
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Pane:Issues
-    selectors:
-      primary:
-        controlType: Pane
-    isEnabled: true
-  - id: control_30
-    name: StatusBar
-    controlType: StatusBar
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    selectors:
-      primary:
-        controlType: StatusBar
-      alternates:
-      - className: ms-MessageBar-innerText innerText-198
-    className: ms-MessageBar-innerText innerText-198
-    isEnabled: true
-  - id: bring.atlassian.to.where.you.and.your.teams.work.for.jira,.confluence,.bitbucket.and.trello.
-    name: Bring Atlassian to where you and your teams work for Jira, Confluence, Bitbucket and Trello.
-    controlType: Text
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Text:Bring Atlassian to where you and your teams work for Jira, Confluence, Bitbucket and Trello.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: explore.atlassian.integrations.here.
-    name: Explore Atlassian integrations here.
+  - id: sign.in
+    name: Sign in
     controlType: Hyperlink
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Hyperlink:Explore Atlassian integrations here.
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Sign in
     selectors:
       primary:
         controlType: Hyperlink
       alternates:
-      - className: ms-Link root-242
-    className: ms-Link root-242
+      - className: w-100
+    className: w-100
     isEnabled: true
-  - id: control_33
-    name: Button
+  - id: sign.in
+    name: Sign in
     controlType: Button
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Sign in
+    - Button:Sign in
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-205
-    className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-205
+      - className: w-100 btn btn-primary
+    className: w-100 btn btn-primary
     isEnabled: true
-  - id: import.type
-    name: Import type
-    controlType: Text
+  - id: create.an.account
+    name: Create an account
+    controlType: Hyperlink
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Text:Import type
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Create an account
     selectors:
       primary:
-        controlType: Text
-    isEnabled: true
-  - id: dropdown27
-    name: Import type
-    controlType: List
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - List:Import type
-    selectors:
-      primary:
-        automationId: Dropdown27
-        controlType: List
+        controlType: Hyperlink
       alternates:
-      - className: ms-Dropdown dropdown-209
-    className: ms-Dropdown dropdown-209
+      - className: w-100
+    className: w-100
     isEnabled: true
-  - id: dropdown27-option
-    name: JQL query
-    controlType: ListItem
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - List:Import type
-    - ListItem:JQL query
-    selectors:
-      primary:
-        automationId: Dropdown27-option
-        controlType: ListItem
-      alternates:
-      - className: ms-Dropdown-title title-210
-    className: ms-Dropdown-title title-210
-    isEnabled: true
-  - id: jql.query
-    name: JQL query
-    controlType: Text
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Text:JQL query
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: example:.project=xyz.and.status="to.do"
-    name: 'Example: project=xyz AND status="To Do"'
-    controlType: Edit
-    hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - 'Edit:Example: project=xyz AND status="To Do"'
-    selectors:
-      primary:
-        controlType: Edit
-      alternates:
-      - className: jqlInput-97
-    className: jqlInput-97
-    isEnabled: true
-  - id: open.in.jira
-    name: Open in Jira
+  - id: create.an.account
+    name: Create an account
     controlType: Button
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Button:Open in Jira
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Create an account
+    - Button:Create an account
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Link root-228
-    className: ms-Link root-228
+      - className: w-100 btn btn-outline-primary
+    className: w-100 btn btn-outline-primary
     isEnabled: true
-  - id: max.rows
-    name: Max rows
+  - id: copyright
+    name: Copyright
     controlType: Text
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Text:Max rows
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Copyright
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: textfield30
-    name: Max rows
-    controlType: Edit
+  - id: .
+    name: ' '
+    controlType: Text
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Edit:Max rows
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - 'Text: '
     selectors:
       primary:
-        automationId: TextField30
-        controlType: Edit
-      alternates:
-      - className: ms-TextField-field field-233
-    className: ms-TextField-field field-233
+        controlType: Text
     isEnabled: true
-  - id: get.data.now
-    name: Get Data Now
-    controlType: Button
+  - id: 2026
+    name: 2026
+    controlType: Text
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
-    - Document:excel-jira
-    - Button:Get Data Now
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:2026
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: ms-Button ms-Button--primary root-241
-    className: ms-Button ms-Button--primary root-241
+        controlType: Text
     isEnabled: true
-  - id: control_43
+  - id: .·.
+    name: ' · '
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - 'Text: · '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: gmetrix
+    name: GMetrix
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:GMetrix
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .·.
+    name: ' · '
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - 'Text: · '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: all.rights.reserved
+    name: All rights reserved
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:All rights reserved
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: powered.by.gmetrix
+    name: Powered by GMetrix
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Powered by GMetrix
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_36
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
@@ -610,12 +493,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_44
+  - id: control_37
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:excel-jira
-    - Pane:excel-jira - Web content
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
     selectors:
       primary:
         controlType: Pane
