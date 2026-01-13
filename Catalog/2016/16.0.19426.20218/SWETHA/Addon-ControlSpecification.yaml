@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-01-2026 05:08:06
-  scanDate: 2026-01-13 05:08:06 UTC
+  scannedAt: 13-01-2026 05:17:00
+  scanDate: 2026-01-13 05:17:00 UTC
   totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
@@ -1433,14 +1433,14 @@ addons:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
     isEnabled: true
-- addonName: Spreadsheet AI
-  elementCount: 40
+- addonName: Spreadsheet Sync
+  elementCount: 104
   controls:
-  - id: 10.studio
-    name: 10 Studio
+  - id: intuit.app
+    name: Intuit App
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
+    - Pane:Intuit App
     selectors:
       primary:
         controlType: Pane
@@ -1452,7 +1452,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
+    - Pane:Intuit App
     selectors:
       primary:
         controlType: Pane
@@ -1460,12 +1460,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: 10.studio.-.web.content
-    name: 10 Studio - Web content
+  - id: intuit.app.-.web.content
+    name: Intuit App - Web content
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1477,8 +1477,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1490,8 +1490,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1503,8 +1503,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1516,8 +1516,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -1531,8 +1531,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1544,8 +1544,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -1559,8 +1559,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -1574,8 +1574,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     - Button:Close
     selectors:
       primary:
@@ -1589,8 +1589,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1602,8 +1602,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1615,8 +1615,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1628,8 +1628,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1641,8 +1641,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1654,8 +1654,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1667,8 +1667,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1677,287 +1677,304 @@ addons:
     className: View
     isEnabled: true
   - id: rootwebarea
-    name: 10 Studio
+    name: Intuit App
     controlType: Document
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
   - id: control_126
-    name: MenuBar
-    controlType: MenuBar
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    selectors:
-      primary:
-        controlType: MenuBar
-      alternates:
-      - className: ms-FocusZone css-158 ms-CommandBar root-155
-    className: ms-FocusZone css-158 ms-CommandBar root-155
-    isEnabled: true
-  - id: sign.in
-    name: Sign In
-    controlType: MenuItem
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - MenuItem:Sign In
-    selectors:
-      primary:
-        controlType: MenuItem
-      alternates:
-      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
-    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-163
-    isEnabled: true
-  - id: signin
-    name: SignIn
+    name: Group
     controlType: Group
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - MenuItem:Sign In
-    - Group:SignIn
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: ___appshell
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    selectors:
+      primary:
+        automationId: ___appshell
+        controlType: Group
+    isEnabled: true
+  - id: control_128
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
     selectors:
       primary:
         controlType: Group
       alternates:
-      - className: root-33
-    className: root-33
+      - className: body
+    className: body
     isEnabled: true
-  - id: dear.valued.users,
-    name: Dear Valued Users,
+  - id: welcome.to.spreadsheet.sync
+    name: Welcome to Spreadsheet Sync
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:Dear Valued Users,
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Text:Welcome to Spreadsheet Sync
     selectors:
       primary:
         controlType: Text
-    isEnabled: true
-  - id: you.need.to.sign.in.to.use.ai-powered.features.of.the.tool.
-    name: You need to Sign In to use AI-powered features of the tool.
-    controlType: Text
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:You need to Sign In to use AI-powered features of the tool.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: please.write.to.contact@matrixlead.com.or.chat.at.go.10studio.tech_chat.for.any.enquiries.and.remarks.
-    name: Please write to contact@matrixlead.com or chat at go.10studio.tech/chat for any enquiries and remarks.
-    controlType: Text
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:Please write to contact@matrixlead.com or chat at go.10studio.tech/chat for any enquiries and remarks.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: thank.you.
-    name: Thank you.
-    controlType: Text
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:Thank you.
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: go.to.sign.in
-    name: Go to Sign In
-    controlType: Button
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Go to Sign In
-    selectors:
-      primary:
-        controlType: Button
       alternates:
-      - className: ms-Button ms-Button--primary root-193
-    className: ms-Button ms-Button--primary root-193
+      - className: message
+    className: message
     isEnabled: true
-  - id: close
-    name: Close
-    controlType: Button
+  - id: create.reports,.edit.transactions.and.budgets.in.excel,.and.sync.with.quickbooks.
+    name: Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
+    controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Close
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Text:Create reports, edit transactions and budgets in Excel, and sync with QuickBooks.
     selectors:
       primary:
-        controlType: Button
-      alternates:
-      - className: ms-Button ms-Button--default root-197
-    className: ms-Button ms-Button--default root-197
+        controlType: Text
     isEnabled: true
-  - id: control_135
-    name: List
+  - id: previous.slider.control
+    name: previous slider control
+    controlType: Image
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Image:previous slider control
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: prev-slider-btn
+    className: prev-slider-btn
+    isEnabled: true
+  - id: control_132
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: Carousel-carousel-6a797a3 glide--swipeable glide--ltr glide--slider
+    className: Carousel-carousel-6a797a3 glide--swipeable glide--ltr glide--slider
+    isEnabled: true
+  - id: landing.page.carousel
+    name: landing page carousel
     controlType: List
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - List:landing page carousel
     selectors:
       primary:
         controlType: List
+      alternates:
+      - className: Carousel-cards-ca432eb
+    className: Carousel-cards-ca432eb
     isEnabled: true
-  - id: new.chat
-    name: New chat
+  - id: control_134
+    name: ListItem
+    controlType: ListItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - List:landing page carousel
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: Carousel-card-0513f6d glide__slide--active
+    className: Carousel-card-0513f6d glide__slide--active
+    isEnabled: true
+  - id: spreadsheet.sync.welcome.video
+    name: Spreadsheet Sync Welcome Video
+    controlType: Image
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - List:landing page carousel
+    - Image:Spreadsheet Sync Welcome Video
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: landing-main-vdo
+    className: landing-main-vdo
+    isEnabled: true
+  - id: control_136
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: Control-group-780b8c6 Carousel-controls-8bb1412
+    className: Control-group-780b8c6 Carousel-controls-8bb1412
+    isEnabled: true
+  - id: move.to.item.1.of.5.in.landing.page.carousel
+    name: Move to item 1 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:New chat
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 1 of 5 in landing page carousel
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: fui-Button rlr4yyk ai-chat-custom-button
-    className: fui-Button rlr4yyk ai-chat-custom-button
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
     isEnabled: true
-  - id: menu2
-    name: Examples
+  - id: move.to.item.2.of.5.in.landing.page.carousel
+    name: Move to item 2 of 5 in landing page carousel
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Examples
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 2 of 5 in landing page carousel
     selectors:
       primary:
-        automationId: menu2
         controlType: Button
       alternates:
-      - className: fui-Button rlr4yyk fui-MenuButton custom-button
-    className: fui-Button rlr4yyk fui-MenuButton custom-button
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
     isEnabled: true
-  - id: examples
-    name: Examples
+  - id: move.to.item.3.of.5.in.landing.page.carousel
+    name: Move to item 3 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 3 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: move.to.item.4.of.5.in.landing.page.carousel
+    name: Move to item 4 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 4 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: move.to.item.5.of.5.in.landing.page.carousel
+    name: Move to item 5 of 5 in landing page carousel
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Move to item 5 of 5 in landing page carousel
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    className: Control-control-e0c0e16 Control-light-01a46bb Control-small-bafd12c Carousel-dotControlContainer-39929b9
+    isEnabled: true
+  - id: next.slider.control
+    name: next slider control
+    controlType: Image
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Image:next slider control
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: next-slider-btn
+    className: next-slider-btn
+    isEnabled: true
+  - id: sign.in.to.your.intuit.account.to.work.with.your.company.data.and.sync.changes.
+    name: Sign in to your Intuit Account to work with your company data and sync changes.
     controlType: Text
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Examples
-    - Text:Examples
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Text:Sign in to your Intuit Account to work with your company data and sync changes.
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: menu4
-    name: Import
+  - id: get.started
+    name: Get started
     controlType: Button
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Import
-    selectors:
-      primary:
-        automationId: menu4
-        controlType: Button
-      alternates:
-      - className: fui-Button rlr4yyk fui-MenuButton custom-button
-    className: fui-Button rlr4yyk fui-MenuButton custom-button
-    isEnabled: true
-  - id: import
-    name: Import
-    controlType: Text
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Import
-    - Text:Import
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_141
-    name: ComboBox
-    controlType: ComboBox
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    selectors:
-      primary:
-        controlType: ComboBox
-      alternates:
-      - className: fui-Dropdown__button ___10ah4o2 f122n59 f1c21dwh fre7gi1 f1358rze fqdk4by f1rvrf73 f1ewtqcl f19n0e5 f14mj54c f1k6fduh f13qh94s fk6fouc f12nh0o2 f1869bpl f1o700av fly5x3f ftqa4ok fkhj508 figsok6 f1i3iumi f1sbtcvk f11gcy0p fdghr9 f1e60jzv
-    className: fui-Dropdown__button ___10ah4o2 f122n59 f1c21dwh fre7gi1 f1358rze fqdk4by f1rvrf73 f1ewtqcl f19n0e5 f14mj54c f1k6fduh f13qh94s fk6fouc f12nh0o2 f1869bpl f1o700av fly5x3f ftqa4ok fkhj508 figsok6 f1i3iumi f1sbtcvk f11gcy0p fdghr9 f1e60jzv
-    isEnabled: true
-  - id: gpt-4.1
-    name: GPT-4.1
-    controlType: Text
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Text:GPT-4.1
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: textfield4
-    name: '- Ask any questions about Excel and spreadsheets- Let the Chat Copilot analyze your data and formulas- Try out over 20 task examples and make the most of AIClick on the top right of the tool and Sign In to get started!'
-    controlType: Edit
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Edit:- Ask any questions about Excel and spreadsheets- Let the Chat Copilot analyze your data and formulas- Try out over 20 task examples and make the most of AIClick on the top right of the tool and Sign In to get started!
-    selectors:
-      primary:
-        automationId: TextField4
-        controlType: Edit
-      alternates:
-      - className: ms-TextField-field ms-TextField--unresizable field-174
-    className: ms-TextField-field ms-TextField--unresizable field-174
-    isEnabled: true
-  - id: send.the.request
-    name: Send the request
-    controlType: Button
-    hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
-    - Document:10 Studio
-    - Button:Send the request
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    - Button:Get started
     selectors:
       primary:
         controlType: Button
       alternates:
-      - className: ms-Button ms-Button--icon is-disabled root-183
-    className: ms-Button ms-Button--icon is-disabled root-183
-    isEnabled: false
+      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2
+    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2
+    isEnabled: true
   - id: control_145
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    - Document:Intuit App
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: control_146
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1965,12 +1982,942 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_146
+  - id: control_147
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:10 Studio
-    - Pane:10 Studio - Web content
+    - Pane:Intuit App
+    - Pane:Intuit App - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+  - id: loginpopup
+    name: LoginPopup
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    selectors:
+      primary:
+        automationId: LoginPopup
+        controlType: Pane
+    isEnabled: true
+  - id: control_149
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: quickbooks.online.login:.sign.in.to.access.your.quickbooks.account.-.web.content
+    name: 'QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_151
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_152
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_153
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_155
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_159
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_160
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_161
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_162
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_163
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_164
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_165
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: 'QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    controlType: Document
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_167
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: ___appshell
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        automationId: ___appshell
+        controlType: Group
+    isEnabled: true
+  - id: control_169
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: body
+    className: body
+    isEnabled: true
+  - id: control_170
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: Group
+    isEnabled: true
+  - id: identifierfirstheader
+    name: Let's get you in to QuickBooks
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Text:Let's get you in to QuickBooks
+    selectors:
+      primary:
+        automationId: IdentifierFirstHeader
+        controlType: Text
+      alternates:
+      - className: IuxH2AndDescription__ProdModTitleText-j40avf-4 iQcJay Typography-headline-1-e793b1d Typography-demi-e793b1d
+    className: IuxH2AndDescription__ProdModTitleText-j40avf-4 iQcJay Typography-headline-1-e793b1d Typography-demi-e793b1d
+    isEnabled: true
+  - id: control_172
+    name: Tab
+    controlType: Tab
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: Tab
+      alternates:
+      - className: Tabs-tabsList-5909ddd
+    className: Tabs-tabsList-5909ddd
+    isEnabled: true
+  - id: idstab-email_user_id
+    name: Email or user ID
+    controlType: TabItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - TabItem:Email or user ID
+    selectors:
+      primary:
+        automationId: idsTab-EMAIL_USER_ID
+        controlType: TabItem
+      alternates:
+      - className: idsF Tabs-tabButton-5909ddd Tabs-activeTab-5909ddd
+    className: idsF Tabs-tabButton-5909ddd Tabs-activeTab-5909ddd
+    isEnabled: true
+  - id: idstab-phone
+    name: Phone
+    controlType: TabItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - TabItem:Phone
+    selectors:
+      primary:
+        automationId: idsTab-PHONE
+        controlType: TabItem
+      alternates:
+      - className: idsF Tabs-tabButton-5909ddd
+    className: idsF Tabs-tabButton-5909ddd
+    isEnabled: true
+  - id: idstab-email_user_id-tabpanel
+    name: Email or user ID
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Pane:Email or user ID
+    selectors:
+      primary:
+        automationId: idsTab-EMAIL_USER_ID-tabPanel
+        controlType: Pane
+      alternates:
+      - className: Tabs-tabPanel-5909ddd
+    className: Tabs-tabPanel-5909ddd
+    isEnabled: true
+  - id: iux-identifier-first-international-email-user-id-input
+    name: Edit
+    controlType: Edit
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Pane:Email or user ID
+    selectors:
+      primary:
+        automationId: iux-identifier-first-international-email-user-id-input
+        controlType: Edit
+      alternates:
+      - className: idsF TextField-TFInput-47097bd TextField-TFNoErrorText-47097bd TextField-TFNotDisabled-47097bd TextField-size-medium-47097bd
+    className: idsF TextField-TFInput-47097bd TextField-TFNoErrorText-47097bd TextField-TFNotDisabled-47097bd TextField-size-medium-47097bd
+    isEnabled: true
+  - id: remember.me
+    name: Remember me
+    controlType: CheckBox
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - CheckBox:Remember me
+    selectors:
+      primary:
+        controlType: CheckBox
+      alternates:
+      - className: idsF RcCheckbox-inputCheckboxWrapper-72dcf97 RcCheckbox-inputCheckboxChecked-72dcf97
+    className: idsF RcCheckbox-inputCheckboxWrapper-72dcf97 RcCheckbox-inputCheckboxChecked-72dcf97
+    isEnabled: true
+  - id: remember.me
+    name: Remember me
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Text:Remember me
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: sign.in
+    name: Sign in
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Button:Sign in
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2 IuxButton__StyledButton-ktqsri-0 dDQzHx Button-full-6a785d2
+    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-primary-6a785d2 IuxButton__StyledButton-ktqsri-0 dDQzHx Button-full-6a785d2
+    isEnabled: true
+  - id: by.selecting.sign.in,.you.agree.to.intuit.
+    name: 'By selecting Sign in, you agree to Intuit '
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text:By selecting Sign in, you agree to Intuit '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: terms
+    name: Terms
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Hyperlink:Terms
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    isEnabled: true
+  - id: .and.mailchimp.
+    name: ' and Mailchimp '
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text: and Mailchimp '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: terms
+    name: Terms
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Hyperlink:Terms
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    isEnabled: true
+  - id: ..our.
+    name: '. Our '
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text:. Our '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: privacy.policy
+    name: Privacy Policy
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Hyperlink:Privacy Policy
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    isEnabled: true
+  - id: .applies.to.your.personal.data.
+    name: ' applies to your personal data.'
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text: applies to your personal data.'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: new.to.intuit?.
+    name: 'New to Intuit? '
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text:New to Intuit? '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: create.an.account
+    name: Create an account
+    controlType: Button
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Button:Create an account
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-tertiary-6a785d2 IuxLinkButton__StyledLinkButton-im8qmv-0 IuxLinkButton__StyledLinkButtonWithMarginTop-im8qmv-1 kdLEAC hAkLBa SignUpLink__StyledSignUpButton-mle9of-1 iEFJae
+    className: idsTSButton idsF Button-button-6a785d2 Button-size-medium-6a785d2 Button-purpose-standard-6a785d2 Button-priority-tertiary-6a785d2 IuxLinkButton__StyledLinkButton-im8qmv-0 IuxLinkButton__StyledLinkButtonWithMarginTop-im8qmv-1 kdLEAC hAkLBa SignUpLink__StyledSignUpButton-mle9of-1 iEFJae
+    isEnabled: true
+  - id: invisible.recaptcha.by.google.
+    name: 'Invisible reCAPTCHA by Google '
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text:Invisible reCAPTCHA by Google '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: privacy.policy.for.google
+    name: Privacy Policy for Google
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Hyperlink:Privacy Policy for Google
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    isEnabled: true
+  - id: .and.
+    name: ' and '
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - 'Text: and '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: terms.of.use.for.google
+    name: Terms of Use for Google
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Hyperlink:Terms of Use for Google
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    className: idsTSLink Link-link-1abd943 Link-inline-1abd943 IuxDynamicLink__StyledLink-sc-1e70qj9-0 ONZWC
+    isEnabled: true
+  - id: .
+    name: .
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Text:.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_194
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: BookendsFooter__StyledFooter-m32qkh-0 gPKBya
+    className: BookendsFooter__StyledFooter-m32qkh-0 gPKBya
+    isEnabled: true
+  - id: control_195
+    name: List
+    controlType: List
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: List
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
+    className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
+    isEnabled: true
+  - id: legal
+    name: Legal
+    controlType: ListItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Legal
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    isEnabled: true
+  - id: legal
+    name: Legal
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Legal
+    - Hyperlink:Legal
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943
+    className: idsTSLink Link-link-1abd943
+    isEnabled: true
+  - id: privacy
+    name: Privacy
+    controlType: ListItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Privacy
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    isEnabled: true
+  - id: privacy
+    name: Privacy
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Privacy
+    - Hyperlink:Privacy
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943
+    className: idsTSLink Link-link-1abd943
+    isEnabled: true
+  - id: security
+    name: Security
+    controlType: ListItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Security
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    isEnabled: true
+  - id: security
+    name: Security
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Security
+    - Hyperlink:Security
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943
+    className: idsTSLink Link-link-1abd943
+    isEnabled: true
+  - id: control_202
+    name: List
+    controlType: List
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    selectors:
+      primary:
+        controlType: List
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
+    className: BookendsLegalPrivacySecurityLinks__LinkUnorderedList-r1xb63-2 ctlOKR
+    isEnabled: true
+  - id: support
+    name: Support
+    controlType: ListItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Support
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    isEnabled: true
+  - id: support
+    name: Support
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Support
+    - Hyperlink:Support
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943
+    className: idsTSLink Link-link-1abd943
+    isEnabled: true
+  - id: software.license.agreement
+    name: Software License Agreement
+    controlType: ListItem
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Software License Agreement
+    selectors:
+      primary:
+        controlType: ListItem
+      alternates:
+      - className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    className: BookendsLegalPrivacySecurityLinks__LinkListItem-r1xb63-3 gIaSSR
+    isEnabled: true
+  - id: software.license.agreement
+    name: Software License Agreement
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - ListItem:Software License Agreement
+    - Hyperlink:Software License Agreement
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: idsTSLink Link-link-1abd943
+    className: idsTSLink Link-link-1abd943
+    isEnabled: true
+  - id: intuit,.quickbooks,.qb,.turbotax,.proconnect,.credit.karma,.and.mailchimp.are.registered.trademarks.of.intuit.inc..terms.and.conditions,.features,.support,.pricing,.and.service.options.subject.to.change.without.notice.
+    name: Intuit, QuickBooks, QB, TurboTax, ProConnect, Credit Karma, and Mailchimp are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Text:Intuit, QuickBooks, QB, TurboTax, ProConnect, Credit Karma, and Mailchimp are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: ©.2026.intuit,.inc..all.rights.reserved.
+    name: © 2026 Intuit, Inc. All rights reserved.
+    controlType: Text
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    - 'Document:QuickBooks Online Login: Sign in to Access Your QuickBooks Account'
+    - Text:© 2026 Intuit, Inc. All rights reserved.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_209
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_210
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Intuit App
+    - Pane:LoginPopup
+    - 'Pane:QuickBooks Online Login: Sign in to Access Your QuickBooks Account - Web content'
     selectors:
       primary:
         controlType: Pane
