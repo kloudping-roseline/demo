@@ -4,9 +4,9 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM06
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-01-2026 07:03:32
-  scanDate: 2026-01-13 07:03:32 UTC
-  totalAddons: 1
+  scannedAt: 13-01-2026 07:53:50
+  scanDate: 2026-01-13 07:53:50 UTC
+  totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26100.7462
@@ -499,6 +499,1245 @@ addons:
     hierarchy:
     - Pane:GMetrix
     - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Jira Cloud for Excel
+  elementCount: 44
+  controls:
+  - id: excel-jira
+    name: excel-jira
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_39
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: excel-jira.-.web.content
+    name: excel-jira - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_41
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_42
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_43
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_45
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_49
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_50
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_51
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_52
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_53
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_54
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_55
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: excel-jira
+    controlType: Document
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: menu
+    name: Menu
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Button:Menu
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms-Button ms-Button--primary menuButton-160
+    className: ms-Button ms-Button--primary menuButton-160
+    isEnabled: true
+  - id: menu
+    name: Menu
+    controlType: Group
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Button:Menu
+    - Group:Menu
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: menuIcon-171
+    className: menuIcon-171
+    isEnabled: true
+  - id: import.data.from.jira
+    name: Import data from Jira
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Text:Import data from Jira
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: sheet1
+    name: Sheet1
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Text:Sheet1
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: sheet.refresh
+    name: Sheet Refresh
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Button:Sheet Refresh
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms-Button ms-Button--icon root-175
+    className: ms-Button ms-Button--icon root-175
+    isEnabled: true
+  - id: control_62
+    name: Tab
+    controlType: Tab
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    selectors:
+      primary:
+        controlType: Tab
+      alternates:
+      - className: ms-Pivot root-179
+    className: ms-Pivot root-179
+    isEnabled: true
+  - id: pivot12-tab0
+    name: Issues
+    controlType: TabItem
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - TabItem:Issues
+    selectors:
+      primary:
+        automationId: Pivot12-Tab0
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-187
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-187
+    isEnabled: true
+  - id: pivot12-tab1
+    name: Fields
+    controlType: TabItem
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - TabItem:Fields
+    selectors:
+      primary:
+        automationId: Pivot12-Tab1
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
+    isEnabled: true
+  - id: pivot12-tab2
+    name: Updates
+    controlType: TabItem
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - TabItem:Updates
+    selectors:
+      primary:
+        automationId: Pivot12-Tab2
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-192
+    isEnabled: true
+  - id: issues
+    name: Issues
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Pane:Issues
+    selectors:
+      primary:
+        controlType: Pane
+    isEnabled: true
+  - id: control_67
+    name: StatusBar
+    controlType: StatusBar
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    selectors:
+      primary:
+        controlType: StatusBar
+      alternates:
+      - className: ms-MessageBar-innerText innerText-198
+    className: ms-MessageBar-innerText innerText-198
+    isEnabled: true
+  - id: bring.atlassian.to.where.you.and.your.teams.work.for.jira,.confluence,.bitbucket.and.trello.
+    name: Bring Atlassian to where you and your teams work for Jira, Confluence, Bitbucket and Trello.
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Text:Bring Atlassian to where you and your teams work for Jira, Confluence, Bitbucket and Trello.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: explore.atlassian.integrations.here.
+    name: Explore Atlassian integrations here.
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Hyperlink:Explore Atlassian integrations here.
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: ms-Link root-242
+    className: ms-Link root-242
+    isEnabled: true
+  - id: control_70
+    name: Button
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-205
+    className: ms-Button ms-Button--icon ms-MessageBar-dismissal dismissal-205
+    isEnabled: true
+  - id: import.type
+    name: Import type
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Text:Import type
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: dropdown27
+    name: Import type
+    controlType: List
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - List:Import type
+    selectors:
+      primary:
+        automationId: Dropdown27
+        controlType: List
+      alternates:
+      - className: ms-Dropdown dropdown-209
+    className: ms-Dropdown dropdown-209
+    isEnabled: true
+  - id: dropdown27-option
+    name: JQL query
+    controlType: ListItem
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - List:Import type
+    - ListItem:JQL query
+    selectors:
+      primary:
+        automationId: Dropdown27-option
+        controlType: ListItem
+      alternates:
+      - className: ms-Dropdown-title title-210
+    className: ms-Dropdown-title title-210
+    isEnabled: true
+  - id: jql.query
+    name: JQL query
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Text:JQL query
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: example:.project=xyz.and.status="to.do"
+    name: 'Example: project=xyz AND status="To Do"'
+    controlType: Edit
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - 'Edit:Example: project=xyz AND status="To Do"'
+    selectors:
+      primary:
+        controlType: Edit
+      alternates:
+      - className: jqlInput-97
+    className: jqlInput-97
+    isEnabled: true
+  - id: open.in.jira
+    name: Open in Jira
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Button:Open in Jira
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms-Link root-228
+    className: ms-Link root-228
+    isEnabled: true
+  - id: max.rows
+    name: Max rows
+    controlType: Text
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Text:Max rows
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: textfield30
+    name: Max rows
+    controlType: Edit
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Edit:Max rows
+    selectors:
+      primary:
+        automationId: TextField30
+        controlType: Edit
+      alternates:
+      - className: ms-TextField-field field-233
+    className: ms-TextField-field field-233
+    isEnabled: true
+  - id: get.data.now
+    name: Get Data Now
+    controlType: Button
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    - Document:excel-jira
+    - Button:Get Data Now
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms-Button ms-Button--primary root-241
+    className: ms-Button ms-Button--primary root-241
+    isEnabled: true
+  - id: control_80
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_81
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:excel-jira
+    - Pane:excel-jira - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Script Lab, a Microsoft Garage project
+  elementCount: 45
+  controls:
+  - id: script.lab
+    name: Script Lab
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_83
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: script.lab.-.web.content
+    name: Script Lab - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_85
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_86
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_87
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_89
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_93
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_94
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_95
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_96
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_97
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_98
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_99
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Script Lab
+    controlType: Document
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_101
+    name: MenuBar
+    controlType: MenuBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: MenuBar
+      alternates:
+      - className: ms-FocusZone css-46 ms-CommandBar root-43
+    className: ms-FocusZone css-46 ms-CommandBar root-43
+    isEnabled: true
+  - id: main.menu
+    name: Main Menu
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Main Menu
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: rename
+    name: Rename
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Rename
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: run
+    name: Run
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Run
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: delete
+    name: Delete
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Delete
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: copy.to.clipboard
+    name: Copy to clipboard
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Copy to clipboard
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: control_107
+    name: Tab
+    controlType: Tab
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Tab
+      alternates:
+      - className: ms-Pivot ms-Pivot--tabs root-70
+    className: ms-Pivot ms-Pivot--tabs root-70
+    isEnabled: true
+  - id: pivot23-tab0
+    name: Script
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:Script
+    selectors:
+      primary:
+        automationId: Pivot23-Tab0
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-77
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-77
+    isEnabled: true
+  - id: pivot23-tab1
+    name: HTML
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:HTML
+    selectors:
+      primary:
+        automationId: Pivot23-Tab1
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    isEnabled: true
+  - id: pivot23-tab2
+    name: CSS
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:CSS
+    selectors:
+      primary:
+        automationId: Pivot23-Tab2
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    isEnabled: true
+  - id: pivot23-tab3
+    name: Libraries
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:Libraries
+    selectors:
+      primary:
+        automationId: Pivot23-Tab3
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    isEnabled: true
+  - id: script
+    name: Script
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - Pane:Script
+    selectors:
+      primary:
+        controlType: Pane
+    isEnabled: true
+  - id: control_113
+    name: StatusBar
+    controlType: StatusBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: StatusBar
+    isEnabled: true
+  - id: control_114
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: showUnused
+    className: showUnused
+    isEnabled: true
+  - id: control_115
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: monaco-editor no-user-select  vs-dark
+    className: monaco-editor no-user-select  vs-dark
+    isEnabled: true
+  - id: editor
+    name: editor
+    controlType: Edit
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - Edit:editor
+    selectors:
+      primary:
+        controlType: Edit
+      alternates:
+      - className: inputarea
+    className: inputarea
+    isEnabled: true
+  - id: control_117
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: editor-widget suggest-widget
+    className: editor-widget suggest-widget
+    isEnabled: true
+  - id: control_118
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: sc-Rmtcm jMFqxr
+    className: sc-Rmtcm jMFqxr
+    isEnabled: true
+  - id: control_119
+    name: MenuBar
+    controlType: MenuBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: MenuBar
+      alternates:
+      - className: ms-FocusZone css-46 ms-CommandBar root-84
+    className: ms-FocusZone css-46 ms-CommandBar root-84
+    isEnabled: true
+  - id: cycle.editor.theme,.dark.theme.selected
+    name: Cycle editor theme, Dark theme selected
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Cycle editor theme, Dark theme selected
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: report.an.issue
+    name: Report an issue
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Report an issue
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: settings
+    name: Settings
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Settings
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: control_123
+    name: Text
+    controlType: Text
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: monaco-alert
+    className: monaco-alert
+    isEnabled: true
+  - id: control_124
+    name: StatusBar
+    controlType: StatusBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: StatusBar
+      alternates:
+      - className: monaco-status
+    className: monaco-status
+    isEnabled: true
+  - id: control_125
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_126
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
     selectors:
       primary:
         controlType: Pane
