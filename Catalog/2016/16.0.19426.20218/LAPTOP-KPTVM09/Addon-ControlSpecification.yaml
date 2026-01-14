@@ -4,9 +4,9 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-01-2026 11:42:13
-  scanDate: 2026-01-13 11:42:13 UTC
-  totalAddons: 3
+  scannedAt: 14-01-2026 06:12:21
+  scanDate: 2026-01-14 06:12:21 UTC
+  totalAddons: 4
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -506,6 +506,283 @@ addons:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
     isEnabled: true
+- addonName: Jet Reports
+  elementCount: 19
+  controls:
+  - id: lower.ribbon
+    name: Lower Ribbon
+    controlType: Pane
+    hierarchy:
+    - Pane:Lower Ribbon
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NetUIPanViewer
+    className: NetUIPanViewer
+    isEnabled: true
+  - id: jet.online
+    name: Jet Online
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIOrderedGroup
+    className: NetUIOrderedGroup
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    - Button:User Profile
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    - Button:Design
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report
+    name: Report
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: run
+    name: Run
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Run
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: drilldown
+    name: Drilldown
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Drilldown
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.status
+    name: Report Status
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Status
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.options
+    name: Report Options
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Options
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: reports.center
+    name: Reports Center
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: access.reports.center
+    name: Access Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Access Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: upload.to.reports.center
+    name: Upload to Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Upload to Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: tools
+    name: Tools
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: function.wizard
+    name: Function Wizard
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Function Wizard
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: settings
+    name: Settings
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Settings
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: assistance
+    name: Assistance
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    - Button:Help
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
 - addonName: Script Lab
   elementCount: 45
   controls:
@@ -521,7 +798,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_39
+  - id: control_58
     name: Pane
     controlType: Pane
     hierarchy:
@@ -546,7 +823,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_41
+  - id: control_60
     name: Pane
     controlType: Pane
     hierarchy:
@@ -559,7 +836,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_42
+  - id: control_61
     name: Pane
     controlType: Pane
     hierarchy:
@@ -572,7 +849,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_43
+  - id: control_62
     name: Pane
     controlType: Pane
     hierarchy:
@@ -600,7 +877,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_45
+  - id: control_64
     name: Pane
     controlType: Pane
     hierarchy:
@@ -658,7 +935,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_49
+  - id: control_68
     name: Pane
     controlType: Pane
     hierarchy:
@@ -671,7 +948,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_50
+  - id: control_69
     name: Pane
     controlType: Pane
     hierarchy:
@@ -684,7 +961,7 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_51
+  - id: control_70
     name: Pane
     controlType: Pane
     hierarchy:
@@ -697,7 +974,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_52
+  - id: control_71
     name: Pane
     controlType: Pane
     hierarchy:
@@ -710,7 +987,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_53
+  - id: control_72
     name: Pane
     controlType: Pane
     hierarchy:
@@ -723,7 +1000,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_54
+  - id: control_73
     name: Pane
     controlType: Pane
     hierarchy:
@@ -736,7 +1013,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_55
+  - id: control_74
     name: Pane
     controlType: Pane
     hierarchy:
@@ -761,7 +1038,7 @@ addons:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_57
+  - id: control_76
     name: MenuBar
     controlType: MenuBar
     hierarchy:
@@ -850,7 +1127,7 @@ addons:
       - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
     className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
     isEnabled: true
-  - id: control_63
+  - id: control_82
     name: Tab
     controlType: Tab
     hierarchy:
@@ -940,7 +1217,7 @@ addons:
       primary:
         controlType: Pane
     isEnabled: true
-  - id: control_69
+  - id: control_88
     name: StatusBar
     controlType: StatusBar
     hierarchy:
@@ -951,7 +1228,7 @@ addons:
       primary:
         controlType: StatusBar
     isEnabled: true
-  - id: control_70
+  - id: control_89
     name: Group
     controlType: Group
     hierarchy:
@@ -965,7 +1242,7 @@ addons:
       - className: showUnused
     className: showUnused
     isEnabled: true
-  - id: control_71
+  - id: control_90
     name: Group
     controlType: Group
     hierarchy:
@@ -994,7 +1271,7 @@ addons:
       - className: inputarea
     className: inputarea
     isEnabled: true
-  - id: control_73
+  - id: control_92
     name: Group
     controlType: Group
     hierarchy:
@@ -1008,7 +1285,7 @@ addons:
       - className: editor-widget suggest-widget
     className: editor-widget suggest-widget
     isEnabled: true
-  - id: control_74
+  - id: control_93
     name: Group
     controlType: Group
     hierarchy:
@@ -1022,7 +1299,7 @@ addons:
       - className: sc-Rmtcm jMFqxr
     className: sc-Rmtcm jMFqxr
     isEnabled: true
-  - id: control_75
+  - id: control_94
     name: MenuBar
     controlType: MenuBar
     hierarchy:
@@ -1081,7 +1358,7 @@ addons:
       - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
     className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
     isEnabled: true
-  - id: control_79
+  - id: control_98
     name: Text
     controlType: Text
     hierarchy:
@@ -1095,7 +1372,7 @@ addons:
       - className: monaco-alert
     className: monaco-alert
     isEnabled: true
-  - id: control_80
+  - id: control_99
     name: StatusBar
     controlType: StatusBar
     hierarchy:
@@ -1109,7 +1386,7 @@ addons:
       - className: monaco-status
     className: monaco-status
     isEnabled: true
-  - id: control_81
+  - id: control_100
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1122,7 +1399,7 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_82
+  - id: control_101
     name: Pane
     controlType: Pane
     hierarchy:
@@ -1138,11 +1415,11 @@ addons:
 - addonName: Sentiment Analysis for Excel
   elementCount: 39
   controls:
-  - id: addins.boardflare.com_sentiment_prod_sidebar.html?et=pabyacaadga9aciamqaiad4apab0acaayqbpagqapqaiafcaqqaxadiamwa0aduanga3adgaoqaiacaacabpagqapqaiagmazqazadkaoqbladianqatadiayga1adyalqa0agyazqa3ac0aoabkadaaywatadaazgbmaguamga0adyazgayadaanaazaciaiabvagkazaa9acianabpaesaqgawadeaoabeac0asgbpadaanwatadqanwbhaecalqbbadiaoqaxac0awgbsadmamabbadcamqa4adcawga0adaaigagahqacwa9aciamaaiacaacwbsad0aigb0ahiadqblaciaiablahqapqaiaeyacgblaguaigagageazaa9aciamgawadiamgatadaangatadiaoabuadiamwa6aduaoqa6aduanwbaaciaiabzagqapqaiadiamaayadialqawadyalqayadgaigagahqazqa9aciamgawadiamwatadaangatadiaoabuadiamwa6aduaoqa6aduaoabaaciaiabzahmapqaiadaaigagac8apga8agqapga2ahgalwbeacsazabhae8avqb5aeyacgbsaegaygb0afqawqavageaeabragoaywbqaewazga1ageaywa0adiadabxaeuaeqbxafqawqb5afiaoqa2ad0apaavagqapga8ac8acga%2baa%3d%3d&_host_info=excel$win32$16.01$en-us$$$$19
-    name: addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
+  - id: about:blank
+    name: about:blank
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -1150,11 +1427,11 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_84
+  - id: control_103
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -1162,12 +1439,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: addins.boardflare.com_sentiment_prod_sidebar.html?et=pabyacaadga9aciamqaiad4apab0acaayqbpagqapqaiafcaqqaxadiamwa0aduanga3adgaoqaiacaacabpagqapqaiagmazqazadkaoqbladianqatadiayga1adyalqa0agyazqa3ac0aoabkadaaywatadaazgbmaguamga0adyazgayadaanaazaciaiabvagkazaa9acianabpaesaqgawadeaoabeac0asgbpadaanwatadqanwbhaecalqbbadiaoqaxac0awgbsadmamabbadcamqa4adcawga0adaaigagahqacwa9aciamaaiacaacwbsad0aigb0ahiadqblaciaiablahqapqaiaeyacgblaguaigagageazaa9aciamgawadiamgatadaangatadiaoabuadiamwa6aduaoqa6aduanwbaaciaiabzagqapqaiadiamaayadialqawadyalqayadgaigagahqazqa9aciamgawadiamwatadaangatadiaoabuadiamwa6aduaoqa6aduaoabaaciaiabzahmapqaiadaaigagac8apga8agqapga2ahgalwbeacsazabhae8avqb5aeyacgbsaegaygb0afqawqavageaeabragoaywbqaewazga1ageaywa0adiadabxaeuaeqbxafqawqb5afiaoqa2ad0apaavagqapga8ac8acga%2baa%3d%3d&_host_info=excel$win32$16.01$en-us$$$$19.-.web.content
-    name: addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+  - id: about:blank.-.web.content
+    name: about:blank - Web content
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1175,12 +1452,12 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_86
+  - id: control_105
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1188,12 +1465,12 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_87
+  - id: control_106
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1201,12 +1478,12 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_88
+  - id: control_107
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1218,8 +1495,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -1229,12 +1506,12 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_90
+  - id: control_109
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1246,8 +1523,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -1261,8 +1538,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -1276,8 +1553,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Close
     selectors:
       primary:
@@ -1287,12 +1564,12 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_94
+  - id: control_113
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1300,12 +1577,12 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_95
+  - id: control_114
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1313,12 +1590,12 @@ addons:
       - className: MainContainerView
     className: MainContainerView
     isEnabled: true
-  - id: control_96
+  - id: control_115
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1326,12 +1603,12 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_97
+  - id: control_116
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1339,12 +1616,12 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_98
+  - id: control_117
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1352,12 +1629,12 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_99
+  - id: control_118
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1365,12 +1642,12 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_100
+  - id: control_119
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1382,8 +1659,8 @@ addons:
     name: Document
     controlType: Document
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         automationId: RootWebArea
@@ -1393,8 +1670,8 @@ addons:
     name: 'Analyzes sentiment of each selected text cell. See '
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Text:Analyzes sentiment of each selected text cell. See '
     selectors:
       primary:
@@ -1404,8 +1681,8 @@ addons:
     name: website
     controlType: Hyperlink
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Hyperlink:website
     selectors:
       primary:
@@ -1415,19 +1692,19 @@ addons:
     name: ' for details. Steps to use:'
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Text: for details. Steps to use:'
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_105
+  - id: control_124
     name: List
     controlType: List
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: List
@@ -1436,8 +1713,8 @@ addons:
     name: Select a range of text cells.
     controlType: ListItem
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - ListItem:Select a range of text cells.
     selectors:
       primary:
@@ -1447,19 +1724,19 @@ addons:
     name: Click the Analyze button below.
     controlType: ListItem
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - ListItem:Click the Analyze button below.
     selectors:
       primary:
         controlType: ListItem
     isEnabled: true
-  - id: control_108
+  - id: control_127
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Group
@@ -1471,8 +1748,8 @@ addons:
     name: 'Advanced options:'
     controlType: Button
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Button:Advanced options:'
     selectors:
       primary:
@@ -1482,8 +1759,8 @@ addons:
     name: 'Advanced options:'
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Button:Advanced options:'
     - 'Text:Advanced options:'
     selectors:
@@ -1494,8 +1771,8 @@ addons:
     name: Analyze
     controlType: Button
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Analyze
     selectors:
       primary:
@@ -1509,8 +1786,8 @@ addons:
     name: Cancel
     controlType: Button
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Cancel
     selectors:
       primary:
@@ -1521,8 +1798,8 @@ addons:
     name: "\U0001F6DFNeed help? "
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - "Text:\U0001F6DFNeed help? "
     selectors:
       primary:
@@ -1532,8 +1809,8 @@ addons:
     name: Email us!
     controlType: Hyperlink
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Hyperlink:Email us!
     selectors:
       primary:
@@ -1544,8 +1821,8 @@ addons:
     name: 'Analysis is done locally, so your data does not leave your spreadsheet. See our '
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Text:Analysis is done locally, so your data does not leave your spreadsheet. See our '
     selectors:
       primary:
@@ -1555,8 +1832,8 @@ addons:
     name: Privacy Policy
     controlType: Hyperlink
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Hyperlink:Privacy Policy
     selectors:
       primary:
@@ -1566,8 +1843,8 @@ addons:
     name: ' for details.'
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Text: for details.'
     selectors:
       primary:
@@ -1577,8 +1854,8 @@ addons:
     name: Boardflare Icon
     controlType: Image
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Image:Boardflare Icon
     selectors:
       primary:
@@ -1588,19 +1865,19 @@ addons:
     name: ' BOARDFLARE'
     controlType: Text
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - 'Text: BOARDFLARE'
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_120
+  - id: control_139
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1608,12 +1885,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_121
+  - id: control_140
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19
-    - Pane:addins.boardflare.com/sentiment/prod/sidebar.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$19 - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
