@@ -4,9 +4,9 @@ year: 2016
 executionNodeName: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 14-01-2026 05:16:36
-  scanDate: 2026-01-14 05:16:36 UTC
-  totalAddons: 2
+  scannedAt: 14-01-2026 06:05:01
+  scanDate: 2026-01-14 06:05:01 UTC
+  totalAddons: 3
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7462
@@ -1432,4 +1432,281 @@ addons:
       alternates:
       - className: TopContainerOverlayView
     className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Jet Reports
+  elementCount: 19
+  controls:
+  - id: lower.ribbon
+    name: Lower Ribbon
+    controlType: Pane
+    hierarchy:
+    - Pane:Lower Ribbon
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NetUIPanViewer
+    className: NetUIPanViewer
+    isEnabled: true
+  - id: jet.online
+    name: Jet Online
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIOrderedGroup
+    className: NetUIOrderedGroup
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    - Button:User Profile
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    - Button:Design
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report
+    name: Report
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: run
+    name: Run
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Run
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: drilldown
+    name: Drilldown
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Drilldown
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.status
+    name: Report Status
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Status
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.options
+    name: Report Options
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Options
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: reports.center
+    name: Reports Center
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: access.reports.center
+    name: Access Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Access Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: upload.to.reports.center
+    name: Upload to Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Upload to Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: tools
+    name: Tools
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: function.wizard
+    name: Function Wizard
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Function Wizard
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: settings
+    name: Settings
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Settings
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: assistance
+    name: Assistance
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    - Button:Help
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
     isEnabled: true
