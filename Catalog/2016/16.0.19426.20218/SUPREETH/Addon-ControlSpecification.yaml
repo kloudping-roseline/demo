@@ -4,12 +4,12 @@ year: 2016
 executionNodeName: SUPREETH
 baseLibraryVersion: 
 scan:
-  scannedAt: 13-Jan-26 11:58:55 AM
-  scanDate: 2026-01-13 11:58:55 UTC
-  totalAddons: 1
+  scannedAt: 15-Jan-26 12:02:21 PM
+  scanDate: 2026-01-15 12:02:21 UTC
+  totalAddons: 6
   toolVersion: scanner-0.6.2
   environment:
-    osBuild: 26100.7462
+    osBuild: 26100.7623
     dpi: 96
     locale: en-US
 addons:
@@ -703,6 +703,2295 @@ addons:
     hierarchy:
     - Pane:Bing Maps
     - Pane:Bing Maps - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: GMetrix Labs
+  elementCount: 37
+  controls:
+  - id: gmetrix
+    name: GMetrix
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_54
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: gmetrix.-.web.content
+    name: GMetrix - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_56
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_57
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_58
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_60
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_64
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_65
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_66
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_67
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_68
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_69
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_70
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: GMetrix
+    controlType: Document
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: root
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    selectors:
+      primary:
+        automationId: root
+        controlType: Group
+    isEnabled: true
+  - id: to.get.missing.image.descriptions,.open.the.context.menu.
+    name: To get missing image descriptions, open the context menu.
+    controlType: Image
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Image:To get missing image descriptions, open the context menu.
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: img-fluid
+    className: img-fluid
+    isEnabled: true
+  - id: learning,.meet.doing.
+    name: Learning, meet doing.
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Learning, meet doing.
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: text-center mt-3
+    className: text-center mt-3
+    isEnabled: true
+  - id: receive.guided.instruction.and.live.feedback.as.you.learn.mastery.of.microsoft.office.
+    name: Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Receive guided instruction and live feedback as you learn mastery of Microsoft Office.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: sign.in
+    name: Sign in
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Sign in
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: w-100
+    className: w-100
+    isEnabled: true
+  - id: sign.in
+    name: Sign in
+    controlType: Button
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Sign in
+    - Button:Sign in
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: w-100 btn btn-primary
+    className: w-100 btn btn-primary
+    isEnabled: true
+  - id: create.an.account
+    name: Create an account
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Create an account
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: w-100
+    className: w-100
+    isEnabled: true
+  - id: create.an.account
+    name: Create an account
+    controlType: Button
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Hyperlink:Create an account
+    - Button:Create an account
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: w-100 btn btn-outline-primary
+    className: w-100 btn btn-outline-primary
+    isEnabled: true
+  - id: copyright
+    name: Copyright
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Copyright
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .
+    name: ' '
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - 'Text: '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 2026
+    name: 2026
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:2026
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .·.
+    name: ' · '
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - 'Text: · '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: gmetrix
+    name: GMetrix
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:GMetrix
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: .·.
+    name: ' · '
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - 'Text: · '
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: all.rights.reserved
+    name: All rights reserved
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:All rights reserved
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: powered.by.gmetrix
+    name: Powered by GMetrix
+    controlType: Text
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    - Document:GMetrix
+    - Text:Powered by GMetrix
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_88
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_89
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GMetrix
+    - Pane:GMetrix - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Jet Reports
+  elementCount: 19
+  controls:
+  - id: lower.ribbon
+    name: Lower Ribbon
+    controlType: Pane
+    hierarchy:
+    - Pane:Lower Ribbon
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NetUIPanViewer
+    className: NetUIPanViewer
+    isEnabled: true
+  - id: jet.online
+    name: Jet Online
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIOrderedGroup
+    className: NetUIOrderedGroup
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: user.profile
+    name: User Profile
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:User Profile
+    - Button:User Profile
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: design
+    name: Design
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Design
+    - Button:Design
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report
+    name: Report
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: run
+    name: Run
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Run
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: drilldown
+    name: Drilldown
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Drilldown
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.status
+    name: Report Status
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Status
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: report.options
+    name: Report Options
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Report
+    - Button:Report Options
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: reports.center
+    name: Reports Center
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: access.reports.center
+    name: Access Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Access Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: upload.to.reports.center
+    name: Upload to Reports Center
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Reports Center
+    - Button:Upload to Reports Center
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: tools
+    name: Tools
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: function.wizard
+    name: Function Wizard
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Function Wizard
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: settings
+    name: Settings
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Tools
+    - Button:Settings
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+  - id: assistance
+    name: Assistance
+    controlType: Group
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: NetUIChunk
+    className: NetUIChunk
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Button
+    hierarchy:
+    - Pane:Lower Ribbon
+    - Group:Jet Online
+    - Group:Assistance
+    - Button:Help
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: NetUIRibbonButton
+    className: NetUIRibbonButton
+    isEnabled: true
+- addonName: Microsoft PowerApps Office Add-in
+  elementCount: 36
+  controls:
+  - id: az689774.vo.msecnd.net_dynamicsofficeapp_v1.3.0.0_app_powerapps_app.html?et=pabyacaadga9aciamqaiad4apab0acaayqbpagqapqaiafcaqqaxadaanaazadgamaazadmamaaiacaacabpagqapqaiadiaywa3ageamqbiadkangatagqayqa3adaalqa0adcaoaa5ac0aoaa1agqamaatadyayqa3adaamwbiadgangbkadaanaayaciaiabjagkazaa9aciarabdadgamqa0aeeanga2adcamaawaduanqa5adianwaiacaabwbpagqapqaiadqaoqbeadiangbcaeqangayaeiamqa4adianwa5aeyaigagahqacwa9aciamaaiacaacwbsad0aigb0ahiadqblaciaiablahqapqaiaeyacgblaguaigagageazaa9aciamgawadiangatadaamqatadeamgbuadaaoaa6adeanaa6adiamwbaaciaiabzagqapqaiadiamaayadyalqawadealqaxadiaigagahqazqa9aciamgawadianwatadaamqatadeamgbuadaaoaa6adeanaa6adianabaaciaiabzahmapqaiadaaigagac8apga8agqapgbbae4atgbuacsacabgageamqbyahmasgb0ae0azqbbadearaarahkakwbeaguargbiaheazgboadyatga3ahoavabfaeyawabhafyadab5afeauqbbad0apaavagqapga8ac8acga%2baa%3d%3d&_host_info=excel$win32$16.01$en-us$$$$16
+    name: az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_110
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: az689774.vo.msecnd.net_dynamicsofficeapp_v1.3.0.0_app_powerapps_app.html?et=pabyacaadga9aciamqaiad4apab0acaayqbpagqapqaiafcaqqaxadaanaazadgamaazadmamaaiacaacabpagqapqaiadiaywa3ageamqbiadkangatagqayqa3adaalqa0adcaoaa5ac0aoaa1agqamaatadyayqa3adaamwbiadgangbkadaanaayaciaiabjagkazaa9aciarabdadgamqa0aeeanga2adcamaawaduanqa5adianwaiacaabwbpagqapqaiadqaoqbeadiangbcaeqangayaeiamqa4adianwa5aeyaigagahqacwa9aciamaaiacaacwbsad0aigb0ahiadqblaciaiablahqapqaiaeyacgblaguaigagageazaa9aciamgawadiangatadaamqatadeamgbuadaaoaa6adeanaa6adiamwbaaciaiabzagqapqaiadiamaayadyalqawadealqaxadiaigagahqazqa9aciamgawadianwatadaamqatadeamgbuadaaoaa6adeanaa6adianabaaciaiabzahmapqaiadaaigagac8apga8agqapgbbae4atgbuacsacabgageamqbyahmasgb0ae0azqbbadearaarahkakwbeaguargbiaheazgboadyatga3ahoavabfaeyawabhafyadab5afeauqbbad0apaavagqapga8ac8acga%2baa%3d%3d&_host_info=excel$win32$16.01$en-us$$$$16.-.web.content
+    name: az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_112
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_113
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_114
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_116
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_120
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_121
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_122
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_123
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_124
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_125
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_126
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Document
+    controlType: Document
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: >-
+      this.add-in.enables.viewing.and.editing.of.your.data.
+
+
+      a.common.data.service.environment.and.corresponding.user.account.are.required.
+    name: >-
+      This add-in enables viewing and editing of your data.
+
+
+      A Common Data Service environment and corresponding user account are required.
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >-
+      Text:This add-in enables viewing and editing of your data.
+
+
+      A Common Data Service environment and corresponding user account are required.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: addserveranchor
+    name: Add connection
+    controlType: Button
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Button:Add connection
+    selectors:
+      primary:
+        automationId: addServerAnchor
+        controlType: Button
+      alternates:
+      - className: dynamicsSymbolButton
+    className: dynamicsSymbolButton
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: noserverexternallinks
+    name: External links
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Text:External links
+    selectors:
+      primary:
+        automationId: noServerExternalLinks
+        controlType: Text
+    isEnabled: true
+  - id: control_136
+    name: Separator
+    controlType: Separator
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Separator
+    isEnabled: true
+  - id: addindetailslink
+    name: Add-in Details
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Hyperlink:Add-in Details
+    selectors:
+      primary:
+        automationId: addinDetailsLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: >2
+
+    name: >2
+
+    controlType: Text
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - >
+      Text:
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: lcslink
+    name: Dynamics LCS
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Hyperlink:Dynamics LCS
+    selectors:
+      primary:
+        automationId: lcsLink
+        controlType: Hyperlink
+    isEnabled: true
+  - id: control_140
+    name: Separator
+    controlType: Separator
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Separator
+    isEnabled: true
+  - id: notificationsbutton
+    name: Open message center
+    controlType: Button
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Button:Open message center
+    selectors:
+      primary:
+        automationId: notificationsButton
+        controlType: Button
+      alternates:
+      - className: dynamicsSymbolButton tooltip
+    className: dynamicsSymbolButton tooltip
+    isEnabled: true
+  - id: statustext
+    name: StatusBar
+    controlType: StatusBar
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        automationId: statusText
+        controlType: StatusBar
+    isEnabled: true
+  - id: control_143
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_144
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
+    - Pane:az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/App/PowerApps/App.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADAANAAzADgAMAAzADMAMAAiACAAcABpAGQAPQAiADIAYwA3AGEAMQBiADkANgAtAGQAYQA3ADAALQA0ADcAOAA5AC0AOAA1AGQAMAAtADYAYQA3ADAAMwBiADgANgBkADAANAAyACIAIABjAGkAZAA9ACIARABDADgAMQA0AEEANgA2ADcAMAAwADUANQA5ADIANwAiACAAbwBpAGQAPQAiADQAOQBEADIANgBCAEQANgAyAEIAMQA4ADIANwA5AEYAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIANgAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIAMwBaACIAIABzAGQAPQAiADIAMAAyADYALQAwADEALQAxADIAIgAgAHQAZQA9ACIAMgAwADIANwAtADAAMQAtADEAMgBUADAAOAA6ADEANAA6ADIANABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgBBAE4ATgBuACsAcABGAGEAMQByAHMASgB0AE0AZQBBADEARAArAHkAKwBEAGUARgBIAHEAZgBOADYATgA3AHoAVABFAEYAWABhAFYAdAB5AFEAUQBBAD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Script Lab, a Microsoft Garage project
+  elementCount: 45
+  controls:
+  - id: script.lab
+    name: Script Lab
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_146
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: script.lab.-.web.content
+    name: Script Lab - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_148
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_149
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_150
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_152
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_156
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_157
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_158
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_159
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_160
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_161
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_162
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Script Lab
+    controlType: Document
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_164
+    name: MenuBar
+    controlType: MenuBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: MenuBar
+      alternates:
+      - className: ms-FocusZone css-46 ms-CommandBar root-43
+    className: ms-FocusZone css-46 ms-CommandBar root-43
+    isEnabled: true
+  - id: main.menu
+    name: Main Menu
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Main Menu
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: rename
+    name: Rename
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Rename
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: run
+    name: Run
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Run
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: delete
+    name: Delete
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Delete
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: copy.to.clipboard
+    name: Copy to clipboard
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Copy to clipboard
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: control_170
+    name: Tab
+    controlType: Tab
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Tab
+      alternates:
+      - className: ms-Pivot ms-Pivot--tabs root-70
+    className: ms-Pivot ms-Pivot--tabs root-70
+    isEnabled: true
+  - id: pivot23-tab0
+    name: Script
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:Script
+    selectors:
+      primary:
+        automationId: Pivot23-Tab0
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-77
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link is-selected linkIsSelected-77
+    isEnabled: true
+  - id: pivot23-tab1
+    name: HTML
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:HTML
+    selectors:
+      primary:
+        automationId: Pivot23-Tab1
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    isEnabled: true
+  - id: pivot23-tab2
+    name: CSS
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:CSS
+    selectors:
+      primary:
+        automationId: Pivot23-Tab2
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    isEnabled: true
+  - id: pivot23-tab3
+    name: Libraries
+    controlType: TabItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - TabItem:Libraries
+    selectors:
+      primary:
+        automationId: Pivot23-Tab3
+        controlType: TabItem
+      alternates:
+      - className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    className: ms-Button ms-Button--action ms-Button--command ms-Pivot-link link-83
+    isEnabled: true
+  - id: script
+    name: Script
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - Pane:Script
+    selectors:
+      primary:
+        controlType: Pane
+    isEnabled: true
+  - id: control_176
+    name: StatusBar
+    controlType: StatusBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: StatusBar
+    isEnabled: true
+  - id: control_177
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: showUnused
+    className: showUnused
+    isEnabled: true
+  - id: control_178
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: monaco-editor no-user-select  vs-dark
+    className: monaco-editor no-user-select  vs-dark
+    isEnabled: true
+  - id: editor
+    name: editor
+    controlType: Edit
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - Edit:editor
+    selectors:
+      primary:
+        controlType: Edit
+      alternates:
+      - className: inputarea
+    className: inputarea
+    isEnabled: true
+  - id: control_180
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: editor-widget suggest-widget
+    className: editor-widget suggest-widget
+    isEnabled: true
+  - id: control_181
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: sc-Rmtcm jMFqxr
+    className: sc-Rmtcm jMFqxr
+    isEnabled: true
+  - id: control_182
+    name: MenuBar
+    controlType: MenuBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: MenuBar
+      alternates:
+      - className: ms-FocusZone css-46 ms-CommandBar root-84
+    className: ms-FocusZone css-46 ms-CommandBar root-84
+    isEnabled: true
+  - id: cycle.editor.theme,.dark.theme.selected
+    name: Cycle editor theme, Dark theme selected
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Cycle editor theme, Dark theme selected
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: report.an.issue
+    name: Report an issue
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Report an issue
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: settings
+    name: Settings
+    controlType: MenuItem
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    - MenuItem:Settings
+    selectors:
+      primary:
+        controlType: MenuItem
+      alternates:
+      - className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    className: ms-Button ms-Button--commandBar ms-CommandBarItem-link root-51
+    isEnabled: true
+  - id: control_186
+    name: Text
+    controlType: Text
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: Text
+      alternates:
+      - className: monaco-alert
+    className: monaco-alert
+    isEnabled: true
+  - id: control_187
+    name: StatusBar
+    controlType: StatusBar
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    - Document:Script Lab
+    selectors:
+      primary:
+        controlType: StatusBar
+      alternates:
+      - className: monaco-status
+    className: monaco-status
+    isEnabled: true
+  - id: control_188
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_189
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Script Lab
+    - Pane:Script Lab - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
+    isEnabled: true
+- addonName: Wikipedia
+  elementCount: 30
+  controls:
+  - id: wikipedia
+    name: Wikipedia
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
+    isEnabled: true
+  - id: control_191
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: wikipedia.-.web.content
+    name: Wikipedia - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_193
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_194
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_195
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_197
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_201
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_202
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_203
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_204
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_205
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_206
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_207
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: Wikipedia
+    controlType: Document
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: wikipedia.logo
+    name: Wikipedia logo
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Hyperlink:Wikipedia logo
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: ms_osf_logo ms_osf_clickable ms_osf_visible
+    className: ms_osf_logo ms_osf_clickable ms_osf_visible
+    isEnabled: true
+  - id: i.want.to.know...
+    name: I want to know...
+    controlType: Edit
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Edit:I want to know...
+    selectors:
+      primary:
+        controlType: Edit
+      alternates:
+      - className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+    className: ms_osf_searchBarInput ms_osf_searchBarInputHint
+    isEnabled: true
+  - id: search
+    name: Search
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+    className: ms_osf_searchButton ms_osf_clickable ms_osf_navButton
+    isEnabled: true
+  - id: to.get.missing.image.descriptions,.open.the.context.menu.
+    name: To get missing image descriptions, open the context menu.
+    controlType: Image
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search
+    - Image:To get missing image descriptions, open the context menu.
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: search.options
+    name: Search Options
+    controlType: Button
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search Options
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+    className: ms_osf_searchOptionsButton ms_osf_clickable ms_osf_navButton
+    isEnabled: true
+  - id: control_214
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Button:Search Options
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_215
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: ms_osf_content
+    className: ms_osf_content
+    isEnabled: true
+  - id: control_216
+    name: Group
+    controlType: Group
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    selectors:
+      primary:
+        controlType: Group
+      alternates:
+      - className: ms_osf_article
+    className: ms_osf_article
+    isEnabled: true
+  - id: the.add-in.can.search.from.wikipedia.automatically.and.insert.seamlessly.the.information.to.your.document.
+    name: The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+    controlType: Text
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    - Document:Wikipedia
+    - Text:The add-in can search from Wikipedia automatically and insert seamlessly the information to your document.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_218
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
+    isEnabled: true
+  - id: control_219
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:Wikipedia
+    - Pane:Wikipedia - Web content
     selectors:
       primary:
         controlType: Pane
