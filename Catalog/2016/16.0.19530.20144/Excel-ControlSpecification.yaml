@@ -1,0 +1,128 @@
+application: Excel
+appVersion: 16.0.19530.20144
+year: 2016
+executionNodeName: ROOPA
+baseLibraryVersion: null
+scan:
+  scannedAt: 2026-01-16T18:05:58.9670411+05:30
+  toolVersion: null
+  environment:
+    osBuild: 26200.7623
+    dpi: 96
+    locale: en-IN
+controls:
+  - Id: ribbon.recent.cloudcosmos_mis_nov'25.(2)
+    Name: Cloudcosmos_MIS_Nov'25 (2)
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Recent
+      - ListItem:Cloudcosmos_MIS_Nov'25 (2)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: Cloudcosmos_MIS_Nov'25 (2)
+          ClassName: NetUIListViewItem
+          Pattern: Invoke
+          Path: Ribbon/Recent/Cloudcosmos_MIS_Nov'25 (2)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Recent group
+    Bbox: { x: 188, y: 482, w: 1604, h: 56 }
+  - Id: ribbon.recent.journal
+    Name: Journal
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Recent
+      - ListItem:Journal
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: Journal
+          ClassName: NetUIListViewItem
+          Pattern: Invoke
+          Path: Ribbon/Recent/Journal
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Recent group
+    Bbox: { x: 188, y: 538, w: 1604, h: 56 }
+  - Id: ribbon.recent.journal.(account.journal)
+    Name: Journal (account.journal)
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Recent
+      - ListItem:Journal (account.journal)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: Journal (account.journal)
+          ClassName: NetUIListViewItem
+          Pattern: Invoke
+          Path: Ribbon/Recent/Journal (account.journal)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Recent group
+    Bbox: { x: 188, y: 594, w: 1604, h: 56 }
+  - Id: ribbon.recent.account.(account.account)
+    Name: Account (account.account)
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Recent
+      - ListItem:Account (account.account)
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: Account (account.account)
+          ClassName: NetUIListViewItem
+          Pattern: Invoke
+          Path: Ribbon/Recent/Account (account.account)
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Recent group
+    Bbox: { x: 188, y: 650, w: 1604, h: 56 }
+  - Id: ribbon.recent.chart_of_accounts
+    Name: Chart_of_Accounts
+    ControlType: ListItem
+    Hierarchy:
+      - Window:Excel
+      - Ribbon:Recent
+      - ListItem:Chart_of_Accounts
+    Selectors:
+      Primary:
+        AutomationId: null
+        ControlType: ListItem
+      Alternates:
+        - Name: Chart_of_Accounts
+          ClassName: NetUIListViewItem
+          Pattern: Invoke
+          Path: Ribbon/Recent/Chart_of_Accounts
+    Children: []
+    Patterns:
+      - Invoke
+      - LegacyIAccessible
+    StabilityScore: 0.9
+    Notes: Ribbon button in Recent group
+    Bbox: { x: 188, y: 706, w: 1604, h: 56 }
