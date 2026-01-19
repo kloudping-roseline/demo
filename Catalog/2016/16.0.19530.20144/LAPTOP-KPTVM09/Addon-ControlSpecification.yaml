@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 19-01-2026 12:51:35
-  scanDate: 2026-01-19 12:51:35 UTC
+  scannedAt: 19-01-2026 13:57:50
+  scanDate: 2026-01-19 13:57:50 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
@@ -13,280 +13,333 @@ scan:
     dpi: 96
     locale: en-IN
 addons:
-- addonName: Jet Reports
-  elementCount: 19
+- addonName: GPT for Excel Word
+  elementCount: 25
   controls:
-  - id: lower.ribbon
-    name: Lower Ribbon
+  - id: gpt.for.excel
+    name: GPT for Excel
     controlType: Pane
     hierarchy:
-    - Pane:Lower Ribbon
+    - Pane:GPT for Excel
     selectors:
       primary:
         controlType: Pane
       alternates:
-      - className: NetUIPanViewer
-    className: NetUIPanViewer
+      - className: Chrome_WidgetWin_1
+    className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: jet.online
-    name: Jet Online
+  - id: control_2
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: Intermediate D3D Window
+    className: Intermediate D3D Window
+    isEnabled: false
+  - id: gpt.for.excel.-.web.content
+    name: GPT for Excel - Web content
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserRootView
+    className: BrowserRootView
+    isEnabled: true
+  - id: control_4
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: NonClientView
+    className: NonClientView
+    isEnabled: true
+  - id: control_5
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserTabRootView
+    className: EmbeddedBrowserTabRootView
+    isEnabled: true
+  - id: control_6
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: EmbeddedBrowserFrameView
+    className: EmbeddedBrowserFrameView
+    isEnabled: true
+  - id: view_9
+    name: Untitled
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Text:Untitled
+    selectors:
+      primary:
+        automationId: view_9
+        controlType: Text
+      alternates:
+      - className: Label
+    className: Label
+    isEnabled: true
+  - id: control_8
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserCaptionButtonContainer
+    className: BrowserCaptionButtonContainer
+    isEnabled: true
+  - id: view_2
+    name: Minimize
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Minimize
+    selectors:
+      primary:
+        automationId: view_2
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_3
+    name: Maximize
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Maximize
+    selectors:
+      primary:
+        automationId: view_3
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: view_7
+    name: Close
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Button:Close
+    selectors:
+      primary:
+        automationId: view_7
+        controlType: Button
+      alternates:
+      - className: EdgeWindowsCaptionButton
+    className: EdgeWindowsCaptionButton
+    isEnabled: true
+  - id: control_12
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: BrowserView
+    className: BrowserView
+    isEnabled: true
+  - id: control_13
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: MainContainerView
+    className: MainContainerView
+    isEnabled: true
+  - id: control_14
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: TopContainerView
+    className: TopContainerView
+    isEnabled: true
+  - id: control_15
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_16
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: SidebarContentsSplitView
+    className: SidebarContentsSplitView
+    isEnabled: true
+  - id: control_17
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: control_18
+    name: Pane
+    controlType: Pane
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    selectors:
+      primary:
+        controlType: Pane
+      alternates:
+      - className: View
+    className: View
+    isEnabled: true
+  - id: rootwebarea
+    name: GPT for Excel
+    controlType: Document
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        automationId: RootWebArea
+        controlType: Document
+    isEnabled: true
+  - id: control_20
+    name: Group
     controlType: Group
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
         controlType: Group
-      alternates:
-      - className: NetUIOrderedGroup
-    className: NetUIOrderedGroup
     isEnabled: true
-  - id: user.profile
-    name: User Profile
+  - id: root
+    name: Group
     controlType: Group
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:User Profile
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
+        automationId: root
         controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
     isEnabled: true
-  - id: user.profile
-    name: User Profile
-    controlType: Button
+  - id: control_22
+    name: Image
+    controlType: Image
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:User Profile
-    - Button:User Profile
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
-        controlType: Button
+        controlType: Image
       alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+      - className: _logo_13v0q_12
+    className: _logo_13v0q_12
     isEnabled: true
-  - id: design
-    name: Design
-    controlType: Group
+  - id: loading.gpt.for.excel
+    name: Loading GPT for Excel
+    controlType: Text
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Design
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Loading GPT for Excel
     selectors:
       primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
+        controlType: Text
     isEnabled: true
-  - id: design
-    name: Design
-    controlType: Button
+  - id: control_24
+    name: Pane
+    controlType: Pane
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Design
-    - Button:Design
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
-        controlType: Button
+        controlType: Pane
       alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+      - className: EmbeddedBrowserDownloadView
+    className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: report
-    name: Report
-    controlType: Group
+  - id: control_25
+    name: Pane
+    controlType: Pane
     hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
-        controlType: Group
+        controlType: Pane
       alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: run
-    name: Run
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Run
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: drilldown
-    name: Drilldown
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Drilldown
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: report.status
-    name: Report Status
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Report Status
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: report.options
-    name: Report Options
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Report
-    - Button:Report Options
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: reports.center
-    name: Reports Center
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: access.reports.center
-    name: Access Reports Center
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    - Button:Access Reports Center
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: upload.to.reports.center
-    name: Upload to Reports Center
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Reports Center
-    - Button:Upload to Reports Center
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: tools
-    name: Tools
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: function.wizard
-    name: Function Wizard
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    - Button:Function Wizard
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: settings
-    name: Settings
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Tools
-    - Button:Settings
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
-    isEnabled: true
-  - id: assistance
-    name: Assistance
-    controlType: Group
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Assistance
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: NetUIChunk
-    className: NetUIChunk
-    isEnabled: true
-  - id: help
-    name: Help
-    controlType: Button
-    hierarchy:
-    - Pane:Lower Ribbon
-    - Group:Jet Online
-    - Group:Assistance
-    - Button:Help
-    selectors:
-      primary:
-        controlType: Button
-      alternates:
-      - className: NetUIRibbonButton
-    className: NetUIRibbonButton
+      - className: TopContainerOverlayView
+    className: TopContainerOverlayView
     isEnabled: true
