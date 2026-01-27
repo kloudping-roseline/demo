@@ -4,8 +4,8 @@ year: 2016
 executionNodeName: LAPTOP-KPTVM09
 baseLibraryVersion: 
 scan:
-  scannedAt: 27-01-2026 05:29:07
-  scanDate: 2026-01-27 05:29:07 UTC
+  scannedAt: 27-01-2026 11:46:15
+  scanDate: 2026-01-27 11:46:15 UTC
   totalAddons: 1
   toolVersion: scanner-0.6.2
   environment:
