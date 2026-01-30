@@ -4,9 +4,9 @@ year: 2016
 executionNodeName: SWETHA
 baseLibraryVersion: 
 scan:
-  scannedAt: 27-01-2026 07:49:20
-  scanDate: 2026-01-27 07:49:20 UTC
-  totalAddons: 3
+  scannedAt: 30-01-2026 05:57:00
+  scanDate: 2026-01-30 05:57:00 UTC
+  totalAddons: 2
   toolVersion: scanner-0.6.2
   environment:
     osBuild: 26200.7623
@@ -14,13 +14,13 @@ scan:
     locale: en-IN
 addons:
 - addonName: Autopilot
-  elementCount: 43
+  elementCount: 33
   controls:
-  - id: openai.chatgpt.in.microsoft.office
-    name: OpenAI ChatGPT in Microsoft Office
+  - id: about:blank
+    name: about:blank
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -32,7 +32,7 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
+    - Pane:about:blank
     selectors:
       primary:
         controlType: Pane
@@ -40,12 +40,12 @@ addons:
       - className: Intermediate D3D Window
     className: Intermediate D3D Window
     isEnabled: false
-  - id: openai.chatgpt.in.microsoft.office.-.web.content
-    name: OpenAI ChatGPT in Microsoft Office - Web content
+  - id: about:blank.-.web.content
+    name: about:blank - Web content
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -57,8 +57,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -70,8 +70,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -83,8 +83,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -96,8 +96,8 @@ addons:
     name: Untitled
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Text:Untitled
     selectors:
       primary:
@@ -111,8 +111,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -124,8 +124,8 @@ addons:
     name: Minimize
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Minimize
     selectors:
       primary:
@@ -139,8 +139,8 @@ addons:
     name: Maximize
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Maximize
     selectors:
       primary:
@@ -154,8 +154,8 @@ addons:
     name: Close
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Button:Close
     selectors:
       primary:
@@ -169,8 +169,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -182,8 +182,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -195,8 +195,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -208,8 +208,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -221,8 +221,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -234,8 +234,8 @@ addons:
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -247,8 +247,8 @@ addons:
     name: OpenAI ChatGPT in Microsoft Office
     controlType: Document
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
@@ -259,8 +259,8 @@ addons:
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
@@ -274,8 +274,8 @@ addons:
     name: To get missing image descriptions, open the context menu.
     controlType: Image
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Image:To get missing image descriptions, open the context menu.
     selectors:
@@ -290,8 +290,8 @@ addons:
     name: Free edition
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Text:Free edition
     selectors:
@@ -302,8 +302,8 @@ addons:
     name: 
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Text:
     selectors:
@@ -314,8 +314,8 @@ addons:
     name: UPGRADE
     controlType: Hyperlink
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Hyperlink:UPGRADE
     selectors:
@@ -330,8 +330,8 @@ addons:
     name: 
     controlType: Hyperlink
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Hyperlink:
     selectors:
@@ -343,8 +343,8 @@ addons:
     name: 
     controlType: Hyperlink
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Hyperlink:
     selectors:
@@ -352,175 +352,40 @@ addons:
         automationId: settingsLink
         controlType: Hyperlink
     isEnabled: true
-  - id: mainsection
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    selectors:
-      primary:
-        automationId: mainsection
-        controlType: Group
-      alternates:
-      - className: ms-welcome__main
-    className: ms-welcome__main
-    isEnabled: true
-  - id: welcomefree
-    name: chatgpt web add-in
-    controlType: Image
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Image:chatgpt web add-in
-    selectors:
-      primary:
-        automationId: welcomefree
-        controlType: Image
-    isEnabled: true
-  - id: welcome.to.autopilot!
-    name: Welcome to Autopilot!
+  - id: this.version.of.office.is.not.supported..you.will.need.a.more.modern.version.of.microsoft.office.or.microsoft.365,.sorry..please.contact.us.at.support.to.find.out.more.information..sorry.about.that.
+    name: This version of Office is not supported. You will need a more modern version of Microsoft Office or Microsoft 365, sorry. Please contact us at SUPPORT to find out more information. Sorry about that.
     controlType: Text
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:Welcome to Autopilot!
+    - Text:This version of Office is not supported. You will need a more modern version of Microsoft Office or Microsoft 365, sorry. Please contact us at SUPPORT to find out more information. Sorry about that.
     selectors:
       primary:
         controlType: Text
+      alternates:
+      - className: ms-font-xs
+    className: ms-font-xs
     isEnabled: true
-  - id: here.are.a.few.examples.of.what.you.can.do.with.autopilot
-    name: Here are a few examples of what you can do with Autopilot
-    controlType: Text
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:Here are a few examples of what you can do with Autopilot
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: talk.to.it.like.chatgpt
-    name: Talk to it like ChatGPT
+  - id: support
+    name: SUPPORT
     controlType: Hyperlink
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Talk to it like ChatGPT
+    - Text:This version of Office is not supported. You will need a more modern version of Microsoft Office or Microsoft 365, sorry. Please contact us at SUPPORT to find out more information. Sorry about that.
+    - Hyperlink:SUPPORT
     selectors:
       primary:
         controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: use.content.in.your.document
-    name: Use content in your document
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Use content in your document
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: how.to.use.favorites
-    name: How to use Favorites
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:How to use Favorites
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: connect.other.ai.models
-    name: Connect other AI models
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Connect other AI models
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links
-    className: gw-active-links
-    isEnabled: true
-  - id: autopilot.pro.advanced.features
-    name: Autopilot PRO advanced features
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Hyperlink:Autopilot PRO advanced features
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: gw-active-links-pro
-    className: gw-active-links-pro
-    isEnabled: true
-  - id: to.get.started,.type.a.prompt.into.the.box.below.and.hit.the.
-    name: 'To get started, type a prompt into the box below and hit the '
-    controlType: Text
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - 'Text:To get started, type a prompt into the box below and hit the '
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: enter
-    name: ENTER
-    controlType: Text
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - Text:ENTER
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: .key.
-    name: ' key.'
-    controlType: Text
-    hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
-    - Document:OpenAI ChatGPT in Microsoft Office
-    - 'Text: key.'
-    selectors:
-      primary:
-        controlType: Text
     isEnabled: true
   - id: divcommandarea
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     selectors:
       primary:
@@ -531,8 +396,8 @@ addons:
     name: Ask anything...
     controlType: Edit
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Edit:Ask anything...
     selectors:
@@ -544,8 +409,8 @@ addons:
     name:  
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Button: 
     selectors:
@@ -560,8 +425,8 @@ addons:
     name: 
     controlType: Button
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     - Document:OpenAI ChatGPT in Microsoft Office
     - Button:
     selectors:
@@ -572,12 +437,12 @@ addons:
       - className: btn-finetune
     className: btn-finetune
     isEnabled: true
-  - id: control_42
+  - id: control_32
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -585,12 +450,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_43
+  - id: control_33
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:OpenAI ChatGPT in Microsoft Office
-    - Pane:OpenAI ChatGPT in Microsoft Office - Web content
+    - Pane:about:blank
+    - Pane:about:blank - Web content
     selectors:
       primary:
         controlType: Pane
@@ -599,7 +464,7 @@ addons:
     className: TopContainerOverlayView
     isEnabled: true
 - addonName: GPT for Excel Word
-  elementCount: 25
+  elementCount: 70
   controls:
   - id: gpt.for.excel
     name: GPT for Excel
@@ -613,7 +478,7 @@ addons:
       - className: Chrome_WidgetWin_1
     className: Chrome_WidgetWin_1
     isEnabled: true
-  - id: control_45
+  - id: control_35
     name: Pane
     controlType: Pane
     hierarchy:
@@ -638,7 +503,7 @@ addons:
       - className: BrowserRootView
     className: BrowserRootView
     isEnabled: true
-  - id: control_47
+  - id: control_37
     name: Pane
     controlType: Pane
     hierarchy:
@@ -651,7 +516,7 @@ addons:
       - className: NonClientView
     className: NonClientView
     isEnabled: true
-  - id: control_48
+  - id: control_38
     name: Pane
     controlType: Pane
     hierarchy:
@@ -664,7 +529,7 @@ addons:
       - className: EmbeddedBrowserTabRootView
     className: EmbeddedBrowserTabRootView
     isEnabled: true
-  - id: control_49
+  - id: control_39
     name: Pane
     controlType: Pane
     hierarchy:
@@ -692,7 +557,7 @@ addons:
       - className: Label
     className: Label
     isEnabled: true
-  - id: control_51
+  - id: control_41
     name: Pane
     controlType: Pane
     hierarchy:
@@ -750,7 +615,7 @@ addons:
       - className: EdgeWindowsCaptionButton
     className: EdgeWindowsCaptionButton
     isEnabled: true
-  - id: control_55
+  - id: control_45
     name: Pane
     controlType: Pane
     hierarchy:
@@ -763,7 +628,7 @@ addons:
       - className: BrowserView
     className: BrowserView
     isEnabled: true
-  - id: control_56
+  - id: control_46
     name: Pane
     controlType: Pane
     hierarchy:
@@ -776,7 +641,7 @@ addons:
       - className: TopContainerView
     className: TopContainerView
     isEnabled: true
-  - id: control_57
+  - id: control_47
     name: Pane
     controlType: Pane
     hierarchy:
@@ -789,7 +654,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_58
+  - id: control_48
     name: Pane
     controlType: Pane
     hierarchy:
@@ -802,7 +667,7 @@ addons:
       - className: SidebarContentsSplitView
     className: SidebarContentsSplitView
     isEnabled: true
-  - id: control_59
+  - id: control_49
     name: Pane
     controlType: Pane
     hierarchy:
@@ -815,7 +680,7 @@ addons:
       - className: View
     className: View
     isEnabled: true
-  - id: control_60
+  - id: control_50
     name: Pane
     controlType: Pane
     hierarchy:
@@ -840,7 +705,7 @@ addons:
         automationId: RootWebArea
         controlType: Document
     isEnabled: true
-  - id: control_62
+  - id: control_52
     name: Group
     controlType: Group
     hierarchy:
@@ -851,688 +716,606 @@ addons:
       primary:
         controlType: Group
     isEnabled: true
-  - id: unexpected.error
-    name: Unexpected error
-    controlType: Text
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Text:Unexpected error
-    selectors:
-      primary:
-        controlType: Text
-      alternates:
-      - className: StartingError__header
-    className: StartingError__header
-    isEnabled: true
-  - id: referenceerror:.excel.is.not.defined
-    name: 'ReferenceError: Excel is not defined'
-    controlType: Text
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - 'Text:ReferenceError: Excel is not defined'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: reload
-    name: Reload
-    controlType: Button
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Button:Reload
-    selectors:
-      primary:
-        controlType: Button
-    isEnabled: true
-  - id: contact.support
-    name: Contact support
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    - Document:GPT for Excel
-    - Hyperlink:Contact support
-    selectors:
-      primary:
-        controlType: Hyperlink
-    isEnabled: true
-  - id: control_67
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserDownloadView
-    className: EmbeddedBrowserDownloadView
-    isEnabled: true
-  - id: control_68
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:GPT for Excel
-    - Pane:GPT for Excel - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerOverlayView
-    className: TopContainerOverlayView
-    isEnabled: true
-- addonName: QR4Office
-  elementCount: 49
-  controls:
-  - id: qr4office.azurewebsites.net_app_home_home.html?et=pabyacaadga9aciamqaiad4apab0acaayqbpagqapqaiafcaqqaxadiamwa0aduanga3adgaoqaiacaacabpagqapqaiagmazqazadkaoqbladianqatadiayga1adyalqa0agyazqa3ac0aoabkadaaywatadaazgbmaguamga0adyazgayadaanaazaciaiabvagkazaa9acianabpaesaqgawadeaoabeac0asgbpadaanwatadqanwbhaecalqbbadiaoqaxac0awgbsadmamabbadcamqa4adcawga0adaaigagahqacwa9aciamaaiacaacwbsad0aigb0ahiadqblaciaiablahqapqaiaeyacgblaguaigagageazaa9aciamgawadiamgatadaangatadiaoabuadiamwa6aduaoqa6aduanwbaaciaiabzagqapqaiadiamaayadialqawadyalqayadgaigagahqazqa9aciamgawadiamwatadaangatadiaoabuadiamwa6aduaoqa6aduaoabaaciaiabzahmapqaiadaaigagac8apga8agqapga2ahgalwbeacsazabhae8avqb5aeyacgbsaegaygb0afqawqavageaeabragoaywbqaewazga1ageaywa0adiadabxaeuaeqbxafqawqb5afiaoqa2ad0apaavagqapga8ac8acga%2baa%3d%3d&_host_info=excel$win32$16.01$en-us$$$$16
-    name: qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Chrome_WidgetWin_1
-    className: Chrome_WidgetWin_1
-    isEnabled: true
-  - id: control_70
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: Intermediate D3D Window
-    className: Intermediate D3D Window
-    isEnabled: false
-  - id: qr4office.azurewebsites.net_app_home_home.html?et=pabyacaadga9aciamqaiad4apab0acaayqbpagqapqaiafcaqqaxadiamwa0aduanga3adgaoqaiacaacabpagqapqaiagmazqazadkaoqbladianqatadiayga1adyalqa0agyazqa3ac0aoabkadaaywatadaazgbmaguamga0adyazgayadaanaazaciaiabvagkazaa9acianabpaesaqgawadeaoabeac0asgbpadaanwatadqanwbhaecalqbbadiaoqaxac0awgbsadmamabbadcamqa4adcawga0adaaigagahqacwa9aciamaaiacaacwbsad0aigb0ahiadqblaciaiablahqapqaiaeyacgblaguaigagageazaa9aciamgawadiamgatadaangatadiaoabuadiamwa6aduaoqa6aduanwbaaciaiabzagqapqaiadiamaayadialqawadyalqayadgaigagahqazqa9aciamgawadiamwatadaangatadiaoabuadiamwa6aduaoqa6aduaoabaaciaiabzahmapqaiadaaigagac8apga8agqapga2ahgalwbeacsazabhae8avqb5aeyacgbsaegaygb0afqawqavageaeabragoaywbqaewazga1ageaywa0adiadabxaeuaeqbxafqawqb5afiaoqa2ad0apaavagqapga8ac8acga%2baa%3d%3d&_host_info=excel$win32$16.01$en-us$$$$16.-.web.content
-    name: qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserRootView
-    className: BrowserRootView
-    isEnabled: true
-  - id: control_72
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: NonClientView
-    className: NonClientView
-    isEnabled: true
-  - id: control_73
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserTabRootView
-    className: EmbeddedBrowserTabRootView
-    isEnabled: true
-  - id: control_74
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: EmbeddedBrowserFrameView
-    className: EmbeddedBrowserFrameView
-    isEnabled: true
-  - id: view_9
-    name: Untitled
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Text:Untitled
-    selectors:
-      primary:
-        automationId: view_9
-        controlType: Text
-      alternates:
-      - className: Label
-    className: Label
-    isEnabled: true
-  - id: control_76
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserCaptionButtonContainer
-    className: BrowserCaptionButtonContainer
-    isEnabled: true
-  - id: view_2
-    name: Minimize
-    controlType: Button
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Button:Minimize
-    selectors:
-      primary:
-        automationId: view_2
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_3
-    name: Maximize
-    controlType: Button
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Button:Maximize
-    selectors:
-      primary:
-        automationId: view_3
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: view_7
-    name: Close
-    controlType: Button
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Button:Close
-    selectors:
-      primary:
-        automationId: view_7
-        controlType: Button
-      alternates:
-      - className: EdgeWindowsCaptionButton
-    className: EdgeWindowsCaptionButton
-    isEnabled: true
-  - id: control_80
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: BrowserView
-    className: BrowserView
-    isEnabled: true
-  - id: control_81
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: TopContainerView
-    className: TopContainerView
-    isEnabled: true
-  - id: control_82
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_83
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: SidebarContentsSplitView
-    className: SidebarContentsSplitView
-    isEnabled: true
-  - id: control_84
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: control_85
-    name: Pane
-    controlType: Pane
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        controlType: Pane
-      alternates:
-      - className: View
-    className: View
-    isEnabled: true
-  - id: rootwebarea
-    name: Document
-    controlType: Document
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        automationId: RootWebArea
-        controlType: Document
-    isEnabled: true
-  - id: "enter.the.url_text.you'd.like.to.encode:"
-    name: "Enter the URL/text you'd like to encode:"
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - "Text:Enter the URL/text you'd like to encode:"
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: copy.current.document.selection
-    name: Copy current document selection
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Copy current document selection
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: copy-selection
-    name: Copy current document selection
-    controlType: Button
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Copy current document selection
-    - Button:Copy current document selection
-    selectors:
-      primary:
-        automationId: copy-selection
-        controlType: Button
-    isEnabled: true
-  - id: http:__
-    name: http://
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:http://
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: text-prefix
-    name: ComboBox
-    controlType: ComboBox
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:http://
-    selectors:
-      primary:
-        automationId: text-prefix
-        controlType: ComboBox
-    isEnabled: true
-  - id: bing.com
-    name: bing.com
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:bing.com
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: text
-    name: bing.com
-    controlType: Edit
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:bing.com
-    - Edit:bing.com
-    selectors:
-      primary:
-        automationId: text
-        controlType: Edit
-    isEnabled: true
-  - id: options
-    name: Options
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    selectors:
-      primary:
-        controlType: Group
-    isEnabled: true
-  - id: options
-    name: Options
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - Text:Options
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 'color:'
-    name: 'Color:'
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - 'Text:Color:'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_97
+  - id: root
     name: Group
     controlType: Group
     hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
-        controlType: Group
-      alternates:
-      - className: sp-replacer sp-light
-    className: sp-replacer sp-light
-    isEnabled: true
-  - id: ▼
-    name: ▼
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - Text:▼
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 'background:'
-    name: 'Background:'
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - 'Text:Background:'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_100
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    selectors:
-      primary:
-        controlType: Group
-      alternates:
-      - className: sp-replacer sp-light
-    className: sp-replacer sp-light
-    isEnabled: true
-  - id: ▼
-    name: ▼
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - Text:▼
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: 'size:'
-    name: 'Size:'
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - 'Text:Size:'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: module-size
-    name: Group
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    selectors:
-      primary:
-        automationId: module-size
-        controlType: Group
-      alternates:
-      - className: ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all
-    className: ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all
-    isEnabled: true
-  - id: control_104
-    name: Hyperlink
-    controlType: Hyperlink
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    selectors:
-      primary:
-        controlType: Hyperlink
-      alternates:
-      - className: ui-slider-handle ui-state-default ui-corner-all
-    className: ui-slider-handle ui-state-default ui-corner-all
-    isEnabled: true
-  - id: 'error.correction:'
-    name: 'Error correction:'
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    - 'Text:Error correction:'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: error-correction
-    name: ComboBox
-    controlType: ComboBox
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Options
-    selectors:
-      primary:
-        automationId: error-correction
-        controlType: ComboBox
-    isEnabled: true
-  - id: preview
-    name: Preview
-    controlType: Group
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Preview
-    selectors:
-      primary:
+        automationId: root
         controlType: Group
     isEnabled: true
-  - id: preview
-    name: Preview
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Preview
-    - Text:Preview
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: full.size:.75.x.75.px
-    name: 'Full size: 75 x 75 px'
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Preview
-    - 'Text:Full size: 75 x 75 px'
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: http:__bing.com
-    name: http://bing.com
-    controlType: Text
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Preview
-    - Text:http://bing.com
-    selectors:
-      primary:
-        controlType: Text
-    isEnabled: true
-  - id: control_111
+  - id: control_54
     name: Image
     controlType: Image
     hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Group:Preview
-    selectors:
-      primary:
-        controlType: Image
-      alternates:
-      - className: preview-image-temp
-    className: preview-image-temp
-    isEnabled: true
-  - id: info-button
-    name: Button
-    controlType: Button
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    selectors:
-      primary:
-        automationId: info-button
-        controlType: Button
-      alternates:
-      - className: small-button right
-    className: small-button right
-    isEnabled: true
-  - id: to.get.missing.image.descriptions,.open.the.context.menu.
-    name: To get missing image descriptions, open the context menu.
-    controlType: Image
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Image:To get missing image descriptions, open the context menu.
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
     selectors:
       primary:
         controlType: Image
     isEnabled: true
-  - id: insert
-    name: Insert
-    controlType: Button
-    hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Button:Insert
-    selectors:
-      primary:
-        automationId: insert
-        controlType: Button
-      alternates:
-      - className: big-button
-    className: big-button
-    isEnabled: true
-  - id: you.can.also.right-click.on.the.preview.image.and."copy".→."paste.special",.or."save.picture.as".and.insert.it.manually.
-    name: You can also right-click on the preview image and "Copy" → "Paste Special", or "Save Picture As" and insert it manually.
+  - id: welcome.to.gpt.for.excel
+    name: Welcome to GPT for Excel
     controlType: Text
     hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
-    - Text:You can also right-click on the preview image and "Copy" → "Paste Special", or "Save Picture As" and insert it manually.
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Welcome to GPT for Excel
     selectors:
       primary:
         controlType: Text
     isEnabled: true
-  - id: control_116
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: _msButton_7ldok_72
+    className: _msButton_7ldok_72
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    - Image:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: 'typical.use-cases:'
+    name: 'Typical use-cases:'
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - 'Text:Typical use-cases:'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_59
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: copywriting.for.seo,.e-commerce
+    name: Copywriting for SEO, e-commerce
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Copywriting for SEO, e-commerce
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_61
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: translation
+    name: Translation
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Translation
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_63
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: segmenting.and.cleaning.a.database
+    name: Segmenting and cleaning a database
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Segmenting and cleaning a database
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_65
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: market.research...
+    name: Market research...
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Market research...
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 'main.features:'
+    name: 'Main features:'
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - 'Text:Main features:'
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: write,.edit,.translate,.classify,.extract,.summarize,.web.search....in.thousands.of.cells.at.a.time.
+    name: Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:Write, edit, translate, classify, extract, summarize, web search... in thousands of cells at a time.
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_69
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+      alternates:
+      - className: _arrow_7ldok_184
+    className: _arrow_7ldok_184
+    isEnabled: true
+  - id: 1
+    name: 1
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:1
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 2
+    name: 2
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:2
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 3
+    name: 3
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:3
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 4
+    name: 4
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:4
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 5
+    name: 5
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:5
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 6
+    name: 6
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:6
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: 7
+    name: 7
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:7
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: a
+    name: A
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:A
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: b
+    name: B
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:B
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: c
+    name: C
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:C
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_80
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_81
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_82
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_83
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_84
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_85
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_86
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: d
+    name: D
+    controlType: Text
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Text:D
+    selectors:
+      primary:
+        controlType: Text
+    isEnabled: true
+  - id: control_88
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_89
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_90
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_91
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_92
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_93
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: control_94
+    name: Image
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Button
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Button
+      alternates:
+      - className: _msButton_7ldok_72
+    className: _msButton_7ldok_72
+    isEnabled: true
+  - id: ms-symbollockup
+    name: MS-SymbolLockup
+    controlType: Image
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Button:MS-SymbolLockup
+    - Image:MS-SymbolLockup
+    selectors:
+      primary:
+        controlType: Image
+    isEnabled: true
+  - id: about
+    name: About
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:About
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: help
+    name: Help
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Help
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: terms
+    name: Terms
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Terms
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: privacy.policy
+    name: Privacy Policy
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Privacy Policy
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2
+    className: _root_86xeo_2
+    isEnabled: true
+  - id: made.by.talarian
+    name: Made by Talarian
+    controlType: Hyperlink
+    hierarchy:
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
+    - Document:GPT for Excel
+    - Hyperlink:Made by Talarian
+    selectors:
+      primary:
+        controlType: Hyperlink
+      alternates:
+      - className: _root_86xeo_2 _talarian_7ldok_164
+    className: _root_86xeo_2 _talarian_7ldok_164
+    isEnabled: true
+  - id: control_102
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
@@ -1540,12 +1323,12 @@ addons:
       - className: EmbeddedBrowserDownloadView
     className: EmbeddedBrowserDownloadView
     isEnabled: true
-  - id: control_117
+  - id: control_103
     name: Pane
     controlType: Pane
     hierarchy:
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16
-    - Pane:qr4office.azurewebsites.net/App/Home/Home.html?et=PAByACAAdgA9ACIAMQAiAD4APAB0ACAAYQBpAGQAPQAiAFcAQQAxADIAMwA0ADUANgA3ADgAOQAiACAAcABpAGQAPQAiAGMAZQAzADkAOQBlADIANQAtADIAYgA1ADYALQA0AGYAZQA3AC0AOABkADAAYwAtADAAZgBmAGUAMgA0ADYAZgAyADAANAAzACIAIABvAGkAZAA9ACIANABPAEsAQgAwADEAOABEAC0ASgBPADAANwAtADQANwBHAEcALQBBADIAOQAxAC0AWgBSADMAMABBADcAMQA4ADcAWgA0ADAAIgAgAHQAcwA9ACIAMAAiACAAcwBsAD0AIgB0AHIAdQBlACIAIABlAHQAPQAiAEYAcgBlAGUAIgAgAGEAZAA9ACIAMgAwADIAMgAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUANwBaACIAIABzAGQAPQAiADIAMAAyADIALQAwADYALQAyADgAIgAgAHQAZQA9ACIAMgAwADIAMwAtADAANgAtADIAOABUADIAMwA6ADUAOQA6ADUAOABaACIAIABzAHMAPQAiADAAIgAgAC8APgA8AGQAPgA2AHgALwBEACsAZABHAE8AVQB5AEYAcgBsAEgAYgB0AFQAWQAvAGEAeABRAGoAYwBQAEwAZgA1AGEAYwA0ADIAdABXAEUAeQBXAFQAWQB5AFIAOQA2AD0APAAvAGQAPgA8AC8AcgA%2BAA%3D%3D&_host_Info=Excel$Win32$16.01$en-US$$$$16 - Web content
+    - Pane:GPT for Excel
+    - Pane:GPT for Excel - Web content
     selectors:
       primary:
         controlType: Pane
